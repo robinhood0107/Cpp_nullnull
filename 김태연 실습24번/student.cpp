@@ -14,7 +14,7 @@ std::array<Student, STUDENT_COUNT> init_students() {
 }
 
 //Implement your code
-std::string compare_points(Student& a, Student& b) {
+std::string compare_points(const Student& a, const Student& b) { //이거 반드시 const 넣어야됨 (암튼 무조건 받는거 형식 맞춰서 줘야 됨, 그냥 Student& a 이건 안됨)
     if (a.points < b.points){
         return b.name + " has more points than " + a.name + "\n";
     }
@@ -47,46 +47,61 @@ std::string compare_points(Student& a, Student& b) {
 해결법4 = printf 쓰던가 (정 안되면 이거라도 해야지)
 */
 
-bool compareByPoints(const Student& a, const Student& b) {
-    return a.points < b.points;
+bool compareEach(const Student& s1, const Student& s2) {
+    return s1.points < s2.points;
 }
 
 void my_sort(std::array<Student, STUDENT_COUNT>& students) {
-    std::sort(students.begin(), students.end(), compareByPoints);
+    std::sort(students.begin(), students.end(), compareEach);
 }
 
-auto get_last(std::array<Student, STUDENT_COUNT>& students) { 
+//auto get_last(std::array<Student, STUDENT_COUNT>& students) { 
     //auto get_last(std::array<Student, STUDENT_COUNT>& students) 이렇게 하면 안됨,
     //auto는 여기서 std::array<Student, STUDENT_COUNT>::iterator 타입으로 추론됩니다. 이는 반복자(iterator)입니다. 두 번째는 학생 객체를 가리키는 반복자를 반환합니다.
     //두 번째 코드의 결과는 반복자이므로, 실제 객체에 접근하려면 역참조(*)가 필요합니다. 
     //main.cpp에선 이 방법으로 호출해야 함 const Student& student = *it;  // 반복자 역참조로 학생 객체 얻기
 
-    //즉 나는 여기서 const로 가공을 해서 넘겨줘야 함
+    //즉 나는 여기서 const로 가공을 해서 return값을 역참조해서 넘겨줘야 함
     //그래서
     /*
-    const Student& get_last(const std::array<Student, STUDENT_COUNT>& students) { 
-        std::min_element(students.begin(), students.end(), compareByPoints);
-        return students[STUDENT_COUNT - 1]; 
+    해결법1 = 람다함수 사용 (bool compareEach() 함수 안만들고 싶은 경우
+
+    const Student& get_lowest_points(const std::array<Student, STUDENT_COUNT>& students) {
+        // min_element는 비교 함수에 따라 가장 작은 요소를 가리키는 반복자를 반환
+        // 그 반복자를 역참조(*)하여 Student 객체에 대한 참조를 반환
+        return *std::min_element(students.begin(), students.end(), 
+                            [](const Student& a, const Student& b) {
+                                return a.points < b.points;
+                            });
+    } 
+
+    해결법2 = bool compareEach() 작성했을때 (내 경우)
+    const Student& get_lowest_points(const std::array<Student, STUDENT_COUNT>& students) {
+    return *std::min_element(students.begin(), students.end(), compareEach);
     }
     이런방식으로 코드를 작성해야 한다
     */
-    return std::min_element(students.begin(), students.end(), compareByPoints); //이거는 구조체 출력
-}
+//    return std::min_element(students.begin(), students.end(), compareEach); //이거는 구조체 출력
+//}
 
-auto get_lowest_points(std::array<Student, STUDENT_COUNT>& students) {
-    return std::min_element(students.begin(), students.end(), compareByPoints);
+const Student& get_last(const std::array<Student, STUDENT_COUNT>& students) {
+    return students[6]; //최종 실수 내가 이걸 min_element으로 적은 실수를 함, 보니까 걍 입력받은 것 중 가장 마지막을 출력하는 것이었음
+    }
+
+const Student& get_lowest_points(const std::array<Student, STUDENT_COUNT>& students) {
+    return *std::min_element(students.begin(), students.end(), compareEach);//이렇게 반드시 역참조 해서 내보내야 한다.
 }
 /*
 auto get_lowest_points(std::array<Student, STUDENT_COUNT>& students) {
-    return std::min_element(students.begin(), students.end(), compareByPoints)->points; //이 표현 잘 알아두기 이렇게 멤버변수 단일로 접근하고 싶으면 -> 쓰는 것
+    return std::min_element(students.begin(), students.end(), compareEach)->points; //이 표현 잘 알아두기 이렇게 멤버변수 단일로 접근하고 싶으면 -> 쓰는 것
 }
 */
-auto get_highest_points(std::array<Student, STUDENT_COUNT>& students) {
-    return std::max_element(students.begin(), students.end(), compareByPoints);
+const Student& get_highest_points(const std::array<Student, STUDENT_COUNT>& students) {
+    return *std::max_element(students.begin(), students.end(), compareEach);
 }
 /*
 auto get_highest_points(std::array<Student, STUDENT_COUNT>& students) {
-    return std::max_element(students.begin(), students.end(), compareByPoints)->points; //이 표현 잘 알아두기 이렇게 멤버변수 단일로 접근하고 싶으면 -> 쓰는 것
+    return std::max_element(students.begin(), students.end(), compareEach)->points; //이 표현 잘 알아두기 이렇게 멤버변수 단일로 접근하고 싶으면 -> 쓰는 것
 }
 */
 void print(const Student& a) {
