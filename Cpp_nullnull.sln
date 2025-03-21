@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01. Helloworld", "01. Hello
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "김태연 실습24번", "김태연 실습24번\김태연 실습24번.vcxproj", "{AE4409F0-0278-4588-9BB4-8B182723BA42}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02.메모리 동적 할당 new_delete", "02.메모리 동적 할당 new_delete\02.메모리 동적 할당 new_delete.vcxproj", "{BB104F13-CB3B-4E39-A974-6F6C18A4E0BB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{AE4409F0-0278-4588-9BB4-8B182723BA42}.Release|x64.Build.0 = Release|x64
 		{AE4409F0-0278-4588-9BB4-8B182723BA42}.Release|x86.ActiveCfg = Release|Win32
 		{AE4409F0-0278-4588-9BB4-8B182723BA42}.Release|x86.Build.0 = Release|Win32
+		{BB104F13-CB3B-4E39-A974-6F6C18A4E0BB}.Debug|x64.ActiveCfg = Debug|x64
+		{BB104F13-CB3B-4E39-A974-6F6C18A4E0BB}.Debug|x64.Build.0 = Debug|x64
+		{BB104F13-CB3B-4E39-A974-6F6C18A4E0BB}.Debug|x86.ActiveCfg = Debug|Win32
+		{BB104F13-CB3B-4E39-A974-6F6C18A4E0BB}.Debug|x86.Build.0 = Debug|Win32
+		{BB104F13-CB3B-4E39-A974-6F6C18A4E0BB}.Release|x64.ActiveCfg = Release|x64
+		{BB104F13-CB3B-4E39-A974-6F6C18A4E0BB}.Release|x64.Build.0 = Release|x64
+		{BB104F13-CB3B-4E39-A974-6F6C18A4E0BB}.Release|x86.ActiveCfg = Release|Win32
+		{BB104F13-CB3B-4E39-A974-6F6C18A4E0BB}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
