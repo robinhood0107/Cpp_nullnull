@@ -21,9 +21,10 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{c7d6466b-719b-49a3-a733-9db92d8ae141}</ProjectGuid>
-    <RootNamespace>백준문제집0x02강기초코드작성요령II</RootNamespace>
+    <ProjectGuid>{0fe5b1cf-10f2-4aba-a55a-b8e00ef0a7e7}</ProjectGuid>
+    <RootNamespace>My0x03강배열백준문제집</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>0x03강 배열 백준 문제집</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -127,7 +128,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="세미콜론을 꼭 붙이자.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

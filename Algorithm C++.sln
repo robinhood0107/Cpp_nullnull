@@ -3,15 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Algorithm C++", "Algorithm C++\Algorithm C++.vcxproj", "{A069DA62-A99D-4FF7-9F48-E89F708701B2}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "0x00 OT", "Algorithm C++\0x00 OT\0x00 OT.vcxproj", "{2FB45027-39BB-4F7C-A87B-5141C5219358}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "0x01 기초 코드 작성 요령 I", "Algorithm C++\0x01 기초 코드 작성 요령 I\0x01 기초 코드 작성 요령 I.vcxproj", "{0AD9F8C8-F609-4E6A-84E8-1DB61C6C9232}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "0x03강 - 백준 문제집 - 배열", "Algorithm C++\0x03강 - 백준 문제집 - 배열\0x03강 - 백준 문제집 - 배열.vcxproj", "{8FC746D1-CABA-48C7-8649-AAD053BBCF19}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "0x02강 - 기초 코드 작성 요령 II", "Algorithm C++\0x02강 - 백준 문제집 - 기초 코드 작성 요령 II\0x02강 - 기초 코드 작성 요령 II.vcxproj", "{C7D6466B-719B-49A3-A733-9DB92D8AE141}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Algorithm C++ Start", "Algorithm C++\Algorithm C++ Start\Algorithm C++ Start.vcxproj", "{A069DA62-A99D-4FF7-9F48-E89F708701B2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,40 +21,11 @@ Global
 		{A069DA62-A99D-4FF7-9F48-E89F708701B2}.Release|x64.Build.0 = Release|x64
 		{A069DA62-A99D-4FF7-9F48-E89F708701B2}.Release|x86.ActiveCfg = Release|Win32
 		{A069DA62-A99D-4FF7-9F48-E89F708701B2}.Release|x86.Build.0 = Release|Win32
-		{2FB45027-39BB-4F7C-A87B-5141C5219358}.Debug|x64.ActiveCfg = Debug|x64
-		{2FB45027-39BB-4F7C-A87B-5141C5219358}.Debug|x64.Build.0 = Debug|x64
-		{2FB45027-39BB-4F7C-A87B-5141C5219358}.Debug|x86.ActiveCfg = Debug|Win32
-		{2FB45027-39BB-4F7C-A87B-5141C5219358}.Debug|x86.Build.0 = Debug|Win32
-		{2FB45027-39BB-4F7C-A87B-5141C5219358}.Release|x64.ActiveCfg = Release|x64
-		{2FB45027-39BB-4F7C-A87B-5141C5219358}.Release|x64.Build.0 = Release|x64
-		{2FB45027-39BB-4F7C-A87B-5141C5219358}.Release|x86.ActiveCfg = Release|Win32
-		{2FB45027-39BB-4F7C-A87B-5141C5219358}.Release|x86.Build.0 = Release|Win32
-		{0AD9F8C8-F609-4E6A-84E8-1DB61C6C9232}.Debug|x64.ActiveCfg = Debug|x64
-		{0AD9F8C8-F609-4E6A-84E8-1DB61C6C9232}.Debug|x64.Build.0 = Debug|x64
-		{0AD9F8C8-F609-4E6A-84E8-1DB61C6C9232}.Debug|x86.ActiveCfg = Debug|Win32
-		{0AD9F8C8-F609-4E6A-84E8-1DB61C6C9232}.Debug|x86.Build.0 = Debug|Win32
-		{0AD9F8C8-F609-4E6A-84E8-1DB61C6C9232}.Release|x64.ActiveCfg = Release|x64
-		{0AD9F8C8-F609-4E6A-84E8-1DB61C6C9232}.Release|x64.Build.0 = Release|x64
-		{0AD9F8C8-F609-4E6A-84E8-1DB61C6C9232}.Release|x86.ActiveCfg = Release|Win32
-		{0AD9F8C8-F609-4E6A-84E8-1DB61C6C9232}.Release|x86.Build.0 = Release|Win32
-		{8FC746D1-CABA-48C7-8649-AAD053BBCF19}.Debug|x64.ActiveCfg = Debug|x64
-		{8FC746D1-CABA-48C7-8649-AAD053BBCF19}.Debug|x64.Build.0 = Debug|x64
-		{8FC746D1-CABA-48C7-8649-AAD053BBCF19}.Debug|x86.ActiveCfg = Debug|Win32
-		{8FC746D1-CABA-48C7-8649-AAD053BBCF19}.Debug|x86.Build.0 = Debug|Win32
-		{8FC746D1-CABA-48C7-8649-AAD053BBCF19}.Release|x64.ActiveCfg = Release|x64
-		{8FC746D1-CABA-48C7-8649-AAD053BBCF19}.Release|x64.Build.0 = Release|x64
-		{8FC746D1-CABA-48C7-8649-AAD053BBCF19}.Release|x86.ActiveCfg = Release|Win32
-		{8FC746D1-CABA-48C7-8649-AAD053BBCF19}.Release|x86.Build.0 = Release|Win32
-		{C7D6466B-719B-49A3-A733-9DB92D8AE141}.Debug|x64.ActiveCfg = Debug|x64
-		{C7D6466B-719B-49A3-A733-9DB92D8AE141}.Debug|x64.Build.0 = Debug|x64
-		{C7D6466B-719B-49A3-A733-9DB92D8AE141}.Debug|x86.ActiveCfg = Debug|Win32
-		{C7D6466B-719B-49A3-A733-9DB92D8AE141}.Debug|x86.Build.0 = Debug|Win32
-		{C7D6466B-719B-49A3-A733-9DB92D8AE141}.Release|x64.ActiveCfg = Release|x64
-		{C7D6466B-719B-49A3-A733-9DB92D8AE141}.Release|x64.Build.0 = Release|x64
-		{C7D6466B-719B-49A3-A733-9DB92D8AE141}.Release|x86.ActiveCfg = Release|Win32
-		{C7D6466B-719B-49A3-A733-9DB92D8AE141}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6F5C0E20-A1B5-437A-99F1-8EE53906998B}
 	EndGlobalSection
 EndGlobal

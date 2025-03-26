@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="세미콜론을 꼭 붙이자.c">
+    <ClCompile Include="0x01_시간공간복잡도_예제1.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
