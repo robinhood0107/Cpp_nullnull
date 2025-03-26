@@ -26,6 +26,24 @@ int main() {
     }
     */
 
+
+    //또 2번째 방법으로 이 방법도 가능하다. stringstream 사용할때 이것도 됨
+    /*
+    
+	cin.ignore();
+
+    string line;
+    getline(cin, line);
+
+    stringstream ss(line);
+    int i;
+	while (ss >> i) {
+		vec1.push_back(i);
+	}
+    
+    */
+	// 이렇게 해도 ss >> i 면 >>가 C++에서는 연산자로 의미가 바뀌었기 때문에 ss값을 i에 넣어주는 것임
+
     for (int j = 0; j < N; j++) {
         int elem;
         cin >> elem;
