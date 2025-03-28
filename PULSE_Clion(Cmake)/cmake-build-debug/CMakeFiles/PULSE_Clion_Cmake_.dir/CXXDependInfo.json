@@ -1,0 +1,18 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "GNU",
+	"compiler-simulate-id" : "",
+	"config" : "Debug",
+	"cxx-modules" : {},
+	"dir-cur-bld" : "C:/Users/pjjpj/source/repos/RedBull-Monster-HOT6/Algorithm/PULSE_Clion(Cmake)/cmake-build-debug",
+	"dir-cur-src" : "C:/Users/pjjpj/source/repos/RedBull-Monster-HOT6/Algorithm/PULSE_Clion(Cmake)",
+	"dir-top-bld" : "C:/Users/pjjpj/source/repos/RedBull-Monster-HOT6/Algorithm/PULSE_Clion(Cmake)/cmake-build-debug",
+	"dir-top-src" : "C:/Users/pjjpj/source/repos/RedBull-Monster-HOT6/Algorithm/PULSE_Clion(Cmake)",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : [],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "C:/Users/pjjpj/source/repos/RedBull-Monster-HOT6/Algorithm/PULSE_Clion(Cmake)/cmake-build-debug/CMakeFiles/PULSE_Clion_Cmake_.dir"
+}

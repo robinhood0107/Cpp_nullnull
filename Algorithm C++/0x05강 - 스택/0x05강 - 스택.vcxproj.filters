@@ -15,8 +15,8 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="250328 p2738.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
+    <Text Include="05 스택 개념(250328).txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
   </ItemGroup>
 </Project>
