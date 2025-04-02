@@ -1,3 +1,0 @@
-C:/Users/pjjpj/source/repos/RedBull-Monster-HOT6/Cpp_nullnull/Clion/CppHW2/cmake-build-release-mingw-msys64/CMakeFiles/CppHW2.dir
-C:/Users/pjjpj/source/repos/RedBull-Monster-HOT6/Cpp_nullnull/Clion/CppHW2/cmake-build-release-mingw-msys64/CMakeFiles/edit_cache.dir
-C:/Users/pjjpj/source/repos/RedBull-Monster-HOT6/Cpp_nullnull/Clion/CppHW2/cmake-build-release-mingw-msys64/CMakeFiles/rebuild_cache.dir
