@@ -1,0 +1,16 @@
+# ninja log v6
+2	69	7657064826428978	CMakeFiles/assignment02.dir/main.cpp.obj.ddi	138fde5c40d0fa1e
+4	74	7657069201917942	CMakeFiles/assignment02.dir/tetris.cpp.obj.ddi	6df72f573eae9ef2
+90	396	7657069202787948	CMakeFiles/assignment02.dir/tetris.cpp.obj	f9aa6dfc157455cf
+10	81	7657064826508981	CMakeFiles/assignment02.dir/ui.cpp.obj.ddi	1f256d3bd2fa8638
+74	90	7657069202627956	CMakeFiles/assignment02.dir/tetris.cpp.obj.modmap	7daf86bcf3ab4c06
+74	90	7657069202627956	CMakeFiles/assignment02.dir/CXX.dd	7daf86bcf3ab4c06
+106	291	7657064827468972	CMakeFiles/assignment02.dir/ui.cpp.obj	cc65b2f07fa895f5
+74	90	7657069202627956	C:/Users/pjjpj/source/repos/RedBull-Monster-HOT6/Cpp_nullnull/Clion_C++_univ/assignment02/cmake-build-debug/CMakeFiles/assignment02.dir/CXXModules.json	7daf86bcf3ab4c06
+81	100	7657064827378970	CMakeFiles/assignment02.dir/main.cpp.obj.modmap	d1f21c55993ebb0a
+81	100	7657064827378970	CMakeFiles/assignment02.dir/ui.cpp.obj.modmap	d1f21c55993ebb0a
+101	290	7657064827418984	CMakeFiles/assignment02.dir/main.cpp.obj	f9c889587fcea798
+2	228	7657072287415072	build.ninja	d2b23a5bdf1906fe
+3	19	7657072287635063	CMakeFiles/assignment02.dir/CXX.dd	7daf86bcf3ab4c06
+3	19	7657072287635063	C:/Users/pjjpj/source/repos/RedBull-Monster-HOT6/Cpp_nullnull/Clion_C++_univ/assignment02/cmake-build-debug/CMakeFiles/assignment02.dir/CXXModules.json	7daf86bcf3ab4c06
+3	19	7657072287635063	CMakeFiles/assignment02.dir/tetris.cpp.obj.modmap	7daf86bcf3ab4c06
