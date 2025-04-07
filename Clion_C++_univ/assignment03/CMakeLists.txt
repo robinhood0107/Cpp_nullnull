@@ -1,21 +1,18 @@
-
-set(CURSES_LIBRARY "C:/msys64/mingw64/lib/libncurses.a")
-set(CURSES_INCLUDE_PATH "C:/msys64/mingw64/include")
 cmake_minimum_required(VERSION 3.30)
 project(assignment03)
 
 set(CMAKE_CXX_STANDARD 17)
 
-find_package(Curses REQUIRED COMPONENTS Libraries Includes) # COMPONENTS 추가
+# Set paths manually
+find_library(NCURSES_LIBRARY ncursesw HINTS ENV PATH PATHS /mingw64/lib)
+include_directories("C:/msys64/mingw64/include")
+link_libraries("C:/msys64/mingw64/lib/libncurses.a")
 
-if(Curses_FOUND)
-    include_directories(${Curses_INCLUDE_DIRS})
-    add_executable(${PROJECT_NAME} main.cpp
-            tetris.cpp
-            tetris.h
-            ui.cpp
-            ui.h)
-    target_link_libraries(${PROJECT_NAME} ${Curses_LIBRARIES})
-else()
-    message(FATAL_ERROR "ncurses library not found!")
-endif()
+add_executable(${PROJECT_NAME}
+        main.cpp
+        tetris.cpp
+        tetris.h
+        ui.cpp
+        ui.h
+)
+target_link_libraries(assignment03 PRIVATE ncursesw)

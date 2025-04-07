@@ -1,3 +1,0 @@
-ninja_dyndep_version = 1.0
-build CMakeFiles/assignment02.dir/tetris.cpp.obj: dyndep
-

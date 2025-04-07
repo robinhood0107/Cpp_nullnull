@@ -43,10 +43,10 @@ void spawn_new_block(GameState& state);
 void drop_block_to_bottom(GameState& state);
 
 // private (필요하면 구현)
-// void check_lines(GameState& state);
-// bool is_valid_position(const std::vector<std::vector<int>>& block, int x, int y, const std::vector<std::vector<char>>& board);
+void check_lines(GameState& state);
+bool is_valid_position(const std::vector<std::vector<int>>& block, int x, int y, const std::vector<std::vector<char>>& board);
 // void rotate_block(GameState& state);
-// void land_block(GameState& state);
+void land_block(GameState& state);
 // int load_high_score();
 // void save_high_score(int score);
 
