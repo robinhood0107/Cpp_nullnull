@@ -1,4 +1,4 @@
-#include "ui.h"
+﻿#include "ui.h"
 #include <ncursesw/ncurses.h>
 
 void ui_init() {
@@ -18,15 +18,13 @@ void ui_draw(const GameState& state) {
     int offset_x = 1;
     int offset_y = 1;
 
-    //clear();  // 화면 지우기
+    //clear();  // ?붾㈃ 吏?곌린
 
-    // 상단 테두리
-    mvaddch(offset_y - 1, offset_x - 1, '+');
+    // ?곷떒 ?뚮몢由?    mvaddch(offset_y - 1, offset_x - 1, '+');
     mvhline(offset_y - 1, offset_x, '-', BOARD_WIDTH);
     mvaddch(offset_y - 1, offset_x + BOARD_WIDTH, '+');
 
-    // 보드와 좌우 테두리
-    for (int y = 0; y < BOARD_HEIGHT; ++y) {
+    // 蹂대뱶? 醫뚯슦 ?뚮몢由?    for (int y = 0; y < BOARD_HEIGHT; ++y) {
         mvaddch(offset_y + y, offset_x - 1, '|');
         for (int x = 0; x < BOARD_WIDTH; ++x) {
             char c = state.board[y][x];
@@ -35,12 +33,11 @@ void ui_draw(const GameState& state) {
         mvaddch(offset_y + y, offset_x + BOARD_WIDTH, '|');
     }
 
-    // 하단 테두리
-    mvaddch(offset_y + BOARD_HEIGHT, offset_x - 1, '+');
+    // ?섎떒 ?뚮몢由?    mvaddch(offset_y + BOARD_HEIGHT, offset_x - 1, '+');
     mvhline(offset_y + BOARD_HEIGHT, offset_x, '-', BOARD_WIDTH);
     mvaddch(offset_y + BOARD_HEIGHT, offset_x + BOARD_WIDTH, '+');
 
-    // 현재 블록
+    // ?꾩옱 釉붾줉
     for (int i = 0; i < 4; ++i) {
         for (int j = 0; j < 4; ++j) {
             if (state.current_block[i][j]) {
@@ -54,7 +51,7 @@ void ui_draw(const GameState& state) {
         }
     }
 
-    // 사이드바
+    // ?ъ씠?쒕컮
     int sidebar_x = offset_x + BOARD_WIDTH + 2;
     mvprintw(offset_y, sidebar_x, "Score: %d", state.score);
     mvprintw(offset_y + 1, sidebar_x, "High Score: %d", state.high_score);

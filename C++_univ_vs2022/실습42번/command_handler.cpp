@@ -1,4 +1,4 @@
-#include "command_handler.h"
+﻿#include "command_handler.h"
 #include "word_manager.h"
 #include <sstream>
 #include <iostream>

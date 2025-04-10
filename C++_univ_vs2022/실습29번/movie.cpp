@@ -1,5 +1,5 @@
-#include "movie.h"
-#include <cmath>// std::round¸¦ »ç¿ëÇÏ±â À§ÇØ Ãß°¡
+ï»¿#include "movie.h"
+#include <cmath>// std::roundë¥¼ ì‚¬ìš©í•˜ê¸° ìœ„í•´ ì¶”ê°€
 
 Genre toGenre(const std::string& str) {
     if (str == "Action") return Genre::Action;
@@ -7,21 +7,21 @@ Genre toGenre(const std::string& str) {
     if (str == "Drama") return Genre::Drama;
     if (str == "Romance") return Genre::Romance;
     if (str == "SciFi") return Genre::SciFi;
-    //switch°°Àº °´±â ºÎ¸®Áö ¸»°í ¹İµå½Ã if·Î ±ò²ûÇÏ°Ô ³¡³»¶ó(ÀÌ°Ô Á¦ÀÏ º¸±â ÆíÇÔ)
+    //switchê°™ì€ ê°ê¸° ë¶€ë¦¬ì§€ ë§ê³  ë°˜ë“œì‹œ ifë¡œ ê¹”ë”í•˜ê²Œ ëë‚´ë¼(ì´ê²Œ ì œì¼ ë³´ê¸° í¸í•¨)
 }
 
 Rating toRating(const std::string& str) {
 
-    if (str == "¡Ú¡Ù¡Ù¡Ù¡Ù") return Rating::One;
-    if (str == "¡Ú¡Ú¡Ù¡Ù¡Ù") return Rating::Two;
-    if (str == "¡Ú¡Ú¡Ú¡Ù¡Ù") return Rating::Three;
-    if (str == "¡Ú¡Ú¡Ú¡Ú¡Ù") return Rating::Four;
-    if (str == "¡Ú¡Ú¡Ú¡Ú¡Ú") return Rating::Five;
+    if (str == "â˜…â˜†â˜†â˜†â˜†") return Rating::One;
+    if (str == "â˜…â˜…â˜†â˜†â˜†") return Rating::Two;
+    if (str == "â˜…â˜…â˜…â˜†â˜†") return Rating::Three;
+    if (str == "â˜…â˜…â˜…â˜…â˜†") return Rating::Four;
+    if (str == "â˜…â˜…â˜…â˜…â˜…") return Rating::Five;
     else return Rating::Unrated;
 
-    //¾ÕÀ¸·Î ÀÌ·±°Ç °Á ÀÌ·¸°Ô ÇÏÀÚ!!!!
-	//¾Æ´Ï ±×³É ¡ÚÀÌ°Å À§Ä¡ ¼¼Áö ¸»°í ±×³É if ¹® ¿¬¼ÓÀ¸·Î ½á¼­ ÆÇ´ÜÇÏ´Â°Ô Á¦ÀÏ Á¤È®ÇÔ //ÀÌÀü °ÍÀº ³Ê¹« º¹ÀâÇÏ°Ô »ı°¢ÇßÀ½(find´Â ÀÌ·²¶§ »ç¿ë¾ÈÇÏ´Â °Í)
-    // ¾ÕÀ¸·Î ÀÌ·¸°Ô if¹®À¸·Î ±İ¹æ Ç¥ÇöÇÒ ¼ö ÀÖ´Â °ÍÀº ¸Ó¸®¾ÆÇÁ°Ô »ı°¢ÇÏÁö ¸»°í ÀÌ·¸°Ô Â¥µµ·Ï ÇÏÀÚ
+    //ì•ìœ¼ë¡œ ì´ëŸ°ê±´ ê± ì´ë ‡ê²Œ í•˜ì!!!!
+	//ì•„ë‹ˆ ê·¸ëƒ¥ â˜…ì´ê±° ìœ„ì¹˜ ì„¸ì§€ ë§ê³  ê·¸ëƒ¥ if ë¬¸ ì—°ì†ìœ¼ë¡œ ì¨ì„œ íŒë‹¨í•˜ëŠ”ê²Œ ì œì¼ ì •í™•í•¨ //ì´ì „ ê²ƒì€ ë„ˆë¬´ ë³µì¡í•˜ê²Œ ìƒê°í–ˆìŒ(findëŠ” ì´ëŸ´ë•Œ ì‚¬ìš©ì•ˆí•˜ëŠ” ê²ƒ)
+    // ì•ìœ¼ë¡œ ì´ë ‡ê²Œ ifë¬¸ìœ¼ë¡œ ê¸ˆë°© í‘œí˜„í•  ìˆ˜ ìˆëŠ” ê²ƒì€ ë¨¸ë¦¬ì•„í”„ê²Œ ìƒê°í•˜ì§€ ë§ê³  ì´ë ‡ê²Œ ì§œë„ë¡ í•˜ì
 }
 
 int toInt(Rating r) {
@@ -42,7 +42,7 @@ int avg(const std::vector<int>& list) {
     }
     double avg = sum / list.size();
     return static_cast<int>(std::round(avg));
-    //ÀÌ ÄÚµå´Â °Á ¿Ü¿ö¶ó cmath »ç¿ëÇÏ¸é round ÇÔ¼ö »ç¿ë °¡´ÉÇÑ°Åµµ ¾Ï±â
+    //ì´ ì½”ë“œëŠ” ê± ì™¸ì›Œë¼ cmath ì‚¬ìš©í•˜ë©´ round í•¨ìˆ˜ ì‚¬ìš© ê°€ëŠ¥í•œê±°ë„ ì•”ê¸°
 }
 
 void printSummary(const std::map<std::string, std::vector<int>>& ratings,
@@ -65,6 +65,6 @@ void printSummary(const std::map<std::string, std::vector<int>>& ratings,
         case Genre::SciFi: genreStr = "SciFi"; break;
         }
         std::cout << genreStr << std::endl;
-        //mapÀÇ string vector¸¦ µû·Î Á¢±ÙÇÏ·Á¸é it.first¿Í it.second·Î Á¢±ÙÇØ¾ß ÇÑ´Ù.
+        //mapì˜ string vectorë¥¼ ë”°ë¡œ ì ‘ê·¼í•˜ë ¤ë©´ it.firstì™€ it.secondë¡œ ì ‘ê·¼í•´ì•¼ í•œë‹¤.
     }
 }

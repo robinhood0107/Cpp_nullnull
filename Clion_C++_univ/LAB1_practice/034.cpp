@@ -1,11 +1,11 @@
-//
+﻿//
 // Created by pjjpj on 25. 4. 1.
 //
 
 
 
-//그리고 string 만들때 무조건 ""큰따옴표로 해라
-//enum class 특징은 무조건 namespace로만 요소 접근이 가능함
+//洹몃━怨?string 留뚮뱾??臾댁“嫄?""?곕뵲?댄몴濡??대씪
+//enum class ?뱀쭠? 臾댁“嫄?namespace濡쒕쭔 ?붿냼 ?묎렐??媛?ν븿
 #include <iostream>
 #include <string>
 #include <iostream>
@@ -42,19 +42,19 @@ int main() {
 Choice getPlayerChoice() {
     string N;
     while (true) {
-        cin >> N; //과제에서 이거를 while문은로 이벤트 루프 안돌리면 모던C++하지 않다고 점수 깎는다
+        cin >> N; //怨쇱젣?먯꽌 ?닿굅瑜?while臾몄?濡??대깽??猷⑦봽 ?덈룎由щ㈃ 紐⑤뜕C++?섏? ?딅떎怨??먯닔 源롫뒗??
 
-        if (N == "묵") {
+        if (N == "臾?) {
             return Choice::ROCK;
         }
-        else if (N == "찌") {
+        else if (N == "李?) {
             return Choice::SCISSORS;
         }
-        else if (N == "빠") {
+        else if (N == "鍮?) {
             return Choice::PAPER;
         }
         else {
-            cout << "잘못된 입력" << endl;
+            cout << "?섎せ???낅젰" << endl;
         }
     }
 }
@@ -83,13 +83,13 @@ void displayChoice(const std::string& who, Choice choice){
       cout << "You chose ";
       switch(choice){
         case (Choice::ROCK):
-            cout << "ROCK (묵)\n";
+            cout << "ROCK (臾?\n";
           break;
         case (Choice::SCISSORS):
-            cout << "SCISSORS (찌)\n";
+            cout << "SCISSORS (李?\n";
           break;
         case (Choice::PAPER):
-            cout << "PAPER (빠)\n";
+            cout << "PAPER (鍮?\n";
           break;
       }
     }
@@ -97,13 +97,13 @@ void displayChoice(const std::string& who, Choice choice){
       cout << "Computer chose ";
       switch(choice){
       case (Choice::ROCK):
-          cout << "ROCK (묵)\n";
+          cout << "ROCK (臾?\n";
             break;
       case (Choice::SCISSORS):
-          cout << "SCISSORS (찌)\n";
+          cout << "SCISSORS (李?\n";
             break;
       case (Choice::PAPER):
-          cout << "PAPER (빠)\n";
+          cout << "PAPER (鍮?\n";
             break;
       }
     }
@@ -115,10 +115,10 @@ int determineWinner(Choice player, Choice computer){
     else if (((player == Choice::ROCK) && (computer == Choice::SCISSORS)) ||
         ((player == Choice::SCISSORS) && (computer == Choice::PAPER)) ||
         ((player == Choice::PAPER) && (computer == Choice::ROCK)))
-        //player 승리
+        //player ?밸━
             return 1;
     else
-        //computer 승리
+        //computer ?밸━
             return -1;
 }
 

@@ -1,4 +1,4 @@
-#include "word_manager.h"
+ï»¿#include "word_manager.h"
 #include <iostream>
 #include <cctype>
 
@@ -28,7 +28,7 @@ void updateWord(map<string, size_t>& words, const string& rawWord, size_t value)
         cout << "Updated: " << find->first << " " << find->second << endl;
     }
     else {
-        cout << "Error: '" << change2low(tmp) << "' not found. Cannot update." << endl;//±×¸®°í ÀÌ·¸°Ô ¿¹¿Ü Ã³¸® ¾ÈÇØ¼­ °è¼Ó Æ²·È´ø °ÍÀÌ¾úÀ½ ¿Ö ±×·¨³ª ½Í¾ú´Ù. ÀÌ·¸°Ô ¿¹¿ÜÃ³¸® ¹®Á¦ Àß ÀÐ°í ²À ½á¶ó
+        cout << "Error: '" << change2low(tmp) << "' not found. Cannot update." << endl;//ê·¸ë¦¬ê³  ì´ë ‡ê²Œ ì˜ˆì™¸ ì²˜ë¦¬ ì•ˆí•´ì„œ ê³„ì† í‹€ë ¸ë˜ ê²ƒì´ì—ˆìŒ ì™œ ê·¸ëž¬ë‚˜ ì‹¶ì—ˆë‹¤. ì´ë ‡ê²Œ ì˜ˆì™¸ì²˜ë¦¬ ë¬¸ì œ ìž˜ ì½ê³  ê¼­ ì¨ë¼
     }
 }
 
@@ -37,7 +37,7 @@ void deleteWord(map<string, size_t>& words, const string& rawWord) {
     auto find = words.find(change2low(tmp));
     if (find != words.end()) {
         cout << "Deleted: " << find->first << endl;
-        words.erase(find); //cout << "Deleted: " << find->first << endl; ÀÌ°É ¸ÕÀú Ãâ·ÂÇÑ ÈÄ¿¡ words.erase(find);À» ÇØ¾ß ÇÑ´Ù
+        words.erase(find); //cout << "Deleted: " << find->first << endl; ì´ê±¸ ë¨¼ì € ì¶œë ¥í•œ í›„ì— words.erase(find);ì„ í•´ì•¼ í•œë‹¤
     }
     else {
         cout << "Error: '" << change2low(tmp) << "' not found. Cannot delete." << endl;

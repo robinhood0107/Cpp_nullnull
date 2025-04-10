@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <string>
 #include <vector>
 #include <algorithm>
@@ -20,10 +20,10 @@ void toUpperCase(std::string& str) {
     // implement your code
 
     /*Output transform(
-    //1 ÀÔ·ÂÇÑ º¯¼öÀÇ first À§Ä¡,
-    //2 ÀÔ·ÂÇÑ º¯¼öÀÇ last À§Ä¡±îÁö,
-    //3 ÀúÀåÇÒ º¯¼öÀÇ first À§Ä¡,
-    //4 º¯È¯ÇÒ ¹æ¹ıÀÌ ÀÖ´Â ÇÔ¼ö);
+    //1 ì…ë ¥í•œ ë³€ìˆ˜ì˜ first ìœ„ì¹˜,
+    //2 ì…ë ¥í•œ ë³€ìˆ˜ì˜ last ìœ„ì¹˜ê¹Œì§€,
+    //3 ì €ì¥í•  ë³€ìˆ˜ì˜ first ìœ„ì¹˜,
+    //4 ë³€í™˜í•  ë°©ë²•ì´ ìˆëŠ” í•¨ìˆ˜);
     */
 }
 

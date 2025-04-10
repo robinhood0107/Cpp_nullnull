@@ -1,25 +1,25 @@
-//
+﻿//
 // Created by pjjpj on 25. 4. 2.
 //
 
 
-//이 2개 전부 다 iterator을 사용함
+//??2媛??꾨? ??iterator???ъ슜??
 
-//istream_iterator ostream_iterator 꼭 암기하기
+//istream_iterator ostream_iterator 瑗??붽린?섍린
 
-//istream_iterator<int> cin_iter(cin); 이렇게 선언하고 (이거 그대로 암기)
-//istream_iterator<int> eos; //끝을 체크하는 용도로 eos만들기
+//istream_iterator<int> cin_iter(cin); ?대젃寃??좎뼵?섍퀬 (?닿굅 洹몃?濡??붽린)
+//istream_iterator<int> eos; //?앹쓣 泥댄겕?섎뒗 ?⑸룄濡?eos留뚮뱾湲?
 
-//vector에 입력받는법
-//copy()함수를 사용한다
+//vector???낅젰諛쏅뒗踰?
+//copy()?⑥닔瑜??ъ슜?쒕떎
 //copy(cin_iter,eos,back_inserter(vec))
-//back_inserter를 통해서 순차적으로 vec 끝에 정수를 추가한다.
+//back_inserter瑜??듯빐???쒖감?곸쑝濡?vec ?앹뿉 ?뺤닔瑜?異붽??쒕떎.
 
 
 
-//ostream_iterator cout_iter(cout," ") 이렇게 선언함 (이거 그대로 암기
+//ostream_iterator cout_iter(cout," ") ?대젃寃??좎뼵??(?닿굅 洹몃?濡??붽린
 
-//출력은 copy()로 한다. copy(vec.begin(),vec.end(),cout_iter) 이렇게 하면 된다.
+//異쒕젰? copy()濡??쒕떎. copy(vec.begin(),vec.end(),cout_iter) ?대젃寃??섎㈃ ?쒕떎.
 #include <iostream>
 #include <algorithm>
 #include <vector>

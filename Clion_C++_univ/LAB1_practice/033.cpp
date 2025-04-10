@@ -1,4 +1,4 @@
-//
+﻿//
 // Created by pjjpj on 25. 4. 1.
 //
 #include <iostream>
@@ -23,14 +23,14 @@ int main() {
 
     return 0;
 }
-//getline 2가지 방식 전부 짜기
-//stringstream은 stringstream ss(자를 것);이런식으로 함수처럼
-//그리고 ss>>i 이거 조건문에 넣으려면 while써라
-//vector에 string을 int로 바꿀때는 무조건 stoi 쓰기
+//getline 2媛吏 諛⑹떇 ?꾨? 吏쒓린
+//stringstream? stringstream ss(?먮? 寃?;?대윴?앹쑝濡??⑥닔泥섎읆
+//洹몃━怨?ss>>i ?닿굅 議곌굔臾몄뿉 ?ｌ쑝?ㅻ㈃ while?⑤씪
+//vector??string??int濡?諛붽??뚮뒗 臾댁“嫄?stoi ?곌린
 
-//접근은 무조건 first, second
-//pair 선언법 무조건 외우고 있어라 pair<int, int> p(a,b); (이렇게 하거나)
-//pair<int, int> p = {a,b}; 이렇게 해도 됨
+//?묎렐? 臾댁“嫄?first, second
+//pair ?좎뼵踰?臾댁“嫄??몄슦怨??덉뼱??pair<int, int> p(a,b); (?대젃寃??섍굅??
+//pair<int, int> p = {a,b}; ?대젃寃??대룄 ??
 vector<int> read_input(int n){
     string line;
     getline(cin,line);
@@ -43,7 +43,7 @@ vector<int> read_input(int n){
     return vec;
 }
 
-//걍 변수 선언하고 초기화 습관처럼 무조건 하기
+//嫄?蹂???좎뼵?섍퀬 珥덇린???듦?泥섎읆 臾댁“嫄??섍린
 pair<int, int> calc_sums(const vector<int>& numbers){
   pair<int,int> p = {0,0};
   int even=0;

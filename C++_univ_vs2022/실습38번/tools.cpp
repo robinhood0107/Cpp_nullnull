@@ -1,4 +1,4 @@
-//Implement your code
+ï»¿//Implement your code
 
 #include "tools.h"
 #include <sstream>
@@ -37,7 +37,7 @@ string show_chars(const string& str) {
     s += "]";
     return s;
 }
-// s += to_string(static_cast<int>(str[i])) ÀÌ ÇÔ¼ö¿¡¼­ to_stringÀÌ stringÀ¸·Î º¯È¯½ÃÄÑÁÖ´Â ÇÔ¼ö´Ù.
+// s += to_string(static_cast<int>(str[i])) ì´ í•¨ìˆ˜ì—ì„œ to_stringì´ stringìœ¼ë¡œ ë³€í™˜ì‹œì¼œì£¼ëŠ” í•¨ìˆ˜ë‹¤.
 }/*
 string show_chars(const string& str) {
     string s = "[";

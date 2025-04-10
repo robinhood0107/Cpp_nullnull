@@ -1,4 +1,4 @@
-//
+﻿//
 // Created by pjjpj on 25. 4. 2.
 //
 #include <iostream>
@@ -22,9 +22,9 @@ int countCharacter(const std::string& str, char ch) {
 
 
 void toUpperCase(std::string& str) {
-    //이거 그냥 암기
+    //?닿굅 洹몃깷 ?붽린
     transform(str.begin(),str.end(),str.begin,toupper);
-    //시작,끝,저장장소(보통 begin) toupper 함수
+    //?쒖옉,????μ옣??蹂댄넻 begin) toupper ?⑥닔
     // implement your code
 
 }
