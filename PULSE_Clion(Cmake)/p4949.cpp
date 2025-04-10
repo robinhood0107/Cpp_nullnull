@@ -1,4 +1,4 @@
-//
+﻿//
 // Created by pjjpj on 25. 4. 4.
 //
 #include <iostream>
@@ -15,7 +15,7 @@ int main() {
         stack<char> s;
         string line;
         getline(cin,line);
-        if (line == ".")
+        if (line.length()== 1 && line[0] == '.')
             break;
         stringstream ss(line);
         bool wrong = false;
@@ -24,8 +24,10 @@ int main() {
             if ((input =='(') || (input =='[')) {
                 s.push(input);
             }
-            else if (input == ')') {
-                if ((s.top() == '(') && !s.empty()) {
+            else if (input == ')') { //stack의 top함수 쓸때 조심할 것 = 스택이 비어있으면 런라임 오류남!!!!!
+                //if ((s.top() == '(') && !s.empty()) {  //(매우매우 조심) 이렇게 쓰면 안됨
+                //비교문은 왼쪽부터 오른쪽으로 글읽는거와 같이 순서대로 실행됨. 조심해라!!!!!!!!!!
+                if (!s.empty() && (s.top() == '(') { //나 이거 진짜 몰랐음. 항상 무조건 empty를 앞에 쓰고 stack.top()으로 비교문 작성해라
                     s.pop();
                 }
                 else{
@@ -34,7 +36,7 @@ int main() {
                 }
             }
             else if (input == ']') {
-                if ((s.top() == '[') && !s.empty()) {
+                if (!s.empty() && (s.top() == '[')) { //나 이거 진짜 몰랐음. 항상 무조건 empty를 앞에 쓰고 stack.top()으로 비교문 작성해라
                     s.pop();
                 }
                 else{

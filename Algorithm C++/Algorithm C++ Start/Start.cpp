@@ -1,4 +1,4 @@
-#include <bits/stdc++.h>
+ï»¿#include <bits/stdc++.h>
 using namespace std;
 
 int main() {
@@ -6,7 +6,7 @@ int main() {
 	cin.tie(0);
 
 
-	cout << "½ÃÀÛ";
+	cout << "ì‹œìž‘";
 
 
 
