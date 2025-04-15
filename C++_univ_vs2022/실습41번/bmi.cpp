@@ -1,4 +1,4 @@
-﻿// Implement your code
+// Implement your code
 
 #include "bmi.h"
 #include <iostream>

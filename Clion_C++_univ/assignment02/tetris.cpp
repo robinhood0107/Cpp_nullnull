@@ -1,4 +1,4 @@
-﻿#include <vector>
+#include <vector>
 #include <ncursesw/ncurses.h>
 
 const int BOARD_WIDTH = 10;

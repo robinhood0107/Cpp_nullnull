@@ -1,4 +1,4 @@
-﻿#include "tetris.h"
+#include "tetris.h"
 #include <cstdlib>
 #include <ctime>
 #include <fstream>
@@ -89,10 +89,10 @@ void update_game(GameState& state) {
         // Implmenet your code
         // move block
         // check landing
-        if (!move_block(state, 0, 1)) { //?꾨옒濡?1移??대젮媛?붿? ?쒕룄
-            land_block(state);// ?꾨옒濡??대룞?????놁쑝硫??꾩옱 ?꾩튂??釉붾줉??李⑹?
-            //check_lines(state);// ?쇱씤???꾩꽦?섏뿀?붿? ?뺤씤?섍퀬 ?쒓굅(?닿굅???ы븿?섏뼱?덉????딆븯??
-            spawn_new_block(state); // ?덈줈??釉붾줉 ?앹꽦
+        if (!move_block(state, 0, 1)) { //아래로 1칸 내려가는지 시도
+            land_block(state);// 아래로 이동할 수 없으면 현재 위치에 블록을 착지
+            //check_lines(state);// 라인이 완성되었는지 확인하고 제거(이거는 포함되어있지는 않았음)
+            spawn_new_block(state); // 새로운 블록 생성
         }
         state.fall_timer = 0;
         state.fall_interval = 10 - (state.level - 1);
@@ -116,20 +116,21 @@ bool move_block(GameState& state, int dx, int dy) {
 
 void drop_block_to_bottom(GameState& state) {
     // Implmenet your code
-    while (move_block(state, 0, 1));// ?꾨옒濡??대룞??遺덇??ν븷 ?뚭퉴吏 怨꾩냽 ?대룞 ?쒕룄
-    land_block(state);// ?꾨옒濡??대룞?????놁쑝硫??꾩옱 ?꾩튂??釉붾줉??李⑹?
-    //check_lines(state);// ?쇱씤???꾩꽦?섏뿀?붿? ?뺤씤?섍퀬 ?쒓굅(?닿굅???ы븿?섏뼱?덉????딆븯??
-    spawn_new_block(state); // ?덈줈??釉붾줉 ?앹꽦
+    while (move_block(state, 0, 1));// 아래로 이동이 불가능할 때까지 계속 이동 시도
+    land_block(state);// 아래로 이동할 수 없으면 현재 위치에 블록을 착지
+    //check_lines(state);// 라인이 완성되었는지 확인하고 제거(이거는 포함되어있지는 않았음)
+    spawn_new_block(state); // 새로운 블록 생성
 }
 
 void spawn_new_block(GameState& state) {
     // Implmenet your code
-    //state.tetrominoes[釉붾줉 醫낅쪟 ?몃뜳??[?뚯쟾 ?곹깭 ?몃뜳??[???몃뜳??[???몃뜳??
+    //state.tetrominoes[블록 종류 인덱스][회전 상태 인덱스][행 인덱스][열 인덱스]
     state.current_tetromino = state.next_tetromino;
     state.current_rotation = 0;
     state.current_block = state.tetrominoes[state.current_tetromino][state.current_rotation];
-    state.next_tetromino = rand() % state.tetrominoes.size(); //?닿굅 ?댁빞 test 耳?댁뒪???묎컳???섏삤寃???    state.block_x = BOARD_WIDTH / 2 - 2;
-    //if (state.current_tetromino == 1) { // O-tetromino 珥덇린 x ?꾩튂 議곗젙
+    state.next_tetromino = rand() % state.tetrominoes.size(); //이거 해야 test 케이스랑 똑같이 나오게 됨
+    state.block_x = BOARD_WIDTH / 2 - 2;
+    //if (state.current_tetromino == 1) { // O-tetromino 초기 x 위치 조정
     //    state.block_x = BOARD_WIDTH / 2 - 1;
     //}
     state.block_y = 0;
@@ -155,9 +156,10 @@ bool is_valid_position(const std::vector<std::vector<int>>& block, int x, int y,
 }
 
 void land_block(GameState& state) {
-    for (int i = 0; i < 4; ++i) {// ?꾩옱 釉붾줉??媛?????쒗쉶
-        for (int j = 0; j < 4; ++j) {// 釉붾줉???대떦 ????쒖꽦?붾릺???덈떎硫?            if (state.current_block[i][j] == 1) {
-                state.board[state.block_y + i][state.block_x + j] = '#';// 寃뚯엫 蹂대뱶???대떦 ?꾩튂??'#'???쒖떆?섏뿬 釉붾줉??怨좎젙
+    for (int i = 0; i < 4; ++i) {// 현재 블록의 각 셀을 순회
+        for (int j = 0; j < 4; ++j) {// 블록의 해당 셀이 활성화되어 있다면
+            if (state.current_block[i][j] == 1) {
+                state.board[state.block_y + i][state.block_x + j] = '#';// 게임 보드의 해당 위치에 '#'을 표시하여 블록을 고정
             }
         }
     }
@@ -169,43 +171,47 @@ void land_block(GameState& state) {
 
 
 
-///////////////////////////////////////////////////?닿굅??援ы쁽 ?덊빐???섎뒗 寃?///////////////////////////////////////////////////////
+///////////////////////////////////////////////////이거는 구현 안해도 되는 것////////////////////////////////////////////////////////
 /*
-// 寃뚯엫 蹂대뱶?먯꽌 媛??李??쇱씤???뺤씤?섍퀬 ?쒓굅?섎뒗 ?⑥닔
+// 게임 보드에서 가득 찬 라인을 확인하고 제거하는 함수
 void check_lines(GameState& state) {
-    int lines_cleared_in_frame = 0; // ?꾩옱 ?꾨젅?꾩뿉???쒓굅???쇱씤 ??    // 蹂대뱶???꾨옒履쎈????꾩そ?쇰줈 媛??됱쓣 寃??    for (int y = BOARD_HEIGHT - 1; y >= 0; --y) {
-        bool full_line = true; // ?꾩옱 ?됱씠 媛??李쇰뒗吏 ?щ?
+    int lines_cleared_in_frame = 0; // 현재 프레임에서 제거된 라인 수
+    // 보드의 아래쪽부터 위쪽으로 각 행을 검사
+    for (int y = BOARD_HEIGHT - 1; y >= 0; --y) {
+        bool full_line = true; // 현재 행이 가득 찼는지 여부
 
-        // ?꾩옱 ?됱쓽 紐⑤뱺 ?댁쓣 寃??        for (int x = 0; x < BOARD_WIDTH; ++x) {
-            // 鍮?移?'.')???덉쑝硫??꾩옱 ?됱? 媛??李??쇱씤???꾨떂
+        // 현재 행의 모든 열을 검사
+        for (int x = 0; x < BOARD_WIDTH; ++x) {
+            // 빈 칸('.')이 있으면 현재 행은 가득 찬 라인이 아님
             if (state.board[y][x] == '.') {
                 full_line = false;
                 break;
             }
         }
 
-        // ?꾩옱 ?됱씠 媛??李쇰떎硫?        if (full_line) {
-            lines_cleared_in_frame++; // ?쒓굅???쇱씤 ??利앷?
-            // ?꾩옱 ???꾩쓽 紐⑤뱺 ?됱쓣 ??移몄뵫 ?꾨옒濡??대룞
+        // 현재 행이 가득 찼다면
+        if (full_line) {
+            lines_cleared_in_frame++; // 제거된 라인 수 증가
+            // 현재 행 위의 모든 행을 한 칸씩 아래로 이동
             for (int yy = y; yy > 0; --yy) {
                 state.board[yy] = state.board[yy - 1];
             }
-            // 媛?????됱쓣 鍮?移?'.')?쇰줈 梨꾩? (?덈줈??鍮??쇱씤 ?앹꽦)
+            // 가장 윗 행을 빈 칸('.')으로 채움 (새로운 빈 라인 생성)
             state.board[0] = std::vector<char>(BOARD_WIDTH, '.');
-            y++; // ?쇱씤???쒓굅?섏뿀?쇰?濡?媛숈? y ?몃뜳?ㅻ? ?ㅼ떆 寃??(?대룞???쇱씤)
+            y++; // 라인이 제거되었으므로 같은 y 인덱스를 다시 검사 (이동된 라인)
         }
     }
 
-    // ?쒓굅???쇱씤???덈떎硫??먯닔? ?덈꺼 ?낅뜲?댄듃
+    // 제거된 라인이 있다면 점수와 레벨 업데이트
     if (lines_cleared_in_frame > 0) {
-        state.lines_cleared += lines_cleared_in_frame; // 珥??쒓굅???쇱씤 ???낅뜲?댄듃
-        // ?먯닔 怨꾩궛: (?쒓굅???쇱씤 ??^2 * 湲곕낯 ?먯닔 * ?덈꺼
+        state.lines_cleared += lines_cleared_in_frame; // 총 제거된 라인 수 업데이트
+        // 점수 계산: (제거된 라인 수)^2 * 기본 점수 * 레벨
         state.score += (lines_cleared_in_frame * lines_cleared_in_frame * 100 * state.level);
-        // ?덈꺼 ?낅뜲?댄듃: ?쒓굅???쇱씤 ?섍? 10??諛곗닔媛 ???뚮쭏???덈꺼 利앷?
+        // 레벨 업데이트: 제거된 라인 수가 10의 배수가 될 때마다 레벨 증가
         state.level = state.lines_cleared / 10 + 1;
-        // ?덈꺼???곕씪 ?숉븯 ?띾룄 議곗젙
+        // 레벨에 따라 낙하 속도 조정
         state.fall_interval = 20 - (state.level - 1) * 2;
-        if (state.fall_interval < 1) state.fall_interval = 1; // 理쒖냼 ?숉븯 媛꾧꺽 蹂댁옣
+        if (state.fall_interval < 1) state.fall_interval = 1; // 최소 낙하 간격 보장
     }
 }
 */
@@ -214,39 +220,39 @@ void check_lines(GameState& state) {
 
 
 
-///?꾩껜 肄붾뱶 二쇱꽍?щ┛ 踰꾩쟾///
+///전체 코드 주석달린 버전///
 /*
-#include "tetris.h" // ?뚰듃由ъ뒪 愿???ㅻ뜑 ?뚯씪 ?ы븿
-#include <cstdlib>   // ?쒖닔 ?앹꽦???꾪븳 ?ㅻ뜑 ?뚯씪 ?ы븿
-#include <ctime>     // ?쒓컙 愿???⑥닔瑜??꾪븳 ?ㅻ뜑 ?뚯씪 ?ы븿 (?쒖닔 ?쒕뱶 ?ㅼ젙???ъ슜)
-#include <fstream>   // ?뚯씪 ?낆텧?μ쓣 ?꾪븳 ?ㅻ뜑 ?뚯씪 ?ы븿 (?꾩옱???ъ슜?섏? ?딆쓬)
-#include <iostream>  // ?쒖? ?낆텧?μ쓣 ?꾪븳 ?ㅻ뜑 ?뚯씪 ?ы븿 (?꾩옱???ъ슜?섏? ?딆쓬)
-using namespace std;  // std ?ㅼ엫?ㅽ럹?댁뒪 ?ъ슜
+#include "tetris.h" // 테트리스 관련 헤더 파일 포함
+#include <cstdlib>   // 난수 생성을 위한 헤더 파일 포함
+#include <ctime>     // 시간 관련 함수를 위한 헤더 파일 포함 (난수 시드 설정에 사용)
+#include <fstream>   // 파일 입출력을 위한 헤더 파일 포함 (현재는 사용되지 않음)
+#include <iostream>  // 표준 입출력을 위한 헤더 파일 포함 (현재는 사용되지 않음)
+using namespace std;  // std 네임스페이스 사용
 
-// 釉붾줉??二쇱뼱吏??꾩튂媛 寃뚯엫 蹂대뱶 ?댁뿉???좏슚?쒖? ?뺤씤?섎뒗 ?⑥닔 ?좎뼵
+// 블록의 주어진 위치가 게임 보드 내에서 유효한지 확인하는 함수 선언
 bool is_valid_position(const std::vector<std::vector<int>>& block, int x, int y, const std::vector<std::vector<char>>& board);
 
-// ?꾩옱 ?吏곸씠??釉붾줉??寃뚯엫 蹂대뱶??李⑹??쒗궎???⑥닔 ?좎뼵
+// 현재 움직이는 블록을 게임 보드에 착지시키는 함수 선언
 void land_block(GameState& state);
 
-// 寃뚯엫 蹂대뱶?먯꽌 媛??李??쇱씤???뺤씤?섍퀬 ?쒓굅?섎뒗 ?⑥닔 ?좎뼵
+// 게임 보드에서 가득 찬 라인을 확인하고 제거하는 함수 선언
 void check_lines(GameState& state);
 
-// ?덈줈??釉붾줉???앹꽦?섍퀬 寃뚯엫 ?곹깭瑜?珥덇린?뷀븯???⑥닔 ?좎뼵
+// 새로운 블록을 생성하고 게임 상태를 초기화하는 함수 선언
 void spawn_new_block(GameState& state);
 
-// 寃뚯엫 ?곹깭瑜?珥덇린?뷀븯???⑥닔
+// 게임 상태를 초기화하는 함수
 void init_game(GameState& state) {
-    //srand(888);  // for testing // ?뚯뒪?몄슜 怨좎젙 ?쒕뱶
-    srand(time(NULL)); // ?꾩옱 ?쒓컙???쒕뱶濡??ъ슜?섏뿬 留ㅻ쾲 ?ㅻⅨ ?쒖닔 ?앹꽦
+    //srand(888);  // for testing // 테스트용 고정 시드
+    srand(time(NULL)); // 현재 시간을 시드로 사용하여 매번 다른 난수 생성
 
-    // 寃뚯엫 蹂대뱶 珥덇린?? BOARD_HEIGHT x BOARD_WIDTH ?ш린??2李⑥썝 踰≫꽣瑜?'.'?쇰줈 梨꾩?
+    // 게임 보드 초기화: BOARD_HEIGHT x BOARD_WIDTH 크기의 2차원 벡터를 '.'으로 채움
     state.board = std::vector<std::vector<char>>(BOARD_HEIGHT, std::vector<char>(BOARD_WIDTH, '.'));
 
-    // ?꾩옱 ?吏곸씠??釉붾줉 珥덇린?? 4x4 ?ш린??2李⑥썝 踰≫꽣瑜?0?쇰줈 梨꾩?
+    // 현재 움직이는 블록 초기화: 4x4 크기의 2차원 벡터를 0으로 채움
     state.current_block = std::vector<std::vector<int>>(4, std::vector<int>(4, 0));
 
-    // ?뚰듃由щ???紐⑥뼇 ?뺤쓽 (I-釉붾줉 2媛吏 ?뚯쟾, O-釉붾줉 1媛吏 ?뚯쟾)
+    // 테트리미노 모양 정의 (I-블록 2가지 회전, O-블록 1가지 회전)
     state.tetrominoes = {
         // I-tetromino (2 rotations)
         {
@@ -274,213 +280,228 @@ void init_game(GameState& state) {
         },
     };
 
-    // ?꾩옱 ?뚰듃由щ???醫낅쪟瑜??쒕뜡?섍쾶 ?좏깮
+    // 현재 테트리미노 종류를 랜덤하게 선택
     state.current_tetromino = rand() % state.tetrominoes.size();
-    // ?꾩옱 ?뚰듃由щ????뚯쟾 ?곹깭 珥덇린??    state.current_rotation = 0;
-    // ?꾩옱 釉붾줉??珥덇린 x ?꾩튂 ?ㅼ젙 (蹂대뱶 以묒븰 ?쎄컙 ?쇱そ)
+    // 현재 테트리미노 회전 상태 초기화
+    state.current_rotation = 0;
+    // 현재 블록의 초기 x 위치 설정 (보드 중앙 약간 왼쪽)
     state.block_x = BOARD_WIDTH / 2 - 2;
-    // O-釉붾줉??寃쎌슦 珥덇린 x ?꾩튂 議곗젙 (O-釉붾줉? ??씠 2?대?濡?
-    if (state.current_tetromino == 1) { // O-tetromino 珥덇린 x ?꾩튂 議곗젙
+    // O-블록일 경우 초기 x 위치 조정 (O-블록은 폭이 2이므로)
+    if (state.current_tetromino == 1) { // O-tetromino 초기 x 위치 조정
         state.block_x = BOARD_WIDTH / 2 - 1;
     }
-    // ?꾩옱 釉붾줉??珥덇린 y ?꾩튂 ?ㅼ젙 (蹂대뱶 留???
+    // 현재 블록의 초기 y 위치 설정 (보드 맨 위)
     state.block_y = 0;
-    // 寃뚯엫 ?먯닔 珥덇린??    state.score = 0;
-    // 寃뚯엫 ?덈꺼 珥덇린??    state.level = 1;
-    // ?쒓굅???쇱씤 ??珥덇린??    state.lines_cleared = 0;
-    // 理쒓퀬 ?먯닔 珥덇린??(?꾩옱??濡쒕뱶 湲곕뒫 ?놁쓬)
+    // 게임 점수 초기화
+    state.score = 0;
+    // 게임 레벨 초기화
+    state.level = 1;
+    // 제거된 라인 수 초기화
+    state.lines_cleared = 0;
+    // 최고 점수 초기화 (현재는 로드 기능 없음)
     state.high_score = 0;
-    // 寃뚯엫 ?ㅽ뻾 ?곹깭瑜?true濡??ㅼ젙
+    // 게임 실행 상태를 true로 설정
     state.running = true;
-    // ?ㅼ쓬 ?뚰듃由щ???醫낅쪟瑜??쒕뜡?섍쾶 ?좏깮
+    // 다음 테트리미노 종류를 랜덤하게 선택
     state.next_tetromino = rand() % state.tetrominoes.size();
-    // 釉붾줉 ?먮룞 ?숉븯 ??대㉧ 珥덇린??    state.fall_timer = 0;
-    // 釉붾줉 ?먮룞 ?숉븯 媛꾧꺽 ?ㅼ젙 (?꾨젅???⑥쐞, 珥덇린 ?띾룄)
-    state.fall_interval = 20; // 珥덇린 ?숉븯 ?띾룄 (?꾨젅???⑥쐞)
-    // ?덈줈??釉붾줉???앹꽦?섏뿬 寃뚯엫 ?쒖옉 以鍮?    spawn_new_block(state);
+    // 블록 자동 낙하 타이머 초기화
+    state.fall_timer = 0;
+    // 블록 자동 낙하 간격 설정 (프레임 단위, 초기 속도)
+    state.fall_interval = 20; // 초기 낙하 속도 (프레임 단위)
+    // 새로운 블록을 생성하여 게임 시작 준비
+    spawn_new_block(state);
 }
 
-// ?ъ슜???낅젰 ?≪뀡??泥섎━?섎뒗 ?⑥닔
+// 사용자 입력 액션을 처리하는 함수
 void handle_game_action(GameState& state, int action) {
     switch (action) {
-        case ACTION_QUIT: // 醫낅즺 ?≪뀡
-            state.running = false; // 寃뚯엫 ?ㅽ뻾 ?곹깭瑜?false濡?蹂寃쏀븯??寃뚯엫 猷⑦봽 醫낅즺
+        case ACTION_QUIT: // 종료 액션
+            state.running = false; // 게임 실행 상태를 false로 변경하여 게임 루프 종료
             break;
-        case ACTION_LEFT: // ?쇱そ ?대룞 ?≪뀡
-            move_block(state, -1, 0); // 釉붾줉???쇱そ?쇰줈 1移??대룞 ?쒕룄
+        case ACTION_LEFT: // 왼쪽 이동 액션
+            move_block(state, -1, 0); // 블록을 왼쪽으로 1칸 이동 시도
             break;
-        case ACTION_RIGHT: // ?ㅻⅨ履??대룞 ?≪뀡
-            move_block(state, 1, 0);  // 釉붾줉???ㅻⅨ履쎌쑝濡?1移??대룞 ?쒕룄
+        case ACTION_RIGHT: // 오른쪽 이동 액션
+            move_block(state, 1, 0);  // 블록을 오른쪽으로 1칸 이동 시도
             break;
-        case ACTION_DOWN: // ?꾨옒履??대룞 ?≪뀡 (soft drop)
-            move_block(state, 0, 1);  // 釉붾줉???꾨옒履쎌쑝濡?1移??대룞 ?쒕룄
+        case ACTION_DOWN: // 아래쪽 이동 액션 (soft drop)
+            move_block(state, 0, 1);  // 블록을 아래쪽으로 1칸 이동 시도
             break;
-        // case ACTION_ROTATE: // ?뚯쟾 ?≪뀡 (?꾩옱 誘멸뎄??
+        // case ACTION_ROTATE: // 회전 액션 (현재 미구현)
         //     rotate_block(state);
             break;
-        case ACTION_DROP: // ?섎뱶 ?쒕∼ ?≪뀡
-            drop_block_to_bottom(state); // 釉붾줉??媛?ν븳 媛???꾨옒履쎌쑝濡?利됱떆 ?대룞
+        case ACTION_DROP: // 하드 드롭 액션
+            drop_block_to_bottom(state); // 블록을 가능한 가장 아래쪽으로 즉시 이동
             break;
-        default: // ?뺤쓽?섏? ?딆? ?≪뀡
+        default: // 정의되지 않은 액션
             break;
     }
 }
 
-// 寃뚯엫 ?곹깭瑜??낅뜲?댄듃?섎뒗 ?⑥닔 (?먮룞 ?숉븯 泥섎━)
+// 게임 상태를 업데이트하는 함수 (자동 낙하 처리)
 void update_game(GameState& state) {
-    // fall_timer瑜?利앷??쒖폒 寃쎄낵???꾨젅?꾩쓣 異붿쟻
+    // fall_timer를 증가시켜 경과된 프레임을 추적
     if (++state.fall_timer >= state.fall_interval) {
-        // 釉붾줉???꾨옒濡??대룞?????덈뒗吏 ?쒕룄
+        // 블록을 아래로 이동할 수 있는지 시도
         if (!move_block(state, 0, 1)) {
-            // ?꾨옒濡??대룞?????놁쑝硫??꾩옱 ?꾩튂??釉붾줉??李⑹?
+            // 아래로 이동할 수 없으면 현재 위치에 블록을 착지
             land_block(state);
-            // ?쇱씤???꾩꽦?섏뿀?붿? ?뺤씤?섍퀬 ?쒓굅
+            // 라인이 완성되었는지 확인하고 제거
             check_lines(state);
-            // ?덈줈??釉붾줉 ?앹꽦
+            // 새로운 블록 생성
             spawn_new_block(state);
-            // ?덈줈??釉붾줉 ?앹꽦 ?꾩튂媛 ?좏슚?섏? ?딆쑝硫?寃뚯엫 ?ㅻ쾭
+            // 새로운 블록 생성 위치가 유효하지 않으면 게임 오버
             if (!is_valid_position(state.current_block, state.block_x, state.block_y, state.board)) {
                 state.running = false; // Game Over
             }
         }
-        // ?숉븯 ??대㉧ 珥덇린??        state.fall_timer = 0;
-        // ?덈꺼???곕씪 ?숉븯 ?띾룄 議곗젙 (?덈꺼???щ씪媛덉닔濡??숉븯 媛꾧꺽 媛먯냼)
+        // 낙하 타이머 초기화
+        state.fall_timer = 0;
+        // 레벨에 따라 낙하 속도 조정 (레벨이 올라갈수록 낙하 간격 감소)
         state.fall_interval = 20 - (state.level - 1) * 2;
-        // 理쒖냼 ?숉븯 媛꾧꺽 蹂댁옣
+        // 최소 낙하 간격 보장
         if (state.fall_interval < 1) state.fall_interval = 1;
     }
 }
 
-// 釉붾줉??dx, dy 留뚰겮 ?대룞?쒗궎???⑥닔
+// 블록을 dx, dy 만큼 이동시키는 함수
 bool move_block(GameState& state, int dx, int dy) {
-    // ?대룞???덈줈??x, y 醫뚰몴 怨꾩궛
+    // 이동할 새로운 x, y 좌표 계산
     int new_x = state.block_x + dx;
     int new_y = state.block_y + dy;
-    // ?덈줈???꾩튂媛 ?좏슚?쒖? ?뺤씤
+    // 새로운 위치가 유효한지 확인
     if (is_valid_position(state.current_block, new_x, new_y, state.board)) {
-        // ?좏슚?섎㈃ 釉붾줉??x, y 醫뚰몴 ?낅뜲?댄듃
+        // 유효하면 블록의 x, y 좌표 업데이트
         state.block_x = new_x;
         state.block_y = new_y;
-        return true; // ?대룞 ?깃났
+        return true; // 이동 성공
     }
-    return false; // ?대룞 ?ㅽ뙣 (踰쎌씠???ㅻⅨ 釉붾줉??遺?ろ옒)
+    return false; // 이동 실패 (벽이나 다른 블록에 부딪힘)
 }
 
-// 釉붾줉??媛?ν븳 媛???꾨옒履쎌쑝濡?利됱떆 ?대룞?쒗궎???⑥닔 (?섎뱶 ?쒕∼)
+// 블록을 가능한 가장 아래쪽으로 즉시 이동시키는 함수 (하드 드롭)
 void drop_block_to_bottom(GameState& state) {
-    // ?꾨옒濡??대룞??遺덇??ν븷 ?뚭퉴吏 怨꾩냽 ?대룞 ?쒕룄
+    // 아래로 이동이 불가능할 때까지 계속 이동 시도
     while (move_block(state, 0, 1));
-    // ?꾩옱 ?꾩튂??釉붾줉 李⑹?
+    // 현재 위치에 블록 착지
     land_block(state);
-    // ?쇱씤 泥댄겕 諛??쒓굅
+    // 라인 체크 및 제거
     check_lines(state);
-    // ?덈줈??釉붾줉 ?앹꽦
+    // 새로운 블록 생성
     spawn_new_block(state);
-    // ?덈줈??釉붾줉 ?앹꽦 ?꾩튂媛 ?좏슚?섏? ?딆쑝硫?寃뚯엫 ?ㅻ쾭
+    // 새로운 블록 생성 위치가 유효하지 않으면 게임 오버
     if (!is_valid_position(state.current_block, state.block_x, state.block_y, state.board)) {
         state.running = false; // Game Over
     }
 }
 
-// ?덈줈??釉붾줉???앹꽦?섍퀬 珥덇린 ?꾩튂瑜??ㅼ젙?섎뒗 ?⑥닔
+// 새로운 블록을 생성하고 초기 위치를 설정하는 함수
 void spawn_new_block(GameState& state) {
-//state.tetrominoes[釉붾줉 醫낅쪟 ?몃뜳??[?뚯쟾 ?곹깭 ?몃뜳??[???몃뜳??[???몃뜳??
-//state.tetrominoes[釉붾줉 醫낅쪟 ?몃뜳??[?뚯쟾 ?곹깭 ?몃뜳??[???몃뜳??[???몃뜳??
-//(?닿굅 瑗?湲곗뼲!!!)
-    // ?ㅼ쓬 釉붾줉 醫낅쪟瑜??꾩옱 釉붾줉?쇰줈 ?ㅼ젙
+//state.tetrominoes[블록 종류 인덱스][회전 상태 인덱스][행 인덱스][열 인덱스]
+//state.tetrominoes[블록 종류 인덱스][회전 상태 인덱스][행 인덱스][열 인덱스]
+//(이거 꼭 기억!!!)
+    // 다음 블록 종류를 현재 블록으로 설정
     state.current_tetromino = state.next_tetromino;
-    // ?ㅼ쓬 釉붾줉 醫낅쪟瑜??쒕뜡?섍쾶 ?좏깮
+    // 다음 블록 종류를 랜덤하게 선택
     state.next_tetromino = rand() % state.tetrominoes.size();
-    // ?꾩옱 釉붾줉???뚯쟾 ?곹깭 珥덇린??    state.current_rotation = 0;
-    // ?꾩옱 釉붾줉??紐⑥뼇???ㅼ젙
+    // 현재 블록의 회전 상태 초기화
+    state.current_rotation = 0;
+    // 현재 블록의 모양을 설정
     state.current_block = state.tetrominoes[state.current_tetromino][state.current_rotation];
-    // ?꾩옱 釉붾줉??珥덇린 x ?꾩튂 ?ㅼ젙 (蹂대뱶 以묒븰 ?쎄컙 ?쇱そ)
+    // 현재 블록의 초기 x 위치 설정 (보드 중앙 약간 왼쪽)
     state.block_x = BOARD_WIDTH / 2 - 2;
-    // O-釉붾줉??寃쎌슦 珥덇린 x ?꾩튂 議곗젙
-    if (state.current_tetromino == 1) { // O-tetromino 珥덇린 x ?꾩튂 議곗젙
+    // O-블록일 경우 초기 x 위치 조정
+    if (state.current_tetromino == 1) { // O-tetromino 초기 x 위치 조정
         state.block_x = BOARD_WIDTH / 2 - 1;
     }
-    // ?꾩옱 釉붾줉??珥덇린 y ?꾩튂 ?ㅼ젙 (蹂대뱶 留???
+    // 현재 블록의 초기 y 위치 설정 (보드 맨 위)
     state.block_y = 0;
 
-    // ?덈줈??釉붾줉??珥덇린 ?꾩튂媛 ?좏슚?섏? ?딆쑝硫?寃뚯엫 ?ㅻ쾭
+    // 새로운 블록의 초기 위치가 유효하지 않으면 게임 오버
     if (!is_valid_position(state.current_block, state.block_x, state.block_y, state.board)) {
-        state.running = false; // ?덈줈??釉붾줉 ?앹꽦 ?꾩튂媛 ?좏슚?섏? ?딆쑝硫?寃뚯엫 ?ㅻ쾭
+        state.running = false; // 새로운 블록 생성 위치가 유효하지 않으면 게임 오버
     }
 }
 
-// 釉붾줉??二쇱뼱吏??꾩튂媛 寃뚯엫 蹂대뱶 ?댁뿉???좏슚?쒖? ?뺤씤?섎뒗 ?⑥닔
+// 블록의 주어진 위치가 게임 보드 내에서 유효한지 확인하는 함수
 bool is_valid_position(const std::vector<std::vector<int>>& block, int x, int y, const std::vector<std::vector<char>>& board) {
-    // 釉붾줉??媛?????쒗쉶
+    // 블록의 각 셀을 순회
     for (int i = 0; i < 4; ++i) {
         for (int j = 0; j < 4; ++j) {
-            // 釉붾줉???대떦 ????쒖꽦?붾릺???덈떎硫?            if (block[i][j] == 1) {
-                // 蹂대뱶?먯꽌???ㅼ젣 x, y 醫뚰몴 怨꾩궛
+            // 블록의 해당 셀이 활성화되어 있다면
+            if (block[i][j] == 1) {
+                // 보드에서의 실제 x, y 좌표 계산
                 int board_x = x + j;
                 int board_y = y + i;
 
-                // 蹂대뱶 寃쎄퀎 寃??                if (board_y < 0 || board_y >= BOARD_HEIGHT || board_x < 0 || board_x >= BOARD_WIDTH) {
-                    return false; // 蹂대뱶 寃쎄퀎瑜?踰쀬뼱?섎㈃ ?좏슚?섏? ?딆쓬
+                // 보드 경계 검사
+                if (board_y < 0 || board_y >= BOARD_HEIGHT || board_x < 0 || board_x >= BOARD_WIDTH) {
+                    return false; // 보드 경계를 벗어나면 유효하지 않음
                 }
 
-                // 異⑸룎 寃?? 蹂대뱶???대떦 ?꾩튂???대? ?ㅻⅨ 釉붾줉???덈뒗吏 ?뺤씤
+                // 충돌 검사: 보드의 해당 위치에 이미 다른 블록이 있는지 확인
                 if (board_y >= 0 && board[board_y][board_x] == '#') {
-                    return false; // ?대? ?ㅻⅨ 釉붾줉???덉쑝硫??좏슚?섏? ?딆쓬
+                    return false; // 이미 다른 블록이 있으면 유효하지 않음
                 }
             }
         }
     }
-    return true; // 紐⑤뱺 議곌굔??留뚯”?섎㈃ ?좏슚???꾩튂
+    return true; // 모든 조건이 만족되면 유효한 위치
 }
 
-// ?꾩옱 ?吏곸씠??釉붾줉??寃뚯엫 蹂대뱶??李⑹??쒗궎???⑥닔
+// 현재 움직이는 블록을 게임 보드에 착지시키는 함수
 void land_block(GameState& state) {
-    // ?꾩옱 釉붾줉??媛?????쒗쉶
+    // 현재 블록의 각 셀을 순회
     for (int i = 0; i < 4; ++i) {
         for (int j = 0; j < 4; ++j) {
-            // 釉붾줉???대떦 ????쒖꽦?붾릺???덈떎硫?            if (state.current_block[i][j] == 1) {
-                // 寃뚯엫 蹂대뱶???대떦 ?꾩튂??'#'???쒖떆?섏뿬 釉붾줉??怨좎젙
+            // 블록의 해당 셀이 활성화되어 있다면
+            if (state.current_block[i][j] == 1) {
+                // 게임 보드의 해당 위치에 '#'을 표시하여 블록을 고정
                 state.board[state.block_y + i][state.block_x + j] = '#';
             }
         }
     }
 }
 
-// 寃뚯엫 蹂대뱶?먯꽌 媛??李??쇱씤???뺤씤?섍퀬 ?쒓굅?섎뒗 ?⑥닔
+// 게임 보드에서 가득 찬 라인을 확인하고 제거하는 함수
 void check_lines(GameState& state) {
-    int lines_cleared_in_frame = 0; // ?꾩옱 ?꾨젅?꾩뿉???쒓굅???쇱씤 ??    // 蹂대뱶???꾨옒履쎈????꾩そ?쇰줈 媛??됱쓣 寃??    for (int y = BOARD_HEIGHT - 1; y >= 0; --y) {
-        bool full_line = true; // ?꾩옱 ?됱씠 媛??李쇰뒗吏 ?щ?
+    int lines_cleared_in_frame = 0; // 현재 프레임에서 제거된 라인 수
+    // 보드의 아래쪽부터 위쪽으로 각 행을 검사
+    for (int y = BOARD_HEIGHT - 1; y >= 0; --y) {
+        bool full_line = true; // 현재 행이 가득 찼는지 여부
 
-        // ?꾩옱 ?됱쓽 紐⑤뱺 ?댁쓣 寃??        for (int x = 0; x < BOARD_WIDTH; ++x) {
-            // 鍮?移?'.')???덉쑝硫??꾩옱 ?됱? 媛??李??쇱씤???꾨떂
+        // 현재 행의 모든 열을 검사
+        for (int x = 0; x < BOARD_WIDTH; ++x) {
+            // 빈 칸('.')이 있으면 현재 행은 가득 찬 라인이 아님
             if (state.board[y][x] == '.') {
                 full_line = false;
                 break;
             }
         }
 
-        // ?꾩옱 ?됱씠 媛??李쇰떎硫?        if (full_line) {
-            lines_cleared_in_frame++; // ?쒓굅???쇱씤 ??利앷?
-            // ?꾩옱 ???꾩쓽 紐⑤뱺 ?됱쓣 ??移몄뵫 ?꾨옒濡??대룞
+        // 현재 행이 가득 찼다면
+        if (full_line) {
+            lines_cleared_in_frame++; // 제거된 라인 수 증가
+            // 현재 행 위의 모든 행을 한 칸씩 아래로 이동
             for (int yy = y; yy > 0; --yy) {
                 state.board[yy] = state.board[yy - 1];
             }
-            // 媛?????됱쓣 鍮?移?'.')?쇰줈 梨꾩? (?덈줈??鍮??쇱씤 ?앹꽦)
+            // 가장 윗 행을 빈 칸('.')으로 채움 (새로운 빈 라인 생성)
             state.board[0] = std::vector<char>(BOARD_WIDTH, '.');
-            y++; // ?쇱씤???쒓굅?섏뿀?쇰?濡?媛숈? y ?몃뜳?ㅻ? ?ㅼ떆 寃??(?대룞???쇱씤)
+            y++; // 라인이 제거되었으므로 같은 y 인덱스를 다시 검사 (이동된 라인)
         }
     }
 
-    // ?쒓굅???쇱씤???덈떎硫??먯닔? ?덈꺼 ?낅뜲?댄듃
+    // 제거된 라인이 있다면 점수와 레벨 업데이트
     if (lines_cleared_in_frame > 0) {
-        state.lines_cleared += lines_cleared_in_frame; // 珥??쒓굅???쇱씤 ???낅뜲?댄듃
-        // ?먯닔 怨꾩궛: (?쒓굅???쇱씤 ??^2 * 湲곕낯 ?먯닔 * ?덈꺼
+        state.lines_cleared += lines_cleared_in_frame; // 총 제거된 라인 수 업데이트
+        // 점수 계산: (제거된 라인 수)^2 * 기본 점수 * 레벨
         state.score += (lines_cleared_in_frame * lines_cleared_in_frame * 100 * state.level);
-        // ?덈꺼 ?낅뜲?댄듃: ?쒓굅???쇱씤 ?섍? 10??諛곗닔媛 ???뚮쭏???덈꺼 利앷?
+        // 레벨 업데이트: 제거된 라인 수가 10의 배수가 될 때마다 레벨 증가
         state.level = state.lines_cleared / 10 + 1;
-        // ?덈꺼???곕씪 ?숉븯 ?띾룄 議곗젙
+        // 레벨에 따라 낙하 속도 조정
         state.fall_interval = 20 - (state.level - 1) * 2;
-        if (state.fall_interval < 1) state.fall_interval = 1; // 理쒖냼 ?숉븯 媛꾧꺽 蹂댁옣
+        if (state.fall_interval < 1) state.fall_interval = 1; // 최소 낙하 간격 보장
     }
 }
  */

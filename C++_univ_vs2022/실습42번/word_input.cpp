@@ -1,4 +1,4 @@
-﻿#include "word_input.h"
+#include "word_input.h"
 #include <iostream>
 #include <sstream>
 #include <string>

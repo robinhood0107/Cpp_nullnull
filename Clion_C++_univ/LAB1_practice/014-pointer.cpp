@@ -1,4 +1,4 @@
-﻿#include "pointer.h"
+#include "pointer.h"
 
 void update(int* a, int* b) {
     // implement your code

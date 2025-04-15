@@ -1,4 +1,4 @@
-﻿//
+//
 // Created by pjjpj on 25. 4. 2.
 //
 #include <iostream>
@@ -14,8 +14,8 @@ int main(){
     cin >> arr_num >> quest_num;
 
     vector<vector<int>> arr1(arr_num);
-    //resize濡??덊븯怨?李⑤?濡?諛쏆븘?ㅻ젮硫??대젃寃?cin?쇰줈 鍮좊Ⅴ寃?諛쏆븘?ㅼ옄
-    //?닿굅 洹몃깷 ?몄슦硫????대젃寃?arr1???됲겕湲곕? 吏?뺥븷 ???덉쓬.
+    //resize로 안하고 차례로 받아오려면 이렇게 cin으로 빠르게 받아오자
+    //이거 그냥 외우면 됨 이렇게 arr1의 행크기를 지정할 수 있음.
     for (int i=0; i<arr_num; i++){
         int cnt;
         cin >> cnt;

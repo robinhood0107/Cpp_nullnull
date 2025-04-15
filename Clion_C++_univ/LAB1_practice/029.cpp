@@ -1,4 +1,4 @@
-﻿//
+//
 // Created by pjjpj on 25. 4. 2.
 //
 #include <iostream>
@@ -7,7 +7,7 @@
 #include <vector>
 #include <map>
 #include <cmath>
-//cmath??諛섏삱由??⑥닔 round ?덉쓬
+//cmath에 반올림 함수 round 있음
 
 enum class Genre { Action, Comedy, Drama, Romance, SciFi };
 enum class Rating { One, Two, Three, Four, Five, Unrated };
@@ -65,11 +65,11 @@ Genre toGenre(const std::string& str) {
 
 Rating toRating(const std::string& str) {
 
-    if (str == "?끸쁿?녳쁿??) return Rating::One;
-    if (str == "?끸쁾?녳쁿??) return Rating::Two;
-    if (str == "?끸쁾?끸쁿??) return Rating::Three;
-    if (str == "?끸쁾?끸쁾??) return Rating::Four;
-    if (str == "?끸쁾?끸쁾??) return Rating::Five;
+    if (str == "★☆☆☆☆") return Rating::One;
+    if (str == "★★☆☆☆") return Rating::Two;
+    if (str == "★★★☆☆") return Rating::Three;
+    if (str == "★★★★☆") return Rating::Four;
+    if (str == "★★★★★") return Rating::Five;
     else return Rating::Unrated;
 }
 

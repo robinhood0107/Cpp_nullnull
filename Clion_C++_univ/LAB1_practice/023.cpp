@@ -1,9 +1,9 @@
-﻿//
+//
 // Created by pjjpj on 25. 4. 2.
 //
-//STL??array??array<int,5> arr; ?대윴?앹쑝濡??대떎
-// array<?먮즺?? 媛쒖닔> ?대쫫;
-// 留덉갔媛吏濡?<array> 異붽? ?꾩닔
+//STL의 array는 array<int,5> arr; 이런식으로 쓴다
+// array<자료형, 개수> 이름;
+// 마찬가지로 <array> 추가 필수
 #include <iostream>
 #include <array>
 #include <algorithm>

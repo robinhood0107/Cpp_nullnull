@@ -1,4 +1,4 @@
-﻿//
+//
 // Created by pjjpj on 25. 4. 2.
 //
 #include <iostream>
@@ -65,7 +65,7 @@ std::array<Student, STUDENT_COUNT> init_students() {
 }
 
 //Implement your code
-//?닿굅??sort?⑥닔 ?뺤떎?섍쾶 ?몄썙媛??
+//이거랑 sort함수 확실하게 외워가라
 bool comparemy(const Student& s1,const Student& s2){
       return s1.points < s2.points;
 }
@@ -74,9 +74,9 @@ void my_sort(array<Student, STUDENT_COUNT>& students){
         sort(students.begin(),students.end(),comparemy);
 }
 
-//??bool媛?comparemy??mysort 臾댁“嫄??붽린?대몢湲?!!! 爰얠뇿 諛⑺뼢??諛섎뱶???쒕?濡?
-//bool媛?comparemy??get_lowest_points, get_highest_points ?ш린???곸슜??
-//min_element max_element??留덉갔媛吏濡?bool媛??ъ슜??留덉?留됱뿉 ??갭議??꾩닔)
+//이 bool값 comparemy랑 mysort 무조건 암기해두기!!!! 꺾쇠 방향도 반드시 제대로
+//bool값 comparemy는 get_lowest_points, get_highest_points 여기에 적용됨
+//min_element max_element도 마찬가지로 bool값 사용함(마지막에 역참조 필수)
 const Student& get_last(const std::array<Student, STUDENT_COUNT>& students){
     return students[6];
 }

@@ -1,11 +1,11 @@
-﻿//
+//
 // Created by pjjpj on 25. 4. 1.
 //
-// enum alpa {A,B,C}; ?닿굅???좎뼵? ?대젃寃??쒕떎(?쇱쥌???먮즺?뺤씠??!!)
-// ?닿굅?뺤쓣 ?ъ슜?좊븣??援ъ“泥댁쿂???먮즺?뺤쿂???ъ슜?대쾭由щ㈃ ??alpa a = A; ?대젃寃?
-// ?닿굅??switch臾몄? 嫄????몄썙踰꾨━硫???
+// enum alpa {A,B,C}; 열거형 선언은 이렇게 한다(일종의 자료형이다!!!)
+// 열거형을 사용할때는 구조체처럼 자료형처럼 사용해버리면 됨 alpa a = A; 이렇게
+// 열거형 switch문은 걍 싹 외워버리면 됨
 
-//switch?섏삤硫?臾댁“嫄?break ?앷컖?대씪(default???대떦?놁쓣??
+//switch나오면 무조건 break 생각해라(default는 해당없을때)
 #include <iostream>
 using namespace std;
 
@@ -14,7 +14,7 @@ int main(){
     int n;
     cin >> n;
 
-    //洹몃깷 ?닿굅?뺤? ?대젃寃?媛뺤젣 ?뺣??????媛?? enum class???덈맂??
+    //그냥 열거형은 이렇게 강제 형변환 대입 가능, enum class는 안된다.
     Color color = static_cast<Color> (n);
     switch(color){
     case RED:

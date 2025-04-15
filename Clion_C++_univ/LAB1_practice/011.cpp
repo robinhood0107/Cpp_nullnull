@@ -1,4 +1,4 @@
-﻿//
+//
 // Created by pjjpj on 25. 4. 1.
 //
 /*
@@ -17,7 +17,7 @@ Floating-point number (float): Used for calculating the average gold.
 Boolean condition (bool): Determines whether the player has enough average gold to purchase an item.
 Additionally, since division is involved, type conversion should be considered to ensure accurate floating-point calculations.
 
-?ㅼ뼇???낆텧??manipulators
+다양한 입출력 manipulators
 std::fixed
 std::setprecision
 Constraints
@@ -39,9 +39,9 @@ Input	Output
 
  */
 
-//諛섎뱶??紐낆떖??寃?= static_cast?좊븣 愿꾪샇 瑗??⑤씪
-//iomanip ?먭씀 泥좎옄 源뚮㉨?붾떎 ?ㅼ떆?쒕쾲 瑗??몄슦湲?
-//洹몃━怨?precision 泥좎옄 議곗떖
+//반드시 명심할 것 = static_cast할때 괄호 꼭 써라
+//iomanip 자꾸 철자 까먹는다 다시한번 꼭 외우기
+//그리고 precision 철자 조심
 #include <iostream>
 #include <iomanip>
 using namespace std;

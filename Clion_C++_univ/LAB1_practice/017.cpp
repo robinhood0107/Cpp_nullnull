@@ -1,4 +1,4 @@
-﻿//
+//
 // Created by pjjpj on 25. 4. 2.
 //
 #include <iostream>
@@ -15,8 +15,8 @@ int main(){
     unique_ptr<int> a{new int};
     unique_ptr<int> b{new int};
     cin >> *a >> *b;
-    //get()硫붿냼?쒕줈 諛쏆븘???섍꺼以섏빞 ?쒕떎.
-    //洹몃━怨?蹂?섎옉 ?곌껐???꾩슂???놁씠 ?⑤룆 ?좎뼵 珥덇린???섎㈃ ??
+    //get()메소드로 받아서 넘겨줘야 한다.
+    //그리고 변수랑 연결할 필요도 없이 단독 선언 초기화 하면 됨
     update(a.get(),b.get());
     cout << *a <<" " <<*b;
 }

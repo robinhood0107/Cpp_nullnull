@@ -1,9 +1,9 @@
-﻿
-// ??臾몄젣 fixed??setprecision ?뚭퀬?덈깘 留덈깘?? 諛섎뱶???몄슦怨?媛
-// ?붿쭅??蹂댁옄留덉옄 湲곗뼲 ?덈궓 肄붾뱶 ?몄슦怨?媛??
-// #include <iomanip> ?닿굅 諛섎뱶???몄썙???닿굅 紐⑤Ⅴ怨??덉뿀??
 
-//?닿? ?由?遺遺?: setprecision <- ?곕뒗 踰뺤씠??泥좎옄 ?묐컮濡??몄썙?쇰씪, #include <iomanip> ?닿굅 諛섎뱶???몄썙??
+// 이 문제 fixed랑 setprecision 알고있냐 마냐다. 반드시 외우고 가
+// 솔직히 보자마자 기억 안남 코드 외우고 가라
+// #include <iomanip> 이거 반드시 외워라 이거 모르고 있었음
+
+//내가 틀린 부분 : setprecision <- 쓰는 법이랑 철자 똑바로 외워라라, #include <iomanip> 이거 반드시 외워라
 /**/
 #include <iostream>
 #include <iomanip>

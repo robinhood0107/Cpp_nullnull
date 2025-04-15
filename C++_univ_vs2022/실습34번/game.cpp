@@ -1,4 +1,4 @@
-ï»¿// Implement your code
+// Implement your code
 
 #include "game.h"
 #include <iostream>
@@ -12,17 +12,17 @@ Choice getPlayerChoice() {
 	while (true) {
 		cin >> N;
 
-		if (N == "ë¬µ") {
+		if (N == "¹¬") {
 			return Choice::ROCK;
 		}
-		else if (N == "ì°Œ") {
+		else if (N == "Âî") {
 			return Choice::SCISSORS;
 		}
-		else if (N == "ë¹ ") {
+		else if (N == "ºü") {
 			return Choice::PAPER;
 		}
 		else {
-			cout << "ìž˜ëª»ëœ ìž…ë ¥" << endl;
+			cout << "Àß¸øµÈ ÀÔ·Â" << endl;
 		}
 	}
 }
@@ -54,10 +54,10 @@ int determineWinner(Choice player, Choice computer) {
 	else if (((player == Choice::ROCK) && (computer == Choice::SCISSORS)) ||
 		((player == Choice::SCISSORS) && (computer == Choice::PAPER)) ||
 		((player == Choice::PAPER) && (computer == Choice::ROCK)))
-		//player ìŠ¹ë¦¬
+		//player ½Â¸®
 		return 1;
 	else
-		//computer ìŠ¹ë¦¬
+		//computer ½Â¸®
 		return -1;
 }
 
@@ -66,13 +66,13 @@ void displayChoice(const std::string& who, Choice choice) {
 	switch (choice)
 	{
 	case Choice::ROCK:
-		cout << who << " chose ROCK (ë¬µ)." << "\n";
+		cout << who << " chose ROCK (¹¬)." << "\n";
 		break;
 	case Choice::SCISSORS:
-		cout << who << " chose SCISSORS (ì°Œ)." << "\n";
+		cout << who << " chose SCISSORS (Âî)." << "\n";
 		break;
 	case Choice::PAPER:
-		cout << who << " chose PAPER (ë¹ )." << "\n";
+		cout << who << " chose PAPER (ºü)." << "\n";
 		break;
 	}
 
