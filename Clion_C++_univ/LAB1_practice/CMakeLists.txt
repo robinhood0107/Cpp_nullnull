@@ -3,12 +3,14 @@ project(LAB1_practice)
 
 set(CMAKE_CXX_STANDARD 17)
 
+set(CMAKE_C_FLAGS "-fexec-charset=CP949")
+
 add_executable(LAB1_practice
         013-Arithmetic_Operations.cpp
         012-Grade.cpp
         014-pointer.cpp
         011.cpp
-        cmake-build-debug/015.cpp
+        015.cpp
         018.cpp
         031.cpp
         032.cpp
