@@ -1,0 +1,27 @@
+# ninja log v6
+7	117	7670916686851573	CMakeFiles/myprogram.dir/input.cpp.obj.ddi	18b3a7f4760ba7c0
+3	118	7670916686811535	CMakeFiles/myprogram.dir/main.cpp.obj.ddi	3df53979985f01ac
+10	129	7670916686881539	CMakeFiles/myprogram.dir/bmi.cpp.obj.ddi	90277ce764f41267
+129	154	7670916688291542	CMakeFiles/myprogram.dir/CXX.dd	1eb0f4cd9d23fc42
+129	154	7670916688291542	C:/Users/pjjpj/source/repos/RedBull-Monster-HOT6/Cpp_nullnull/Clion_C++_univ/LAB2_practice/실습41/cmake-build-debug/CMakeFiles/myprogram.dir/CXXModules.json	1eb0f4cd9d23fc42
+129	154	7670916688291542	CMakeFiles/myprogram.dir/main.cpp.obj.modmap	1eb0f4cd9d23fc42
+129	154	7670916688291542	CMakeFiles/myprogram.dir/input.cpp.obj.modmap	1eb0f4cd9d23fc42
+129	154	7670916688291542	CMakeFiles/myprogram.dir/bmi.cpp.obj.modmap	1eb0f4cd9d23fc42
+3	108	7670917020618013	CMakeFiles/myprogram.dir/input.cpp.obj.ddi	18b3a7f4760ba7c0
+108	133	7670917021668018	CMakeFiles/myprogram.dir/CXX.dd	1eb0f4cd9d23fc42
+108	133	7670917021668018	C:/Users/pjjpj/source/repos/RedBull-Monster-HOT6/Cpp_nullnull/Clion_C++_univ/LAB2_practice/실습41/cmake-build-debug/CMakeFiles/myprogram.dir/CXXModules.json	1eb0f4cd9d23fc42
+108	133	7670917021668018	CMakeFiles/myprogram.dir/main.cpp.obj.modmap	1eb0f4cd9d23fc42
+108	133	7670917021668018	CMakeFiles/myprogram.dir/input.cpp.obj.modmap	1eb0f4cd9d23fc42
+108	133	7670917021668018	CMakeFiles/myprogram.dir/bmi.cpp.obj.modmap	1eb0f4cd9d23fc42
+4	104	7670917402857618	CMakeFiles/myprogram.dir/main.cpp.obj.ddi	3df53979985f01ac
+104	126	7670917403857645	CMakeFiles/myprogram.dir/CXX.dd	1eb0f4cd9d23fc42
+104	126	7670917403857645	C:/Users/pjjpj/source/repos/RedBull-Monster-HOT6/Cpp_nullnull/Clion_C++_univ/LAB2_practice/실습41/cmake-build-debug/CMakeFiles/myprogram.dir/CXXModules.json	1eb0f4cd9d23fc42
+104	126	7670917403857645	CMakeFiles/myprogram.dir/main.cpp.obj.modmap	1eb0f4cd9d23fc42
+104	126	7670917403857645	CMakeFiles/myprogram.dir/input.cpp.obj.modmap	1eb0f4cd9d23fc42
+104	126	7670917403857645	CMakeFiles/myprogram.dir/bmi.cpp.obj.modmap	1eb0f4cd9d23fc42
+4	110	7670917611781282	CMakeFiles/myprogram.dir/input.cpp.obj.ddi	18b3a7f4760ba7c0
+110	132	7670917612841285	CMakeFiles/myprogram.dir/CXX.dd	1eb0f4cd9d23fc42
+110	132	7670917612841285	C:/Users/pjjpj/source/repos/RedBull-Monster-HOT6/Cpp_nullnull/Clion_C++_univ/LAB2_practice/실습41/cmake-build-debug/CMakeFiles/myprogram.dir/CXXModules.json	1eb0f4cd9d23fc42
+110	132	7670917612841285	CMakeFiles/myprogram.dir/main.cpp.obj.modmap	1eb0f4cd9d23fc42
+110	132	7670917612841285	CMakeFiles/myprogram.dir/input.cpp.obj.modmap	1eb0f4cd9d23fc42
+110	132	7670917612841285	CMakeFiles/myprogram.dir/bmi.cpp.obj.modmap	1eb0f4cd9d23fc42
