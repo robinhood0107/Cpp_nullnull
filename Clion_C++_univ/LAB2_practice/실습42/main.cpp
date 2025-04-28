@@ -19,10 +19,10 @@ void processInput(map<string, size_t>& words) {
     }
 }
 
-여기에서 암기해야 할 것은 for (auto a : s) {
-    if (!isalnum(a)) continue;
-    tmp += tolower(a); <이거 해더파일 <cctype>
-} 이렇게 소문자로
+// 여기에서 암기해야 할 것은 for (auto a : s) {
+    // if (!isalnum(a)) continue;
+    // tmp += tolower(a); <이거 해더파일 <cctype>
+// } 이렇게 소문자로
 
 string change2low(string& s) {
     string tmp;
