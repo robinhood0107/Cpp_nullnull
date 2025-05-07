@@ -31,6 +31,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "실습51번", "C++_univ_vs2
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "실습61번", "C++_univ_vs2022\실습61번\실습61번.vcxproj", "{71C1698F-2368-4F56-8657-F520C5EB1627}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "실습62번", "C++_univ_vs2022\실습62번\실습62번.vcxproj", "{876FD5A3-72FB-4E87-BB52-D095DFF7F0CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -151,6 +153,14 @@ Global
 		{71C1698F-2368-4F56-8657-F520C5EB1627}.Release|x64.Build.0 = Release|x64
 		{71C1698F-2368-4F56-8657-F520C5EB1627}.Release|x86.ActiveCfg = Release|Win32
 		{71C1698F-2368-4F56-8657-F520C5EB1627}.Release|x86.Build.0 = Release|Win32
+		{876FD5A3-72FB-4E87-BB52-D095DFF7F0CF}.Debug|x64.ActiveCfg = Debug|x64
+		{876FD5A3-72FB-4E87-BB52-D095DFF7F0CF}.Debug|x64.Build.0 = Debug|x64
+		{876FD5A3-72FB-4E87-BB52-D095DFF7F0CF}.Debug|x86.ActiveCfg = Debug|Win32
+		{876FD5A3-72FB-4E87-BB52-D095DFF7F0CF}.Debug|x86.Build.0 = Debug|Win32
+		{876FD5A3-72FB-4E87-BB52-D095DFF7F0CF}.Release|x64.ActiveCfg = Release|x64
+		{876FD5A3-72FB-4E87-BB52-D095DFF7F0CF}.Release|x64.Build.0 = Release|x64
+		{876FD5A3-72FB-4E87-BB52-D095DFF7F0CF}.Release|x86.ActiveCfg = Release|Win32
+		{876FD5A3-72FB-4E87-BB52-D095DFF7F0CF}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
