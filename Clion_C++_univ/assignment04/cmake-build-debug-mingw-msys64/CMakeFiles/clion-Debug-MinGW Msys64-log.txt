@@ -1,0 +1,4 @@
+C:\msys64\mingw64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -S C:\Users\pjjpj\source\repos\RedBull-Monster-HOT6\Cpp_nullnull\Clion_C++_univ\assignment04 -B C:\Users\pjjpj\source\repos\RedBull-Monster-HOT6\Cpp_nullnull\Clion_C++_univ\assignment04\cmake-build-debug-mingw-msys64
+-- Configuring done (0.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: C:/Users/pjjpj/source/repos/RedBull-Monster-HOT6/Cpp_nullnull/Clion_C++_univ/assignment04/cmake-build-debug-mingw-msys64

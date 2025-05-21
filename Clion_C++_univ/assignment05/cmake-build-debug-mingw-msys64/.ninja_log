@@ -1,0 +1,19 @@
+# ninja log v6
+2	111	7682939356552735	build.ninja	7d82107f128a79a2
+5	344	7682938599412100	CMakeFiles/assignment04.dir/main.cpp.obj	6c549e679cc39a30
+13	223	7682938599492106	CMakeFiles/assignment04.dir/ui.cpp.obj	c5789addde7e0651
+10	871	7682938599452111	CMakeFiles/assignment04.dir/tetris.cpp.obj	3dfb3dc7124ee461
+9	145	7682939489887365	CMakeFiles/assignment05.dir/ui.cpp.obj	644b1855674aefe0
+3	233	7682939489827364	CMakeFiles/assignment05.dir/main.cpp.obj	99e646d23cc4d221
+7	596	7682939489867374	CMakeFiles/assignment05.dir/tetris.cpp.obj	60052543dc08b9d5
+596	681	7682939495752468	assignment05.exe	14ef8eab305b99b1
+10	165	7682943682603398	CMakeFiles/assignment05.dir/ui.cpp.obj	644b1855674aefe0
+4	267	7682943682533391	CMakeFiles/assignment05.dir/main.cpp.obj	99e646d23cc4d221
+8	620	7682943682573372	CMakeFiles/assignment05.dir/tetris.cpp.obj	60052543dc08b9d5
+620	714	7682943688693383	assignment05.exe	14ef8eab305b99b1
+4	610	7682945462379296	CMakeFiles/assignment05.dir/tetris.cpp.obj	60052543dc08b9d5
+611	699	7682945468449266	assignment05.exe	14ef8eab305b99b1
+5	159	7682972739343156	CMakeFiles/assignment05.dir/ui.cpp.obj	644b1855674aefe0
+159	272	7682972740893166	assignment05.exe	14ef8eab305b99b1
+4	172	7684124109216653	CMakeFiles/assignment05.dir/ui.cpp.obj	644b1855674aefe0
+172	308	7684124110896654	assignment05.exe	14ef8eab305b99b1

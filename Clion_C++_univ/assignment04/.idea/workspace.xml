@@ -21,7 +21,7 @@
   </component>
   <component name="CMakeRunConfigurationManager">
     <generated>
-      <config projectName="assignment03" targetName="assignment03" />
+      <config projectName="assignment04" targetName="assignment04" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -31,8 +31,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1c80f31-ea56-40ba-a23a-485bd085b36b" name="변경" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/assignment03.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment05/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment05/.idea/assignment05.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment05/.idea/editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment05/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment05/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment05/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment03/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment03/.idea/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment03/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment03/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +65,12 @@
     &quot;accountId&quot;: &quot;c0bdf69f-84c3-47c3-b879-9ffcba5c5491&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/main.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/tetris.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/tetris.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ui.cpp" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectApplicationVersion">
     <option name="ide" value="CLion" />
     <option name="majorVersion" value="2024" />
@@ -75,6 +88,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;CMake 애플리케이션.assignment03.executor&quot;: &quot;Run&quot;,
+    &quot;CMake 애플리케이션.assignment04.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
@@ -85,18 +99,18 @@
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/pjjpj/source/repos/RedBull-Monster-HOT6/Cpp_nullnull/Clion_C++_univ/assignment03&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/pjjpj/source/repos/RedBull-Monster-HOT6/Cpp_nullnull/Clion_C++_univ/assignment04&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;CPPToolchains&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RunManager">
-    <configuration name="assignment03" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="true" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="assignment03" TARGET_NAME="assignment03" CONFIG_NAME="Debug-MinGW (Msys64)" RUN_TARGET_PROJECT_NAME="assignment03" RUN_TARGET_NAME="assignment03">
+    <configuration name="assignment04" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="true" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="assignment04" TARGET_NAME="assignment04" CONFIG_NAME="Debug-MinGW (Msys64)" RUN_TARGET_PROJECT_NAME="assignment04" RUN_TARGET_NAME="assignment04">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -119,9 +133,16 @@
       <workItem from="1744725302233" duration="1000" />
       <workItem from="1745387723640" duration="19000" />
       <workItem from="1745388031778" duration="27000" />
-      <workItem from="1745850120699" duration="4000" />
-      <workItem from="1745850136877" duration="5000" />
-      <workItem from="1745850215269" duration="159000" />
+      <workItem from="1745847656962" duration="196000" />
+      <workItem from="1745848449168" duration="1658000" />
+      <workItem from="1745850125628" duration="10000" />
+      <workItem from="1745850142995" duration="4463000" />
+      <workItem from="1746589878392" duration="39000" />
+      <workItem from="1746590606285" duration="12000" />
+      <workItem from="1746591148065" duration="12000" />
+      <workItem from="1746594069345" duration="2000" />
+      <workItem from="1746708894582" duration="444000" />
+      <workItem from="1747363827021" duration="11000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,150 @@
+과제 004
+Requested files: main.cpp, ui.h, ui.cpp, tetris.h, tetris.cpp (다운로드)
+제출 방식: 개인
+Goal
+In this assignment, you will implement the remaining core gameplay features of the Tetris game using C++17 and the ncurses library. You will extend the existing logic in tetris.cpp to support all seven tetromino shapes and their behaviors. The UI, main loop, and most rendering logic are already implemented.
+
+Your tasks are to:
+
+Support all 7 tetromino shapes: I, O, T, S, Z, J, L
+Implement correct 90-degree clockwise rotation using the UP arrow key
+Clear lines when filled and update the score accordingly
+Ensure gameplay is complete: test that next block preview and game over condition work as expected
+Concept Explanation
+This project simulates Tetris, a block-stacking puzzle game. Players rotate and move tetrominoes as they fall, attempting to form full horizontal lines. Full lines disappear, giving points and increasing level. When new blocks can no longer enter from the top, the game ends.
+
+Project Files
+tetris.cpp – Your implementation goes here
+main.cpp – Provided; handles game loop and timing (do not modify)
+ui.cpp / ui.h – Provided; handles display and input (do not modify)
+tetris.h – Provided; defines game state and function declarations (do not modify)
+Functions to Implement
+init_game(GameState& state): Ensure the definition of all 7 tetromino types and verify that each of their rotation states is defined and loaded correctly into state.tetrominoes.
+rotate_block(GameState& state): Understand how the block rotates and check for valid rotation using is_valid_position(). This uses simple collision logic (no wall kick).
+check_lines(GameState& state): It detects and removes filled rows, updates score, and increases the level every 10 lines. Confirm that it works correctly with all tetromino types.
+spawn_new_block(GameState& state): Already introduced in Assignment 2 for I and O shapes. In this assignment, ensure that all 7 shapes can be spawned randomly.
+drop_block_to_bottom(GameState& state): Already implemented in Assignment 2. You should test that hard drop works with all tetrominoes, especially after rotation.
+Additional Notes on Assignment 2
+If spawn_new_block, move_block, or drop_block_to_bottom were only partially implemented (e.g., for I and O), now you must support all 7 types.
+update_game(GameState& state) should correctly handle block gravity and falling intervals. This logic was introduced earlier but must be validated for full block set.
+Handling Input
+This project uses ncurses for input. Supported keys are:
+
+← / →: Move left or right
+↓: Soft drop (accelerated fall)
+↑: Rotate current block (90° clockwise)
+Spacebar: Hard drop (instantly land at bottom)
+q: Quit the game
+Rotation and Collision Behavior (회전과 충돌 처리)
+When you press the UP arrow key, the block should rotate 90 degrees clockwise. This is handled by the rotate_block() function.
+
+Each tetromino (block shape) can have 1~4 different rotation states. The code below moves to the next rotation state:
+
+
+int next_rotation = (current_rotation + 1) % total_rotations;
+Once the new rotation is selected, the program checks whether the rotated block can actually fit on the board using the is_valid_position() function.
+
+If the rotated block would hit a wall or overlap another block, the rotation is canceled. If it's safe, the block is rotated.
+
+ 
+
+
+
+Note: This implementation does not use "wall kick" (벽치기). That means: if the block can't rotate in place, it won’t try to shift sideways to fit. The rotation just fails silently.
+
+Understanding block_x and block_y (블록 위치 이해하기)
+Each block (tetromino) is stored as a 4×4 grid. It may look like this:
+
+0 1 1 0
+0 1 1 0
+0 0 0 0
+0 0 0 0
+Here, the 1s show the actual shape, and the 0s are just empty space (padding).
+
+To place this 4×4 block on the game board, we use two variables:
+
+block_x: how far across (left/right) the block starts on the board
+block_y: how far down the block starts
+These values point to the top-left corner of the 4×4 block grid.
+Can block_x be negative? Yes. Sometimes, to align the block correctly, block_x might be -1, meaning that part of the 4×4 grid is outside the left side of the board.
+
+That’s okay—as long as the visible part of the block (the 1s) are still inside the board.
+
+The function is_valid_position() checks only the 1s in the shape, so it’s smart enough to ignore the padding (0s). If any 1 would end up outside the board or hit another block, the move is blocked.
+
+Example:
+Suppose block_x = -1, and the shape is:
+
+0 1 1 0
+0 1 1 0
+0 0 0 0
+0 0 0 0
+The first column (with all 0s) is off-screen. But the rest (the 1s) are inside the board, so this is still allowed.
+
+
+
+Tip for Testing Rotation
+Try rotating an I-block in the middle of the screen. Watch what happens near walls. This will help you understand how collision and boundaries are handled.
+
+Line Clearing and Scoring
+Full lines are cleared in check_lines(), and state.score is updated by 100 × level for each line. After 10 lines, the game level increases and fall speed increases.
+
+Example:
+
+
+Game Over Condition
+The function spawn_new_block() will end the game by setting state.running = false if a new block cannot be placed at the spawn location.
+
+Debugging Tips for ncurses Environment
+ncurses disables standard terminal output, so cout may not work as expected.
+Conditional UI debug – You can modify ui_draw() to print debug information on screen only if NDEBUG is defined (using -DNDEBUG at compile time). This keeps normal UI unaffected during release.
+Below is an example modification to ui_draw():
+
+
+    #ifdef NDEBUG
+    mvprintw(offset_y + BOARD_HEIGHT + 2, offset_x, "DEBUG:");
+    mvprintw(offset_y + BOARD_HEIGHT + 3, offset_x, "block_x: %d", state.block_x);
+    mvprintw(offset_y + BOARD_HEIGHT + 4, offset_x, "block_y: %d", state.block_y);
+    mvprintw(offset_y + BOARD_HEIGHT + 5, offset_x, "rotation: %d", state.current_rotation);
+    mvprintw(offset_y + BOARD_HEIGHT + 6, offset_x, "current: %d", state.current_tetromino);
+    #endif
+    
+To enable this mode, compile your code using:
+
+g++ -DNDEBUG -lncurses main.cpp tetris.cpp ui.cpp -o tetris
+Data Structure: Tetromino Representation
+The tetrominoes are stored as a 4D vector:
+
+
+std::vector<std::vector<std::vector<std::vector<int>>>> tetrominoes;
+
+1st dimension: Shape type (I, O, T, S, Z, J, L)
+2nd: Rotation index (0–3)
+3rd/4th: 4×4 grid of 1 (block) or 0 (empty)
+ASCII Visualizations of Each Tetromino
+Below is a visual representation of each tetromino and its rotation states:
+(The dot(.) is shown to help with visualization.)
+
+1. I Tetromino (2 rotations)
+Rotation 0:        Rotation 1:
+
+2. O Tetromino (1 rotation)
+
+3. T Tetromino (4 rotations)
+
+4. S Tetromino (2 rotations)
+
+5. Z Tetromino (2 rotations)
+
+6. J Tetromino (4 rotations)
+
+7. L Tetromino (4 rotations)
+
+Constraints
+Do not modify ui.cpp, ui.h, tetris.h, or main.cpp.
+Use only in-place rotation; no wall-kick behavior is required.
+Scoring is defined as +100 * level per line cleared. This is already implemented in check_lines().
+Level increases every 10 lines cleared. Falling speed accelerates accordingly. This is also implemented in check_lines().
+Game over condition is handled in spawn_new_block() when a new block cannot be placed.
+Submission Files
+tetris.cpp
