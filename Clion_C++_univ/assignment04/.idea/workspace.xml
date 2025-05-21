@@ -31,15 +31,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1c80f31-ea56-40ba-a23a-485bd085b36b" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/assignment03.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../assignment05/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../assignment05/.idea/assignment05.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../assignment05/.idea/editor.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../assignment05/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../assignment05/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../assignment05/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assignment03/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment03/.idea/editor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assignment03/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment03/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++_univ_vs2022/과제6/String.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++_univ_vs2022/과제6/String.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++_univ_vs2022/과제6/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++_univ_vs2022/과제6/과제6.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++_univ_vs2022/과제6/과제6.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++_univ_vs2022/실습42번/실습42번.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++_univ_vs2022/실습42번/실습42번.vcxproj.filters" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++_univ_vs2022/실습51번/실습51번.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++_univ_vs2022/실습51번/실습51번.vcxproj.filters" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Cpp_nullnull.sln" beforeDir="false" afterPath="$PROJECT_DIR$/../../Cpp_nullnull.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,6 +143,7 @@
       <workItem from="1746594069345" duration="2000" />
       <workItem from="1746708894582" duration="444000" />
       <workItem from="1747363827021" duration="11000" />
+      <workItem from="1747830411748" duration="4000" />
     </task>
     <servers />
   </component>
