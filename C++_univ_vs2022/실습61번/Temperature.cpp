@@ -5,26 +5,26 @@
 using namespace std;
 
 // Implement your code
-Temperature::Temperature(double temp, SCALE scale) : temperature{ 0 }, scale{ SCALE::CELSIUS } {
+Temperature::Temperature(double temp, SCALE scale) : temperature{0}, scale{SCALE::CELSIUS} {
     if (scale == SCALE::CELSIUS) {
         temperature = temp;
-        //scale = SCALE::CELSIUS; À§¿¡¼­ ¸â¹öº¯¼öÀÇ ÃÊ±ê°ªÀ» ÁöÁ¤ÇßÀ¸´Ï±î ÇÊ¿ä¾ø´Ù
+        //scale = SCALE::CELSIUS; ìœ„ì—ì„œ ë©¤ë²„ë³€ìˆ˜ì˜ ì´ˆê¹ƒê°’ì„ ì§€ì •í–ˆìœ¼ë‹ˆê¹Œ í•„ìš”ì—†ë‹¤
     }
     else {
         temperature = temp;
         toFahrenheit();
-        this->scale = SCALE::FAHRENHEIT; // ¸í½ÃÀûÀ¸·Î ¸â¹ö º¯¼ö¸¦ °¡¸®Å°´Â °ÍÀÌ ´õ ¸íÈ®ÇÒ ¼ö ÀÖ½À´Ï´Ù.
-        //ÇÔ¼öµÚ¿¡ const´Â ¸â¹öº¯¼ö¸¦ º¯°æÇÏÁö ¾Ê°Ú´Ù´Â °ÍÀÌ´Ù Áï void set(int x) const;¿¡¼­ x¸¸ ¾²°Ú´Ù´Â ¼Ò¸®
+        this->scale = SCALE::FAHRENHEIT; // ëª…ì‹œì ìœ¼ë¡œ ë©¤ë²„ ë³€ìˆ˜ë¥¼ ê°€ë¦¬í‚¤ëŠ” ê²ƒì´ ë” ëª…í™•í•  ìˆ˜ ìˆìŠµë‹ˆë‹¤.
+        //í•¨ìˆ˜ë’¤ì— constëŠ” ë©¤ë²„ë³€ìˆ˜ë¥¼ ë³€ê²½í•˜ì§€ ì•Šê² ë‹¤ëŠ” ê²ƒì´ë‹¤ ì¦‰ void set(int x) const;ì—ì„œ xë§Œ ì“°ê² ë‹¤ëŠ” ì†Œë¦¬
     }
 }
-//»ı¼ºÀÚ´Â Å¸ÀÔÀÌ ¾ø´Ù!!!!!
+//ìƒì„±ìëŠ” íƒ€ì…ì´ ì—†ë‹¤!!!!!
 
 
-Temperature Temperature::add(const Temperature& other) const {
-    //³»°¡ Æ²¸° ºÎºĞ!!! -> Temperature add(const Temperature& other) const{} ¿¡¼­ ¸Ç µÚ const »©¸Ô°í Temperature add(const Temperature& other)¶ó°í¸¸ Àû¾ú´Ù ÀÌ·¯¸é ¾ÈµÊ
-    //¹«Á¶°Ç °´Ã¼¿¡¼­ ¼±¾ğÇÑ°Í°ú ¶È°°ÀÌ Àû¾îÁà¾ß ÇÑ´Ù.
-    //ÀÌ°Ç Temperaturetest.cpp¿¡¼­ t1°´Ã¼¿Í t2°´Ã¼¸¦ ¹Ş¾Æ¼­ t3¿¡ ¹İÈ¯ÇÏ°Ú´Ù´Â ÇÔ¼ö·Î ¹İÈ¯Çü½ÄÀº ´ç¿¬È÷ Temperature
-    //À§¿¡¼­ »ı¼ºÀÚ¸¦ »ı¼ºÇß±â ¶§¹®¿¡ ÇÔ¼ö ³»ºÎ¿¡¼­ Temperature °´Ã¼ ¸¸µé¾î¼­ ¹İÈ¯½ÃÄÑ¹ö¸®¸é µÈ´Ù.
+Temperature Temperature::add(const Temperature& other) const{ 
+    //ë‚´ê°€ í‹€ë¦° ë¶€ë¶„!!! -> Temperature add(const Temperature& other) const{} ì—ì„œ ë§¨ ë’¤ const ë¹¼ë¨¹ê³  Temperature add(const Temperature& other)ë¼ê³ ë§Œ ì ì—ˆë‹¤ ì´ëŸ¬ë©´ ì•ˆë¨
+    //ë¬´ì¡°ê±´ ê°ì²´ì—ì„œ ì„ ì–¸í•œê²ƒê³¼ ë˜‘ê°™ì´ ì ì–´ì¤˜ì•¼ í•œë‹¤.
+    //ì´ê±´ Temperaturetest.cppì—ì„œ t1ê°ì²´ì™€ t2ê°ì²´ë¥¼ ë°›ì•„ì„œ t3ì— ë°˜í™˜í•˜ê² ë‹¤ëŠ” í•¨ìˆ˜ë¡œ ë°˜í™˜í˜•ì‹ì€ ë‹¹ì—°íˆ Temperature
+    //ìœ„ì—ì„œ ìƒì„±ìë¥¼ ìƒì„±í–ˆê¸° ë•Œë¬¸ì— í•¨ìˆ˜ ë‚´ë¶€ì—ì„œ Temperature ê°ì²´ ë§Œë“¤ì–´ì„œ ë°˜í™˜ì‹œì¼œë²„ë¦¬ë©´ ëœë‹¤.
     // Implement your code
     if (scale == other.scale) {
         Temperature test = temperature + other.temperature;
@@ -35,21 +35,21 @@ Temperature Temperature::add(const Temperature& other) const {
         if (scale == SCALE::CELSIUS) {
             Temperature test = temperature + other.toCelsius();
             test.scale = SCALE::CELSIUS;
-            return test; //»õ °´Ã¼¿¡ ±âÁ¸ÀÌ ¼·¾¾¸é ´Ù¸¥°Ç È­¾¾´Ï±î ¼·¾¾·Î ¹Ù²Ù°í ´õÇØÁÖ±â
+            return test; //ìƒˆ ê°ì²´ì— ê¸°ì¡´ì´ ì„­ì”¨ë©´ ë‹¤ë¥¸ê±´ í™”ì”¨ë‹ˆê¹Œ ì„­ì”¨ë¡œ ë°”ê¾¸ê³  ë”í•´ì£¼ê¸°
         }
         else {
             Temperature test = temperature + other.toFahrenheit();
             test.scale = SCALE::FAHRENHEIT;
-            return test; //»õ °´Ã¼¿¡ ±âÁ¸ÀÌ È­¾¾¸é ´Ù¸¥°Ç ¼·¾¾´Ï±î È­¾¾·Î ¹Ù²Ù°í ´õÇØÁÖ±â
+            return test; //ìƒˆ ê°ì²´ì— ê¸°ì¡´ì´ í™”ì”¨ë©´ ë‹¤ë¥¸ê±´ ì„­ì”¨ë‹ˆê¹Œ í™”ì”¨ë¡œ ë°”ê¾¸ê³  ë”í•´ì£¼ê¸°
         }
     }
 }
 
-double Temperature::toCelsius() const { //privateÀÌ¶ó¼­ ¹İµå½Ã Å¬·¡½º¾ÈÀÇ ÇÔ¼ö¿¡¼­¸¸ È£Ãâ!!!!!!!
+double Temperature::toCelsius() const{ //privateì´ë¼ì„œ ë°˜ë“œì‹œ í´ë˜ìŠ¤ì•ˆì˜ í•¨ìˆ˜ì—ì„œë§Œ í˜¸ì¶œ!!!!!!!
     return (temperature - 32) / 1.8;
 }
 
-double Temperature::toFahrenheit() const {//privateÀÌ¶ó¼­ ¹İµå½Ã Å¬·¡½º¾ÈÀÇ ÇÔ¼ö¿¡¼­¸¸ È£Ãâ!!!!!!
+double Temperature::toFahrenheit() const {//privateì´ë¼ì„œ ë°˜ë“œì‹œ í´ë˜ìŠ¤ì•ˆì˜ í•¨ìˆ˜ì—ì„œë§Œ í˜¸ì¶œ!!!!!!
     return (temperature * (1.8)) + 32;
 }
 
@@ -63,101 +63,12 @@ std::string Temperature::print() const {
         ss << "C" << std::endl;
     }
     return ss.str();
-    //ÀÌ·±½ÄÀ¸·Î 
+    //ì´ëŸ°ì‹ìœ¼ë¡œ 
     /*
     stringstream ss;
     ss << ...
 
     ss.str();
-    ÀÌ·±½ÄÀ¸·Î Ãâ·ÂÇÏ´Â°Ô ±âº»ÀÌ´Ù ÀÌ°Ç ±â¾ïÇÏÀÚ.
+    ì´ëŸ°ì‹ìœ¼ë¡œ ì¶œë ¥í•˜ëŠ”ê²Œ ê¸°ë³¸ì´ë‹¤ ì´ê±´ ê¸°ì–µí•˜ì.
     */
 }
-
-
-/*
-## ÄÚµù ¿À´ä³ëÆ®
-
-**1. `Temperature::add` ÇÔ¼ö Á¤ÀÇ ½Ã `const` Å°¿öµå ´©¶ô**
-
-* **¹ß»ı À§Ä¡:** `Temperature.cpp` ÆÄÀÏ ³» `Temperature Temperature::add(const Temperature& other)` ÇÔ¼ö Á¤ÀÇ ºÎºĞ
-* **½Ç¼ö ³»¿ë:** Å¬·¡½º ¼±¾ğ (`Temperature.h`)¿¡¼­ `Temperature add(const Temperature& other) const;`¿Í °°ÀÌ `const` Å°¿öµå¸¦ »ç¿ëÇÏ¿© ¸â¹ö ÇÔ¼ö°¡ °´Ã¼ÀÇ »óÅÂ¸¦ º¯°æÇÏÁö ¾ÊÀ½À» ¸í½ÃÇßÀ¸³ª, ½ÇÁ¦ ÇÔ¼ö¸¦ Á¤ÀÇÇÏ´Â `Temperature.cpp` ÆÄÀÏ¿¡¼­ `const` Å°¿öµå¸¦ ´©¶ôÇÔ.
-* **¿À´ä³ëÆ®:** Å¬·¡½º ¼±¾ğ ½Ã `const`·Î ¼±¾ğµÈ ¸â¹ö ÇÔ¼ö´Â Á¤ÀÇ ½Ã¿¡µµ **¹İµå½Ã** `const` Å°¿öµå¸¦ Æ÷ÇÔÇØ¾ß ÇÕ´Ï´Ù. ÀÌ´Â ÇÔ¼ö°¡ °´Ã¼ÀÇ ¸â¹ö º¯¼ö¸¦ ¼öÁ¤ÇÏÁö ¾Ê°Ú´Ù´Â ¾à¼ÓÀÌ¸ç, ÄÄÆÄÀÏ·¯°¡ ÀÌ¸¦ È®ÀÎÇÕ´Ï´Ù.
-
-    **¼öÁ¤ Àü:**
-    ```cpp
-    // Temperature Temperature::add(const Temperature& other) { ... }
-    ```
-
-    **¼öÁ¤ ÈÄ:**
-    ```cpp
-    // Temperature Temperature::add(const Temperature& other) const { ... }
-    ```
-*/
-
-
-
-
-
-/*
-**2. `Temperature::print` ÇÔ¼ö¿¡¼­ ¹İÈ¯ °ª ´©¶ô**
-
-* **¹ß»ı À§Ä¡:** `Temperature.cpp` ÆÄÀÏ ³» `std::string Temperature::print() const` ÇÔ¼ö Á¤ÀÇ ºÎºĞ
-* **½Ç¼ö ³»¿ë:** ÇÔ¼ö°¡ `std::string` Å¸ÀÔÀÇ °ªÀ» ¹İÈ¯ÇÏµµ·Ï ¼±¾ğµÇ¾úÀ¸³ª, `stringstream` °´Ã¼¿¡ °á°ú¸¦ ÀúÀåÇÑ ÈÄ `ss.str();`À» È£Ãâ¸¸ ÇÏ°í ½ÇÁ¦ °ªÀ» `return` ÇÏÁö ¾ÊÀ½.
-* **¿À´ä³ëÆ®:** °ªÀ» ¹İÈ¯ÇÏµµ·Ï Á¤ÀÇµÈ ÇÔ¼ö´Â **¹İµå½Ã** `return` ¹®À» »ç¿ëÇÏ¿© ÇØ´ç Å¸ÀÔÀÇ °ªÀ» ¹İÈ¯ÇØ¾ß ÇÕ´Ï´Ù. `stringstream::str()`Àº `stringstream` °´Ã¼¿¡ ´ã±ä ¹®ÀÚ¿­À» º¹»çÇÏ¿© ¹İÈ¯ÇÏ¹Ç·Î, ÀÌ °ªÀ» `return` ÇØ¾ß ÇÕ´Ï´Ù.
-
-    **¼öÁ¤ Àü:**
-    ```cpp
-    // std::string Temperature::print() const {
-    //     std::stringstream ss;
-    //     ss << ~~~~~
-    //     ss.str(); // ¹İÈ¯ÇÏÁö ¾Ê°í ¹ö·ÁÁü
-    // }
-```
-
-** ¼öÁ¤ ÈÄ : **
-```cpp
-// std::string Temperature::print() const {
-//     std::stringstream ss;
-//     ss << ~~~~~;
-//     return ss.str(); // »ı¼ºµÈ ¹®ÀÚ¿­À» ¹İÈ¯
-// }
-```
-*/
-
-
-
-
-
-/*
-** 3. »ı¼ºÀÚ ³» ºÒÇÊ¿äÇÑ `scale` ¸â¹ö º¯¼ö ÀçÇÒ´ç * *
-
-***¹ß»ı À§Ä¡ : **`Temperature.cpp` ÆÄÀÏ ³» `Temperature::Temperature(double temp, SCALE scale)` »ı¼ºÀÚ Á¤ÀÇ ºÎºĞ
-* **½Ç¼ö ³»¿ë : **»ı¼ºÀÚÀÇ ÃÊ±âÈ­ ¸®½ºÆ®¿¡¼­ ÀÌ¹Ì `scale` ¸â¹ö º¯¼ö¸¦ ÃÊ±âÈ­ÇßÀ½¿¡µµ ºÒ±¸ÇÏ°í, `if` Á¶°Ç¹® ³»ºÎ¿¡¼­ ´Ù½Ã `scale`¿¡ °ªÀ» ÇÒ´çÇÔ.ÀÌ´Â ºÒÇÊ¿äÇÑ µ¿ÀÛÀÌ¸ç, ÄÄÆÄÀÏ·¯ °æ°í¸¦ ¹ß»ı½ÃÅ´.
-*** ¿À´ä³ëÆ®:**»ı¼ºÀÚÀÇ ÃÊ±âÈ­ ¸®½ºÆ®¿¡¼­ ¸â¹ö º¯¼ö¸¦ ÃÊ±âÈ­ÇÏ¸é, »ı¼ºÀÚ º»Ã¼¿¡¼­´Â ÇÊ¿äÇÑ °æ¿ì¿¡¸¸ °ªÀ» º¯°æÇØ¾ß ÇÕ´Ï´Ù.ÃÊ±âÈ­ ¸®½ºÆ®¿¡¼­ ÀÌ¹Ì °ªÀ» ¼³Á¤Çß´Ù¸é, Á¶°Ç¿¡ µû¶ó ´Ù¸¥ °ªÀ» ÇÒ´çÇÒ ¶§¸¸ ¸í½ÃÀûÀ¸·Î ¸â¹ö º¯¼ö¿¡ Á¢±ÙÇÏ¿© °ªÀ» º¯°æÇØ¾ß ÇÕ´Ï´Ù.
-
-** ¼öÁ¤ Àü : **
-```cpp
-// Temperature::Temperature(double temp, SCALE scale) : temperature(0), scale(SCALE::CELSIUS) {
-//     if (scale == SCALE::CELSIUS) {
-//         temperature = temp;
-//         scale = SCALE::CELSIUS; // ºÒÇÊ¿äÇÑ ÀçÇÒ´ç
-//     } else {
-//         temperature = temp;
-//         toFahrenheit();
-//         scale = SCALE::FAHRENHEIT; // ºÒÇÊ¿äÇÑ ÀçÇÒ´ç
-//     }
-// }
-```
-
-** ¼öÁ¤ ÈÄ : **
-```cpp
-// Temperature::Temperature(double temp, SCALE scale) : temperature(temp) {
-//     if (scale == SCALE::CELSIUS) {
-//         this->scale = SCALE::CELSIUS; // ÃÊ±âÈ­ ¸®½ºÆ®¿¡¼­ ±âº»°ªÀÌ ¼³Á¤µÇ¾úÀ¸¹Ç·Î ÇÊ¿ä ¾øÀ» ¼öµµ ÀÖÀ½
-//     } else {
-//         toFahrenheit();
-//         this->scale = SCALE::FAHRENHEIT;
-//     }
-// }
-```
-*/

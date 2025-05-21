@@ -109,7 +109,13 @@ Cell::Cell() : type_{CellType::STRING}, stringVal_{""}, intVal_{0}, doubleVal_{0
         }
         */
     }
-    std::string Cell::toString() const{
-        std::stringstream ss(stringVal_);
+    
+    //내가 이 toString을 구현을 못했음 이거 제대로 공부해놓아라
+    std::string Cell::toString() const {
+    	if (type_ == CellType::STRING) return stringVal_;
+    	if (type_ == CellType::INT) return std::to_string(intVal_);
+    
+        std::stringstream ss;
+        ss << std::fixed << std::setprecision(1) << doubleVal_;
         return ss.str();
     }

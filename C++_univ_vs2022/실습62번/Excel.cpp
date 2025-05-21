@@ -25,20 +25,18 @@ double Excel::average(int fromRow, int fromCol, int toRow, int toCol) const{
     return sum / cells.size();
 }
 
-std::string Excel::display() const{
-    std::stringstream ss;
-    for(auto& lt : data_){
-        for(auto& it : lt){
-            if(it.isString()){
-                ss << it.toString() << "\t";
-            }
-            else{
-                ss << std::fixed << std::setprecision(1) << it.getNumericValue() << "\t";
-            }
-        }
-        ss << "\n";
+//내가 이걸 못했음, 이렇게 소수점표현방식의 분리는 toString에서 전부 처리하고 여기선 stringstream으로 간단하게 처리하는 것.
+std::string Excel::display() const {
+  std::stringstream ss;
+
+  for (auto li : data_) {
+    for (auto elem : li) {
+      ss << elem.toString() << ' ';
     }
-    return ss.str();
+    ss << '\n';
+  }
+
+  return ss.str();
 }
     
     

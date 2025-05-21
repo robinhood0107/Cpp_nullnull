@@ -128,6 +128,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="LCD_Monitor.h" />
+    <ClInclude Include="LED_Monitor.h" />
+    <ClInclude Include="Monitor.h" />
+    <ClInclude Include="OutputDevice.h" />
+    <ClInclude Include="Printer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DeviceTest.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
