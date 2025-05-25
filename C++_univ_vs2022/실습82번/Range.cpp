@@ -19,18 +19,11 @@ Range::Range(long long start, long long stop, long long step): start_{start},sto
 
 
 
-Range::Iterator begin() const {
-    start_{start};
-    stop_{stop};
+Range::Iterator Range::begin() const {
+    return Iterator(start_, step_, stop_);
+    //이런 방식으로 이터레이터 객체에 start_ step_ stop_ 값을 넣어주는 거임!!!!
 }
-Range::Iterator end() const {
-    start_{start};
-    stop_{stop};
+
+Range::Iterator Range::end() const {
+    return Iterator(stop_, step_, stop_);
 }
-// step == 0: Invalid step size, cannot proceed.
-
-// start == stop: The range contains no elements.
-
-// step > 0 and start > stop: Cannot reach stop from start in the positive direction.
-
-// step < 0 and start < stop: Cannot reach stop from start in the negative direction.
