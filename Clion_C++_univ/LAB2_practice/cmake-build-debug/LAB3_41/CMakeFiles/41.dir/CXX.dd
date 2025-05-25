@@ -1,0 +1,7 @@
+ninja_dyndep_version = 1.0
+build LAB3_41/CMakeFiles/41.dir/main.cpp.obj: dyndep
+
+build LAB3_41/CMakeFiles/41.dir/input.cpp.obj: dyndep
+
+build LAB3_41/CMakeFiles/41.dir/bmi.cpp.obj: dyndep
+

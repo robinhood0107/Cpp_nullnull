@@ -4,6 +4,7 @@
 #include <algorithm>
 #include <numeric>
 #include <vector>
+#include <sstream> // stringstream 사용을 위해 추가
 
 
 // Implement your code
@@ -40,15 +41,21 @@ std::string Excel::display() const {
 }
     
     
-std::vector<Cell> Excel::getCellsInRange(int fromRow, int fromCol, int toRow, int toCol) const{
+std::vector<Cell> Excel::getCellsInRange(int fromRow, int fromCol, int toRow, int toCol) const {
     //가공하기 쉽게 2차원을 1차원 배열로 바꿔주는 함수라고 생각하면 된다.
     std::vector<Cell> ret;
-    for(int i=fromRow-1; i<toRow;i++){
-        for(int j=fromCol-1; j<toCol;j++){
+    // 인덱스 범위 체크
+    size_t rowsize = data_.size();
+    size_t colsize = rowsize > 0 ? data_[0].size() : 0;
+    if (fromRow < 1 || fromCol < 1 || toRow > static_cast<int>(rowsize) || toCol > static_cast<int>(colsize))
+        return ret;
+    for (int i = fromRow - 1; i < toRow; i++) {
+        for (int j = fromCol - 1; j < toCol; j++) {
             ret.push_back(data_[i][j]);
         }
     }
     return ret;
+}
     /*
     //이건 2차원을 2차원으로(내가 처음 구현한것... 반환값 안봄....)
     rowsize=data_[0].size();
@@ -61,7 +68,7 @@ std::vector<Cell> Excel::getCellsInRange(int fromRow, int fromCol, int toRow, in
     }
     return vec;
     */
-}
+
 bool Excel::hasStringInRange(int fromRow, int fromCol, int toRow, int toCol) const{
     auto cells = getCellsInRange(fromRow,fromCol,toRow,toCol);
         
@@ -69,8 +76,15 @@ bool Excel::hasStringInRange(int fromRow, int fromCol, int toRow, int toCol) con
         return cell.isString();
     });
 }
-bool Excel::isValidRange(int fromRow, int fromCol, int toRow, int toCol) const{
-    int rowsize=data_[0].size();
-    int colsize=data_.size();
-    return (fromRow > 1 && toRow <= rowsize+1) && (fromCol > 1 && toCol <= colsize+1);
+//bool Excel::isValidRange(int fromRow, int fromCol, int toRow, int toCol) const{
+//    int rowsize= data_.size();
+//    int colsize= data_[0].size();
+//    return (fromRow > 1 && toRow <= rowsize+1) && (fromCol > 1 && toCol <= colsize+1);
+//}
+bool Excel::isValidRange(int fromRow, int fromCol, int toRow, int toCol) const {
+    if (data_.empty() || data_[0].empty()) return false;
+    int rowsize = data_.size(); //원래 정석대로 하면 static_cast<int>(data_.size())으로 들어가야 함.
+    int colsize = data_[0].size(); // 위와 마찬가지다.
+    return (fromRow >= 1 && toRow <= rowsize && fromRow <= toRow) &&
+        (fromCol >= 1 && toCol <= colsize && fromCol <= toCol);
 }

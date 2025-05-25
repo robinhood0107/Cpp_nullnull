@@ -1,7 +1,0 @@
-ninja_dyndep_version = 1.0
-build CMakeFiles/myprogram.dir/main.cpp.obj: dyndep
-
-build CMakeFiles/myprogram.dir/input.cpp.obj: dyndep
-
-build CMakeFiles/myprogram.dir/bmi.cpp.obj: dyndep
-

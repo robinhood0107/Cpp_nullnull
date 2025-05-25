@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="BackendCodeEditorMiscSettings">
-    <option name="/Default/Environment/Hierarchy/GeneratedFilesCacheKey/Timestamp/@EntryValue" value="5" type="long" />
+    <option name="/Default/Environment/Hierarchy/GeneratedFilesCacheKey/Timestamp/@EntryValue" value="6" type="long" />
     <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
     <option name="/Default/Housekeeping/GlobalSettingsUpgraded/IsUpgraded/@EntryValue" value="true" type="bool" />
     <option name="/Default/Housekeeping/OptionsDialog/SelectedPageId/@EntryValue" value="CppFormatterOtherPage" type="string" />
@@ -31,15 +31,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1c80f31-ea56-40ba-a23a-485bd085b36b" name="변경" comment="">
-      <change beforePath="$PROJECT_DIR$/../../C++_univ_vs2022/과제6/String.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C++_univ_vs2022/과제6/String.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C++_univ_vs2022/과제6/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C++_univ_vs2022/과제6/과제6.vcxproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C++_univ_vs2022/과제6/과제6.vcxproj.filters" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C++_univ_vs2022/실습42번/실습42번.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++_univ_vs2022/실습42번/실습42번.vcxproj.filters" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C++_univ_vs2022/실습51번/실습51번.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++_univ_vs2022/실습51번/실습51번.vcxproj.filters" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LAB3_practice/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LAB3_practice/.idea/LAB3_practice.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LAB3_practice/.idea/editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LAB3_practice/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LAB3_practice/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LAB3_practice/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LAB3_practice/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LAB3_practice/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++_univ_vs2022/과제6(실습83번)/String.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++_univ_vs2022/과제6(실습83번)/String.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Cpp_nullnull.sln" beforeDir="false" afterPath="$PROJECT_DIR$/../../Cpp_nullnull.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment07/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment07/.idea/editor.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,6 +146,8 @@
       <workItem from="1746708894582" duration="444000" />
       <workItem from="1747363827021" duration="11000" />
       <workItem from="1747830411748" duration="4000" />
+      <workItem from="1748195529776" duration="2000" />
+      <workItem from="1748195534329" duration="1000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,375 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.31"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "LAB3_61",
+					"jsonFile" : "directory-LAB3_61-Debug-21a42ea569211c3cb378.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.31"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "LAB3_61",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "LAB3_62",
+					"jsonFile" : "directory-LAB3_62-Debug-de3c061fcfb274a6e190.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.31"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "LAB3_62",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "LAB3_63",
+					"jsonFile" : "directory-LAB3_63-Debug-9799913ec0d97f8e7689.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.31"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "LAB3_63",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "LAB3_64",
+					"jsonFile" : "directory-LAB3_64-Debug-7e63bc1abbee1711edf4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.31"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "LAB3_64",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "LAB3_71",
+					"jsonFile" : "directory-LAB3_71-Debug-e605bc093b1ddd4ec5cc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.31"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "LAB3_71",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "LAB3_72",
+					"jsonFile" : "directory-LAB3_72-Debug-52525eb187cd95d0684c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.31"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 6,
+					"source" : "LAB3_72",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "LAB3_81",
+					"jsonFile" : "directory-LAB3_81-Debug-d2ceec6211bcfd2709cf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.31"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 7,
+					"source" : "LAB3_81",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "LAB3_82",
+					"jsonFile" : "directory-LAB3_82-Debug-cecaa32aac618527a71d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.31"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 8,
+					"source" : "LAB3_82",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "assignment06_LAB3_83",
+					"jsonFile" : "directory-assignment06_LAB3_83-Debug-d1a7d9c38392114b5414.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.31"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 9,
+					"source" : "assignment06_LAB3_83",
+					"targetIndexes" : 
+					[
+						8
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "LAB3_practice"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "61",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "62",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "63",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "64",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "71",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "72",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "81",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "82",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "assignment06",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "LAB3_61::@c07c142907e5557f0888",
+					"jsonFile" : "target-LAB3_61-Debug-ca8820408d2a8fbda409.json",
+					"name" : "LAB3_61",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "LAB3_62::@c6f9a227e99838ef953c",
+					"jsonFile" : "target-LAB3_62-Debug-a4f6e5336b2208031090.json",
+					"name" : "LAB3_62",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "LAB3_63::@0a2b812980b565a6c3a1",
+					"jsonFile" : "target-LAB3_63-Debug-803dfe4eb02a7954693e.json",
+					"name" : "LAB3_63",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "LAB3_64::@820bb40e438eafc8b336",
+					"jsonFile" : "target-LAB3_64-Debug-7b66a2847c4b5d432a05.json",
+					"name" : "LAB3_64",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "LAB3_71::@33a0a2629099e17f6fad",
+					"jsonFile" : "target-LAB3_71-Debug-98aeaa758c50feba4673.json",
+					"name" : "LAB3_71",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "LAB3_72::@588118ba623e4f240c54",
+					"jsonFile" : "target-LAB3_72-Debug-862a92ec40313771871a.json",
+					"name" : "LAB3_72",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "LAB3_81::@bad466923fbc30bcbcc4",
+					"jsonFile" : "target-LAB3_81-Debug-06a7a2178839717a7e18.json",
+					"name" : "LAB3_81",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "LAB3_82::@8afaabddb2301097b1db",
+					"jsonFile" : "target-LAB3_82-Debug-826492a04c56a9d0cf66.json",
+					"name" : "LAB3_82",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "assignment06_LAB3_83::@ea154db2c85accb78855",
+					"jsonFile" : "target-assignment06_LAB3_83-Debug-0e6d4b0732b4531f37dc.json",
+					"name" : "assignment06_LAB3_83",
+					"projectIndex" : 9
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/pjjpj/source/repos/RedBull-Monster-HOT6/Cpp_nullnull/Clion_C++_univ/LAB3_practice/cmake-build-debug",
+		"source" : "C:/Users/pjjpj/source/repos/RedBull-Monster-HOT6/Cpp_nullnull/Clion_C++_univ/LAB3_practice"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

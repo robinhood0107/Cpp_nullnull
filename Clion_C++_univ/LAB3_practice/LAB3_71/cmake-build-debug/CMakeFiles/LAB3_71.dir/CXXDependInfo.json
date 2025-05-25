@@ -1,0 +1,30 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "GNU",
+	"compiler-simulate-id" : "",
+	"config" : "Debug",
+	"cxx-modules" : {},
+	"database-info" : null,
+	"dir-cur-bld" : "C:/Users/pjjpj/source/repos/RedBull-Monster-HOT6/Cpp_nullnull/Clion_C++_univ/LAB3_practice/\uc2e4\uc2b571\ubc88/cmake-build-debug",
+	"dir-cur-src" : "C:/Users/pjjpj/source/repos/RedBull-Monster-HOT6/Cpp_nullnull/Clion_C++_univ/LAB3_practice/\uc2e4\uc2b571\ubc88",
+	"dir-top-bld" : "C:/Users/pjjpj/source/repos/RedBull-Monster-HOT6/Cpp_nullnull/Clion_C++_univ/LAB3_practice/\uc2e4\uc2b571\ubc88/cmake-build-debug",
+	"dir-top-src" : "C:/Users/pjjpj/source/repos/RedBull-Monster-HOT6/Cpp_nullnull/Clion_C++_univ/LAB3_practice/\uc2e4\uc2b571\ubc88",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : 
+	[
+		"C:\\Users\\pjjpj\\source\\repos\\RedBull-Monster-HOT6\\Cpp_nullnull\\Clion_C++_univ\\LAB3_practice\\\uc2e4\uc2b571\ubc88\\."
+	],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "C:/Users/pjjpj/source/repos/RedBull-Monster-HOT6/Cpp_nullnull/Clion_C++_univ/LAB3_practice/\uc2e4\uc2b571\ubc88/cmake-build-debug/CMakeFiles/LAB3_71.dir",
+	"sources" : 
+	{
+		"CMakeFiles/LAB3_71.dir/main.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/pjjpj/source/repos/RedBull-Monster-HOT6/Cpp_nullnull/Clion_C++_univ/LAB3_practice/\uc2e4\uc2b571\ubc88/main.cpp"
+		}
+	}
+}

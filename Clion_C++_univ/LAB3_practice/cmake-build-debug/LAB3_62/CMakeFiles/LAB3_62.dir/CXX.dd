@@ -1,0 +1,7 @@
+ninja_dyndep_version = 1.0
+build LAB3_62/CMakeFiles/LAB3_62.dir/test_Excel.cpp.obj: dyndep
+
+build LAB3_62/CMakeFiles/LAB3_62.dir/Excel.cpp.obj: dyndep
+
+build LAB3_62/CMakeFiles/LAB3_62.dir/Cell.cpp.obj: dyndep
+

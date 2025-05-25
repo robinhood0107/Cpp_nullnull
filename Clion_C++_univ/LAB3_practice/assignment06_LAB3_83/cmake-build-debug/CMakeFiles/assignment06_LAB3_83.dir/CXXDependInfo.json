@@ -1,0 +1,35 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "GNU",
+	"compiler-simulate-id" : "",
+	"config" : "Debug",
+	"cxx-modules" : {},
+	"database-info" : null,
+	"dir-cur-bld" : "C:/Users/pjjpj/source/repos/RedBull-Monster-HOT6/Cpp_nullnull/Clion_C++_univ/LAB3_practice/assignment06_LAB3_83/cmake-build-debug",
+	"dir-cur-src" : "C:/Users/pjjpj/source/repos/RedBull-Monster-HOT6/Cpp_nullnull/Clion_C++_univ/LAB3_practice/assignment06_LAB3_83",
+	"dir-top-bld" : "C:/Users/pjjpj/source/repos/RedBull-Monster-HOT6/Cpp_nullnull/Clion_C++_univ/LAB3_practice/assignment06_LAB3_83/cmake-build-debug",
+	"dir-top-src" : "C:/Users/pjjpj/source/repos/RedBull-Monster-HOT6/Cpp_nullnull/Clion_C++_univ/LAB3_practice/assignment06_LAB3_83",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : 
+	[
+		"C:\\Users\\pjjpj\\source\\repos\\RedBull-Monster-HOT6\\Cpp_nullnull\\Clion_C++_univ\\LAB3_practice\\assignment06_LAB3_83\\."
+	],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "C:/Users/pjjpj/source/repos/RedBull-Monster-HOT6/Cpp_nullnull/Clion_C++_univ/LAB3_practice/assignment06_LAB3_83/cmake-build-debug/CMakeFiles/assignment06_LAB3_83.dir",
+	"sources" : 
+	{
+		"CMakeFiles/assignment06_LAB3_83.dir/String.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/pjjpj/source/repos/RedBull-Monster-HOT6/Cpp_nullnull/Clion_C++_univ/LAB3_practice/assignment06_LAB3_83/String.cpp"
+		},
+		"CMakeFiles/assignment06_LAB3_83.dir/main.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/pjjpj/source/repos/RedBull-Monster-HOT6/Cpp_nullnull/Clion_C++_univ/LAB3_practice/assignment06_LAB3_83/main.cpp"
+		}
+	}
+}

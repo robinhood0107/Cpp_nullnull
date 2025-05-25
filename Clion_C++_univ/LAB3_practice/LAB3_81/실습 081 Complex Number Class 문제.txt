@@ -1,0 +1,95 @@
+실습 081 Complex Number Class
+Requested files: main.cpp, Complex.hpp, Complex.cpp (다운로드)
+제출 방식: 개인
+Goal
+This programming exercise aims to help students understand and implement operator overloading in C++ using a Complex class that models complex numbers. Students will practice overloading the following operators:
+
+<< – Output to stream (e.g., std::cout)
++ – Addition of complex numbers
+- – Subtraction of complex numbers
+< – Comparison based on magnitude
+Through this assignment, students will become proficient in writing both member and friend function overloads and understanding when to use each approach effectively.
+
+Concept Explanation
+In C++, operator overloading enables user-defined types to behave like built-in types when used with standard operators. This enhances code readability and reusability.
+
+For example, instead of writing:
+
+Complex result = addComplex(c1, c2);
+you can write:
+
+Complex result = c1 + c2;
+1. Insertion Operator <<
+The insertion operator << is used for output streams like std::cout. Because the left-hand operand (ostream) is not a user-defined type, this operator must be implemented as a non-member function. To allow this function to access the private members of the Complex class, it should be declared as a friend inside the class.
+
+2. Arithmetic Operators + and -
+The addition and subtraction operators should be implemented as member functions. This allows syntax like c1 + c2, where c1 is the calling object and c2 is passed as an argument. These functions should:
+
+Take their parameter as const Complex& to avoid unnecessary copying
+Return a Complex object by value
+Be marked as const since they do not modify the calling object
+3. Comparison Operator <
+This operator should also be implemented as a member function. It will return true if the magnitude (modulus) of the current object is less than that of the passed object. The magnitude is calculated using:
+
+sqrt(real * real + imag * imag)
+4. Using Complex Objects as std::map Keys
+In this exercise, we will also store Complex objects as keys in a std::map. This requires careful implementation of the operator< function.
+
+Important: C++'s std::map relies on the operator< to define a strict weak ordering for keys. This means that if !(a < b) && !(b < a) is true, then a and b are treated as equivalent and only one will be stored.
+
+If we only compare based on magnitude, two different complex numbers with the same magnitude (e.g., Complex(2, 0) and Complex(0, 2)) would be considered the same key. This would cause unintended overwrites in std::map.
+
+To avoid this, we define the operator< to:
+
+Compare by magnitude
+If equal, compare real part
+If real parts are equal, compare imaginary part
+This ensures that distinct complex numbers are correctly distinguished and stored as unique keys in std::map, even when their magnitudes match.
+
+Best Practices (Based on cppreference.com)
+Only existing operators can be overloaded; you cannot define new operators.
+Operator precedence is fixed. Overloading does not affect precedence or associativity.
+Mark functions as const when they do not modify object state. This is important for enabling usage on const instances.
+Use friend functions only when necessary to maintain encapsulation. In this case, only << requires a friend function.
+Return arithmetic results by value and avoid unnecessary copies by passing parameters as const&.
+Format output intuitively. Avoid formats like 3+-2i. Instead, print 3-2i.
+Classes or Functions to Implement
+class Complex
+Member Variables:
+
+double real – Represents the real part of the complex number.
+double imag – Represents the imaginary part of the complex number.
+Constructor:
+
+Complex(double real = 0.0, double imag = 0.0) – Initializes the complex number with given real and imaginary values.
+Member Function Operator Overloads:
+
+Complex operator+(const Complex& other) const – Returns the sum of the current object and other.
+Complex operator-(const Complex& other) const – Returns the result of subtracting other from the current object.
+bool operator<(const Complex& other) const – Compares magnitudes of the current object and other.
+Friend Function:
+
+friend std::ostream& operator<<(std::ostream& os, const Complex& c) – Prints a complex number. Output rules:
+3+2i when both parts are non-zero
+3 when imag is zero
+2i when real is zero
+0 when both are zero
+Constraints
+Use C++17 standard features only.
+Define +, -, and < as member functions.
+Define << as a non-member friend function.
+Do not use getters, setters, or unnecessary accessors. Focus on operator overloading.
+Use proper const correctness in all applicable functions.
+Submission Files
+Complex.h – Class definition and declarations.
+Complex.cpp – Implementation of member functions and overloaded operators.
+Input/Output Example
+
+c1 = 3+2i
+c2 = 1-1i
+c1 + c2 = 4+1i
+c1 - c2 = 2+3i
+c1 is not less than c2 (in magnitude)
+c5 = 4i
+c6 = 5
+c7 = 0
