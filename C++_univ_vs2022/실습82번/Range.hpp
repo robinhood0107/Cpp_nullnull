@@ -1,4 +1,4 @@
-#ifndef RANGE_H
+﻿#ifndef RANGE_H
 #define RANGE_H
 
 class Range {
