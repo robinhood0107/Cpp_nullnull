@@ -303,7 +303,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/mingw64/bin/addr2line.exe"
+			"value" : "C:/msys64/mingw64/bin/addr2line.exe"
 		},
 		{
 			"name" : "CMAKE_AR",
@@ -319,7 +319,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/mingw64/bin/ar.exe"
+			"value" : "C:/msys64/mingw64/bin/ar.exe"
 		},
 		{
 			"name" : "CMAKE_BUILD_TYPE",
@@ -355,7 +355,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "3"
+			"value" : "4"
 		},
 		{
 			"name" : "CMAKE_CACHE_MINOR_VERSION",
@@ -367,7 +367,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "31"
+			"value" : "0"
 		},
 		{
 			"name" : "CMAKE_CACHE_PATCH_VERSION",
@@ -379,7 +379,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "6"
+			"value" : "2"
 		},
 		{
 			"name" : "CMAKE_COLOR_DIAGNOSTICS",
@@ -403,7 +403,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Program Files/JetBrains/CLion 2024.3.5/bin/cmake/win/x64/bin/cmake.exe"
+			"value" : "C:/msys64/mingw64/bin/cmake.exe"
 		},
 		{
 			"name" : "CMAKE_CPACK_COMMAND",
@@ -415,7 +415,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Program Files/JetBrains/CLion 2024.3.5/bin/cmake/win/x64/bin/cpack.exe"
+			"value" : "C:/msys64/mingw64/bin/cpack.exe"
 		},
 		{
 			"name" : "CMAKE_CTEST_COMMAND",
@@ -427,7 +427,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Program Files/JetBrains/CLion 2024.3.5/bin/cmake/win/x64/bin/ctest.exe"
+			"value" : "C:/msys64/mingw64/bin/ctest.exe"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER",
@@ -442,8 +442,8 @@
 					"value" : "CXX compiler"
 				}
 			],
-			"type" : "FILEPATH",
-			"value" : "C:/mingw64/bin/c++.exe"
+			"type" : "STRING",
+			"value" : "C:/msys64/mingw64/bin/g++.exe"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_AR",
@@ -459,7 +459,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/mingw64/bin/gcc-ar.exe"
+			"value" : "C:/msys64/mingw64/bin/gcc-ar.exe"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_RANLIB",
@@ -475,7 +475,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/mingw64/bin/gcc-ranlib.exe"
+			"value" : "C:/msys64/mingw64/bin/gcc-ranlib.exe"
 		},
 		{
 			"name" : "CMAKE_CXX_FLAGS",
@@ -586,8 +586,8 @@
 					"value" : "C compiler"
 				}
 			],
-			"type" : "FILEPATH",
-			"value" : "C:/mingw64/bin/cc.exe"
+			"type" : "STRING",
+			"value" : "C:/msys64/mingw64/bin/gcc.exe"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER_AR",
@@ -603,7 +603,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/mingw64/bin/gcc-ar.exe"
+			"value" : "C:/msys64/mingw64/bin/gcc-ar.exe"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER_RANLIB",
@@ -619,7 +619,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/mingw64/bin/gcc-ranlib.exe"
+			"value" : "C:/msys64/mingw64/bin/gcc-ranlib.exe"
 		},
 		{
 			"name" : "CMAKE_C_FLAGS",
@@ -731,7 +731,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/mingw64/bin/dlltool.exe"
+			"value" : "C:/msys64/mingw64/bin/dlltool.exe"
 		},
 		{
 			"name" : "CMAKE_EXECUTABLE_FORMAT",
@@ -826,6 +826,38 @@
 			"value" : ""
 		},
 		{
+			"name" : "CMAKE_EXPORT_BUILD_DATABASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable/Disable output of build database during the build."
+				}
+			],
+			"type" : "BOOL",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_EXPORT_COMPILE_COMMANDS",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable/Disable output of compile commands during generation."
+				}
+			],
+			"type" : "BOOL",
+			"value" : ""
+		},
+		{
 			"name" : "CMAKE_EXTRA_GENERATOR",
 			"properties" : 
 			[
@@ -859,7 +891,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "MinGW Makefiles"
+			"value" : "Ninja"
 		},
 		{
 			"name" : "CMAKE_GENERATOR_INSTANCE",
@@ -947,23 +979,31 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/mingw64/bin/ld.exe"
+			"value" : "C:/msys64/mingw64/bin/ld.exe"
+		},
+		{
+			"name" : "CMAKE_LIST_FILE_NAME",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Name of CMakeLists files to read"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "CMakeLists.txt"
 		},
 		{
 			"name" : "CMAKE_MAKE_PROGRAM",
 			"properties" : 
 			[
 				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
 					"name" : "HELPSTRING",
-					"value" : "Path to a program."
+					"value" : "make program"
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/mingw64/bin/mingw32-make.exe"
+			"value" : "C:/Program Files/JetBrains/CLion 2024.3.5/bin/ninja/win/x64/ninja.exe"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS",
@@ -1059,7 +1099,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/mingw64/bin/nm.exe"
+			"value" : "C:/msys64/mingw64/bin/nm.exe"
 		},
 		{
 			"name" : "CMAKE_NUMBER_OF_MAKEFILES",
@@ -1087,7 +1127,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/mingw64/bin/objcopy.exe"
+			"value" : "C:/msys64/mingw64/bin/objcopy.exe"
 		},
 		{
 			"name" : "CMAKE_OBJDUMP",
@@ -1103,7 +1143,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/mingw64/bin/objdump.exe"
+			"value" : "C:/msys64/mingw64/bin/objdump.exe"
 		},
 		{
 			"name" : "CMAKE_PLATFORM_INFO_INITIALIZED",
@@ -1167,7 +1207,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/mingw64/bin/ranlib.exe"
+			"value" : "C:/msys64/mingw64/bin/ranlib.exe"
 		},
 		{
 			"name" : "CMAKE_RC_COMPILER",
@@ -1183,7 +1223,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/mingw64/bin/windres.exe"
+			"value" : "C:/msys64/mingw64/bin/windres.exe"
 		},
 		{
 			"name" : "CMAKE_RC_COMPILER_WORKS",
@@ -1291,7 +1331,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/mingw64/bin/readelf.exe"
+			"value" : "C:/msys64/mingw64/bin/readelf.exe"
 		},
 		{
 			"name" : "CMAKE_ROOT",
@@ -1303,7 +1343,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Program Files/JetBrains/CLion 2024.3.5/bin/cmake/win/x64/share/cmake-3.31"
+			"value" : "C:/msys64/mingw64/share/cmake"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS",
@@ -1511,7 +1551,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/mingw64/bin/strip.exe"
+			"value" : "C:/msys64/mingw64/bin/strip.exe"
 		},
 		{
 			"name" : "CMAKE_TAPI",
@@ -1580,42 +1620,6 @@
 			],
 			"type" : "STATIC",
 			"value" : "C:/Users/pjjpj/source/repos/RedBull-Monster-HOT6/Cpp_nullnull/Clion_C++_univ/LAB3_practice"
-		},
-		{
-			"name" : "_CMAKE_CXX_LINKER_PUSHPOP_STATE_SUPPORTED",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "linker supports push/pop state"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "FALSE"
-		},
-		{
-			"name" : "_CMAKE_C_LINKER_PUSHPOP_STATE_SUPPORTED",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "linker supports push/pop state"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "FALSE"
-		},
-		{
-			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "linker supports push/pop state"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "TRUE"
 		},
 		{
 			"name" : "assignment06_BINARY_DIR",
