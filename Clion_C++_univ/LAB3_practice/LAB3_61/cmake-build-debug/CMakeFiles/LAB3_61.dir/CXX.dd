@@ -1,5 +1,0 @@
-ninja_dyndep_version = 1.0
-build CMakeFiles/LAB3_61.dir/Temperature.cpp.obj: dyndep
-
-build CMakeFiles/LAB3_61.dir/TemperatureTest.cpp.obj: dyndep
-

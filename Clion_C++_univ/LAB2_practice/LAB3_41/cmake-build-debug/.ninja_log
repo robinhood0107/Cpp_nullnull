@@ -1,9 +1,0 @@
-# ninja log v6
-2	138	7698989848132071	CMakeFiles/41.dir/main.cpp.obj.ddi	220c631d0ed23844
-10	145	7698989848212078	CMakeFiles/41.dir/input.cpp.obj.ddi	92b046a9abc0f7e9
-17	159	7698989848282068	CMakeFiles/41.dir/bmi.cpp.obj.ddi	190f12f5bf951c
-159	193	7698989850002077	CMakeFiles/41.dir/CXX.dd	c5ea3718aec9ef55
-159	193	7698989850002077	C:/Users/pjjpj/source/repos/RedBull-Monster-HOT6/Cpp_nullnull/Clion_C++_univ/LAB2_practice/LAB3_41/cmake-build-debug/CMakeFiles/41.dir/CXXModules.json	c5ea3718aec9ef55
-159	193	7698989850002077	CMakeFiles/41.dir/main.cpp.obj.modmap	c5ea3718aec9ef55
-159	193	7698989850002077	CMakeFiles/41.dir/input.cpp.obj.modmap	c5ea3718aec9ef55
-159	193	7698989850002077	CMakeFiles/41.dir/bmi.cpp.obj.modmap	c5ea3718aec9ef55

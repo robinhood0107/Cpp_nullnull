@@ -1,3 +1,0 @@
-C:/Users/pjjpj/source/repos/RedBull-Monster-HOT6/Cpp_nullnull/Clion_C++_univ/assignment05/build/CMakeFiles/assignment05.dir
-C:/Users/pjjpj/source/repos/RedBull-Monster-HOT6/Cpp_nullnull/Clion_C++_univ/assignment05/build/CMakeFiles/edit_cache.dir
-C:/Users/pjjpj/source/repos/RedBull-Monster-HOT6/Cpp_nullnull/Clion_C++_univ/assignment05/build/CMakeFiles/rebuild_cache.dir
