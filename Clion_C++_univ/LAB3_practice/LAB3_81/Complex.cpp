@@ -31,7 +31,7 @@ bool Complex::operator<(const Complex& other) const {
 //필승 법 이 아래 operator는 내가 직접 다시 작성해본다 아래는 무조건 나온다고 했음
 // << 이거 먼저 작성한 다음에 다른거 작성하는 거라고 했음
 
-std::ostream& operator<<(std::ostream os, const Complex& c) {
+std::ostream& operator<<(std::ostream& os, const Complex& c) {
     //std::ostream& operator<<(std::ostream os, const Complex& c) 이건 확실하게 외워가기
     if (c.real == 0 && c.imag == 0) {
         os << "0"; //이런식으로 os에 출력시키는 것
