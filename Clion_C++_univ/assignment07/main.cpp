@@ -12,9 +12,9 @@ int main() {
     // ======= 2x2 Matrix Tests =======
     cout << "===== 2x2 Matrix Tests =====" << endl;
     Matrix m2a = {{4, 1},
-                  {-7, -3}};
+                {-7, -3}};
     Matrix m2b = {{1, 1},
-                  {0, 0}};
+                {0, 0}};
 
     Matrix m2c = m2a + m2b;
     print_matrix("m2a", m2a);
