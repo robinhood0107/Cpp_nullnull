@@ -21,10 +21,10 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{e4eaf63c-dd02-4a11-9478-63b125a05813}</ProjectGuid>
-    <RootNamespace>실습93번</RootNamespace>
+    <ProjectGuid>{df24f639-1fb8-4a0e-bac1-7c2726b4b355}</ProjectGuid>
+    <RootNamespace>실습92번</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>실습96번</ProjectName>
+    <ProjectName>실습95번-1(class hierarchy)</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -128,14 +128,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="LCD_Monitor.h" />
-    <ClInclude Include="LED_Monitor.h" />
-    <ClInclude Include="Monitor.h" />
-    <ClInclude Include="OutputDevice.h" />
-    <ClInclude Include="Printer.h" />
+    <ClInclude Include="Employee.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="DeviceTest.cpp" />
+    <ClCompile Include="EmployeeTest.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
