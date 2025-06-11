@@ -15,21 +15,15 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="DeviceTest.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="LCD_Monitor.h">
+    <ClInclude Include="my_make_unique.hpp">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="LED_Monitor.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="Monitor.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="OutputDevice.h">
+    <ClInclude Include="Student.hpp">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

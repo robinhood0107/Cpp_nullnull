@@ -66,6 +66,12 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "실습95번-2(프로그램 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "실습95번-1(class hierarchy)", "C++_univ_vs2022\실습95번-1(class hierarchy)\실습95번-1(class hierarchy).vcxproj", "{DF24F639-1FB8-4A0E-BAC1-7C2726B4B355}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "실습101번", "C++_univ_vs2022\실습101번\실습101번.vcxproj", "{9F21696B-C49C-40FB-A351-C00CC93A1C35}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "실습102번", "C++_univ_vs2022\실습102번\실습102번.vcxproj", "{DE4C1656-CD20-45CC-979E-68E510576C0E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "실습103번", "C++_univ_vs2022\실습103번\실습103번.vcxproj", "{96E51FFD-6CEF-4789-A3CD-D763E6593D4C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -306,6 +312,30 @@ Global
 		{DF24F639-1FB8-4A0E-BAC1-7C2726B4B355}.Release|x64.Build.0 = Release|x64
 		{DF24F639-1FB8-4A0E-BAC1-7C2726B4B355}.Release|x86.ActiveCfg = Release|Win32
 		{DF24F639-1FB8-4A0E-BAC1-7C2726B4B355}.Release|x86.Build.0 = Release|Win32
+		{9F21696B-C49C-40FB-A351-C00CC93A1C35}.Debug|x64.ActiveCfg = Debug|x64
+		{9F21696B-C49C-40FB-A351-C00CC93A1C35}.Debug|x64.Build.0 = Debug|x64
+		{9F21696B-C49C-40FB-A351-C00CC93A1C35}.Debug|x86.ActiveCfg = Debug|Win32
+		{9F21696B-C49C-40FB-A351-C00CC93A1C35}.Debug|x86.Build.0 = Debug|Win32
+		{9F21696B-C49C-40FB-A351-C00CC93A1C35}.Release|x64.ActiveCfg = Release|x64
+		{9F21696B-C49C-40FB-A351-C00CC93A1C35}.Release|x64.Build.0 = Release|x64
+		{9F21696B-C49C-40FB-A351-C00CC93A1C35}.Release|x86.ActiveCfg = Release|Win32
+		{9F21696B-C49C-40FB-A351-C00CC93A1C35}.Release|x86.Build.0 = Release|Win32
+		{DE4C1656-CD20-45CC-979E-68E510576C0E}.Debug|x64.ActiveCfg = Debug|x64
+		{DE4C1656-CD20-45CC-979E-68E510576C0E}.Debug|x64.Build.0 = Debug|x64
+		{DE4C1656-CD20-45CC-979E-68E510576C0E}.Debug|x86.ActiveCfg = Debug|Win32
+		{DE4C1656-CD20-45CC-979E-68E510576C0E}.Debug|x86.Build.0 = Debug|Win32
+		{DE4C1656-CD20-45CC-979E-68E510576C0E}.Release|x64.ActiveCfg = Release|x64
+		{DE4C1656-CD20-45CC-979E-68E510576C0E}.Release|x64.Build.0 = Release|x64
+		{DE4C1656-CD20-45CC-979E-68E510576C0E}.Release|x86.ActiveCfg = Release|Win32
+		{DE4C1656-CD20-45CC-979E-68E510576C0E}.Release|x86.Build.0 = Release|Win32
+		{96E51FFD-6CEF-4789-A3CD-D763E6593D4C}.Debug|x64.ActiveCfg = Debug|x64
+		{96E51FFD-6CEF-4789-A3CD-D763E6593D4C}.Debug|x64.Build.0 = Debug|x64
+		{96E51FFD-6CEF-4789-A3CD-D763E6593D4C}.Debug|x86.ActiveCfg = Debug|Win32
+		{96E51FFD-6CEF-4789-A3CD-D763E6593D4C}.Debug|x86.Build.0 = Debug|Win32
+		{96E51FFD-6CEF-4789-A3CD-D763E6593D4C}.Release|x64.ActiveCfg = Release|x64
+		{96E51FFD-6CEF-4789-A3CD-D763E6593D4C}.Release|x64.Build.0 = Release|x64
+		{96E51FFD-6CEF-4789-A3CD-D763E6593D4C}.Release|x86.ActiveCfg = Release|Win32
+		{96E51FFD-6CEF-4789-A3CD-D763E6593D4C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
