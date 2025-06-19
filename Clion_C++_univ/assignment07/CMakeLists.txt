@@ -1,11 +1,11 @@
 cmake_minimum_required(VERSION 3.31)
-project(Test)
+project(assignment07)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(Test
+add_executable(assignment07
         main.cpp
         Matrix.cpp
         Matrix.hpp)
 
-target_include_directories(Test PRIVATE .)
+target_link_libraries(${PROJECT_NAME} PRIVATE )
