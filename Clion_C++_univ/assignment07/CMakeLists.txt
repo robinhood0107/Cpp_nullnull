@@ -7,5 +7,3 @@ add_executable(assignment07
         main.cpp
         Matrix.cpp
         Matrix.hpp)
-
-target_link_libraries(${PROJECT_NAME} PRIVATE )

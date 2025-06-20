@@ -12,5 +12,3 @@ add_executable(assignment08 main.cpp
         Manager.hpp
         Organization.cpp
         Organization.hpp)
-
-target_link_libraries(${PROJECT_NAME} PRIVATE )
