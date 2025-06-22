@@ -1,0 +1,34 @@
+실습 101 - 템플릿 함수
+제출 시작일: 2025-06-04 16:30
+Requested files: main.cpp, my_accumulate.hpp (다운로드)
+제출 방식: 개인
+Goal
+The goal of this exercise is to practice defining and using template functions in C++ by implementing a custom version of the std::accumulate function called my_accumulate().
+
+Concept Explanation
+Template functions in C++ allow you to write generic and reusable code. They are especially useful when the type of data the function operates on is not known in advance or can vary across uses.
+
+STL containers such as std::vector, std::list, and std::deque store collections of elements. These containers support traversal through iterators, which are objects that point to elements within the container. The STL provides many algorithms that work with iterators to perform operations such as summing, sorting, and searching.
+
+One such STL algorithm is std::accumulate from the <numeric> header, which calculates the sum of the range [first, last). The purpose of this problem is to create a simplified, template-based version of that function.
+
+Classes or Functions to Implement
+Function: template<typename T, typename U> U my_accumulate(T begin, T end, U init);
+
+Description:
+
+This is a template function that iterates from begin to end using iterators and adds each value to init.
+The function should work with any iterable STL container such as std::vector, std::list, or std::deque.
+Constraints
+The function must use iterator-based traversal.
+You may assume that the data types used support the + operator.
+Do not use std::accumulate in your implementation.
+Submission Files
+my_accumulate.h
+Input/Output Example
+1 2 3 4 5 
+15
+1 2 3 4 5 
+15
+hello , world! 
+hello,world!

@@ -1,0 +1,94 @@
+실습 096 - 생성자/소멸자 호출 순서
+업로드 가능한 파일 수: 6
+제출 방식: 개인
+
+
+목적
+
+이 실습은 상속 관계의 클래스들 사이에 생성자와 소멸자 호출 순서를 확인해봅니다. 
+
+
+
+
+
+설명
+
+LCD_Monitor, LED_Monitor, OutputDevice, Monitor, Printer 클래스가 주어집니다.​
+
+
+
+
+
+문제
+
+주어진 메인함수를 실행하여 정해진 문자열을 출력하는 프로그램을 작성하시오.
+
+단, 설명에서 주어진 클래스의 Hierarchy 를 상속을 이용해서 구성하시오.
+
+
+
+<참고>
+
+//DeviceTest.cpp
+
+
+int main() {
+    {
+        Monitor monitor;
+    }
+    std::cout << "--------------------------" << std::endl;
+    {
+        Printer printer;
+    }
+    std::cout << "--------------------------" << std::endl;
+    {
+        LED_Monitor led_monitor;
+        LCD_Monitor lcd_monitor;
+    }
+}
+
+
+
+입력
+
+없음
+
+
+
+
+
+출력
+
+OutputDevice constructor
+Monitor constructor
+Monitor destructor
+OutputDevice destructor
+--------------------------
+OutputDevice constructor
+Printer constructor
+Printer destructor
+OutputDevice destructor
+--------------------------
+OutputDevice constructor
+Monitor constructor
+LED_Monitor constructor
+OutputDevice constructor
+Monitor constructor
+LCD_Monitor constructor
+LCD_Monitor destructor
+Monitor destructor
+OutputDevice destructor
+LED_Monitor destructor
+Monitor destructor
+OutputDevice destructor
+
+
+
+제출파일
+
+
+LCD_Monitor.h 
+LED_Monitor.h 
+OutputDevice.h 
+Monitor.h 
+Printer.h
