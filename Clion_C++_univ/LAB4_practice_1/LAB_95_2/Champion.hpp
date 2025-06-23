@@ -1,7 +1,7 @@
 #ifndef CHAMPION_H
 #define CHAMPION_H
 
-#include "Skill.h"
+#include "Skill.hpp"
 #include "GangplankSkill.hpp"
 #include "EzrealSkill.hpp"
 #include <memory>
