@@ -6,31 +6,31 @@
 #include <vector>
 using namespace std;
 
-StringSplitter::StringSplitter(const string& in) : str{ in } {} // µğÆúÆ® »ı¼ºÀÚ·Î ÃÊ±âÈ­ ¸®½ºÆ® ÀÌ¿ë
+StringSplitter::StringSplitter(const string& in) : str{ in } {} // ë””í´íŠ¸ ìƒì„±ìë¡œ ì´ˆê¸°í™” ë¦¬ìŠ¤íŠ¸ ì´ìš©
 
 
 
 StringSplitter& StringSplitter::trim() {
-    str.erase(str.find_last_not_of(" \t\n\r\f\v") + 1); // Rtrim (¿À¸¥ÂÊ trim)
+    str.erase(str.find_last_not_of(" \t\n\r\f\v") + 1); // Rtrim (ì˜¤ë¥¸ìª½ trim)
     // str.erase(find_last_not_of("0x20 | 0x09 | 0x0a | 0x0d | 0x0c | 0x0b")+1);
-    // find_last_not_of()´Â ¹®ÀÚ¿­ÀÌ ¸ğµÎ °ø¹éÀÏ °æ¿ì string::npos¸¦ ¹İÈ¯ÇÏ¹Ç·Î +1À» ÇØÁÖ¸é 0ÀÌ µÇ´Âµ¥,
-    // str.erase(0)Àº str.erase(0, string::npos)¿Í °°°í, ¹®ÀÚ¿­À» ¸ğµÎ Áö¿î´Ù
+    // find_last_not_of()ëŠ” ë¬¸ìì—´ì´ ëª¨ë‘ ê³µë°±ì¼ ê²½ìš° string::nposë¥¼ ë°˜í™˜í•˜ë¯€ë¡œ +1ì„ í•´ì£¼ë©´ 0ì´ ë˜ëŠ”ë°,
+    // str.erase(0)ì€ str.erase(0, string::npos)ì™€ ê°™ê³ , ë¬¸ìì—´ì„ ëª¨ë‘ ì§€ìš´ë‹¤
 
     str.erase(0, str.find_first_not_of(" \t\n\r\f\v")); // Ltrim
-    // find_first_not_of()´Â ¹®ÀÚ¿­ÀÌ ¸ğµÎ °ø¹é(whitespace character)ÀÏ °æ¿ì string::npos¸¦ ¹İÈ¯ÇÏ¹Ç·Î
-    // str.erase(0, string::npos)°¡ È£ÃâµÇ¾î ¹®ÀÚ¿­À» ¸ğµÎ Áö¿î´Ù
+    // find_first_not_of()ëŠ” ë¬¸ìì—´ì´ ëª¨ë‘ ê³µë°±(whitespace character)ì¼ ê²½ìš° string::nposë¥¼ ë°˜í™˜í•˜ë¯€ë¡œ
+    // str.erase(0, string::npos)ê°€ í˜¸ì¶œë˜ì–´ ë¬¸ìì—´ì„ ëª¨ë‘ ì§€ìš´ë‹¤
     return *this;
 }
-// ¸Ş¼­µå Ã¼ÀÌ´×À» À§ÇØ `*this`¸¦ return
+// ë©”ì„œë“œ ì²´ì´ë‹ì„ ìœ„í•´ `*this`ë¥¼ return
 
 
-StringSplitter& StringSplitter::replaceSubstring(const string& old_str, const string& new_str) { // old_str¸¦ new_str·Î ±³Ã¼
+StringSplitter& StringSplitter::replaceSubstring(const string& old_str, const string& new_str) { // old_strë¥¼ new_strë¡œ êµì²´
     size_t from = 0, pos;
-    // stringÀÇ .find() ¸Ş¼­µå´Â ÆÄ¶ó¹ÌÅÍ¸¦ µÎ °³ ¹ŞÀ» °æ¿ì, Ã¹¹øÂ° ÆÄ¶ó¹ÌÅÍ·Î ¹ŞÀº ¹®ÀÚ¿­À» µÎ¹øÂ° ÆÄ¶ó¹ÌÅÍ·Î ¹ŞÀº ÀÎµ¦½º¿¡¼­ºÎÅÍ Ã£±â ½ÃÀÛÇÔ (±× ÀÌÀü ÀÎµ¦½º´Â °Ë»çÇÏÁö ¾ÊÀ½)
-    // Ã¹¹øÂ° ÆÄ¶ó¹ÌÅÍ·Î ¹ŞÀº ¹®ÀÚ¿­À» ´õ ÀÌ»ó Ã£À» ¼ö ¾ø´Ù¸é string::npos¸¦ return
+    // stringì˜ .find() ë©”ì„œë“œëŠ” íŒŒë¼ë¯¸í„°ë¥¼ ë‘ ê°œ ë°›ì„ ê²½ìš°, ì²«ë²ˆì§¸ íŒŒë¼ë¯¸í„°ë¡œ ë°›ì€ ë¬¸ìì—´ì„ ë‘ë²ˆì§¸ íŒŒë¼ë¯¸í„°ë¡œ ë°›ì€ ì¸ë±ìŠ¤ì—ì„œë¶€í„° ì°¾ê¸° ì‹œì‘í•¨ (ê·¸ ì´ì „ ì¸ë±ìŠ¤ëŠ” ê²€ì‚¬í•˜ì§€ ì•ŠìŒ)
+    // ì²«ë²ˆì§¸ íŒŒë¼ë¯¸í„°ë¡œ ë°›ì€ ë¬¸ìì—´ì„ ë” ì´ìƒ ì°¾ì„ ìˆ˜ ì—†ë‹¤ë©´ string::nposë¥¼ return
     while ((pos = str.find(old_str, from)) != string::npos) {
-        str.replace(pos, old_str.size(), new_str); // pos ÀÎµ¦½ºÀÇ À§Ä¡ºÎÅÍ, old_str.size() °³¼ö¸¸Å­ÀÇ ¹®ÀÚ¸¦, new_str·Î ±³Ã¼
-        from += new_str.size(); // ±³Ã¼µÈ ¹®ÀÚ¿­ ÀÌÈÄÀÇ characterµé¸¸ ´Ù½Ã °Ë»çÇÒ ¼ö ÀÖµµ·Ï from ÀÎµ¦½º¸¦ Áõ°¡½ÃÄÑÁÜ
+        str.replace(pos, old_str.size(), new_str); // pos ì¸ë±ìŠ¤ì˜ ìœ„ì¹˜ë¶€í„°, old_str.size() ê°œìˆ˜ë§Œí¼ì˜ ë¬¸ìë¥¼, new_strë¡œ êµì²´
+        from += new_str.size(); // êµì²´ëœ ë¬¸ìì—´ ì´í›„ì˜ characterë“¤ë§Œ ë‹¤ì‹œ ê²€ì‚¬í•  ìˆ˜ ìˆë„ë¡ from ì¸ë±ìŠ¤ë¥¼ ì¦ê°€ì‹œì¼œì¤Œ
     }
     return *this;
 }
@@ -38,19 +38,19 @@ StringSplitter& StringSplitter::replaceSubstring(const string& old_str, const st
 
 StringSplitter& StringSplitter::removePunctuation() {
     str.erase(remove_if(str.begin(), str.end(), [](char c) { return ispunct(c); }), str.end());
-    // remove_if() ÇÔ¼ö¿Í `erase-remove idiom`À» ÅëÇØ ispunct()¸¦ true·Î ¸¸µå´Â ¹®ÀÚ¸¦ Á¦°Å
-    // std::remove(), std::remove_if() ¸ğµÎ ÄÁÅ×ÀÌ³Ê¿¡¼­ °ªÀ» ½ÇÁ¦·Î ¾ø¾ÖÁÖÁö´Â ¾ÊÀ½!
-    // ¾ø¾Ö¾ß ÇÒ ¿ø¼ÒµéÀ» ¸ğµÎ ÄÁÅ×ÀÌ³Ê ³¡À¸·Î ¹Ğ¾îµĞ µÚ, ¾ø¾Ö¾ß ÇÒ Ã¹¹øÂ° ¿ø¼Ò¸¦ °¡¸®Å°´Â ÀÌÅÍ·¹ÀÌÅÍ¸¦ returnÇÔ
-    // µû¶ó¼­ remove()³ª remove_if()ÀÇ ¸®ÅÏ°ªÀÎ ÀÌÅÍ·¹ÀÌÅÍºÎÅÍ .end() ÀÌÅÍ·¹ÀÌÅÍ±îÁö¸¦ erase()ÇØÁà¾ß ¿ø¼Ò°¡ ½ÇÁ¦·Î »èÁ¦µÊ!!!
+    // remove_if() í•¨ìˆ˜ì™€ `erase-remove idiom`ì„ í†µí•´ ispunct()ë¥¼ trueë¡œ ë§Œë“œëŠ” ë¬¸ìë¥¼ ì œê±°
+    // std::remove(), std::remove_if() ëª¨ë‘ ì»¨í…Œì´ë„ˆì—ì„œ ê°’ì„ ì‹¤ì œë¡œ ì—†ì• ì£¼ì§€ëŠ” ì•ŠìŒ!
+    // ì—†ì• ì•¼ í•  ì›ì†Œë“¤ì„ ëª¨ë‘ ì»¨í…Œì´ë„ˆ ëìœ¼ë¡œ ë°€ì–´ë‘” ë’¤, ì—†ì• ì•¼ í•  ì²«ë²ˆì§¸ ì›ì†Œë¥¼ ê°€ë¦¬í‚¤ëŠ” ì´í„°ë ˆì´í„°ë¥¼ returní•¨
+    // ë”°ë¼ì„œ remove()ë‚˜ remove_if()ì˜ ë¦¬í„´ê°’ì¸ ì´í„°ë ˆì´í„°ë¶€í„° .end() ì´í„°ë ˆì´í„°ê¹Œì§€ë¥¼ erase()í•´ì¤˜ì•¼ ì›ì†Œê°€ ì‹¤ì œë¡œ ì‚­ì œë¨!!!
     return *this;
 }
 
 vector<string> StringSplitter::split(char delim) {
-    vector<string> ret; // return°ªÀ» ´ãÀ» º¤ÅÍ
-    stringstream ss(str); // str·Î stringstream °´Ã¼ `ss`¸¦ ÃÊ±âÈ­
-    string token; // splitµÈ ÅäÅ«À» ´ãÀ» ÀÓ½Ã ¹®ÀÚ¿­
+    vector<string> ret; // returnê°’ì„ ë‹´ì„ ë²¡í„°
+    stringstream ss(str); // strë¡œ stringstream ê°ì²´ `ss`ë¥¼ ì´ˆê¸°í™”
+    string token; // splitëœ í† í°ì„ ë‹´ì„ ì„ì‹œ ë¬¸ìì—´
     while (getline(ss, token, delim)) {
-        // getline(stream, string, delim='\n') ÇÔ¼ö´Â ¼¼¹øÂ° ÆÄ¶ó¹ÌÅÍ·Î char Å¸ÀÔÀÇ ±¸ºĞÀÚ(delimiter)¸¦ ¹ŞÀ» ¼ö ÀÖÀ½! (±âº»°ªÀº '\n'ÀÌ¶ó ÁÙ¹Ù²Ş Àü±îÁö ÀÎ½Ä)
+        // getline(stream, string, delim='\n') í•¨ìˆ˜ëŠ” ì„¸ë²ˆì§¸ íŒŒë¼ë¯¸í„°ë¡œ char íƒ€ì…ì˜ êµ¬ë¶„ì(delimiter)ë¥¼ ë°›ì„ ìˆ˜ ìˆìŒ! (ê¸°ë³¸ê°’ì€ '\n'ì´ë¼ ì¤„ë°”ê¿ˆ ì „ê¹Œì§€ ì¸ì‹)
         ret.push_back(token);
     }
     return ret;

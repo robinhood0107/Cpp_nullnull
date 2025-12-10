@@ -20,6 +20,7 @@ void std_newline(string& text) {
         }
     }
     text = newline;
+}
 
 string show_chars(const string& str) {
     string s = "[";
@@ -37,8 +38,8 @@ string show_chars(const string& str) {
     s += "]";
     return s;
 }
-// s += to_string(static_cast<int>(str[i])) ÀÌ ÇÔ¼ö¿¡¼­ to_stringÀÌ stringÀ¸·Î º¯È¯½ÃÄÑÁÖ´Â ÇÔ¼ö´Ù.
-}/*
+// s += to_string(static_cast<int>(str[i])) ì´ë ‡ê²Œ to_stringí•¨ìˆ˜ë¥¼ ì´ìš©í•´ì„œ stringìœ¼ë¡œ ë³€í™˜ ê°€ëŠ¥.
+/*
 string show_chars(const string& str) {
     string s = "[";
     for (int i = 0; i < str.size(); ++i) {

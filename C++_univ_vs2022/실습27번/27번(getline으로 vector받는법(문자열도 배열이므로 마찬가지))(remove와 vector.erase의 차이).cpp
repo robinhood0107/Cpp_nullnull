@@ -16,18 +16,18 @@ int main() {
     string line;
     getline(cin, line);
 
-    stringstream ss(line); //µ¥ÀÌÅÍ ÃßÃâ½Ã »ç¿ë, Áï ÃÊ±âÈ­ ->stream¿¡ strÀ» ´ëÀÔ.
-    string token; //ÀÓ½ÃÀúÀåÇÒ ÅäÅ«
+    stringstream ss(line); //ë°ì´í„° ì¶”ì¶œì‹œ ì‚¬ìš©, ì¦‰ ì´ˆê¸°í™” ->streamì— strì„ ëŒ€ìž….
+    string token; //ìž„ì‹œì €ìž¥í•  í† í°
 
     int i;
 
     while (getline(ss, token, ' ')) {
-        vec1.push_back(stoi(token)); //ÀÌ·¸°Ô stringstreamÀ¸·Î tokenÀ» ÅëÇØ¼­ ¹Þ´Â °ÍÀÓ
+        vec1.push_back(stoi(token)); //ì´ë ‡ê²Œ stringstreamìœ¼ë¡œ tokenì„ í†µí•´ì„œ ë°›ëŠ” ê²ƒìž„
     }
     */
 
 
-    //¶Ç 2¹øÂ° ¹æ¹ýÀ¸·Î ÀÌ ¹æ¹ýµµ °¡´ÉÇÏ´Ù. stringstream »ç¿ëÇÒ¶§ ÀÌ°Íµµ µÊ
+    //ë˜ 2ë²ˆì§¸ ë°©ë²•ìœ¼ë¡œ ì´ ë°©ë²•ë„ ê°€ëŠ¥í•˜ë‹¤. stringstream ì‚¬ìš©í• ë•Œ ì´ê²ƒë„ ë¨
     /*
     
 	cin.ignore();
@@ -42,7 +42,7 @@ int main() {
 	}
     
     */
-	// ÀÌ·¸°Ô ÇØµµ ss >> i ¸é >>°¡ C++¿¡¼­´Â ¿¬»êÀÚ·Î ÀÇ¹Ì°¡ ¹Ù²î¾ú±â ¶§¹®¿¡ ss°ªÀ» i¿¡ ³Ö¾îÁÖ´Â °ÍÀÓ
+	// ì´ë ‡ê²Œ í•´ë„ ss >> i ë©´ >>ê°€ C++ì—ì„œëŠ” ì—°ì‚°ìžë¡œ ì˜ë¯¸ê°€ ë°”ë€Œì—ˆê¸° ë•Œë¬¸ì— ssê°’ì„ iì— ë„£ì–´ì£¼ëŠ” ê²ƒìž„
 
     for (int j = 0; j < N; j++) {
         int elem;
