@@ -12,17 +12,17 @@ Choice getPlayerChoice() {
 	while (true) {
 		cin >> N;
 
-		if (N == "¹¬") {
+		if (N == "ë¬µ") {
 			return Choice::ROCK;
 		}
-		else if (N == "Âî") {
+		else if (N == "ì°Œ") {
 			return Choice::SCISSORS;
 		}
-		else if (N == "ºü") {
+		else if (N == "ë¹ ") {
 			return Choice::PAPER;
 		}
 		else {
-			cout << "Àß¸øµÈ ÀÔ·Â" << endl;
+			cout << "ìž˜ëª»ëœ ìž…ë ¥" << endl;
 		}
 	}
 }
@@ -54,10 +54,10 @@ int determineWinner(Choice player, Choice computer) {
 	else if (((player == Choice::ROCK) && (computer == Choice::SCISSORS)) ||
 		((player == Choice::SCISSORS) && (computer == Choice::PAPER)) ||
 		((player == Choice::PAPER) && (computer == Choice::ROCK)))
-		//player ½Â¸®
+		//player ìŠ¹ë¦¬
 		return 1;
 	else
-		//computer ½Â¸®
+		//computer ìŠ¹ë¦¬
 		return -1;
 }
 
@@ -66,13 +66,13 @@ void displayChoice(const std::string& who, Choice choice) {
 	switch (choice)
 	{
 	case Choice::ROCK:
-		cout << who << " chose ROCK (¹¬)." << "\n";
+		cout << who << " chose ROCK (ë¬µ)." << "\n";
 		break;
 	case Choice::SCISSORS:
-		cout << who << " chose SCISSORS (Âî)." << "\n";
+		cout << who << " chose SCISSORS (ì°Œ)." << "\n";
 		break;
 	case Choice::PAPER:
-		cout << who << " chose PAPER (ºü)." << "\n";
+		cout << who << " chose PAPER (ë¹ )." << "\n";
 		break;
 	}
 

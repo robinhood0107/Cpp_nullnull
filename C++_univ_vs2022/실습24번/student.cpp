@@ -14,7 +14,7 @@ std::array<Student, STUDENT_COUNT> init_students() {
 }
 
 //Implement your code
-std::string compare_points(const Student& a, const Student& b) { //ÀÌ°Å ¹İµå½Ã const ³Ö¾î¾ßµÊ (¾ÏÆ° ¹«Á¶°Ç ¹Ş´Â°Å Çü½Ä ¸ÂÃç¼­ Áà¾ß µÊ, ±×³É Student& a ÀÌ°Ç ¾ÈµÊ)
+std::string compare_points(const Student& a, const Student& b) { //ì´ê±° ë°˜ë“œì‹œ const ë„£ì–´ì•¼ë¨ (ì•”íŠ¼ ë¬´ì¡°ê±´ ë°›ëŠ”ê±° í˜•ì‹ ë§ì¶°ì„œ ì¤˜ì•¼ ë¨, ê·¸ëƒ¥ Student& a ì´ê±´ ì•ˆë¨)
     if (a.points < b.points){
         return b.name + " has more points than " + a.name + "\n";
     }
@@ -22,9 +22,9 @@ std::string compare_points(const Student& a, const Student& b) { //ÀÌ°Å ¹İµå½Ã c
         return a.name + " has more points than " + b.name + "\n";
 }
 /*
-ÁÖÀÇ) std::coutÀº std::stringÀ» ¹İÈ¯ÇÏÁö ¾Ê°í std::ostream&À» ¹İÈ¯ÇÕ´Ï´Ù. Áï, coutÀÇ ¹İÈ¯°ªÀº stringÀÌ ¾Æ´Ï¶ó ostreamÀÓ(¾Æ¿¹ Á÷Á¢ ÄÜ¼Ö¿¡ ½÷¹ö¸®´Â °Å´Ï±î)
+ì£¼ì˜) std::coutì€ std::stringì„ ë°˜í™˜í•˜ì§€ ì•Šê³  std::ostream&ì„ ë°˜í™˜í•©ë‹ˆë‹¤. ì¦‰, coutì˜ ë°˜í™˜ê°’ì€ stringì´ ì•„ë‹ˆë¼ ostreamì„(ì•„ì˜ˆ ì§ì ‘ ì½˜ì†”ì— ì´ë²„ë¦¬ëŠ” ê±°ë‹ˆê¹Œ)
 
-¾Æ·¡´Â ³»°¡ Æ²¸° ÄÚµå
+ì•„ë˜ëŠ” ë‚´ê°€ í‹€ë¦° ì½”ë“œ
 std::string compare_points(Student& a, Student& b) {
     if (a.points < b.points){
         return std::cout << b.name << " has more points than "<< a.name << std::endl;
@@ -33,9 +33,9 @@ std::string compare_points(Student& a, Student& b) {
         return std::cout << a.name << " has more points than " << b.name << std::endl;
 }
 
-ÇØ°á¹ı1 = ÇÔ¼ö Çü½ÄÀ» void·Î ÇÑ´Ù
-ÇØ°á¹ı2 = Ãâ·Â°ªÀ» coutÀ» ¾²´Â °Ô ¾Æ´Ï¶ó return b.name + " has more points than " + a.name; ÀÌ·± ¹æ½ÄÀ¸·Î ¹®ÀÚ¿­ ºÙ¿©¼­ »ç¿ëÇÑ´Ù (ÃßÃµ)
-ÇØ°á¹ı3 = ¸¶Áö¸·¿¡ ºó ¹®ÀÚ¿­ Ãâ·Â
+í•´ê²°ë²•1 = í•¨ìˆ˜ í˜•ì‹ì„ voidë¡œ í•œë‹¤
+í•´ê²°ë²•2 = ì¶œë ¥ê°’ì„ coutì„ ì“°ëŠ” ê²Œ ì•„ë‹ˆë¼ return b.name + " has more points than " + a.name; ì´ëŸ° ë°©ì‹ìœ¼ë¡œ ë¬¸ìì—´ ë¶™ì—¬ì„œ ì‚¬ìš©í•œë‹¤ (ì¶”ì²œ)
+í•´ê²°ë²•3 = ë§ˆì§€ë§‰ì— ë¹ˆ ë¬¸ìì—´ ì¶œë ¥
 std::string compare_points(Student& a, Student& b) {
     if (a.points < b.points){
         std::cout << b.name << " has more points than "<< a.name << std::endl;
@@ -44,7 +44,7 @@ std::string compare_points(Student& a, Student& b) {
         std::cout << a.name << " has more points than " << b.name << std::endl;
 }
     return ""
-ÇØ°á¹ı4 = printf ¾²´ø°¡ (Á¤ ¾ÈµÇ¸é ÀÌ°Å¶óµµ ÇØ¾ßÁö)
+í•´ê²°ë²•4 = printf ì“°ë˜ê°€ (ì • ì•ˆë˜ë©´ ì´ê±°ë¼ë„ í•´ì•¼ì§€)
 */
 
 bool compareEach(const Student& s1, const Student& s2) {
@@ -56,44 +56,44 @@ void my_sort(std::array<Student, STUDENT_COUNT>& students) {
 }
 
 //auto get_last(std::array<Student, STUDENT_COUNT>& students) { 
-    //auto get_last(std::array<Student, STUDENT_COUNT>& students) ÀÌ·¸°Ô ÇÏ¸é ¾ÈµÊ,
-    //auto´Â ¿©±â¼­ std::array<Student, STUDENT_COUNT>::iterator Å¸ÀÔÀ¸·Î Ãß·ĞµË´Ï´Ù. ÀÌ´Â ¹İº¹ÀÚ(iterator)ÀÔ´Ï´Ù. µÎ ¹øÂ°´Â ÇĞ»ı °´Ã¼¸¦ °¡¸®Å°´Â ¹İº¹ÀÚ¸¦ ¹İÈ¯ÇÕ´Ï´Ù.
-    //µÎ ¹øÂ° ÄÚµåÀÇ °á°ú´Â ¹İº¹ÀÚÀÌ¹Ç·Î, ½ÇÁ¦ °´Ã¼¿¡ Á¢±ÙÇÏ·Á¸é ¿ªÂüÁ¶(*)°¡ ÇÊ¿äÇÕ´Ï´Ù. 
-    //main.cpp¿¡¼± ÀÌ ¹æ¹ıÀ¸·Î È£ÃâÇØ¾ß ÇÔ const Student& student = *it;  // ¹İº¹ÀÚ ¿ªÂüÁ¶·Î ÇĞ»ı °´Ã¼ ¾ò±â
+    //auto get_last(std::array<Student, STUDENT_COUNT>& students) ì´ë ‡ê²Œ í•˜ë©´ ì•ˆë¨,
+    //autoëŠ” ì—¬ê¸°ì„œ std::array<Student, STUDENT_COUNT>::iterator íƒ€ì…ìœ¼ë¡œ ì¶”ë¡ ë©ë‹ˆë‹¤. ì´ëŠ” ë°˜ë³µì(iterator)ì…ë‹ˆë‹¤. ë‘ ë²ˆì§¸ëŠ” í•™ìƒ ê°ì²´ë¥¼ ê°€ë¦¬í‚¤ëŠ” ë°˜ë³µìë¥¼ ë°˜í™˜í•©ë‹ˆë‹¤.
+    //ë‘ ë²ˆì§¸ ì½”ë“œì˜ ê²°ê³¼ëŠ” ë°˜ë³µìì´ë¯€ë¡œ, ì‹¤ì œ ê°ì²´ì— ì ‘ê·¼í•˜ë ¤ë©´ ì—­ì°¸ì¡°(*)ê°€ í•„ìš”í•©ë‹ˆë‹¤. 
+    //main.cppì—ì„  ì´ ë°©ë²•ìœ¼ë¡œ í˜¸ì¶œí•´ì•¼ í•¨ const Student& student = *it;  // ë°˜ë³µì ì—­ì°¸ì¡°ë¡œ í•™ìƒ ê°ì²´ ì–»ê¸°
 
-    //Áï ³ª´Â ¿©±â¼­ const·Î °¡°øÀ» ÇØ¼­ return°ªÀ» ¿ªÂüÁ¶ÇØ¼­ ³Ñ°ÜÁà¾ß ÇÔ
-    //±×·¡¼­
+    //ì¦‰ ë‚˜ëŠ” ì—¬ê¸°ì„œ constë¡œ ê°€ê³µì„ í•´ì„œ returnê°’ì„ ì—­ì°¸ì¡°í•´ì„œ ë„˜ê²¨ì¤˜ì•¼ í•¨
+    //ê·¸ë˜ì„œ
     /*
-    ÇØ°á¹ı1 = ¶÷´ÙÇÔ¼ö »ç¿ë (bool compareEach() ÇÔ¼ö ¾È¸¸µé°í ½ÍÀº °æ¿ì
+    í•´ê²°ë²•1 = ëŒë‹¤í•¨ìˆ˜ ì‚¬ìš© (bool compareEach() í•¨ìˆ˜ ì•ˆë§Œë“¤ê³  ì‹¶ì€ ê²½ìš°
 
     const Student& get_lowest_points(const std::array<Student, STUDENT_COUNT>& students) {
-        // min_element´Â ºñ±³ ÇÔ¼ö¿¡ µû¶ó °¡Àå ÀÛÀº ¿ä¼Ò¸¦ °¡¸®Å°´Â ¹İº¹ÀÚ¸¦ ¹İÈ¯
-        // ±× ¹İº¹ÀÚ¸¦ ¿ªÂüÁ¶(*)ÇÏ¿© Student °´Ã¼¿¡ ´ëÇÑ ÂüÁ¶¸¦ ¹İÈ¯
+        // min_elementëŠ” ë¹„êµ í•¨ìˆ˜ì— ë”°ë¼ ê°€ì¥ ì‘ì€ ìš”ì†Œë¥¼ ê°€ë¦¬í‚¤ëŠ” ë°˜ë³µìë¥¼ ë°˜í™˜
+        // ê·¸ ë°˜ë³µìë¥¼ ì—­ì°¸ì¡°(*)í•˜ì—¬ Student ê°ì²´ì— ëŒ€í•œ ì°¸ì¡°ë¥¼ ë°˜í™˜
         return *std::min_element(students.begin(), students.end(), 
                             [](const Student& a, const Student& b) {
                                 return a.points < b.points;
                             });
     } 
 
-    ÇØ°á¹ı2 = bool compareEach() ÀÛ¼ºÇßÀ»¶§ (³» °æ¿ì)
+    í•´ê²°ë²•2 = bool compareEach() ì‘ì„±í–ˆì„ë•Œ (ë‚´ ê²½ìš°)
     const Student& get_lowest_points(const std::array<Student, STUDENT_COUNT>& students) {
     return *std::min_element(students.begin(), students.end(), compareEach);
     }
-    ÀÌ·±¹æ½ÄÀ¸·Î ÄÚµå¸¦ ÀÛ¼ºÇØ¾ß ÇÑ´Ù
+    ì´ëŸ°ë°©ì‹ìœ¼ë¡œ ì½”ë“œë¥¼ ì‘ì„±í•´ì•¼ í•œë‹¤
     */
-//    return std::min_element(students.begin(), students.end(), compareEach); //ÀÌ°Å´Â ±¸Á¶Ã¼ Ãâ·Â
+//    return std::min_element(students.begin(), students.end(), compareEach); //ì´ê±°ëŠ” êµ¬ì¡°ì²´ ì¶œë ¥
 //}
 
 const Student& get_last(const std::array<Student, STUDENT_COUNT>& students) {
-    return students[6]; //ÃÖÁ¾ ½Ç¼ö ³»°¡ ÀÌ°É min_elementÀ¸·Î ÀûÀº ½Ç¼ö¸¦ ÇÔ, º¸´Ï±î °Á ÀÔ·Â¹ŞÀº °Í Áß °¡Àå ¸¶Áö¸·À» Ãâ·ÂÇÏ´Â °ÍÀÌ¾úÀ½
+    return students[6]; //ìµœì¢… ì‹¤ìˆ˜ ë‚´ê°€ ì´ê±¸ min_elementìœ¼ë¡œ ì ì€ ì‹¤ìˆ˜ë¥¼ í•¨, ë³´ë‹ˆê¹Œ ê± ì…ë ¥ë°›ì€ ê²ƒ ì¤‘ ê°€ì¥ ë§ˆì§€ë§‰ì„ ì¶œë ¥í•˜ëŠ” ê²ƒì´ì—ˆìŒ
     }
 
 const Student& get_lowest_points(const std::array<Student, STUDENT_COUNT>& students) {
-    return *std::min_element(students.begin(), students.end(), compareEach);//ÀÌ·¸°Ô ¹İµå½Ã ¿ªÂüÁ¶ ÇØ¼­ ³»º¸³»¾ß ÇÑ´Ù.
+    return *std::min_element(students.begin(), students.end(), compareEach);//ì´ë ‡ê²Œ ë°˜ë“œì‹œ ì—­ì°¸ì¡° í•´ì„œ ë‚´ë³´ë‚´ì•¼ í•œë‹¤.
 }
 /*
 auto get_lowest_points(std::array<Student, STUDENT_COUNT>& students) {
-    return std::min_element(students.begin(), students.end(), compareEach)->points; //ÀÌ Ç¥Çö Àß ¾Ë¾ÆµÎ±â ÀÌ·¸°Ô ¸â¹öº¯¼ö ´ÜÀÏ·Î Á¢±ÙÇÏ°í ½ÍÀ¸¸é -> ¾²´Â °Í
+    return std::min_element(students.begin(), students.end(), compareEach)->points; //ì´ í‘œí˜„ ì˜ ì•Œì•„ë‘ê¸° ì´ë ‡ê²Œ ë©¤ë²„ë³€ìˆ˜ ë‹¨ì¼ë¡œ ì ‘ê·¼í•˜ê³  ì‹¶ìœ¼ë©´ -> ì“°ëŠ” ê²ƒ
 }
 */
 const Student& get_highest_points(const std::array<Student, STUDENT_COUNT>& students) {
@@ -101,7 +101,7 @@ const Student& get_highest_points(const std::array<Student, STUDENT_COUNT>& stud
 }
 /*
 auto get_highest_points(std::array<Student, STUDENT_COUNT>& students) {
-    return std::max_element(students.begin(), students.end(), compareEach)->points; //ÀÌ Ç¥Çö Àß ¾Ë¾ÆµÎ±â ÀÌ·¸°Ô ¸â¹öº¯¼ö ´ÜÀÏ·Î Á¢±ÙÇÏ°í ½ÍÀ¸¸é -> ¾²´Â °Í
+    return std::max_element(students.begin(), students.end(), compareEach)->points; //ì´ í‘œí˜„ ì˜ ì•Œì•„ë‘ê¸° ì´ë ‡ê²Œ ë©¤ë²„ë³€ìˆ˜ ë‹¨ì¼ë¡œ ì ‘ê·¼í•˜ê³  ì‹¶ìœ¼ë©´ -> ì“°ëŠ” ê²ƒ
 }
 */
 void print(const Student& a) {
