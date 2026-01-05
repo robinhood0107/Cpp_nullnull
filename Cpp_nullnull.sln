@@ -76,6 +76,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "실습111번", "C++_univ_vs
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "실습112번", "C++_univ_vs2022\실습112번\실습112번.vcxproj", "{DBFAE615-017C-425E-AFE8-38B7B1E57DF1}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "문자열 format[c++23적용]", "C++_univ_vs2022\문자열 format[c++23적용]\문자열 format[c++23적용].vcxproj", "{CC2CF408-7966-4D35-A3DC-BE686DBFC953}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -356,6 +358,14 @@ Global
 		{DBFAE615-017C-425E-AFE8-38B7B1E57DF1}.Release|x64.Build.0 = Release|x64
 		{DBFAE615-017C-425E-AFE8-38B7B1E57DF1}.Release|x86.ActiveCfg = Release|Win32
 		{DBFAE615-017C-425E-AFE8-38B7B1E57DF1}.Release|x86.Build.0 = Release|Win32
+		{CC2CF408-7966-4D35-A3DC-BE686DBFC953}.Debug|x64.ActiveCfg = Debug|x64
+		{CC2CF408-7966-4D35-A3DC-BE686DBFC953}.Debug|x64.Build.0 = Debug|x64
+		{CC2CF408-7966-4D35-A3DC-BE686DBFC953}.Debug|x86.ActiveCfg = Debug|Win32
+		{CC2CF408-7966-4D35-A3DC-BE686DBFC953}.Debug|x86.Build.0 = Debug|Win32
+		{CC2CF408-7966-4D35-A3DC-BE686DBFC953}.Release|x64.ActiveCfg = Release|x64
+		{CC2CF408-7966-4D35-A3DC-BE686DBFC953}.Release|x64.Build.0 = Release|x64
+		{CC2CF408-7966-4D35-A3DC-BE686DBFC953}.Release|x86.ActiveCfg = Release|Win32
+		{CC2CF408-7966-4D35-A3DC-BE686DBFC953}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
