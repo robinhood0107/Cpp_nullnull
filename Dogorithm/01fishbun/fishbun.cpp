@@ -60,9 +60,6 @@ int main() {
         }
     }
 
-    int head, tail;
-
-    int breakpoint=0;
     vector<int> result(5);
 
     for (int i = 0; i < 5; i++) {
@@ -185,7 +182,7 @@ void swapvector(int a, int b, vector<int>& vec){
 }
 
 int myreverse(int headidx, int tailidx, vector<int>& vec){
-    if (headidx < 0 || tailidx >= vec.size() || headidx >= tailidx) {
+    if (headidx < 0 || tailidx >= vec.size() || headidx > tailidx) {
         return 0; 
     }
 
