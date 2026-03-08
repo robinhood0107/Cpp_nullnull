@@ -19,13 +19,17 @@
 //생각해보니까 pivot처럼 2개의 포인터 두고서 하나하나 올라가면서 확인하고 만나거나 어떻게 되는지에 따라서만 if문 나누면 되는거 아님?
 
 #include <string>
+#include <string_view>
 #include <vector>
 #include <iostream>
-#include <sstream>
 
 using namespace std;
 
-bool mystrcompare(const string& s, int l, int r) {
+//더 빨리 할 수 없을까 찾아보니 string은 컴파일러가 문자열을 받으면 string 생성자로 보내서 임시객체를 만들어서 문자열의 복사본도 힙에 생성함(짧은 문자열은 SSO지만 이건 예외)
+//이렇게 임시객체로 복사본이 만들어진다는 것은 오버헤드가 발생한다는 것이기 때문에 읽기 전용 문자열은 string_view을 추천한다 함
+//C++17 string_view은 내부에 문자열에 대한 pointer와 길이만 가짐(임시객체따위 만들지 않고 바로 문자열), 그리고 내부 null 종료 문자도 없음(주의)
+
+bool mystrcompare(const string_view& s, int l, int r) {
     for (int i = 0; i < (r-l+1)/2; i++) {
         if (s[l+i] != s[r-i]) return false;
     }
@@ -50,8 +54,10 @@ int main(){
         vec.push_back(line);
     }
 
-    for(string s : vec){
-        int slen = s.length();
+    for(const string& raw : vec){
+        //생각해보니까 여기서 불필요하게 매개변수로 복사하고 있었음 이러면 안된다. 참조시켜서 메모리랑 속도 아껴야지.
+        string_view s(raw);
+        int slen = static_cast<int>(s.length());
         int hidx = 0;
         int tidx = slen-1;
         char temp = '1';
