@@ -19,7 +19,6 @@
 //생각해보니까 pivot처럼 2개의 포인터 두고서 하나하나 올라가면서 확인하고 만나거나 어떻게 되는지에 따라서만 if문 나누면 되는거 아님?
 
 #include <string>
-#include <string_view>
 #include <vector>
 #include <iostream>
 
@@ -29,7 +28,7 @@ using namespace std;
 //이렇게 임시객체로 복사본이 만들어진다는 것은 오버헤드가 발생한다는 것이기 때문에 읽기 전용 문자열은 string_view을 추천한다 함
 //C++17 string_view은 내부에 문자열에 대한 pointer와 길이만 가짐(임시객체따위 만들지 않고 바로 문자열), 그리고 내부 null 종료 문자도 없음(주의)
 
-bool mystrcompare(const string_view& s, int l, int r) {
+bool mystrcompare(const string& s, int l, int r) {
     for (int i = 0; i < (r-l+1)/2; i++) {
         if (s[l+i] != s[r-i]) return false;
     }
@@ -54,9 +53,8 @@ int main(){
         vec.push_back(line);
     }
 
-    for(const string& raw : vec){
+    for(const string& s : vec){
         //생각해보니까 여기서 불필요하게 매개변수로 복사하고 있었음 이러면 안된다. 참조시켜서 메모리랑 속도 아껴야지.
-        string_view s(raw);
         int slen = static_cast<int>(s.length());
         int hidx = 0;
         int tidx = slen-1;
@@ -65,7 +63,7 @@ int main(){
         for(int i=0; i<slen/2; i++){
             if(s[hidx+i] == s[tidx-i]) continue;
             else{
-                temp = (mystrcompare(s, hidx +i+1, tidx-i) || mystrcompare(s, hidx +i, tidx-i-1)) ? '2' : '3';
+                temp = (mystrcompare(s, hidx +i+1, tidx-i) || mystrcompare(s, hidx+i, tidx-i-1)) ? '2' : '3';
                 //왼쪽 하나 건너뛰어봄이랑 오른쪽 하나 건너뛰어봄 비교해서 이게 하나라고 true면 유사회문인거고, 아니면 걍 문장인거임, or 그자체다.
                 //어쩌피 다 같으면 회문이니까 생각할 이유는 없잖냐, 그리고 삼항연산자가 길이 줄이는데는 최고인듯
                 break;
