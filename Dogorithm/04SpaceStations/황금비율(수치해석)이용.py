@@ -1,3 +1,5 @@
+# 참고해야 할 사이트(황금비율 관련 지식) https://light-tree.tistory.com/170
+
 import sys
 import math
 
