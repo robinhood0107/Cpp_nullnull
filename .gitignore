@@ -370,3 +370,6 @@ FodyWeavers.xsd
 
 #PS공부시에 exe 파일은 필요가 없음
 *.exe
+
+#vscode 파일 삭제
+*.vscode
