@@ -1,32 +1,21 @@
 #include "CMystring.h"
-#include <iostream>
-#include <algorithm>
+#include <cstring>
 
-// 강의 보면서 직접 짜기
-using namespace std;
+CMyString::CMyString(const CMyString& rhs) { setData(rhs.getData()); }
+CMyString::~CMyString() { delete[] m_pszData; }
 
-CMyString::CMyString() {
-	cout << "CMyString()" << endl;
+CMyString& CMyString::operator=(const CMyString& rhs) {
+    if (this != &rhs) setData(rhs.getData());
+    return *this;
 }
 
-CMyString::CMyString(const CMyString& rhs)
-{
-	this->setData(rhs.getData());
-}
-
-CMyString::~CMyString() {
-	cout << "~CMyString()" << endl;
-	delete[] m_pszData;
-}
-
-void CMyString::setData(const char* pParam)
-{
-	if (m_pszData != nullptr)
-		delete[] m_pszData;
-
-	size_t length = strlen(pParam);
-	m_pszData = new char[length + 1];
-
-	strcpy_s(m_pszData, length + 1, pParam);
-	this->length = length;
+void CMyString::setData(const char* text) {
+    const std::size_t size = text ? std::strlen(text) : 0;
+    char* replacement = new char[size + 1];
+    // 기존 버퍼 안의 문자열을 인자로 받아도 복사 후에 해제한다.
+    if (size != 0) std::memcpy(replacement, text, size);
+    replacement[size] = '\0';
+    delete[] m_pszData;
+    m_pszData = replacement;
+    length = size;
 }
