@@ -42,11 +42,18 @@ try {
     Invoke-Checked 'cmake.exe' @('--version')
     Invoke-Checked 'ninja.exe' @('--version')
     $configurations = if ($Configuration -eq 'Both') { @('Debug', 'Release') } else { @($Configuration) }
+    $failures = @()
     foreach ($item in $configurations) {
         $preset = 'windows-' + $item.ToLowerInvariant()
-        Invoke-Checked 'cmake.exe' @('--preset', $preset)
-        Invoke-Checked 'cmake.exe' @('--build', '--preset', $preset, '--parallel', '2')
-        Invoke-Checked 'ctest.exe' @('--preset', $preset)
+        try {
+            Invoke-Checked 'cmake.exe' @('--preset', $preset)
+            Invoke-Checked 'cmake.exe' @('--build', '--preset', $preset, '--parallel', '2')
+            Invoke-Checked 'ctest.exe' @('--preset', $preset)
+        } catch {
+            $failures += $preset
+            Write-Warning "$preset 실패: $_"
+        }
     }
+    if ($failures.Count -gt 0) { throw ("검증 실패: " + ($failures -join ", ")) }
     Write-Host "설정·빌드·테스트 완료: $root\out\build"
 } finally { Pop-Location }

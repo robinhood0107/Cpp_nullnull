@@ -2,6 +2,13 @@
 set -euo pipefail
 ROOT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "$ROOT_DIR"
+configuration="${1:-Both}"
+case "$configuration" in
+    Both) presets=(linux-debug linux-release) ;;
+    Debug) presets=(linux-debug) ;;
+    Release) presets=(linux-release) ;;
+    *) echo "사용법: bash scripts/setup.sh [Both|Debug|Release]" >&2; exit 2 ;;
+esac
 
 if [[ ! -r /etc/os-release ]]; then
     echo "Ubuntu 24.04에서 실행하세요." >&2
@@ -33,9 +40,18 @@ fi
 for tool in cmake ninja g++-13; do
     "$tool" --version
 done
-for preset in linux-debug linux-release; do
-    cmake --preset "$preset"
-    cmake --build --preset "$preset" --parallel 2
-    ctest --preset "$preset"
+failed=0
+for preset in "${presets[@]}"; do
+    if cmake --preset "$preset" &&
+       cmake --build --preset "$preset" --parallel 2 &&
+       ctest --preset "$preset"; then
+        printf '[%s] 검증 통과\n' "$preset"
+    else
+        printf '[%s] 실패: 위의 오류를 확인하세요.\n' "$preset" >&2
+        failed=1
+    fi
 done
-printf '\n설정·빌드·테스트 완료. 실행 파일: %s/out/build/linux-debug/bin\n' "$ROOT_DIR"
+if (( failed )); then
+    exit 1
+fi
+printf '\n설정·빌드·테스트 완료. 실행 파일: %s/out/build\n' "$ROOT_DIR"

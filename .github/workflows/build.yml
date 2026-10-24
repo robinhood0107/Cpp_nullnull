@@ -12,27 +12,35 @@ jobs:
   linux:
     runs-on: ubuntu-24.04
     timeout-minutes: 30
+    strategy:
+      fail-fast: false
+      matrix:
+        configuration: [Debug, Release]
     steps:
       - uses: actions/checkout@v7.0.1
       - name: Ubuntu Debug and Release
-        run: bash scripts/setup.sh
+        run: bash scripts/setup.sh ${{ matrix.configuration }}
       - uses: actions/upload-artifact@v7.0.2
         if: always()
         with:
-          name: linux-test-logs
+          name: linux-${{ matrix.configuration }}-test-logs
           path: out/build/linux-*/Testing/Temporary/
   windows:
     runs-on: windows-2022
     timeout-minutes: 45
+    strategy:
+      fail-fast: false
+      matrix:
+        configuration: [Debug, Release]
     steps:
       - uses: actions/checkout@v7.0.1
       - name: MSVC Debug and Release
         shell: powershell
-        run: .\scripts\setup.ps1
+        run: .\scripts\setup.ps1 -Configuration ${{ matrix.configuration }}
       - uses: actions/upload-artifact@v7.0.2
         if: always()
         with:
-          name: windows-test-logs
+          name: windows-${{ matrix.configuration }}-test-logs
           path: out/build/windows-*/Testing/Temporary/
   ubuntu-install:
     runs-on: ubuntu-24.04
