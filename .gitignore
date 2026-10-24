@@ -375,3 +375,6 @@ CMakeUserPresets.json
 # 검증 증거로 보존하는 실행 로그만 예외로 둔다.
 !/docs/verification/logs/
 !/docs/verification/logs/*.log
+
+# 개인 CLion 작업 설정은 보존하되 추적하지 않는다.
+.idea/
