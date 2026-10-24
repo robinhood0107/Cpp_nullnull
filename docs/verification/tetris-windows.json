@@ -1,0 +1,31 @@
+[
+    {
+        "changed":  false,
+        "board":  true,
+        "score":  false,
+        "target":  "assignment02",
+        "exit":  0
+    },
+    {
+        "changed":  true,
+        "board":  true,
+        "score":  true,
+        "target":  "assignment03",
+        "exit":  0
+    },
+    {
+        "changed":  true,
+        "board":  true,
+        "score":  true,
+        "target":  "assignment04",
+        "exit":  0
+    },
+    {
+        "changed":  true,
+        "board":  true,
+        "score":  true,
+        "target":  "assignment05",
+        "exit":  0
+    }
+]
+

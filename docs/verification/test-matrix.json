@@ -1,0 +1,38 @@
+{
+  "linux-debug": {
+    "total": 73,
+    "passed": 71,
+    "failed": 2,
+    "status": "unresolved-original-fixture"
+  },
+  "linux-release": {
+    "total": 73,
+    "passed": 71,
+    "failed": 2,
+    "status": "unresolved-original-fixture"
+  },
+  "windows-debug": {
+    "total": 73,
+    "passed": 71,
+    "failed": 2,
+    "status": "unresolved-original-fixture"
+  },
+  "windows-release": {
+    "total": 73,
+    "passed": 71,
+    "failed": 2,
+    "status": "unresolved-original-fixture"
+  },
+  "ubuntu-vm-manual-debug": {
+    "total": 72,
+    "passed": 70,
+    "failed": 2,
+    "status": "unresolved-original-fixture"
+  },
+  "ubuntu-vm-script-debug": {
+    "total": 73,
+    "passed": 71,
+    "failed": 2,
+    "status": "unresolved-original-fixture"
+  }
+}

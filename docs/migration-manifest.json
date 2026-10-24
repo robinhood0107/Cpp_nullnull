@@ -3082,6 +3082,66 @@
       "original": "Cpp_Project_collection/main.cpp",
       "path": "examples/basics/project-intro/main.cpp",
       "sha256": "bf2df00e3892d7cab44a3069a17bd765797f2c7e6771f50f7fdfeb5144b3a984"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "260424_260428/부록E_DP심화/부록E_DP심화.md",
+      "path": "notes/algorithms/dp-advanced/부록E_DP심화.md",
+      "sha256": "10e56508c9eb698ca3fa4df6be14f2e24a004018f2269be493db9b6ce31f7166"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "260424_260428/부록E_DP심화/images/01.PNG",
+      "path": "notes/algorithms/dp-advanced/images/01.PNG",
+      "sha256": "271f7fb188217ac23b878447c7fcccbb65d5ed611e7b631c15836227f59ea83f"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "260424_260428/부록E_DP심화/images/02.PNG",
+      "path": "notes/algorithms/dp-advanced/images/02.PNG",
+      "sha256": "98b7280399a8a11fd6ff7160a814cd6d36353fbc68a96e3e667ecec5fd358e58"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "260424_260428/부록E_DP심화/images/03.PNG",
+      "path": "notes/algorithms/dp-advanced/images/03.PNG",
+      "sha256": "2a38802a5e1c10517dd6de9574d4443b8052a4759bf26838290faa27a8651e92"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "260424_260428/부록E_DP심화/images/04.PNG",
+      "path": "notes/algorithms/dp-advanced/images/04.PNG",
+      "sha256": "8600eab3f602ce14f54ede8e4347b4d3cb347c338a3483ee71a7465035eb1f81"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "260424_260428/부록E_DP심화/images/05.PNG",
+      "path": "notes/algorithms/dp-advanced/images/05.PNG",
+      "sha256": "2b65012b0493c51374bf9cfaa1391ff9211fb328763375cd5f8b37c8fe897258"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/04SpaceStations/math.ceil에서 epsilon(1e-9)를 빼야하는 이유와 1e-9를 사용하는 이유(스위트 스팟).md",
+      "path": "notes/algorithms/space-stations/math.ceil에서 epsilon(1e-9)를 빼야하는 이유와 1e-9를 사용하는 이유(스위트 스팟).md",
+      "sha256": "6503a2d7f60d1b7edf439f0519f4e1681385d4ee75c30a9a703b46db5b27d1a2"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/04SpaceStations/return mydist(l) 설명.md",
+      "path": "notes/algorithms/space-stations/return mydist(l) 설명.md",
+      "sha256": "98394bd5e543193b08b2d19678871194de377557b2f88fc36f0b1ed49de323d8"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/04SpaceStations/관련 추천문제.md",
+      "path": "notes/algorithms/space-stations/관련 추천문제.md",
+      "sha256": "2a5b0e89cf9217ddd66ac3bedf05b3b9635a5ceaf653d13ca4b61a0786f2b7d7"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/04SpaceStations/파이썬zip()설명(같은 인덱스끼리 묶어주는 함수) + 추가적인 cpp java 예시.md",
+      "path": "notes/algorithms/space-stations/파이썬zip()설명(같은 인덱스끼리 묶어주는 함수) + 추가적인 cpp java 예시.md",
+      "sha256": "4000a117492691f608ba6675ccb1b3c9e72e242a3fa2966f5a33521c53dd50a2"
     }
   ]
 }
