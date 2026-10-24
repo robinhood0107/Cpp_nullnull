@@ -47,6 +47,20 @@ cmake --build --preset linux-release --parallel 2
 ctest --preset linux-release
 ```
 
+## VS Code 최초 설치
+
+일반 Ubuntu 데스크톱에서는 [VS Code 공식 다운로드](https://code.visualstudio.com/download)의 Linux **.deb / x64** 파일을 받습니다. 다운로드 폴더에서 실제 받은 파일명으로 설치하고 버전을 확인합니다.
+
+```bash
+(
+cd ~/Downloads
+sudo apt install ./code_*_amd64.deb
+code --version
+)
+```
+
+WSL2에서는 Linux용 VS Code를 별도 설치하지 않습니다. Windows에 VS Code를 설치하고 **Remote - WSL** 확장을 추가한 뒤 Ubuntu 터미널의 저장소 루트에서 `code .`를 실행합니다. 확장 창에서 C/C++와 CMake Tools를 **WSL: Ubuntu에 설치**합니다. 일반 Ubuntu에서도 두 확장을 설치해야 합니다.
+
 ## 실행과 디버깅
 
 ```bash
@@ -81,3 +95,5 @@ cd algorithms/dogorithm/18
 - `Curses`를 찾지 못함: `libncurses-dev` 설치 여부를 확인합니다.
 - 다른 컴파일러로 만든 캐시 충돌: 별도 preset 디렉터리를 사용합니다. 필요한 경우 `cmake --fresh --preset linux-debug`로 캐시만 다시 구성합니다.
 - 입력 대기: 해당 예제의 문제 설명이나 테스트 입력을 확인합니다. 모든 예제가 자동으로 종료되는 데모는 아닙니다.
+
+개별 구성만 검증하려면 `bash scripts/setup.sh Debug` 또는 `bash scripts/setup.sh Release`를 사용합니다. 기본 Both에서는 한 구성의 테스트가 실패해도 다른 구성까지 확인한 뒤 실패로 종료합니다.

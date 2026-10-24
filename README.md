@@ -14,7 +14,9 @@ C++ 문법, 대학 실습과 과제, 알고리즘 풀이, 문자열 클래스 �
 
 ## 현재 검증 상태
 
-전체 빌드는 Linux와 Windows에서 완료했습니다. 다만 `invert`의 제공된 정답 2개가 현재 `S.txt`와 불일치하여 설치 스크립트와 CI가 테스트 단계에서 실패합니다. 이 항목을 제외하거나 기대 출력을 바꾸지 않았으며, 전체 검증 완료 상태가 아닙니다. [확인한 결과와 남은 항목](docs/verification.md)을 참고하세요.
+Linux·Windows 호스트의 Debug/Release 전체 빌드와 각각 74개 CTest, 양쪽 운영체제 일반 CI와 Ubuntu 기본 이미지 설치 CI가 통과했습니다. 새 VM·IDE별 결과는 [검증 기록](docs/verification.md)에 구분합니다.
+
+`invert`는 원본 정답 2개와 `S.txt`가 맞지 않아 원본을 보존하고 별도 `.verified.out`을 사용합니다. [명시한 실행 계약과 독립 완전 탐색](algorithms/dogorithm/18/README.md)으로 검산했으며, 확보하지 못한 공식 문제의 정답 확인과는 구분합니다.
 
 ## 처음 시작하기
 

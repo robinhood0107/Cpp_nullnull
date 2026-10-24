@@ -462,7 +462,7 @@
   {
     "name": "assignment03",
     "path": "coursework/assignments/tetris/stage03",
-    "topic": "테트리스 이동·회전·점수",
+    "topic": "테트리스 이동·하드 드롭·착지",
     "sources": [
       "main.cpp",
       "tetris.cpp",

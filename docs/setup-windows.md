@@ -14,6 +14,15 @@ Windows 10 Pro 22H2 x64와 VS2022를 기준으로 합니다. 프로그램 설치
 
 VS2022에서 함께 설치한 CMake·Ninja가 Developer Command Prompt에 잡히면 별도로 중복 설치할 필요는 없습니다. Visual Studio Installer의 **수정 → 개별 구성 요소**에서 SDK·CMake 도구가 빠지지 않았는지 확인합니다. 다른 최신 Visual Studio 버전으로 대체하지 않고 VS2022와 v143을 선택합니다.
 
+## CMake·Ninja를 별도로 설치해야 할 때
+
+VS2022 Installer에서 **Windows용 C++ CMake 도구**를 선택한 경우 동봉 도구를 먼저 사용합니다. x64 개발자 명령 프롬프트의 `cmake --version`, `where ninja`가 동작하면 다음 별도 설치는 생략합니다.
+
+- CMake가 없거나 3.28보다 낮다면 공식 다운로드의 Windows x64 설치 프로그램을 실행하고 **Add CMake to PATH**를 선택합니다.
+- Ninja가 없다면 공식 릴리스에서 **ninja-win.zip**을 받아 `C:\Tools\ninja` 같은 폴더에 풉니다. 해당 폴더 바로 아래에 `ninja.exe`가 있어야 합니다.
+- 시작 메뉴에서 **계정의 환경 변수 편집 → 사용자 변수 Path → 편집 → 새로 만들기**로 `C:\Tools\ninja`를 추가합니다. 기존 항목은 유지하며 실행 파일이 아닌 폴더 경로를 추가합니다.
+- 터미널을 새로 열어 `where ninja`, `ninja --version`을 확인합니다. VS Code 설치 시에도 **Add to PATH**를 선택하고 새 터미널의 `code --version`으로 확인합니다.
+
 ## 저장소 받기
 
 ```powershell
@@ -77,3 +86,12 @@ out\build\windows-debug\bin\assignment05.exe
 - 일반 실행 파일 검색이 안 됨: `PATHEXT`에 `.EXE;.COM;.BAT;.CMD`가 있는지 확인합니다. 프로젝트 스크립트는 현재 프로세스에서만 보충합니다.
 
 [VS2022·VS Code 디버깅 안내](editors.md)
+
+개별 구성만 검증하려면 저장소 루트 PowerShell에서 아래 명령 중 하나를 사용합니다.
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\setup.ps1 -Configuration Debug
+powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\setup.ps1 -Configuration Release
+```
+
+기본 Both에서는 한 구성의 테스트가 실패해도 다른 구성까지 확인한 뒤 실패로 종료합니다.
