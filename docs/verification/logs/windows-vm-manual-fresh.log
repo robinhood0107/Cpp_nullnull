@@ -1,0 +1,1057 @@
+**********************
+Windows PowerShell transcript start
+Start time: 20261024062052
+Username: CPP-MANUAL\developer
+RunAs User: CPP-MANUAL\developer
+Configuration Name: 
+Machine: CPP-MANUAL (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -File A:\TEST.PS1
+Process ID: 5328
+PSVersion: 5.1.19041.2673
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.2673
+BuildVersion: 10.0.19041.2673
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\verification\manual-fresh.log
+PS>TerminatingError(Invoke-WebRequest): "Unable to connect to the remote server"
+**********************
+Windows PowerShell transcript end
+End time: 20261024062115
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20261024062404
+Username: CPP-MANUAL\developer
+RunAs User: CPP-MANUAL\developer
+Configuration Name: 
+Machine: CPP-MANUAL (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -File C:\verification\manual-resume.ps1
+Process ID: 860
+PSVersion: 5.1.19041.2673
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.2673
+BuildVersion: 10.0.19041.2673
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\verification\manual-fresh.log
+
+initial git exists: False
+initial cmake exists: False
+initial ninja exists: False
+initial cl exists: False
+VS2022 installer exit: 0
+**********************************************************************
+** Visual Studio 2022 Developer Command Prompt v17.14.42
+** Copyright (c) 2025 Microsoft Corporation
+**********************************************************************
+Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35229 for x64
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+usage: cl [ option... ] filename... [ /link linkoption... ]
+cmake version 3.31.6-msvc6
+
+CMake suite maintained and supported by Kitware (kitware.com/cmake).
+1.12.1
+Preset CMake variables:
+
+  BUILD_TESTING="ON"
+  CMAKE_BUILD_TYPE="Debug"
+  CMAKE_CXX_COMPILER="cl"
+  CMAKE_C_COMPILER="cl"
+
+-- The C compiler identification is MSVC 19.44.35229.0
+-- The CXX compiler identification is MSVC 19.44.35229.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/M
+SVC/14.44.35207/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools
+/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (10.7s)
+-- Generating done (0.6s)
+-- Build files have been written to: C:/cpp-manual/out/build/windows-debug
+[0/2] Re-checking globbed directories...
+[139/514] Building C object CMakeFiles\pdcurses_win.dir\_deps\pdcurses-src\pdcurses\attr.c.obj
+C:\cpp-manual\out\build\windows-debug\_deps\pdcurses-src\pdcurses\attr.c(234): warning C4100: 'opts
+': unreferenced parameter
+C:\cpp-manual\out\build\windows-debug\_deps\pdcurses-src\pdcurses\attr.c(253): warning C4100: 'opts
+': unreferenced parameter
+C:\cpp-manual\out\build\windows-debug\_deps\pdcurses-src\pdcurses\attr.c(276): warning C4100: 'opts
+': unreferenced parameter
+C:\cpp-manual\out\build\windows-debug\_deps\pdcurses-src\pdcurses\attr.c(283): warning C4100: 'opts
+': unreferenced parameter
+C:\cpp-manual\out\build\windows-debug\_deps\pdcurses-src\pdcurses\attr.c(290): warning C4100: 'opts
+': unreferenced parameter
+C:\cpp-manual\out\build\windows-debug\_deps\pdcurses-src\pdcurses\attr.c(297): warning C4100: 'opts
+': unreferenced parameter
+C:\cpp-manual\out\build\windows-debug\_deps\pdcurses-src\pdcurses\attr.c(304): warning C4100: 'opts
+': unreferenced parameter
+C:\cpp-manual\out\build\windows-debug\_deps\pdcurses-src\pdcurses\attr.c(323): warning C4100: 'opts
+': unreferenced parameter
+[144/514] Building C object CMakeFiles\pdcurses_win.dir\_deps\pdcurses-src\pdcurses\color.c.obj
+C:\cpp-manual\out\build\windows-debug\_deps\pdcurses-src\pdcurses\color.c(244): warning C4244: '=':
+ conversion from 'int' to 'short', possible loss of data
+C:\cpp-manual\out\build\windows-debug\_deps\pdcurses-src\pdcurses\color.c(245): warning C4244: '=':
+ conversion from 'int' to 'short', possible loss of data
+[148/514] Building C object CMakeFiles\pdcurses_win.dir\_deps\pdcurses-src\pdcurses\getstr.c.obj
+C:\cpp-manual\out\build\windows-debug\_deps\pdcurses-src\pdcurses\getstr.c(82): warning C4267: 'ret
+urn': conversion from 'size_t' to 'int', possible loss of data
+C:\cpp-manual\out\build\windows-debug\_deps\pdcurses-src\pdcurses\getstr.c(322): warning C4244: '='
+: conversion from 'int' to 'wint_t', possible loss of data
+C:\cpp-manual\out\build\windows-debug\_deps\pdcurses-src\pdcurses\getstr.c(388): warning C4244: '='
+: conversion from 'int' to 'wint_t', possible loss of data
+[149/514] Building C object CMakeFiles\pdcurses_win.dir\_deps\pdcurses-src\pdcurses\getch.c.obj
+C:\cpp-manual\out\build\windows-debug\_deps\pdcurses-src\pdcurses\getch.c(188): warning C4267: '=':
+ conversion from 'size_t' to 'long', possible loss of data
+C:\cpp-manual\out\build\windows-debug\_deps\pdcurses-src\pdcurses\getch.c(216): warning C4267: '=':
+ conversion from 'size_t' to 'long', possible loss of data
+C:\cpp-manual\out\build\windows-debug\_deps\pdcurses-src\pdcurses\getch.c(520): warning C4245: 'ret
+urn': conversion from 'int' to 'unsigned long', signed/unsigned mismatch
+C:\cpp-manual\out\build\windows-debug\_deps\pdcurses-src\pdcurses\getch.c(551): warning C4244: '=':
+ conversion from 'int' to 'wint_t', possible loss of data
+[153/514] Building C object CMakeFiles\pdcurses_win.dir\_deps\pdcurses-src\pdcurses\initscr.c.obj
+C:\cpp-manual\out\build\windows-debug\_deps\pdcurses-src\pdcurses\initscr.c(273): warning C4100: 'i
+nfd': unreferenced parameter
+C:\cpp-manual\out\build\windows-debug\_deps\pdcurses-src\pdcurses\initscr.c(273): warning C4100: 'o
+utfd': unreferenced parameter
+C:\cpp-manual\out\build\windows-debug\_deps\pdcurses-src\pdcurses\initscr.c(273): warning C4100: 't
+ype': unreferenced parameter
+[154/514] Building C object CMakeFiles\pdcurses_win.dir\_deps\pdcurses-src\pdcurses\inopts.c.obj
+C:\cpp-manual\out\build\windows-debug\_deps\pdcurses-src\pdcurses\inopts.c(188): warning C4100: 'bf
+': unreferenced parameter
+C:\cpp-manual\out\build\windows-debug\_deps\pdcurses-src\pdcurses\inopts.c(188): warning C4100: 'wi
+n': unreferenced parameter
+C:\cpp-manual\out\build\windows-debug\_deps\pdcurses-src\pdcurses\inopts.c(207): warning C4100: 'wi
+n': unreferenced parameter
+C:\cpp-manual\out\build\windows-debug\_deps\pdcurses-src\pdcurses\inopts.c(255): warning C4100: 'fl
+ag': unreferenced parameter
+C:\cpp-manual\out\build\windows-debug\_deps\pdcurses-src\pdcurses\inopts.c(255): warning C4100: 'wi
+n': unreferenced parameter
+C:\cpp-manual\out\build\windows-debug\_deps\pdcurses-src\pdcurses\inopts.c(298): warning C4100: 'fi
+ldes': unreferenced parameter
+[156/514] Building C object CMakeFiles\pdcurses_win.dir\_deps\pdcurses-src\pdcurses\insstr.c.obj
+C:\cpp-manual\out\build\windows-debug\_deps\pdcurses-src\pdcurses\insstr.c(83): warning C4267: '=':
+ conversion from 'size_t' to 'int', possible loss of data
+[157/514] Building C object CMakeFiles\pdcurses_win.dir\_deps\pdcurses-src\pdcurses\instr.c.obj
+C:\cpp-manual\out\build\windows-debug\_deps\pdcurses-src\pdcurses\instr.c(76): warning C4267: 'retu
+rn': conversion from 'size_t' to 'int', possible loss of data
+[161/514] Building C object CMakeFiles\pdcurses_win.dir\_deps\pdcurses-src\pdcurses\move.c.obj
+C:\cpp-manual\out\build\windows-debug\_deps\pdcurses-src\pdcurses\move.c(51): warning C4100: 'oldco
+l': unreferenced parameter
+C:\cpp-manual\out\build\windows-debug\_deps\pdcurses-src\pdcurses\move.c(51): warning C4100: 'oldro
+w': unreferenced parameter
+[162/514] Building C object CMakeFiles\pdcurses_win.dir\_deps\pdcurses-src\pdcurses\outopts.c.obj
+C:\cpp-manual\out\build\windows-debug\_deps\pdcurses-src\pdcurses\outopts.c(86): warning C4100: 'bf
+': unreferenced parameter
+C:\cpp-manual\out\build\windows-debug\_deps\pdcurses-src\pdcurses\outopts.c(86): warning C4100: 'wi
+n': unreferenced parameter
+C:\cpp-manual\out\build\windows-debug\_deps\pdcurses-src\pdcurses\outopts.c(93): warning C4100: 'bf
+': unreferenced parameter
+C:\cpp-manual\out\build\windows-debug\_deps\pdcurses-src\pdcurses\outopts.c(93): warning C4100: 'wi
+n': unreferenced parameter
+[163/514] Building C object CMakeFiles\pdcurses_win.dir\_deps\pdcurses-src\pdcurses\overlay.c.obj
+C:\cpp-manual\out\build\windows-debug\_deps\pdcurses-src\pdcurses\overlay.c(213): warning C4244: 'f
+unction': conversion from 'int' to 'bool', possible loss of data
+[169/514] Building C object CMakeFiles\pdcurses_win.dir\_deps\pdcurses-src\pdcurses\scr_dump.c.obj
+C:\cpp-manual\out\build\windows-debug\_deps\pdcurses-src\pdcurses\scr_dump.c(183): warning C4100: '
+filename': unreferenced parameter
+[171/514] Building C object CMakeFiles\pdcurses_win.dir\_deps\pdcurses-src\pdcurses\slk.c.obj
+C:\cpp-manual\out\build\windows-debug\_deps\pdcurses-src\pdcurses\slk.c(359): warning C4100: 'opts'
+: unreferenced parameter
+C:\cpp-manual\out\build\windows-debug\_deps\pdcurses-src\pdcurses\slk.c(381): warning C4100: 'opts'
+: unreferenced parameter
+C:\cpp-manual\out\build\windows-debug\_deps\pdcurses-src\pdcurses\slk.c(418): warning C4100: 'opts'
+: unreferenced parameter
+C:\cpp-manual\out\build\windows-debug\_deps\pdcurses-src\pdcurses\slk.c(665): warning C4244: '=': c
+onversion from 'chtype' to 'wchar_t', possible loss of data
+[174/514] Building C object CMakeFiles\pdcurses_win.dir\_deps\pdcurses-src\pdcurses\util.c.obj
+C:\cpp-manual\out\build\windows-debug\_deps\pdcurses-src\pdcurses\util.c(113): warning C4100: 'x':
+unreferenced parameter
+C:\cpp-manual\out\build\windows-debug\_deps\pdcurses-src\pdcurses\util.c(127): warning C4100: 'opts
+': unreferenced parameter
+C:\cpp-manual\out\build\windows-debug\_deps\pdcurses-src\pdcurses\util.c(151): warning C4100: 'opts
+': unreferenced parameter
+C:\cpp-manual\out\build\windows-debug\_deps\pdcurses-src\pdcurses\util.c(257): warning C4245: 'retu
+rn': conversion from 'int' to 'size_t', signed/unsigned mismatch
+C:\cpp-manual\out\build\windows-debug\_deps\pdcurses-src\pdcurses\util.c(284): warning C4244: '=':
+conversion from 'chtype' to 'char', possible loss of data
+C:\cpp-manual\out\build\windows-debug\_deps\pdcurses-src\pdcurses\util.c(290): warning C4244: '=':
+conversion from 'chtype' to 'char', possible loss of data
+C:\cpp-manual\out\build\windows-debug\_deps\pdcurses-src\pdcurses\util.c(297): warning C4244: '=':
+conversion from 'chtype' to 'char', possible loss of data
+[176/514] Building C object CMakeFiles\pdcurses_win.dir\_deps\pdcurses-src\wincon\pdcclip.c.obj
+C:\cpp-manual\out\build\windows-debug\_deps\pdcurses-src\wincon\pdcclip.c(73): warning C4267: '=':
+conversion from 'size_t' to 'long', possible loss of data
+C:\cpp-manual\out\build\windows-debug\_deps\pdcurses-src\wincon\pdcclip.c(86): warning C4267: '=':
+conversion from 'size_t' to 'long', possible loss of data
+[177/514] Building C object CMakeFiles\pdcurses_win.dir\_deps\pdcurses-src\wincon\pdcdisp.c.obj
+C:\cpp-manual\out\build\windows-debug\_deps\pdcurses-src\wincon\pdcdisp.c(27): warning C4244: '=':
+conversion from 'int' to 'SHORT', possible loss of data
+C:\cpp-manual\out\build\windows-debug\_deps\pdcurses-src\wincon\pdcdisp.c(28): warning C4244: '=':
+conversion from 'int' to 'SHORT', possible loss of data
+C:\cpp-manual\out\build\windows-debug\_deps\pdcurses-src\wincon\pdcdisp.c(132): warning C4267: 'fun
+ction': conversion from 'size_t' to 'DWORD', possible loss of data
+C:\cpp-manual\out\build\windows-debug\_deps\pdcurses-src\wincon\pdcdisp.c(237): warning C4244: '=':
+ conversion from 'int' to 'SHORT', possible loss of data
+C:\cpp-manual\out\build\windows-debug\_deps\pdcurses-src\wincon\pdcdisp.c(240): warning C4244: '=':
+ conversion from 'int' to 'SHORT', possible loss of data
+C:\cpp-manual\out\build\windows-debug\_deps\pdcurses-src\wincon\pdcdisp.c(241): warning C4244: '=':
+ conversion from 'int' to 'SHORT', possible loss of data
+C:\cpp-manual\out\build\windows-debug\_deps\pdcurses-src\wincon\pdcdisp.c(242): warning C4244: '=':
+ conversion from 'int' to 'SHORT', possible loss of data
+[179/514] Building C object CMakeFiles\pdcurses_win.dir\_deps\pdcurses-src\wincon\pdckbd.c.obj
+C:\cpp-manual\out\build\windows-debug\_deps\pdcurses-src\wincon\pdckbd.c(243): warning C4100: 'on':
+ unreferenced parameter
+[180/514] Building C object CMakeFiles\pdcurses_win.dir\_deps\pdcurses-src\wincon\pdcscrn.c.obj
+C:\cpp-manual\out\build\windows-debug\_deps\pdcurses-src\wincon\pdcscrn.c(319): warning C4100: 'ep'
+: unreferenced parameter
+C:\cpp-manual\out\build\windows-debug\_deps\pdcurses-src\wincon\pdcscrn.c(399): warning C4244: '=':
+ conversion from 'int' to 'short', possible loss of data
+C:\cpp-manual\out\build\windows-debug\_deps\pdcurses-src\wincon\pdcscrn.c(400): warning C4244: '=':
+ conversion from 'int' to 'short', possible loss of data
+C:\cpp-manual\out\build\windows-debug\_deps\pdcurses-src\wincon\pdcscrn.c(414): warning C4996: 'Get
+Version': was declared deprecated
+C:\cpp-manual\out\build\windows-debug\_deps\pdcurses-src\wincon\pdcscrn.c(382): warning C4100: 'arg
+v': unreferenced parameter
+C:\cpp-manual\out\build\windows-debug\_deps\pdcurses-src\wincon\pdcscrn.c(382): warning C4100: 'arg
+c': unreferenced parameter
+C:\cpp-manual\out\build\windows-debug\_deps\pdcurses-src\wincon\pdcscrn.c(564): warning C4244: '=':
+ conversion from 'int' to 'SHORT', possible loss of data
+C:\cpp-manual\out\build\windows-debug\_deps\pdcurses-src\wincon\pdcscrn.c(569): warning C4244: '=':
+ conversion from 'int' to 'SHORT', possible loss of data
+C:\cpp-manual\out\build\windows-debug\_deps\pdcurses-src\wincon\pdcscrn.c(640): warning C4100: 'i':
+ unreferenced parameter
+C:\cpp-manual\out\build\windows-debug\_deps\pdcurses-src\wincon\pdcscrn.c(644): warning C4100: 'i':
+ unreferenced parameter
+[302/514] Building CXX object CMakeFiles\lab041.dir\coursework\labs\lab041\input.cpp.obj
+C:\cpp-manual\coursework\labs\lab041\input.cpp(54): warning C4101: 'cnt': unreferenced local variab
+le
+[307/514] Building CXX object CMakeFiles\lab042.dir\coursework\labs\lab042\word_input.cpp.obj
+C:\cpp-manual\coursework\labs\lab042\word_input.cpp(18): warning C4244: 'argument': conversion from
+ 'int' to '_Elem', possible loss of data
+        with
+        [
+            _Elem=char
+        ]
+[308/514] Building CXX object CMakeFiles\lab042.dir\coursework\labs\lab042\word_manager.cpp.obj
+C:\cpp-manual\coursework\labs\lab042\word_manager.cpp(11): warning C4244: 'argument': conversion fr
+om 'int' to '_Elem', possible loss of data
+        with
+        [
+            _Elem=char
+        ]
+[309/514] Building CXX object CMakeFiles\lab051.dir\coursework\labs\lab051\board_util.cpp.obj
+C:\cpp-manual\coursework\labs\lab051\board_util.cpp(28): warning C4244: 'return': conversion from '
+__int64' to 'int', possible loss of data
+C:\cpp-manual\coursework\labs\lab051\board_util.cpp(42): warning C4244: 'initializing': conversion
+from '__int64' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\algorithm
+(3800): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\algorithm
+(3800): note: the template instantiation context (the oldest one first) is
+C:\cpp-manual\coursework\labs\lab051\board_util.cpp(52): note: see reference to function template i
+nstantiation '_OutIt std::transform<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>
+>,std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,get_heights::<lambda_1>>(const _
+InIt,const _InIt,_OutIt,_Fn)' being compiled
+        with
+        [
+            _OutIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<int>>>,
+            _Ty=int,
+            _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<int>>>,
+            _Fn=get_heights::<lambda_1>
+        ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\numeric(3
+1): warning C4244: '=': conversion from '__int64' to '_Ty', possible loss of data
+        with
+        [
+            _Ty=int
+        ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\numeric(3
+1): note: the template instantiation context (the oldest one first) is
+C:\cpp-manual\coursework\labs\lab051\board_util.cpp(63): note: see reference to function template i
+nstantiation '_Ty std::accumulate<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<std::ve
+ctor<_Ty,std::allocator<_Ty>>>>>,int,count_empty::<lambda_1>>(const _InIt,const _InIt,_Ty,_Fn)' bei
+ng compiled
+        with
+        [
+            _Ty=int,
+            _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<std::vector<int,std::al
+locator<int>>>>>,
+            _Fn=count_empty::<lambda_1>
+        ]
+[312/514] Building CXX object CMakeFiles\lab052.dir\coursework\labs\lab052\main.cpp.obj
+C:\cpp-manual\coursework\labs\lab052\main.cpp(72): warning C4101: 'threshold': unreferenced local v
+ariable
+[316/514] Building CXX object CMakeFiles\lab062.dir\coursework\labs\lab062\Excel.cpp.obj
+C:\cpp-manual\coursework\labs\lab062\Excel.cpp(86): warning C4267: 'initializing': conversion from
+'size_t' to 'int', possible loss of data
+C:\cpp-manual\coursework\labs\lab062\Excel.cpp(87): warning C4267: 'initializing': conversion from
+'size_t' to 'int', possible loss of data
+[318/514] Building CXX object CMakeFiles\lab063.dir\coursework\labs\lab063\Logger.cpp.obj
+C:\cpp-manual\coursework\labs\lab063\Logger.cpp(13): warning C4100: 'level': unreferenced parameter
+[322/514] Building CXX object CMakeFiles\lab071.dir\coursework\labs\lab071\main.cpp.obj
+C:\cpp-manual\coursework\labs\lab071\main.cpp(12): warning C4930: 'complex c11(void)': prototyped f
+unction not called (was a variable definition intended?)
+[325/514] Building CXX object CMakeFiles\lab082.dir\coursework\labs\lab082\Range.cpp.obj
+C:\cpp-manual\coursework\labs\lab082\Range.hpp(39): warning C4100: 'other': unreferenced parameter
+C:\cpp-manual\coursework\labs\lab082\Range.hpp(52): warning C4100: 'other': unreferenced parameter
+[327/514] Building CXX object CMakeFiles\lab082.dir\coursework\labs\lab082\main.cpp.obj
+C:\cpp-manual\coursework\labs\lab082\Range.hpp(39): warning C4100: 'other': unreferenced parameter
+C:\cpp-manual\coursework\labs\lab082\Range.hpp(52): warning C4100: 'other': unreferenced parameter
+[334/514] Building CXX object CMakeFiles\lab095_2.dir\coursework\labs\lab095_2\main.cpp.obj
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\algorithm
+(3800): warning C4244: '=': conversion from 'int' to 'char', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\algorithm
+(3800): note: the template instantiation context (the oldest one first) is
+C:\cpp-manual\coursework\labs\lab095_2\main.cpp(16): note: see reference to function template insta
+ntiation '_OutIt std::transform<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,
+std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,getChampion::<lambda_1>>(const _
+InIt,const _InIt,_OutIt,_Fn)' being compiled
+        with
+        [
+            _OutIt=std::_String_iterator<std::_String_val<std::_Simple_types<char>>>,
+            _Elem=char,
+            _InIt=std::_String_iterator<std::_String_val<std::_Simple_types<char>>>,
+            _Fn=getChampion::<lambda_1>
+        ]
+[354/514] Building CXX object CMakeFiles\basic034.dir\examples\basics\lab034\main.cpp.obj
+C:\cpp-manual\examples\basics\lab034\main.cpp(78) : warning C4701: potentially uninitialized local
+variable 'p' used
+[359/514] Building CXX object CMakeFiles\assignm...sework\assignments\tetris\stage03\tetris.cpp.ob
+C:\cpp-manual\coursework\assignments\tetris\stage03\tetris.cpp(15): warning C4244: 'argument': conv
+ersion from 'time_t' to 'unsigned int', possible loss of data
+[360/514] Building CXX object CMakeFiles\assignm...coursework\assignments\tetris\stage03\ui.cpp.ob
+C:\cpp-manual\coursework\assignments\tetris\stage03\ui.cpp(13): warning C4100: 'state': unreference
+d parameter
+[362/514] Building CXX object CMakeFiles\assignm...sework\assignments\tetris\stage04\tetris.cpp.ob
+C:\cpp-manual\coursework\assignments\tetris\stage04\tetris.cpp(216): warning C4267: 'initializing':
+ conversion from 'size_t' to 'int', possible loss of data
+[363/514] Building CXX object CMakeFiles\assignm...coursework\assignments\tetris\stage04\ui.cpp.ob
+C:\cpp-manual\coursework\assignments\tetris\stage04\ui.cpp(13): warning C4100: 'state': unreference
+d parameter
+[365/514] Building CXX object CMakeFiles\assignm...sework\assignments\tetris\stage05\tetris.cpp.ob
+C:\cpp-manual\coursework\assignments\tetris\stage05\tetris.cpp(213): warning C4267: 'initializing':
+ conversion from 'size_t' to 'int', possible loss of data
+[367/514] Building CXX object CMakeFiles\assignm...coursework\assignments\tetris\stage05\ui.cpp.ob
+C:\cpp-manual\coursework\assignments\tetris\stage05\ui.cpp(13): warning C4100: 'state': unreference
+d parameter
+[369/514] Building CXX object CMakeFiles\assignm...dir\coursework\assignments\matrix\Matrix.cpp.ob
+C:\cpp-manual\coursework\assignments\matrix\Matrix.cpp(122): warning C4244: '=': conversion from 'd
+ouble' to 'int', possible loss of data
+C:\cpp-manual\coursework\assignments\matrix\Matrix.cpp(184): warning C4244: '=': conversion from 'd
+ouble' to 'int', possible loss of data
+[382/514] Building CXX object CMakeFiles\dog_05_...\algorithms\dogorithm\05Oil_Well\oilwell.cpp.ob
+C:\cpp-manual\algorithms\dogorithm\05Oil_Well\oilwell.cpp(5): warning C4459: declaration of 'N' hid
+es global declaration
+C:\cpp-manual\algorithms\dogorithm\05Oil_Well\oil.h(3): note: see declaration of 'N'
+[385/514] Building CXX object CMakeFiles\dog_06_...r\algorithms\dogorithm\06Seminar\Seminar.cpp.ob
+C:\cpp-manual\algorithms\dogorithm\06Seminar\Seminar.cpp(33) : warning C4701: potentially uninitial
+ized local variable 'result' used
+[386/514] Building CXX object CMakeFiles\dog_08_...rithm\08Quasi_String\test_Ω░äδ₧╡φÖö_c11_.cpp.ob
+C:\cpp-manual\algorithms\dogorithm\08Quasi_String\test_???_c11_.cpp(27): warning C4267: 'initializi
+ng': conversion from 'size_t' to 'int', possible loss of data
+C:\cpp-manual\algorithms\dogorithm\08Quasi_String\test_???_c11_.cpp(28): warning C4267: 'initializi
+ng': conversion from 'size_t' to 'int', possible loss of data
+[387/514] Building CXX object CMakeFiles\dog_08_...algorithms\dogorithm\08Quasi_String\test.cpp.ob
+C:\cpp-manual\algorithms\dogorithm\08Quasi_String\test.cpp(26): warning C4267: 'initializing': conv
+ersion from 'size_t' to 'int', possible loss of data
+C:\cpp-manual\algorithms\dogorithm\08Quasi_String\test.cpp(27): warning C4267: 'initializing': conv
+ersion from 'size_t' to 'int', possible loss of data
+[388/514] Building CXX object CMakeFiles\dog_08_...gorithms\dogorithm\08Quasi_String\∞╡£∞óà.cpp.ob
+C:\cpp-manual\algorithms\dogorithm\08Quasi_String\??.cpp(22): warning C4267: 'initializing': conver
+sion from 'size_t' to 'int', possible loss of data
+C:\cpp-manual\algorithms\dogorithm\08Quasi_String\??.cpp(23): warning C4267: 'initializing': conver
+sion from 'size_t' to 'int', possible loss of data
+[389/514] Building CXX object CMakeFiles\dog_11_...dir\algorithms\dogorithm\11K-Diet\K-Diet.cpp.ob
+C:\cpp-manual\algorithms\dogorithm\11K-Diet\K-Diet.cpp(13): warning C4244: 'initializing': conversi
+on from 'double' to 'int', possible loss of data
+[392/514] Building CXX object CMakeFiles\dog_18_invert.dir\algorithms\dogorithm\18\invert.cpp.obj
+C:\cpp-manual\algorithms\dogorithm\18\invert.cpp(20): warning C4267: '=': conversion from 'size_t'
+to 'int', possible loss of data
+C:\cpp-manual\algorithms\dogorithm\18\invert.cpp(42): warning C4244: '=': conversion from 'double'
+to 'int', possible loss of data
+C:\cpp-manual\algorithms\dogorithm\18\invert.cpp(72): warning C4267: '=': conversion from 'size_t'
+to 'int', possible loss of data
+[393/514] Building CXX object CMakeFiles\dog_19_station.dir\algorithms\dogorithm\19\station.cpp.ob
+C:\cpp-manual\algorithms\dogorithm\19\station.cpp(68): warning C4244: 'initializing': conversion fr
+om 'double' to '__int64', possible loss of data
+[405/514] Building CXX object CMakeFiles\boj9935.dir\algorithms\baekjoon\9935\main.cpp.obj
+C:\cpp-manual\algorithms\baekjoon\9935\main.cpp(38): warning C4267: 'initializing': conversion from
+ 'size_t' to 'int', possible loss of data
+[413/514] Building CXX object tests\CMakeFiles\t...sework\assignments\tetris\stage05\tetris.cpp.ob
+C:\cpp-manual\coursework\assignments\tetris\stage05\tetris.cpp(213): warning C4267: 'initializing':
+ conversion from 'size_t' to 'int', possible loss of data
+[415/514] Building CXX object tests\CMakeFiles\i...st.dir\__\algorithms\dogorithm\18\invert.cpp.ob
+C:\cpp-manual\algorithms\dogorithm\18\invert.cpp(20): warning C4267: '=': conversion from 'size_t'
+to 'int', possible loss of data
+C:\cpp-manual\algorithms\dogorithm\18\invert.cpp(42): warning C4244: '=': conversion from 'double'
+to 'int', possible loss of data
+C:\cpp-manual\algorithms\dogorithm\18\invert.cpp(72): warning C4267: '=': conversion from 'size_t'
+to 'int', possible loss of data
+[513/514] Linking CXX executable bin\invert_test.exe
+Test project C:/cpp-manual/out/build/windows-debug
+      Start  1: dog_01_fishbun_01
+ 1/74 Test  #1: dog_01_fishbun_01 ................   Passed    0.17 sec
+      Start  2: dog_01_fishbun_02
+ 2/74 Test  #2: dog_01_fishbun_02 ................   Passed    0.05 sec
+      Start  3: dog_01_fishbun_03
+ 3/74 Test  #3: dog_01_fishbun_03 ................   Passed    0.05 sec
+      Start  4: dog_01_fishbun_04
+ 4/74 Test  #4: dog_01_fishbun_04 ................   Passed    0.05 sec
+      Start  5: dog_01_fishbun_05
+ 5/74 Test  #5: dog_01_fishbun_05 ................   Passed    0.05 sec
+      Start  6: dog_02_Quaindrome_01
+ 6/74 Test  #6: dog_02_Quaindrome_01 .............   Passed    0.07 sec
+      Start  7: dog_02_Quaindrome_02
+ 7/74 Test  #7: dog_02_Quaindrome_02 .............   Passed    0.05 sec
+      Start  8: dog_02_Quaindrome_03
+ 8/74 Test  #8: dog_02_Quaindrome_03 .............   Passed    0.05 sec
+      Start  9: dog_02_Quaindrome_04
+ 9/74 Test  #9: dog_02_Quaindrome_04 .............   Passed    0.10 sec
+      Start 10: dog_02_Quaindrome_05
+10/74 Test #10: dog_02_Quaindrome_05 .............   Passed    0.05 sec
+      Start 11: dog_02_Quaindrome_modern_01
+11/74 Test #11: dog_02_Quaindrome_modern_01 ......   Passed    0.07 sec
+      Start 12: dog_02_Quaindrome_modern_02
+12/74 Test #12: dog_02_Quaindrome_modern_02 ......   Passed    0.05 sec
+      Start 13: dog_02_Quaindrome_modern_03
+13/74 Test #13: dog_02_Quaindrome_modern_03 ......   Passed    0.05 sec
+      Start 14: dog_02_Quaindrome_modern_04
+14/74 Test #14: dog_02_Quaindrome_modern_04 ......   Passed    0.05 sec
+      Start 15: dog_02_Quaindrome_modern_05
+15/74 Test #15: dog_02_Quaindrome_modern_05 ......   Passed    0.05 sec
+      Start 16: dog_03_Container_01
+16/74 Test #16: dog_03_Container_01 ..............   Passed    0.08 sec
+      Start 17: dog_03_Container_02
+17/74 Test #17: dog_03_Container_02 ..............   Passed    0.05 sec
+      Start 18: dog_03_Container_03
+18/74 Test #18: dog_03_Container_03 ..............   Passed    0.04 sec
+      Start 19: dog_03_Container_04
+19/74 Test #19: dog_03_Container_04 ..............   Passed    0.05 sec
+      Start 20: dog_03_Container_05
+20/74 Test #20: dog_03_Container_05 ..............   Passed    0.05 sec
+      Start 21: dog_05_oilwell_01
+21/74 Test #21: dog_05_oilwell_01 ................   Passed    0.06 sec
+      Start 22: dog_05_oilwell_02
+22/74 Test #22: dog_05_oilwell_02 ................   Passed    0.05 sec
+      Start 23: dog_05_oilwell_03
+23/74 Test #23: dog_05_oilwell_03 ................   Passed    0.04 sec
+      Start 24: dog_06_Seminar_01
+24/74 Test #24: dog_06_Seminar_01 ................   Passed    0.06 sec
+      Start 25: dog_06_Seminar_02
+25/74 Test #25: dog_06_Seminar_02 ................   Passed    0.04 sec
+      Start 26: dog_06_Seminar_03
+26/74 Test #26: dog_06_Seminar_03 ................   Passed    0.05 sec
+      Start 27: dog_07_Cleaning_01
+27/74 Test #27: dog_07_Cleaning_01 ...............   Passed    0.06 sec
+      Start 28: dog_07_Cleaning_02
+28/74 Test #28: dog_07_Cleaning_02 ...............   Passed    0.05 sec
+      Start 29: dog_08_test_01
+29/74 Test #29: dog_08_test_01 ...................   Passed    0.14 sec
+      Start 30: dog_08_test_02
+30/74 Test #30: dog_08_test_02 ...................   Passed    0.05 sec
+      Start 31: dog_08_test_03
+31/74 Test #31: dog_08_test_03 ...................   Passed    0.05 sec
+      Start 32: dog_08_test_____c11__01
+32/74 Test #32: dog_08_test_____c11__01 ..........   Passed    0.06 sec
+      Start 33: dog_08_test_____c11__02
+33/74 Test #33: dog_08_test_____c11__02 ..........   Passed    0.05 sec
+      Start 34: dog_08_test_____c11__03
+34/74 Test #34: dog_08_test_____c11__03 ..........   Passed    0.05 sec
+      Start 35: dog_08_final_01
+35/74 Test #35: dog_08_final_01 ..................   Passed    0.06 sec
+      Start 36: dog_08_final_02
+36/74 Test #36: dog_08_final_02 ..................   Passed    0.05 sec
+      Start 37: dog_08_final_03
+37/74 Test #37: dog_08_final_03 ..................   Passed    0.05 sec
+      Start 38: dog_11_K_Diet_01
+38/74 Test #38: dog_11_K_Diet_01 .................   Passed    0.06 sec
+      Start 39: dog_11_K_Diet_02
+39/74 Test #39: dog_11_K_Diet_02 .................   Passed    0.06 sec
+      Start 40: dog_13_pipe_01
+40/74 Test #40: dog_13_pipe_01 ...................   Passed    0.06 sec
+      Start 41: dog_13_pipe_02
+41/74 Test #41: dog_13_pipe_02 ...................   Passed    0.05 sec
+      Start 42: dog_13_pipe_03
+42/74 Test #42: dog_13_pipe_03 ...................   Passed    0.05 sec
+      Start 43: dog_13_pipe_04
+43/74 Test #43: dog_13_pipe_04 ...................   Passed    0.05 sec
+      Start 44: dog_18_invert_01
+44/74 Test #44: dog_18_invert_01 .................   Passed    2.81 sec
+      Start 45: dog_18_invert_02
+45/74 Test #45: dog_18_invert_02 .................   Passed    2.86 sec
+      Start 46: dog_19_station_01
+46/74 Test #46: dog_19_station_01 ................   Passed    0.32 sec
+      Start 47: dog_19_station_02
+47/74 Test #47: dog_19_station_02 ................   Passed    0.05 sec
+      Start 48: swap
+48/74 Test #48: swap .............................   Passed    0.07 sec
+      Start 49: new_delete
+49/74 Test #49: new_delete .......................   Passed    0.06 sec
+      Start 50: gold_fraction
+50/74 Test #50: gold_fraction ....................   Passed    0.06 sec
+      Start 51: pointer_difference
+51/74 Test #51: pointer_difference ...............   Passed    0.06 sec
+      Start 52: color_red
+52/74 Test #52: color_red ........................   Passed    0.06 sec
+      Start 53: color_unknown
+53/74 Test #53: color_unknown ....................   Passed    0.05 sec
+      Start 54: even_odd
+54/74 Test #54: even_odd .........................   Passed    0.06 sec
+      Start 55: tomato_already
+55/74 Test #55: tomato_already ...................   Passed    0.06 sec
+      Start 56: tomato_unreachable
+56/74 Test #56: tomato_unreachable ...............   Passed    0.05 sec
+      Start 57: tomato_multiple
+57/74 Test #57: tomato_multiple ..................   Passed    0.05 sec
+      Start 58: tomato_no_start
+58/74 Test #58: tomato_no_start ..................   Passed    0.05 sec
+      Start 59: tomato_corner
+59/74 Test #59: tomato_corner ....................   Passed    0.05 sec
+      Start 60: clean_single
+60/74 Test #60: clean_single .....................   Passed    0.05 sec
+      Start 61: clean_overlap
+61/74 Test #61: clean_overlap ....................   Passed    0.05 sec
+      Start 62: clean_adjacent
+62/74 Test #62: clean_adjacent ...................   Passed    0.05 sec
+      Start 63: clean_tie
+63/74 Test #63: clean_tie ........................   Passed    0.05 sec
+      Start 64: clean_large
+64/74 Test #64: clean_large ......................   Passed    0.05 sec
+      Start 65: clean_unprofitable_link
+65/74 Test #65: clean_unprofitable_link ..........   Passed    0.05 sec
+      Start 66: dp1463
+66/74 Test #66: dp1463 ...........................   Passed    0.08 sec
+      Start 67: dp9095
+67/74 Test #67: dp9095 ...........................   Passed    0.07 sec
+      Start 68: matrix_add
+68/74 Test #68: matrix_add .......................   Passed    0.08 sec
+      Start 69: string_explosion
+69/74 Test #69: string_explosion .................   Passed    0.07 sec
+      Start 70: bracket_pairs
+70/74 Test #70: bracket_pairs ....................   Passed    0.07 sec
+      Start 71: backtracking
+71/74 Test #71: backtracking .....................   Passed    0.06 sec
+      Start 72: my_string_value_semantics
+72/74 Test #72: my_string_value_semantics ........   Passed    0.03 sec
+      Start 73: tetris_game_actions
+73/74 Test #73: tetris_game_actions ..............   Passed    0.03 sec
+      Start 74: invert_reference_comparison
+74/74 Test #74: invert_reference_comparison ......   Passed   13.32 sec
+
+100% tests passed, 0 tests failed out of 74
+
+Total Test time (real) =  24.14 sec
+Preset CMake variables:
+
+  BUILD_TESTING="ON"
+  CMAKE_BUILD_TYPE="Release"
+  CMAKE_CXX_COMPILER="cl"
+  CMAKE_C_COMPILER="cl"
+
+-- The C compiler identification is MSVC 19.44.35229.0
+-- The CXX compiler identification is MSVC 19.44.35229.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/M
+SVC/14.44.35207/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools
+/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (4.1s)
+-- Generating done (0.4s)
+-- Build files have been written to: C:/cpp-manual/out/build/windows-release
+[0/2] Re-checking globbed directories...
+[138/514] Building C object CMakeFiles\pdcurses_win.dir\_deps\pdcurses-src\pdcurses\attr.c.obj
+C:\cpp-manual\out\build\windows-release\_deps\pdcurses-src\pdcurses\attr.c(234): warning C4100: 'op
+ts': unreferenced parameter
+C:\cpp-manual\out\build\windows-release\_deps\pdcurses-src\pdcurses\attr.c(253): warning C4100: 'op
+ts': unreferenced parameter
+C:\cpp-manual\out\build\windows-release\_deps\pdcurses-src\pdcurses\attr.c(276): warning C4100: 'op
+ts': unreferenced parameter
+C:\cpp-manual\out\build\windows-release\_deps\pdcurses-src\pdcurses\attr.c(283): warning C4100: 'op
+ts': unreferenced parameter
+C:\cpp-manual\out\build\windows-release\_deps\pdcurses-src\pdcurses\attr.c(290): warning C4100: 'op
+ts': unreferenced parameter
+C:\cpp-manual\out\build\windows-release\_deps\pdcurses-src\pdcurses\attr.c(297): warning C4100: 'op
+ts': unreferenced parameter
+C:\cpp-manual\out\build\windows-release\_deps\pdcurses-src\pdcurses\attr.c(304): warning C4100: 'op
+ts': unreferenced parameter
+C:\cpp-manual\out\build\windows-release\_deps\pdcurses-src\pdcurses\attr.c(323): warning C4100: 'op
+ts': unreferenced parameter
+[144/514] Building C object CMakeFiles\pdcurses_win.dir\_deps\pdcurses-src\pdcurses\color.c.obj
+C:\cpp-manual\out\build\windows-release\_deps\pdcurses-src\pdcurses\color.c(244): warning C4244: '=
+': conversion from 'int' to 'short', possible loss of data
+C:\cpp-manual\out\build\windows-release\_deps\pdcurses-src\pdcurses\color.c(245): warning C4244: '=
+': conversion from 'int' to 'short', possible loss of data
+[148/514] Building C object CMakeFiles\pdcurses_win.dir\_deps\pdcurses-src\pdcurses\getch.c.obj
+C:\cpp-manual\out\build\windows-release\_deps\pdcurses-src\pdcurses\getch.c(188): warning C4267: '=
+': conversion from 'size_t' to 'long', possible loss of data
+C:\cpp-manual\out\build\windows-release\_deps\pdcurses-src\pdcurses\getch.c(216): warning C4267: '=
+': conversion from 'size_t' to 'long', possible loss of data
+C:\cpp-manual\out\build\windows-release\_deps\pdcurses-src\pdcurses\getch.c(520): warning C4245: 'r
+eturn': conversion from 'int' to 'unsigned long', signed/unsigned mismatch
+C:\cpp-manual\out\build\windows-release\_deps\pdcurses-src\pdcurses\getch.c(551): warning C4244: '=
+': conversion from 'int' to 'wint_t', possible loss of data
+[149/514] Building C object CMakeFiles\pdcurses_win.dir\_deps\pdcurses-src\pdcurses\getstr.c.obj
+C:\cpp-manual\out\build\windows-release\_deps\pdcurses-src\pdcurses\getstr.c(82): warning C4267: 'r
+eturn': conversion from 'size_t' to 'int', possible loss of data
+C:\cpp-manual\out\build\windows-release\_deps\pdcurses-src\pdcurses\getstr.c(322): warning C4244: '
+=': conversion from 'int' to 'wint_t', possible loss of data
+C:\cpp-manual\out\build\windows-release\_deps\pdcurses-src\pdcurses\getstr.c(388): warning C4244: '
+=': conversion from 'int' to 'wint_t', possible loss of data
+[153/514] Building C object CMakeFiles\pdcurses_win.dir\_deps\pdcurses-src\pdcurses\inopts.c.obj
+C:\cpp-manual\out\build\windows-release\_deps\pdcurses-src\pdcurses\inopts.c(188): warning C4100: '
+bf': unreferenced parameter
+C:\cpp-manual\out\build\windows-release\_deps\pdcurses-src\pdcurses\inopts.c(188): warning C4100: '
+win': unreferenced parameter
+C:\cpp-manual\out\build\windows-release\_deps\pdcurses-src\pdcurses\inopts.c(207): warning C4100: '
+win': unreferenced parameter
+C:\cpp-manual\out\build\windows-release\_deps\pdcurses-src\pdcurses\inopts.c(255): warning C4100: '
+flag': unreferenced parameter
+C:\cpp-manual\out\build\windows-release\_deps\pdcurses-src\pdcurses\inopts.c(255): warning C4100: '
+win': unreferenced parameter
+C:\cpp-manual\out\build\windows-release\_deps\pdcurses-src\pdcurses\inopts.c(298): warning C4100: '
+fildes': unreferenced parameter
+[154/514] Building C object CMakeFiles\pdcurses_win.dir\_deps\pdcurses-src\pdcurses\initscr.c.obj
+C:\cpp-manual\out\build\windows-release\_deps\pdcurses-src\pdcurses\initscr.c(273): warning C4100:
+'infd': unreferenced parameter
+C:\cpp-manual\out\build\windows-release\_deps\pdcurses-src\pdcurses\initscr.c(273): warning C4100:
+'outfd': unreferenced parameter
+C:\cpp-manual\out\build\windows-release\_deps\pdcurses-src\pdcurses\initscr.c(273): warning C4100:
+'type': unreferenced parameter
+[156/514] Building C object CMakeFiles\pdcurses_win.dir\_deps\pdcurses-src\pdcurses\insstr.c.obj
+C:\cpp-manual\out\build\windows-release\_deps\pdcurses-src\pdcurses\insstr.c(83): warning C4267: '=
+': conversion from 'size_t' to 'int', possible loss of data
+[157/514] Building C object CMakeFiles\pdcurses_win.dir\_deps\pdcurses-src\pdcurses\instr.c.obj
+C:\cpp-manual\out\build\windows-release\_deps\pdcurses-src\pdcurses\instr.c(76): warning C4267: 're
+turn': conversion from 'size_t' to 'int', possible loss of data
+[161/514] Building C object CMakeFiles\pdcurses_win.dir\_deps\pdcurses-src\pdcurses\move.c.obj
+C:\cpp-manual\out\build\windows-release\_deps\pdcurses-src\pdcurses\move.c(51): warning C4100: 'old
+col': unreferenced parameter
+C:\cpp-manual\out\build\windows-release\_deps\pdcurses-src\pdcurses\move.c(51): warning C4100: 'old
+row': unreferenced parameter
+[162/514] Building C object CMakeFiles\pdcurses_win.dir\_deps\pdcurses-src\pdcurses\outopts.c.obj
+C:\cpp-manual\out\build\windows-release\_deps\pdcurses-src\pdcurses\outopts.c(86): warning C4100: '
+bf': unreferenced parameter
+C:\cpp-manual\out\build\windows-release\_deps\pdcurses-src\pdcurses\outopts.c(86): warning C4100: '
+win': unreferenced parameter
+C:\cpp-manual\out\build\windows-release\_deps\pdcurses-src\pdcurses\outopts.c(93): warning C4100: '
+bf': unreferenced parameter
+C:\cpp-manual\out\build\windows-release\_deps\pdcurses-src\pdcurses\outopts.c(93): warning C4100: '
+win': unreferenced parameter
+[163/514] Building C object CMakeFiles\pdcurses_win.dir\_deps\pdcurses-src\pdcurses\overlay.c.obj
+C:\cpp-manual\out\build\windows-release\_deps\pdcurses-src\pdcurses\overlay.c(213): warning C4244:
+'function': conversion from 'int' to 'bool', possible loss of data
+[169/514] Building C object CMakeFiles\pdcurses_win.dir\_deps\pdcurses-src\pdcurses\scr_dump.c.obj
+C:\cpp-manual\out\build\windows-release\_deps\pdcurses-src\pdcurses\scr_dump.c(183): warning C4100:
+ 'filename': unreferenced parameter
+[171/514] Building C object CMakeFiles\pdcurses_win.dir\_deps\pdcurses-src\pdcurses\slk.c.obj
+C:\cpp-manual\out\build\windows-release\_deps\pdcurses-src\pdcurses\slk.c(359): warning C4100: 'opt
+s': unreferenced parameter
+C:\cpp-manual\out\build\windows-release\_deps\pdcurses-src\pdcurses\slk.c(381): warning C4100: 'opt
+s': unreferenced parameter
+C:\cpp-manual\out\build\windows-release\_deps\pdcurses-src\pdcurses\slk.c(418): warning C4100: 'opt
+s': unreferenced parameter
+C:\cpp-manual\out\build\windows-release\_deps\pdcurses-src\pdcurses\slk.c(665): warning C4244: '=':
+ conversion from 'chtype' to 'wchar_t', possible loss of data
+[174/514] Building C object CMakeFiles\pdcurses_win.dir\_deps\pdcurses-src\pdcurses\util.c.obj
+C:\cpp-manual\out\build\windows-release\_deps\pdcurses-src\pdcurses\util.c(113): warning C4100: 'x'
+: unreferenced parameter
+C:\cpp-manual\out\build\windows-release\_deps\pdcurses-src\pdcurses\util.c(127): warning C4100: 'op
+ts': unreferenced parameter
+C:\cpp-manual\out\build\windows-release\_deps\pdcurses-src\pdcurses\util.c(151): warning C4100: 'op
+ts': unreferenced parameter
+C:\cpp-manual\out\build\windows-release\_deps\pdcurses-src\pdcurses\util.c(257): warning C4245: 're
+turn': conversion from 'int' to 'size_t', signed/unsigned mismatch
+C:\cpp-manual\out\build\windows-release\_deps\pdcurses-src\pdcurses\util.c(284): warning C4244: '='
+: conversion from 'chtype' to 'char', possible loss of data
+C:\cpp-manual\out\build\windows-release\_deps\pdcurses-src\pdcurses\util.c(290): warning C4244: '='
+: conversion from 'chtype' to 'char', possible loss of data
+C:\cpp-manual\out\build\windows-release\_deps\pdcurses-src\pdcurses\util.c(297): warning C4244: '='
+: conversion from 'chtype' to 'char', possible loss of data
+[176/514] Building C object CMakeFiles\pdcurses_win.dir\_deps\pdcurses-src\wincon\pdcclip.c.obj
+C:\cpp-manual\out\build\windows-release\_deps\pdcurses-src\wincon\pdcclip.c(73): warning C4267: '='
+: conversion from 'size_t' to 'long', possible loss of data
+C:\cpp-manual\out\build\windows-release\_deps\pdcurses-src\wincon\pdcclip.c(86): warning C4267: '='
+: conversion from 'size_t' to 'long', possible loss of data
+[177/514] Building C object CMakeFiles\pdcurses_win.dir\_deps\pdcurses-src\wincon\pdcdisp.c.obj
+C:\cpp-manual\out\build\windows-release\_deps\pdcurses-src\wincon\pdcdisp.c(27): warning C4244: '='
+: conversion from 'int' to 'SHORT', possible loss of data
+C:\cpp-manual\out\build\windows-release\_deps\pdcurses-src\wincon\pdcdisp.c(28): warning C4244: '='
+: conversion from 'int' to 'SHORT', possible loss of data
+C:\cpp-manual\out\build\windows-release\_deps\pdcurses-src\wincon\pdcdisp.c(132): warning C4267: 'f
+unction': conversion from 'size_t' to 'DWORD', possible loss of data
+C:\cpp-manual\out\build\windows-release\_deps\pdcurses-src\wincon\pdcdisp.c(237): warning C4244: '=
+': conversion from 'int' to 'SHORT', possible loss of data
+C:\cpp-manual\out\build\windows-release\_deps\pdcurses-src\wincon\pdcdisp.c(240): warning C4244: '=
+': conversion from 'int' to 'SHORT', possible loss of data
+C:\cpp-manual\out\build\windows-release\_deps\pdcurses-src\wincon\pdcdisp.c(241): warning C4244: '=
+': conversion from 'int' to 'SHORT', possible loss of data
+C:\cpp-manual\out\build\windows-release\_deps\pdcurses-src\wincon\pdcdisp.c(242): warning C4244: '=
+': conversion from 'int' to 'SHORT', possible loss of data
+[178/514] Building C object CMakeFiles\pdcurses_win.dir\_deps\pdcurses-src\wincon\pdckbd.c.obj
+C:\cpp-manual\out\build\windows-release\_deps\pdcurses-src\wincon\pdckbd.c(243): warning C4100: 'on
+': unreferenced parameter
+[181/514] Building C object CMakeFiles\pdcurses_win.dir\_deps\pdcurses-src\wincon\pdcscrn.c.obj
+C:\cpp-manual\out\build\windows-release\_deps\pdcurses-src\wincon\pdcscrn.c(319): warning C4100: 'e
+p': unreferenced parameter
+C:\cpp-manual\out\build\windows-release\_deps\pdcurses-src\wincon\pdcscrn.c(399): warning C4244: '=
+': conversion from 'int' to 'short', possible loss of data
+C:\cpp-manual\out\build\windows-release\_deps\pdcurses-src\wincon\pdcscrn.c(400): warning C4244: '=
+': conversion from 'int' to 'short', possible loss of data
+C:\cpp-manual\out\build\windows-release\_deps\pdcurses-src\wincon\pdcscrn.c(414): warning C4996: 'G
+etVersion': was declared deprecated
+C:\cpp-manual\out\build\windows-release\_deps\pdcurses-src\wincon\pdcscrn.c(382): warning C4100: 'a
+rgv': unreferenced parameter
+C:\cpp-manual\out\build\windows-release\_deps\pdcurses-src\wincon\pdcscrn.c(382): warning C4100: 'a
+rgc': unreferenced parameter
+C:\cpp-manual\out\build\windows-release\_deps\pdcurses-src\wincon\pdcscrn.c(564): warning C4244: '=
+': conversion from 'int' to 'SHORT', possible loss of data
+C:\cpp-manual\out\build\windows-release\_deps\pdcurses-src\wincon\pdcscrn.c(569): warning C4244: '=
+': conversion from 'int' to 'SHORT', possible loss of data
+C:\cpp-manual\out\build\windows-release\_deps\pdcurses-src\wincon\pdcscrn.c(640): warning C4100: 'i
+': unreferenced parameter
+C:\cpp-manual\out\build\windows-release\_deps\pdcurses-src\wincon\pdcscrn.c(644): warning C4100: 'i
+': unreferenced parameter
+[302/514] Building CXX object CMakeFiles\lab041.dir\coursework\labs\lab041\input.cpp.obj
+C:\cpp-manual\coursework\labs\lab041\input.cpp(54): warning C4101: 'cnt': unreferenced local variab
+le
+[307/514] Building CXX object CMakeFiles\lab042.dir\coursework\labs\lab042\word_input.cpp.obj
+C:\cpp-manual\coursework\labs\lab042\word_input.cpp(18): warning C4244: 'argument': conversion from
+ 'int' to '_Elem', possible loss of data
+        with
+        [
+            _Elem=char
+        ]
+[308/514] Building CXX object CMakeFiles\lab042.dir\coursework\labs\lab042\word_manager.cpp.obj
+C:\cpp-manual\coursework\labs\lab042\word_manager.cpp(11): warning C4244: 'argument': conversion fr
+om 'int' to '_Elem', possible loss of data
+        with
+        [
+            _Elem=char
+        ]
+[309/514] Building CXX object CMakeFiles\lab051.dir\coursework\labs\lab051\board_util.cpp.obj
+C:\cpp-manual\coursework\labs\lab051\board_util.cpp(28): warning C4244: 'return': conversion from '
+__int64' to 'int', possible loss of data
+C:\cpp-manual\coursework\labs\lab051\board_util.cpp(42): warning C4244: 'initializing': conversion
+from '__int64' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\algorithm
+(3800): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\algorithm
+(3800): note: the template instantiation context (the oldest one first) is
+C:\cpp-manual\coursework\labs\lab051\board_util.cpp(52): note: see reference to function template i
+nstantiation '_OutIt std::transform<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>
+>,std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,get_heights::<lambda_1>>(const _
+InIt,const _InIt,_OutIt,_Fn)' being compiled
+        with
+        [
+            _OutIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<int>>>,
+            _Ty=int,
+            _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<int>>>,
+            _Fn=get_heights::<lambda_1>
+        ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\numeric(3
+1): warning C4244: '=': conversion from '__int64' to '_Ty', possible loss of data
+        with
+        [
+            _Ty=int
+        ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\numeric(3
+1): note: the template instantiation context (the oldest one first) is
+C:\cpp-manual\coursework\labs\lab051\board_util.cpp(63): note: see reference to function template i
+nstantiation '_Ty std::accumulate<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<std::ve
+ctor<_Ty,std::allocator<_Ty>>>>>,int,count_empty::<lambda_1>>(const _InIt,const _InIt,_Ty,_Fn)' bei
+ng compiled
+        with
+        [
+            _Ty=int,
+            _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<std::vector<int,std::al
+locator<int>>>>>,
+            _Fn=count_empty::<lambda_1>
+        ]
+[312/514] Building CXX object CMakeFiles\lab052.dir\coursework\labs\lab052\main.cpp.obj
+C:\cpp-manual\coursework\labs\lab052\main.cpp(72): warning C4101: 'threshold': unreferenced local v
+ariable
+[317/514] Building CXX object CMakeFiles\lab062.dir\coursework\labs\lab062\Excel.cpp.obj
+C:\cpp-manual\coursework\labs\lab062\Excel.cpp(86): warning C4267: 'initializing': conversion from
+'size_t' to 'int', possible loss of data
+C:\cpp-manual\coursework\labs\lab062\Excel.cpp(87): warning C4267: 'initializing': conversion from
+'size_t' to 'int', possible loss of data
+[319/514] Building CXX object CMakeFiles\lab063.dir\coursework\labs\lab063\Logger.cpp.obj
+C:\cpp-manual\coursework\labs\lab063\Logger.cpp(13): warning C4100: 'level': unreferenced parameter
+[322/514] Building CXX object CMakeFiles\lab071.dir\coursework\labs\lab071\main.cpp.obj
+C:\cpp-manual\coursework\labs\lab071\main.cpp(12): warning C4930: 'complex c11(void)': prototyped f
+unction not called (was a variable definition intended?)
+[325/514] Building CXX object CMakeFiles\lab082.dir\coursework\labs\lab082\Range.cpp.obj
+C:\cpp-manual\coursework\labs\lab082\Range.hpp(39): warning C4100: 'other': unreferenced parameter
+C:\cpp-manual\coursework\labs\lab082\Range.hpp(52): warning C4100: 'other': unreferenced parameter
+[327/514] Building CXX object CMakeFiles\lab082.dir\coursework\labs\lab082\main.cpp.obj
+C:\cpp-manual\coursework\labs\lab082\Range.hpp(39): warning C4100: 'other': unreferenced parameter
+C:\cpp-manual\coursework\labs\lab082\Range.hpp(52): warning C4100: 'other': unreferenced parameter
+[334/514] Building CXX object CMakeFiles\lab095_2.dir\coursework\labs\lab095_2\main.cpp.obj
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\algorithm
+(3800): warning C4244: '=': conversion from 'int' to 'char', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\algorithm
+(3800): note: the template instantiation context (the oldest one first) is
+C:\cpp-manual\coursework\labs\lab095_2\main.cpp(16): note: see reference to function template insta
+ntiation '_OutIt std::transform<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,
+std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,getChampion::<lambda_1>>(const _
+InIt,const _InIt,_OutIt,_Fn)' being compiled
+        with
+        [
+            _OutIt=std::_String_iterator<std::_String_val<std::_Simple_types<char>>>,
+            _Elem=char,
+            _InIt=std::_String_iterator<std::_String_val<std::_Simple_types<char>>>,
+            _Fn=getChampion::<lambda_1>
+        ]
+[354/514] Building CXX object CMakeFiles\basic034.dir\examples\basics\lab034\main.cpp.obj
+C:\cpp-manual\examples\basics\lab034\main.cpp(78) : warning C4701: potentially uninitialized local
+variable 'p' used
+[359/514] Building CXX object CMakeFiles\assignm...sework\assignments\tetris\stage03\tetris.cpp.ob
+C:\cpp-manual\coursework\assignments\tetris\stage03\tetris.cpp(15): warning C4244: 'argument': conv
+ersion from 'time_t' to 'unsigned int', possible loss of data
+[361/514] Building CXX object CMakeFiles\assignm...coursework\assignments\tetris\stage03\ui.cpp.ob
+C:\cpp-manual\coursework\assignments\tetris\stage03\ui.cpp(13): warning C4100: 'state': unreference
+d parameter
+[363/514] Building CXX object CMakeFiles\assignm...sework\assignments\tetris\stage04\tetris.cpp.ob
+C:\cpp-manual\coursework\assignments\tetris\stage04\tetris.cpp(216): warning C4267: 'initializing':
+ conversion from 'size_t' to 'int', possible loss of data
+[364/514] Building CXX object CMakeFiles\assignm...coursework\assignments\tetris\stage04\ui.cpp.ob
+C:\cpp-manual\coursework\assignments\tetris\stage04\ui.cpp(13): warning C4100: 'state': unreference
+d parameter
+[365/514] Building CXX object CMakeFiles\assignm...sework\assignments\tetris\stage05\tetris.cpp.ob
+C:\cpp-manual\coursework\assignments\tetris\stage05\tetris.cpp(213): warning C4267: 'initializing':
+ conversion from 'size_t' to 'int', possible loss of data
+[367/514] Building CXX object CMakeFiles\assignm...coursework\assignments\tetris\stage05\ui.cpp.ob
+C:\cpp-manual\coursework\assignments\tetris\stage05\ui.cpp(13): warning C4100: 'state': unreference
+d parameter
+[368/514] Building CXX object CMakeFiles\assignm...dir\coursework\assignments\matrix\Matrix.cpp.ob
+C:\cpp-manual\coursework\assignments\matrix\Matrix.cpp(122): warning C4244: '=': conversion from 'd
+ouble' to 'int', possible loss of data
+C:\cpp-manual\coursework\assignments\matrix\Matrix.cpp(184): warning C4244: '=': conversion from 'd
+ouble' to 'int', possible loss of data
+[383/514] Building CXX object CMakeFiles\dog_05_...\algorithms\dogorithm\05Oil_Well\oilwell.cpp.ob
+C:\cpp-manual\algorithms\dogorithm\05Oil_Well\oilwell.cpp(5): warning C4459: declaration of 'N' hid
+es global declaration
+C:\cpp-manual\algorithms\dogorithm\05Oil_Well\oil.h(3): note: see declaration of 'N'
+[384/514] Building CXX object CMakeFiles\dog_06_...r\algorithms\dogorithm\06Seminar\Seminar.cpp.ob
+C:\cpp-manual\algorithms\dogorithm\06Seminar\Seminar.cpp(33) : warning C4701: potentially uninitial
+ized local variable 'result' used
+[386/514] Building CXX object CMakeFiles\dog_08_...algorithms\dogorithm\08Quasi_String\test.cpp.ob
+C:\cpp-manual\algorithms\dogorithm\08Quasi_String\test.cpp(26): warning C4267: 'initializing': conv
+ersion from 'size_t' to 'int', possible loss of data
+C:\cpp-manual\algorithms\dogorithm\08Quasi_String\test.cpp(27): warning C4267: 'initializing': conv
+ersion from 'size_t' to 'int', possible loss of data
+[387/514] Building CXX object CMakeFiles\dog_08_...rithm\08Quasi_String\test_Ω░äδ₧╡φÖö_c11_.cpp.ob
+C:\cpp-manual\algorithms\dogorithm\08Quasi_String\test_???_c11_.cpp(27): warning C4267: 'initializi
+ng': conversion from 'size_t' to 'int', possible loss of data
+C:\cpp-manual\algorithms\dogorithm\08Quasi_String\test_???_c11_.cpp(28): warning C4267: 'initializi
+ng': conversion from 'size_t' to 'int', possible loss of data
+[388/514] Building CXX object CMakeFiles\dog_08_...gorithms\dogorithm\08Quasi_String\∞╡£∞óà.cpp.ob
+C:\cpp-manual\algorithms\dogorithm\08Quasi_String\??.cpp(22): warning C4267: 'initializing': conver
+sion from 'size_t' to 'int', possible loss of data
+C:\cpp-manual\algorithms\dogorithm\08Quasi_String\??.cpp(23): warning C4267: 'initializing': conver
+sion from 'size_t' to 'int', possible loss of data
+[389/514] Building CXX object CMakeFiles\dog_11_...dir\algorithms\dogorithm\11K-Diet\K-Diet.cpp.ob
+C:\cpp-manual\algorithms\dogorithm\11K-Diet\K-Diet.cpp(13): warning C4244: 'initializing': conversi
+on from 'double' to 'int', possible loss of data
+[392/514] Building CXX object CMakeFiles\dog_19_station.dir\algorithms\dogorithm\19\station.cpp.ob
+C:\cpp-manual\algorithms\dogorithm\19\station.cpp(68): warning C4244: 'initializing': conversion fr
+om 'double' to '__int64', possible loss of data
+[393/514] Building CXX object CMakeFiles\dog_18_invert.dir\algorithms\dogorithm\18\invert.cpp.obj
+C:\cpp-manual\algorithms\dogorithm\18\invert.cpp(20): warning C4267: '=': conversion from 'size_t'
+to 'int', possible loss of data
+C:\cpp-manual\algorithms\dogorithm\18\invert.cpp(42): warning C4244: '=': conversion from 'double'
+to 'int', possible loss of data
+C:\cpp-manual\algorithms\dogorithm\18\invert.cpp(72): warning C4267: '=': conversion from 'size_t'
+to 'int', possible loss of data
+[405/514] Building CXX object CMakeFiles\boj9935.dir\algorithms\baekjoon\9935\main.cpp.obj
+C:\cpp-manual\algorithms\baekjoon\9935\main.cpp(38): warning C4267: 'initializing': conversion from
+ 'size_t' to 'int', possible loss of data
+[413/514] Building CXX object tests\CMakeFiles\t...sework\assignments\tetris\stage05\tetris.cpp.ob
+C:\cpp-manual\coursework\assignments\tetris\stage05\tetris.cpp(213): warning C4267: 'initializing':
+ conversion from 'size_t' to 'int', possible loss of data
+[415/514] Building CXX object tests\CMakeFiles\i...st.dir\__\algorithms\dogorithm\18\invert.cpp.ob
+C:\cpp-manual\algorithms\dogorithm\18\invert.cpp(20): warning C4267: '=': conversion from 'size_t'
+to 'int', possible loss of data
+C:\cpp-manual\algorithms\dogorithm\18\invert.cpp(42): warning C4244: '=': conversion from 'double'
+to 'int', possible loss of data
+C:\cpp-manual\algorithms\dogorithm\18\invert.cpp(72): warning C4267: '=': conversion from 'size_t'
+to 'int', possible loss of data
+[513/514] Linking CXX executable bin\invert_test.exe
+Test project C:/cpp-manual/out/build/windows-release
+      Start  1: dog_01_fishbun_01
+ 1/74 Test  #1: dog_01_fishbun_01 ................   Passed    0.07 sec
+      Start  2: dog_01_fishbun_02
+ 2/74 Test  #2: dog_01_fishbun_02 ................   Passed    0.05 sec
+      Start  3: dog_01_fishbun_03
+ 3/74 Test  #3: dog_01_fishbun_03 ................   Passed    0.05 sec
+      Start  4: dog_01_fishbun_04
+ 4/74 Test  #4: dog_01_fishbun_04 ................   Passed    0.05 sec
+      Start  5: dog_01_fishbun_05
+ 5/74 Test  #5: dog_01_fishbun_05 ................   Passed    0.05 sec
+      Start  6: dog_02_Quaindrome_01
+ 6/74 Test  #6: dog_02_Quaindrome_01 .............   Passed    0.07 sec
+      Start  7: dog_02_Quaindrome_02
+ 7/74 Test  #7: dog_02_Quaindrome_02 .............   Passed    0.05 sec
+      Start  8: dog_02_Quaindrome_03
+ 8/74 Test  #8: dog_02_Quaindrome_03 .............   Passed    0.05 sec
+      Start  9: dog_02_Quaindrome_04
+ 9/74 Test  #9: dog_02_Quaindrome_04 .............   Passed    0.05 sec
+      Start 10: dog_02_Quaindrome_05
+10/74 Test #10: dog_02_Quaindrome_05 .............   Passed    0.05 sec
+      Start 11: dog_02_Quaindrome_modern_01
+11/74 Test #11: dog_02_Quaindrome_modern_01 ......   Passed    0.06 sec
+      Start 12: dog_02_Quaindrome_modern_02
+12/74 Test #12: dog_02_Quaindrome_modern_02 ......   Passed    0.05 sec
+      Start 13: dog_02_Quaindrome_modern_03
+13/74 Test #13: dog_02_Quaindrome_modern_03 ......   Passed    0.05 sec
+      Start 14: dog_02_Quaindrome_modern_04
+14/74 Test #14: dog_02_Quaindrome_modern_04 ......   Passed    0.04 sec
+      Start 15: dog_02_Quaindrome_modern_05
+15/74 Test #15: dog_02_Quaindrome_modern_05 ......   Passed    0.04 sec
+      Start 16: dog_03_Container_01
+16/74 Test #16: dog_03_Container_01 ..............   Passed    0.06 sec
+      Start 17: dog_03_Container_02
+17/74 Test #17: dog_03_Container_02 ..............   Passed    0.05 sec
+      Start 18: dog_03_Container_03
+18/74 Test #18: dog_03_Container_03 ..............   Passed    0.05 sec
+      Start 19: dog_03_Container_04
+19/74 Test #19: dog_03_Container_04 ..............   Passed    0.05 sec
+      Start 20: dog_03_Container_05
+20/74 Test #20: dog_03_Container_05 ..............   Passed    0.05 sec
+      Start 21: dog_05_oilwell_01
+21/74 Test #21: dog_05_oilwell_01 ................   Passed    0.06 sec
+      Start 22: dog_05_oilwell_02
+22/74 Test #22: dog_05_oilwell_02 ................   Passed    0.05 sec
+      Start 23: dog_05_oilwell_03
+23/74 Test #23: dog_05_oilwell_03 ................   Passed    0.06 sec
+      Start 24: dog_06_Seminar_01
+24/74 Test #24: dog_06_Seminar_01 ................   Passed    0.06 sec
+      Start 25: dog_06_Seminar_02
+25/74 Test #25: dog_06_Seminar_02 ................   Passed    0.05 sec
+      Start 26: dog_06_Seminar_03
+26/74 Test #26: dog_06_Seminar_03 ................   Passed    0.05 sec
+      Start 27: dog_07_Cleaning_01
+27/74 Test #27: dog_07_Cleaning_01 ...............   Passed    0.07 sec
+      Start 28: dog_07_Cleaning_02
+28/74 Test #28: dog_07_Cleaning_02 ...............   Passed    0.05 sec
+      Start 29: dog_08_test_01
+29/74 Test #29: dog_08_test_01 ...................   Passed    0.08 sec
+      Start 30: dog_08_test_02
+30/74 Test #30: dog_08_test_02 ...................   Passed    0.05 sec
+      Start 31: dog_08_test_03
+31/74 Test #31: dog_08_test_03 ...................   Passed    0.05 sec
+      Start 32: dog_08_test_____c11__01
+32/74 Test #32: dog_08_test_____c11__01 ..........   Passed    0.06 sec
+      Start 33: dog_08_test_____c11__02
+33/74 Test #33: dog_08_test_____c11__02 ..........   Passed    0.05 sec
+      Start 34: dog_08_test_____c11__03
+34/74 Test #34: dog_08_test_____c11__03 ..........   Passed    0.05 sec
+      Start 35: dog_08_final_01
+35/74 Test #35: dog_08_final_01 ..................   Passed    0.06 sec
+      Start 36: dog_08_final_02
+36/74 Test #36: dog_08_final_02 ..................   Passed    0.05 sec
+      Start 37: dog_08_final_03
+37/74 Test #37: dog_08_final_03 ..................   Passed    0.04 sec
+      Start 38: dog_11_K_Diet_01
+38/74 Test #38: dog_11_K_Diet_01 .................   Passed    0.06 sec
+      Start 39: dog_11_K_Diet_02
+39/74 Test #39: dog_11_K_Diet_02 .................   Passed    0.05 sec
+      Start 40: dog_13_pipe_01
+40/74 Test #40: dog_13_pipe_01 ...................   Passed    0.06 sec
+      Start 41: dog_13_pipe_02
+41/74 Test #41: dog_13_pipe_02 ...................   Passed    0.05 sec
+      Start 42: dog_13_pipe_03
+42/74 Test #42: dog_13_pipe_03 ...................   Passed    0.05 sec
+      Start 43: dog_13_pipe_04
+43/74 Test #43: dog_13_pipe_04 ...................   Passed    0.05 sec
+      Start 44: dog_18_invert_01
+44/74 Test #44: dog_18_invert_01 .................   Passed    0.22 sec
+      Start 45: dog_18_invert_02
+45/74 Test #45: dog_18_invert_02 .................   Passed    0.21 sec
+      Start 46: dog_19_station_01
+46/74 Test #46: dog_19_station_01 ................   Passed    0.07 sec
+      Start 47: dog_19_station_02
+47/74 Test #47: dog_19_station_02 ................   Passed    0.05 sec
+      Start 48: swap
+48/74 Test #48: swap .............................   Passed    0.06 sec
+      Start 49: new_delete
+49/74 Test #49: new_delete .......................   Passed    0.06 sec
+      Start 50: gold_fraction
+50/74 Test #50: gold_fraction ....................   Passed    0.07 sec
+      Start 51: pointer_difference
+51/74 Test #51: pointer_difference ...............   Passed    0.06 sec
+      Start 52: color_red
+52/74 Test #52: color_red ........................   Passed    0.06 sec
+      Start 53: color_unknown
+53/74 Test #53: color_unknown ....................   Passed    0.05 sec
+      Start 54: even_odd
+54/74 Test #54: even_odd .........................   Passed    0.06 sec
+      Start 55: tomato_already
+55/74 Test #55: tomato_already ...................   Passed    0.05 sec
+      Start 56: tomato_unreachable
+56/74 Test #56: tomato_unreachable ...............   Passed    0.04 sec
+      Start 57: tomato_multiple
+57/74 Test #57: tomato_multiple ..................   Passed    0.05 sec
+      Start 58: tomato_no_start
+58/74 Test #58: tomato_no_start ..................   Passed    0.05 sec
+      Start 59: tomato_corner
+59/74 Test #59: tomato_corner ....................   Passed    0.05 sec
+      Start 60: clean_single
+60/74 Test #60: clean_single .....................   Passed    0.05 sec
+      Start 61: clean_overlap
+61/74 Test #61: clean_overlap ....................   Passed    0.05 sec
+      Start 62: clean_adjacent
+62/74 Test #62: clean_adjacent ...................   Passed    0.05 sec
+      Start 63: clean_tie
+63/74 Test #63: clean_tie ........................   Passed    0.05 sec
+      Start 64: clean_large
+64/74 Test #64: clean_large ......................   Passed    0.05 sec
+      Start 65: clean_unprofitable_link
+65/74 Test #65: clean_unprofitable_link ..........   Passed    0.05 sec
+      Start 66: dp1463
+66/74 Test #66: dp1463 ...........................   Passed    0.07 sec
+      Start 67: dp9095
+67/74 Test #67: dp9095 ...........................   Passed    0.07 sec
+      Start 68: matrix_add
+68/74 Test #68: matrix_add .......................   Passed    0.07 sec
+      Start 69: string_explosion
+69/74 Test #69: string_explosion .................   Passed    0.06 sec
+      Start 70: bracket_pairs
+70/74 Test #70: bracket_pairs ....................   Passed    0.08 sec
+      Start 71: backtracking
+71/74 Test #71: backtracking .....................   Passed    0.06 sec
+      Start 72: my_string_value_semantics
+72/74 Test #72: my_string_value_semantics ........   Passed    0.03 sec
+      Start 73: tetris_game_actions
+73/74 Test #73: tetris_game_actions ..............   Passed    0.04 sec
+      Start 74: invert_reference_comparison
+74/74 Test #74: invert_reference_comparison ......   Passed    1.13 sec
+
+100% tests passed, 0 tests failed out of 74
+
+Total Test time (real) =   6.21 sec
+**********************
+Windows PowerShell transcript end
+End time: 20261024064339
+**********************

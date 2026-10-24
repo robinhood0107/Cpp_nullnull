@@ -46,5 +46,29 @@
     "passed": 74,
     "failed": 0,
     "status": "passed-reconstructed-invert-contract"
+  },
+  "windows-vm-script-debug": {
+    "total": 74,
+    "passed": 74,
+    "failed": 0,
+    "status": "passed-reconstructed-invert-contract"
+  },
+  "windows-vm-script-release": {
+    "total": 74,
+    "passed": 74,
+    "failed": 0,
+    "status": "passed-reconstructed-invert-contract"
+  },
+  "windows-vm-manual-debug": {
+    "total": 74,
+    "passed": 74,
+    "failed": 0,
+    "status": "passed-reconstructed-invert-contract"
+  },
+  "windows-vm-manual-release": {
+    "total": 74,
+    "passed": 74,
+    "failed": 0,
+    "status": "passed-reconstructed-invert-contract"
   }
 }

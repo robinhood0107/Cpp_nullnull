@@ -14,7 +14,7 @@ C++ 문법, 대학 실습과 과제, 알고리즘 풀이, 문자열 클래스 �
 
 ## 현재 검증 상태
 
-Linux·Windows 호스트의 Debug/Release 전체 빌드와 각각 74개 CTest, 양쪽 운영체제 일반 CI와 Ubuntu 기본 이미지 설치 CI가 통과했습니다. 새 VM·IDE별 결과는 [검증 기록](docs/verification.md)에 구분합니다.
+Linux·Windows 호스트의 Debug/Release 전체 빌드와 각각 74개 CTest, 양쪽 운영체제 일반 CI와 Ubuntu 기본 이미지 설치 CI가 통과했습니다. Windows·Ubuntu 초기 VM의 수동·스크립트 경로와 편집기 디버깅도 확인했습니다. 환경별 결과와 정리 상태는 [검증 기록](docs/verification.md)에 구분합니다.
 
 `invert`는 원본 정답 2개와 `S.txt`가 맞지 않아 원본을 보존하고 별도 `.verified.out`을 사용합니다. [명시한 실행 계약과 독립 완전 탐색](algorithms/dogorithm/18/README.md)으로 검산했으며, 확보하지 못한 공식 문제의 정답 확인과는 구분합니다.
 

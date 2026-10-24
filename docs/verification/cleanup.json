@@ -1,0 +1,17 @@
+{
+  "status": "pending_windows_restart",
+  "vm_processes_remaining": 0,
+  "vm_images_removed": true,
+  "temporary_directories_removed": true,
+  "host_added_packages_remaining": [],
+  "kvm_temporary_acl_removed": true,
+  "temporary_editor_profiles_removed": true,
+  "pending_files": [
+    "out/vm-runtime/qemu/SDL2.dll"
+  ],
+  "pending_bytes": 2412441,
+  "next_login_cleanup_registered": true,
+  "host_reboot_performed": false,
+  "original_backup_preserved": true,
+  "wsl_vhdx_compaction_performed": false
+}

@@ -1,6 +1,6 @@
 # 검증 기록
 
-실제로 실행한 범위와 자료의 한계를 구분합니다. 새 VM 최종 검증과 임시 환경 정리는 진행 중입니다.
+실제로 실행한 범위와 자료의 한계를 구분합니다. Windows·Ubuntu의 수동·스크립트 경로 검증을 완료했습니다. 검증용 VM·설치 이미지는 삭제했으며, Windows가 잠근 임시 DLL 한 개는 다음 로그인 정리를 예약했습니다.
 
 | 구분 | 현재 상태 |
 |---|---|
@@ -8,9 +8,10 @@
 | Windows MSVC Debug/Release 전체 빌드·CTest | 각각 74개 모두 통과 |
 | Ubuntu 24.04 새 VM의 수동 설치·빌드 | 패키지 설치·전체 빌드·두 구성 각각 74개 통과 |
 | Ubuntu 24.04 새 VM의 스크립트 설치·빌드 | 다른 초기 VM에서 패키지 설치·전체 빌드·두 구성 각각 74개 통과 |
-| Windows 10 22H2 새 VM | 1차 VM의 수동·스크립트 경로는 두 구성 각각 74개 통과. 독립 수동 VM 추가 검증 중 |
+| Windows 10 22H2 새 VM | 스크립트 VM과 독립 수동 VM에서 Debug/Release 각각 74개 모두 통과 |
 | 일반 CI 및 Ubuntu 기본 이미지 설치 CI | 5개 작업 모두 통과 |
-| VS2022·VS Code 중단점·실행 | 양쪽에서 빌드·7행 중단점·길이 10 확인·8행 단계 실행 통과 |
+| VS2022·VS Code 중단점·실행 | VS2022, Windows·Ubuntu VS Code에서 빌드·7행 중단점·길이 10 확인·8행 단계 실행 통과 |
+| 검증 환경 정리 | VM 프로세스·이미지·임시 편집기·추가 패키지 제거. 잠긴 SDL2.dll 약 2.4MB는 다음 로그인 정리 예약 |
 | 테트리스 실제 터미널 조작 | Linux PTY·Windows 콘솔에서 02~05 화면·키 입력·종료 확인 |
 
 ## 원본 샘플 확인이 필요한 항목
@@ -31,6 +32,8 @@ Seminar는 CRLF 입력에서 `cin.ignore()`가 한 문자만 소비해 빈 줄�
 ## 실행 증거
 
 - [CI 결과](verification/ci.json), [테스트 집계](verification/test-matrix.json), [Ubuntu 초기 VM 기록](verification/ubuntu-vm.json), [Windows 초기 VM 기록](verification/windows-vm.json), [실행 로그](verification/logs).
+- [원본 보존 확인](verification/source-preservation.json), [임시 환경 정리 상태](verification/cleanup.json).
+- [Windows 초기 VM의 Git·VS Code·확장 설치](verification/windows-tools.json), [새 VS Code의 실제 디버깅](verification/vscode-windows-vm.json).
 - [VS2022 빌드·디버거 결과](verification/vs2022.json): 공통 CMake에서 생성한 VS2022 솔루션을 IDE에서 빌드하고 중단점·변수·단계 실행·정상 종료를 확인했습니다.
 - VS Code [Windows MSVC 결과](verification/vscode.json) · [Ubuntu GDB 결과](verification/vscode-linux.json): 각각 configure/build 종료 코드 0, 7행 중단점에서 길이 10 확인 후 8행으로 단계 실행. Linux는 Ubuntu 24.04 WSL2의 별도 VS Code·확장 프로필과 Xvfb 화면으로 실행했습니다.
 - [Linux 테트리스 PTY 결과](verification/tetris-linux.json), [Windows 테트리스 콘솔 결과](verification/tetris-windows.json).
@@ -38,3 +41,7 @@ Seminar는 CRLF 입력에서 `cin.ignore()`가 한 문자만 소비해 빈 줄�
 - Windows 10 22H2 English x64 ISO SHA-256: `a6f470ca6d331eb353b815c043e327a347f594f37ff525f17764738fe812852e`. Microsoft 다운로드 페이지의 값과 대조했습니다.
 - 검증 시점: 2026-10-24. Windows 호스트는 10.0.19045, VS2022는 17.14.41, MSVC는 14.44.35207입니다.
 - 일반 CI의 Windows runner는 Windows Server 2022이며 Windows 10 새 VM 검증을 대신하지 않습니다. Ubuntu 기본 컨테이너 설치 검증 역시 VM 검증과 구분합니다.
+
+## 정리 후 확인이 남은 항목
+
+Windows의 공유 잠금으로 `out/vm-runtime/qemu/SDL2.dll` 한 개(2412441바이트)는 즉시 삭제되지 않았습니다. 다음 로그인에서 파일의 생성 시각과 SHA-256이 검증 당시와 같은 경우에만 삭제하는 사용자별 일회성 정리를 등록했습니다. 원본 저장소 백업과 실행 증거는 보존합니다. 호스트 재시작과 WSL 종료는 실행하지 않았으며, 잠금 파일의 완전 삭제는 재시작 후 확인해야 합니다. WSL 내부의 임시 파일 삭제와 trim은 수행했지만 VHDX 물리 압축은 수행하지 않았습니다.
