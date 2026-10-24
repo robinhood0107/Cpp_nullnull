@@ -15,6 +15,8 @@ Windows의 Linux 개발 워크로드를 설치하지 않아도 Windows 빌드는
 
 ## Visual Studio Code
 
+최초 실행 때 계정 선택 화면이 나타나면 **Continue without Signing In**으로 편집기에 진입합니다. 로컬 C++ 빌드·디버깅은 계정 로그인 없이 사용할 수 있습니다.
+
 1. **C/C++**(`ms-vscode.cpptools`), **CMake Tools**(`ms-vscode.cmake-tools`)를 설치합니다. 저장소에서 권장 확장으로 표시됩니다.
 2. Windows에서는 x64 개발자 명령 프롬프트에서 `code .`로 엽니다. Ubuntu에서는 저장소 루트에서 `code .`를 실행합니다. WSL에서는 Windows용 VS Code에 Remote - WSL 확장을 설치하고 Ubuntu 쪽 폴더를 엽니다. C/C++·CMake Tools도 확장 창의 **WSL: Ubuntu에 설치**로 WSL 쪽에 설치합니다.
 3. **CMake: Select Configure Preset**에서 OS에 맞는 Debug preset을 선택합니다.
