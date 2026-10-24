@@ -1,59 +1,38 @@
-//토마토 문제
-//유명하다 BFS로 빠르게 풀 줄 알아야 됨
-
+#include <algorithm>
 #include <iostream>
 #include <queue>
+#include <utility>
 #include <vector>
-#include <string>
-#include <sstream>
-#include <algorithm>
 
-using namespace std;
-
-int main(){
-    ios::sync_with_stdio(0);
-    cin.tie(0);
-
-    int m,n = 0;
-    cin >> m >> n;
-
-    vector<vector<int>> board(n);
-    vector<vector<int>> vis(n,vector<int>(m,0));
-
-    cin.ignore(); //cin 다음에 getline 쓸때는 이거 필수
-    
-    string line;
-    getline(cin, line);
-    stringstream ss(line);
-    int token;
-
-    for(int i=0; i<n; i++){
-        while(ss >> token){
-            board[i].push_back(token);
-            }
-    }
-
-    int count=0;
-
-    int dx[4] = {0,1,0,-1};
-    int dy[4] = {1,0,-1,0};
-    //상우하좌로 한다
-
-    //여기 외워서 칠 정도로 이중for문 숙달하기
-    for(int i=0; i<m; i++){
-        for(int j=0; j<n; j++){
-            if(board[i][j] == 0 || vis[i][j]) continue;
-
-
-
-
-            
+int main() {
+    std::ios::sync_with_stdio(false);
+    std::cin.tie(nullptr);
+    int width, height;
+    if (!(std::cin >> width >> height)) return 0;
+    std::vector<std::vector<int>> box(height, std::vector<int>(width));
+    std::queue<std::pair<int, int>> ripe;
+    int remaining = 0;
+    for (int y = 0; y < height; ++y) {
+        for (int x = 0; x < width; ++x) {
+            std::cin >> box[y][x];
+            if (box[y][x] == 1) ripe.emplace(y, x);
+            else if (box[y][x] == 0) ++remaining;
         }
     }
-
-
-
+    constexpr int dy[] = {1, -1, 0, 0};
+    constexpr int dx[] = {0, 0, 1, -1};
+    int days = 0;
+    while (!ripe.empty()) {
+        const auto [y, x] = ripe.front();
+        ripe.pop();
+        for (int direction = 0; direction < 4; ++direction) {
+            const int ny = y + dy[direction], nx = x + dx[direction];
+            if (ny < 0 || ny >= height || nx < 0 || nx >= width || box[ny][nx] != 0) continue;
+            box[ny][nx] = box[y][x] + 1;
+            days = std::max(days, box[ny][nx] - 1);
+            --remaining;
+            ripe.emplace(ny, nx);
+        }
+    }
+    std::cout << (remaining == 0 ? days : -1) << '\n';
 }
-
-
-//나중에는 응용으로 여기에 썩은 토마토 처리도 할 줄 알아야 함
