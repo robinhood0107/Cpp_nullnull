@@ -1,0 +1,47 @@
+{
+  "os": {
+    "Caption": "Microsoft Windows 10 Pro",
+    "Version": "10.0.19045",
+    "BuildNumber": "19045"
+  },
+  "image_sha256": "a6f470ca6d331eb353b815c043e327a347f594f37ff525f17764738fe812852e",
+  "accelerator": "QEMU WHPX after initial TCG installation",
+  "initial_probe": [
+    "git initial:",
+    "cmake initial:",
+    "ninja initial:",
+    "cl initial:",
+    "VS installer exit: 0"
+  ],
+  "script": {
+    "Debug": "74/74",
+    "Release": "74/74"
+  },
+  "manual_recheck_same_guest": {
+    "Debug": "74/74",
+    "Release": "74/74"
+  },
+  "independent_manual_guest": {
+    "initial_tools": {
+      "git": false,
+      "cmake": false,
+      "ninja": false,
+      "cl": false
+    },
+    "Debug": "74/74",
+    "Release": "74/74",
+    "log": "logs/windows-vm-manual-fresh.log",
+    "log_sha256": "be787c0552005788c8adc4c9b050fd1cd460c4874b2d60213d833ab5fb9bee54",
+    "installer_exit": 0,
+    "memory_mib": 4096,
+    "os_setup_accelerator": "TCG",
+    "build_accelerator": "WHPX"
+  },
+  "cmake": "3.31.6-msvc6",
+  "compiler": "MSVC 19.44.35229",
+  "log": "logs/windows-vm-script-and-manual.log",
+  "log_sha256": "f6574114bbf17314f0bde7d111bdfbc01e44e6caca366597324457e608b64d9f",
+  "runtime_zip_sha256": "bfca3631c2b3dc165b338a126977fb0cf11708821b6f4f24e9e84ffa8640668e",
+  "runtime_payload_files_checked": 432,
+  "runtime_payload_mismatches": []
+}

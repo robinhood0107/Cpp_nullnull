@@ -1,0 +1,3147 @@
+{
+  "sources": {
+    "Cpp_nullnull": "1bb15e2f1e5d0df3e26a2637ee1be189840744a9",
+    "Algorithm": "d7e6839295f4bb44cff123fbfab5a27249016132",
+    "Cpp_Project_collection": "229d507acb27d201834693c20e7b981692dc61a3"
+  },
+  "files": [
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/과제6(실습83번)/(문제파일)과제 006 - My String 클래스.zip",
+      "path": "coursework/assignments/string/(문제파일)과제 006 - My String 클래스.zip",
+      "sha256": "2743bf17da80c5a23ef7b91225d3217eab44c19d33dc4b46c4ede056011b99df"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/과제6(실습83번)/String.cpp",
+      "path": "coursework/assignments/string/String.cpp",
+      "sha256": "1ab539cd14002de051e56c4c0636e2df4159c55a70a4b4df0fe894c470f6a0e3"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/과제6(실습83번)/String.h",
+      "path": "coursework/assignments/string/String.h",
+      "sha256": "0296acb8e1cb840e44ea795c978f8079419a2c60c42af037fddea46eda0b1925"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/과제6(실습83번)/main.cpp",
+      "path": "coursework/assignments/string/main.cpp",
+      "sha256": "5c8f46fa03e3bd045f49cf575193be9e93a80a23b6a0bf2f3f4be7a0bd7456ae"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/과제6(실습83번)/과제 006 - My String 클래스 문제.md",
+      "path": "coursework/assignments/string/과제 006 - My String 클래스 문제.md",
+      "sha256": "f850da80c28f5ee290f6ed3370f11ec37f8644a03c672fd036f4c41d9c95a76d"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/과제6(실습83번)/과제 006 - My String 클래스 문제.txt",
+      "path": "coursework/assignments/string/과제 006 - My String 클래스 문제.txt",
+      "sha256": "f850da80c28f5ee290f6ed3370f11ec37f8644a03c672fd036f4c41d9c95a76d"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/문자열 format[c++23적용]/string_format[c++20,23_apply].cpp",
+      "path": "examples/modern-cpp/format/main.cpp",
+      "sha256": "e6454f6f127d966c47baad6d94fa99e10a68799ffc7491f61e719dcb03bd2600"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습101번/main.cpp",
+      "path": "coursework/labs/lab101/main.cpp",
+      "sha256": "6eb58af3cb835901353df6104d17576d8fe499d3dab7a2643627ef850cc127b7"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습101번/my_accumulate.hpp",
+      "path": "coursework/labs/lab101/my_accumulate.hpp",
+      "sha256": "a10d0b411bee42e558dc0e71544a9d17480cec90ec530c1c94c388196b7bd7db"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습101번/실습 101 - 템플릿 함수 - 원본.zip",
+      "path": "coursework/labs/lab101/실습 101 - 템플릿 함수 - 원본.zip",
+      "sha256": "f72abad4f38391dcc88357382ad9ae40c9f65b74b8ece7723466b5f264831328"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습101번/실습 101 - 템플릿 함수.md",
+      "path": "coursework/labs/lab101/실습 101 - 템플릿 함수.md",
+      "sha256": "88a2d5d20db117f2b99005f218996cda4ed6ce55f95a0d6cb39d01c8b594e5b2"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습101번/실습 101 - 템플릿 함수.txt",
+      "path": "coursework/labs/lab101/실습 101 - 템플릿 함수.txt",
+      "sha256": "88a2d5d20db117f2b99005f218996cda4ed6ce55f95a0d6cb39d01c8b594e5b2"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습102번/main.cpp",
+      "path": "coursework/labs/lab102/main.cpp",
+      "sha256": "80a6f91a644649c650ace7160b32403444d41c16e70c929bf2ef2f2200a50b4c"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습102번/my_vector.hpp",
+      "path": "coursework/labs/lab102/my_vector.hpp",
+      "sha256": "0b4c0172beadab9715dca581fa0d6b13a3543c1d97559c07c155c382e32d0fd6"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습102번/실습 102  - 템플릿 클래스 - 원본.zip",
+      "path": "coursework/labs/lab102/실습 102  - 템플릿 클래스 - 원본.zip",
+      "sha256": "2f0d406ff54c9c471df6eaea7226404fac38781a7b529e31db041a0d11d3bfc0"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습102번/실습 102 - 템플릿 클래스.md",
+      "path": "coursework/labs/lab102/실습 102 - 템플릿 클래스.md",
+      "sha256": "de77b5698400d02e7b63a9a488125a1b0a0b8b77abe1b7d3b477070a3f23936e"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습102번/실습 102 - 템플릿 클래스.txt",
+      "path": "coursework/labs/lab102/실습 102 - 템플릿 클래스.txt",
+      "sha256": "de77b5698400d02e7b63a9a488125a1b0a0b8b77abe1b7d3b477070a3f23936e"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습103번/Student.hpp",
+      "path": "coursework/labs/lab103/Student.hpp",
+      "sha256": "95e29b8a164adf283e7534b735313688d8977b8fe41f6738cdbc5267ded7dc41"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습103번/main.cpp",
+      "path": "coursework/labs/lab103/main.cpp",
+      "sha256": "473d1e94440c38e5667c51a36b0fefeffd49b7c88823cde2b74e35c50b59faad"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습103번/my_make_unique.hpp",
+      "path": "coursework/labs/lab103/my_make_unique.hpp",
+      "sha256": "068fbc8260ba6f3f9e0fcc0012621bd9b9e9e5f88d30a3d336d90a7b19914142"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습103번/실습 103 my_make_unique - 원본.zip",
+      "path": "coursework/labs/lab103/실습 103 my_make_unique - 원본.zip",
+      "sha256": "040fa1809fa645a62c6b789bde0b743f1c9287652327552afdadea525e715c16"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습103번/실습 103 my_make_unique.md",
+      "path": "coursework/labs/lab103/실습 103 my_make_unique.md",
+      "sha256": "9e4865ebfd1a4ec8341ed2e0a1dd63392fbe0ea2ef8aea4d8994b882e97befa5"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습103번/실습 103 my_make_unique.txt",
+      "path": "coursework/labs/lab103/실습 103 my_make_unique.txt",
+      "sha256": "9e4865ebfd1a4ec8341ed2e0a1dd63392fbe0ea2ef8aea4d8994b882e97befa5"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습111번/Array.hpp",
+      "path": "coursework/labs/lab111/Array.hpp",
+      "sha256": "fedf6b5b7bd66c82dc41c1f1d4d32f517904a7b668bc23ce5f755d65728c05b8"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습111번/main.cpp",
+      "path": "coursework/labs/lab111/main.cpp",
+      "sha256": "1ff184aac5b5dfec989e9a3f91ecd6858f4809379970016f5d1038bdba02e927"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습111번/실습 111 - out_of_range exception.md",
+      "path": "coursework/labs/lab111/실습 111 - out_of_range exception.md",
+      "sha256": "8882bb07e58fc022c34478be77e1c77d9f580b2fe7284f9c9d3d9a9fcf390288"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습111번/실습 111 - out_of_range exception.txt",
+      "path": "coursework/labs/lab111/실습 111 - out_of_range exception.txt",
+      "sha256": "8882bb07e58fc022c34478be77e1c77d9f580b2fe7284f9c9d3d9a9fcf390288"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습111번/실습 111 - out_of_range exception.zip",
+      "path": "coursework/labs/lab111/실습 111 - out_of_range exception.zip",
+      "sha256": "0c03bce5414bb73d7f99dcdbb2757fdeb0c7336c2ecf153d9418830607bc4fef"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습112번/main.cpp",
+      "path": "coursework/labs/lab112/main.cpp",
+      "sha256": "4f76ecb32a735888a248ad796d538608af15057117177ce7648c7b2dcf60117b"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습112번/실습 112 - File IO Exception Handling.md",
+      "path": "coursework/labs/lab112/실습 112 - File IO Exception Handling.md",
+      "sha256": "6c792ca77af61e496a840234ddb19a9cb7f77615d3255ce1df329f01fff20ca3"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습112번/실습 112 - File IO Exception Handling.txt",
+      "path": "coursework/labs/lab112/실습 112 - File IO Exception Handling.txt",
+      "sha256": "6c792ca77af61e496a840234ddb19a9cb7f77615d3255ce1df329f01fff20ca3"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습112번/실습 112 - File I_O Exception Handling.zip",
+      "path": "coursework/labs/lab112/실습 112 - File I_O Exception Handling.zip",
+      "sha256": "5f6d40a3d742619264f5983021824f273ef3fa258a3655314e06ba49b640ea5e"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습24번/main.cpp",
+      "path": "coursework/labs/lab024/main.cpp",
+      "sha256": "41adc5700386551daade2b11ab67263e83eb2199017d2684c5af1becb19a3794"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습24번/student.cpp",
+      "path": "coursework/labs/lab024/student.cpp",
+      "sha256": "4518cba8786cda9e515e98be86d82c724060fae2b1847106630fa4d4bbc32c46"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습24번/student.h",
+      "path": "coursework/labs/lab024/student.h",
+      "sha256": "4a914c34cb5ae6e9c5d89b79dc1dd2383edbb8b6c1cd3c4690a7c863bed66383"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습27번/27번(getline으로 vector받는법(문자열도 배열이므로 마찬가지))(remove와 vector.erase의 차이).cpp",
+      "path": "coursework/labs/lab027/main.cpp",
+      "sha256": "4f925446fcdcb7d6d219c26cfba1866bcfd438b856e74d36da16cc445e6c9832"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습28번/28번.cpp",
+      "path": "coursework/labs/lab028/main.cpp",
+      "sha256": "23c831b633a8c14f75da4a434cd538299071d84f4e5b723c8bf685422f731015"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습29번/main.cpp",
+      "path": "coursework/labs/lab029/main.cpp",
+      "sha256": "0117f51a12d69b17f1358cfb3473b91cd0094a82e717406a2ddefa58b4d66ca3"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습29번/movie.cpp",
+      "path": "coursework/labs/lab029/movie.cpp",
+      "sha256": "403389768a83524c54b51a86622dcc9629040d2d1f8bc5ca62adc2ae09ca4c27"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습29번/movie.h",
+      "path": "coursework/labs/lab029/movie.h",
+      "sha256": "357a6f135502c98aa79e432e25dafffef3d4a4aff037682248266f0bfda85301"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습34번/game.cpp",
+      "path": "coursework/labs/lab034/game.cpp",
+      "sha256": "a8cb58858b50222a715e4b139a4ba02bf93d98e52a3c97afa2ccbcd5d83129be"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습34번/game.h",
+      "path": "coursework/labs/lab034/game.h",
+      "sha256": "6f4c7223a520a729458ec88abc5058c1295f516a66fd455bfaddebeaef163cc9"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습34번/main.cpp",
+      "path": "coursework/labs/lab034/main.cpp",
+      "sha256": "24db6eb05f8ebf88b16a9bf0365539e4746f1d16bdd98cb71a95b046ff7d38f6"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습38번/main.cpp",
+      "path": "coursework/labs/lab038/main.cpp",
+      "sha256": "e23d08690cb257586205cee24eac0ca14c5e74841e0a3f463b9a98f6bcfa24fe"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습38번/tools.cpp",
+      "path": "coursework/labs/lab038/tools.cpp",
+      "sha256": "3c33c23db1f693852821a53f68183085543081ac6fcef38971fd575607396300"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습38번/tools.h",
+      "path": "coursework/labs/lab038/tools.h",
+      "sha256": "ff06f5c8045e9134ab8bebb833a42a4cc3b90f23275257ef5857c6ecdcc49eb5"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습41번/bmi.cpp",
+      "path": "coursework/labs/lab041/bmi.cpp",
+      "sha256": "0acb9525ec809ebf3631096d413968a566d987960a915df04d373ad89215a330"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습41번/bmi.h",
+      "path": "coursework/labs/lab041/bmi.h",
+      "sha256": "8c35b79f9ffcb535f5f94cb41718c7ed331e314feb073af199a5c212ee11da2e"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습41번/input.cpp",
+      "path": "coursework/labs/lab041/input.cpp",
+      "sha256": "3ad9cd7e86adbeee0abd224dfca43b1033f024a0fab34a9ea1d8a222a9911e2a"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습41번/input.h",
+      "path": "coursework/labs/lab041/input.h",
+      "sha256": "488fd4112f7e74e385ec282128f77878af635595d088278527e1fc7824a50719"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습41번/main.cpp",
+      "path": "coursework/labs/lab041/main.cpp",
+      "sha256": "2076fc30183bc6b5a53527b96537f155dc371f4d8bf974f7a5f0afcb6aef5faf"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습42번/command_handler.cpp",
+      "path": "coursework/labs/lab042/command_handler.cpp",
+      "sha256": "2abbe7f1440ea1aac55d14dccbe3acb0e30b8c6310096cae98b1cf2c85c89750"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습42번/command_handler.h",
+      "path": "coursework/labs/lab042/command_handler.h",
+      "sha256": "86f118064c4fcf9daea413c7e12f89ab5798db991a2fbbfa90910bc3eb677892"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습42번/main.cpp",
+      "path": "coursework/labs/lab042/main.cpp",
+      "sha256": "075fc47b6e59e6252904a42f65b09f06ab87c98d445aa1974bebaa8ed95d0062"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습42번/word_input.cpp",
+      "path": "coursework/labs/lab042/word_input.cpp",
+      "sha256": "ba3c8f27279dc668867084f8e03f521a24cedd81ef38adf1e377cfe71df29362"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습42번/word_input.h",
+      "path": "coursework/labs/lab042/word_input.h",
+      "sha256": "f1c782f02e4024fcfa9a5c3c5bff4a8d09d1925c6523a27234be43f622008235"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습42번/word_manager.cpp",
+      "path": "coursework/labs/lab042/word_manager.cpp",
+      "sha256": "79b350973483e1b2e1427e834783e6b832efc2252d8ad0cebd816cc4ae4e1208"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습42번/word_manager.h",
+      "path": "coursework/labs/lab042/word_manager.h",
+      "sha256": "5786094adc71a172722ebd99a97c528fbe671ff3491cbdb5d44f003baaa8fb80"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습51번/board_util.cpp",
+      "path": "coursework/labs/lab051/board_util.cpp",
+      "sha256": "d362070d245139a691689c2da94f6b511e8ce757918feaaa6a68e8546f8cb0e8"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습51번/board_util.h",
+      "path": "coursework/labs/lab051/board_util.h",
+      "sha256": "ea5ca91f7171aeb6bdddd0ca5359d603a963811851780a4dcb80de51a231a0ce"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습51번/main.cpp",
+      "path": "coursework/labs/lab051/main.cpp",
+      "sha256": "db8b0dcd040ca31049883bd06601a72fc69e013fd73404e977fcbb2c0963b17d"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습52번/inventory.cpp",
+      "path": "coursework/labs/lab052/inventory.cpp",
+      "sha256": "ce113a6244ce9af737455c2f81c749c66a18475dc904ec704b484f84510f9766"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습52번/main.cpp",
+      "path": "coursework/labs/lab052/main.cpp",
+      "sha256": "3e108c2b67dda63773b5fd2280b22e51692af6fe717e813ce5e10672ec77580c"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습61번/(문제파일)실습 061 Abstraction - Temperature.zip",
+      "path": "coursework/labs/lab061/(문제파일)실습 061 Abstraction - Temperature.zip",
+      "sha256": "8767a664834624223ec6d4a5a4eb75e5507ac3c20325e58857c8be339e727a03"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습61번/Temperature.cpp",
+      "path": "coursework/labs/lab061/Temperature.cpp",
+      "sha256": "bc8eb8b3161b3b755ee3f439b4edc3362e398e2342f7f788c2337bab99d883b2"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습61번/Temperature.h",
+      "path": "coursework/labs/lab061/Temperature.h",
+      "sha256": "cac9e6e062c2b1d4702d6a3293d11e8cd3074a95a014737720091a61d475abec"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습61번/TemperatureTest.cpp",
+      "path": "coursework/labs/lab061/TemperatureTest.cpp",
+      "sha256": "2e65aa69ad45315bcad8b3ef6914cd10746f581bfae8cd40e031f9b9b8e6c62f"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습61번/실습 061 Abstraction - Temperature 문제.md",
+      "path": "coursework/labs/lab061/실습 061 Abstraction - Temperature 문제.md",
+      "sha256": "4d8a1c121b532104f0f70925f82e60d37048b4aa34e08dd426aef5bcff57eaab"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습61번/실습 061 Abstraction - Temperature 문제.txt",
+      "path": "coursework/labs/lab061/실습 061 Abstraction - Temperature 문제.txt",
+      "sha256": "4d8a1c121b532104f0f70925f82e60d37048b4aa34e08dd426aef5bcff57eaab"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습62번/(문제파일)실습 062 Encapsulation (public, private) - Excel & Cell.zip",
+      "path": "coursework/labs/lab062/(문제파일)실습 062 Encapsulation (public, private) - Excel & Cell.zip",
+      "sha256": "7c9a7114ef693c3decbf2119339911c02a54e990fc56b10737e80db36897fe05"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습62번/Cell.cpp",
+      "path": "coursework/labs/lab062/Cell.cpp",
+      "sha256": "ddd556e5a1193c015ca166e11b5cbde2f4fcde061eb9cbdee0c6cff9ade7383e"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습62번/Cell.h",
+      "path": "coursework/labs/lab062/Cell.h",
+      "sha256": "1dcb52828569eebccd3775c7f3ffbe8e3892a3b9dc4d7efa55db2bb5f35f7f1f"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습62번/Excel.cpp",
+      "path": "coursework/labs/lab062/Excel.cpp",
+      "sha256": "3fd11826fc43d649dc1317549230439b51e455fdb7df1490eeffcddde555389b"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습62번/Excel.h",
+      "path": "coursework/labs/lab062/Excel.h",
+      "sha256": "7f75ce61228cd5f604b29b75e1ca4e19b084932e0f8beb680fe9f0e2dcb949f1"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습62번/test_Excel.cpp",
+      "path": "coursework/labs/lab062/test_Excel.cpp",
+      "sha256": "52cfd4324666320205676bade547f8159e47dda62783cba5f87a6433c3486714"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습62번/실습 062 Encapsulation (public, private) - Excel & Cell 문제.md",
+      "path": "coursework/labs/lab062/실습 062 Encapsulation (public, private) - Excel & Cell 문제.md",
+      "sha256": "1499873b616211f15034e8481774c94bf1248ec37051b23e7190a6ef1c3da057"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습62번/실습 062 Encapsulation (public, private) - Excel & Cell 문제.txt",
+      "path": "coursework/labs/lab062/실습 062 Encapsulation (public, private) - Excel & Cell 문제.txt",
+      "sha256": "1499873b616211f15034e8481774c94bf1248ec37051b23e7190a6ef1c3da057"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습63번/(문제파일)실습 063 static member variable.zip",
+      "path": "coursework/labs/lab063/(문제파일)실습 063 static member variable.zip",
+      "sha256": "4870006bbb588241bbc87cb743eb598e7f116ee9a894a4dd784e407f8f75ecd1"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습63번/Logger.cpp",
+      "path": "coursework/labs/lab063/Logger.cpp",
+      "sha256": "e7811c7b128e5f8962d830b9d9e21db60ce7568f311c92d42a038f39fad3456a"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습63번/Logger.h",
+      "path": "coursework/labs/lab063/Logger.h",
+      "sha256": "333465a75d3802842211b575eda9b1b3c229b4bbe69d52a9ae685c1e3f4573a3"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습63번/main.cpp",
+      "path": "coursework/labs/lab063/main.cpp",
+      "sha256": "23e6182c3deadea9b3c9d884bed3a063f2c8c1744bebae2cc696398c5dd0fcd3"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습63번/실습 063 static member variable 문제.md",
+      "path": "coursework/labs/lab063/실습 063 static member variable 문제.md",
+      "sha256": "e18bc404256994d74ad8b3f11622aa5bd0c8ca0e136c2ebc9388d45789beb073"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습63번/실습 063 static member variable 문제.txt",
+      "path": "coursework/labs/lab063/실습 063 static member variable 문제.txt",
+      "sha256": "e18bc404256994d74ad8b3f11622aa5bd0c8ca0e136c2ebc9388d45789beb073"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습64번/StringSplitter.cpp",
+      "path": "coursework/labs/lab064/StringSplitter.cpp",
+      "sha256": "3f9a697ac0d19cf1e3b0259acd61d8f717fd87ee289126ee44080981922d68dc"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습64번/StringSplitter.h",
+      "path": "coursework/labs/lab064/StringSplitter.h",
+      "sha256": "4023c53f966f90e4b520d3c6c251b785a03ab9b9eeb6ec84961f400f5f77eb53"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습64번/main.cpp",
+      "path": "coursework/labs/lab064/main.cpp",
+      "sha256": "06d88fba35a221240843c0b4f30a48e2eaee137ab38e9e8c1a6e653257516a14"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습64번/실습 064 this 포인터 (revised) 문제.md",
+      "path": "coursework/labs/lab064/실습 064 this 포인터 (revised) 문제.md",
+      "sha256": "d8a2cf27248294153c85fb619b4ea1421af65036b5d48f4374c471c7652e9955"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습64번/실습 064 this 포인터 (revised) 문제.txt",
+      "path": "coursework/labs/lab064/실습 064 this 포인터 (revised) 문제.txt",
+      "sha256": "d8a2cf27248294153c85fb619b4ea1421af65036b5d48f4374c471c7652e9955"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습71번/(문제파일)실습 071 - 복소수 객체 생성.zip",
+      "path": "coursework/labs/lab071/(문제파일)실습 071 - 복소수 객체 생성.zip",
+      "sha256": "e9c666b7d7169d5f951b8c75177e6b07d3b95d3ffb84b622c47cdf2be1d25c15"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습71번/complex.hpp",
+      "path": "coursework/labs/lab071/complex.hpp",
+      "sha256": "84621faa577d906b05da2af5019f564cfd9a63deef46f1457542dcfbbba96ae4"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습71번/main.cpp",
+      "path": "coursework/labs/lab071/main.cpp",
+      "sha256": "a8e7e001c9f3621b07dc3f6f21fdade5e00d5b241d89bea3637a26ac18d2f611"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습71번/실습 071 - 복소수 객체 생성 문제.md",
+      "path": "coursework/labs/lab071/실습 071 - 복소수 객체 생성 문제.md",
+      "sha256": "9434c32363402c4b8f7ae92d3d608f96ee39522b799cf08632d32549165b9510"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습71번/실습 071 - 복소수 객체 생성 문제.txt",
+      "path": "coursework/labs/lab071/실습 071 - 복소수 객체 생성 문제.txt",
+      "sha256": "9434c32363402c4b8f7ae92d3d608f96ee39522b799cf08632d32549165b9510"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습72번/main.cpp",
+      "path": "coursework/labs/lab072/main.cpp",
+      "sha256": "33259b85016c0720d68223deea61ab5bc8e5b712e3d86bbfb0ed15f3ca013310"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습72번/실습 072 - 배열을 인자로 받기 (std initializer_list) 문제.md",
+      "path": "coursework/labs/lab072/실습 072 - 배열을 인자로 받기 (std initializer_list) 문제.md",
+      "sha256": "999969f5f7bcec420867d53cfd5a5b6bead550383cb2955d241e618aaf08ff6b"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습72번/실습 072 - 배열을 인자로 받기 (std initializer_list) 문제.txt",
+      "path": "coursework/labs/lab072/실습 072 - 배열을 인자로 받기 (std initializer_list) 문제.txt",
+      "sha256": "999969f5f7bcec420867d53cfd5a5b6bead550383cb2955d241e618aaf08ff6b"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습81번/(문제파일)실습 081 Complex Number Class.zip",
+      "path": "coursework/labs/lab081/(문제파일)실습 081 Complex Number Class.zip",
+      "sha256": "b39d14caa97e285757d4de6e1a341a1d7876cbd99ec93297406ee464c4135e6b"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습81번/Complex.cpp",
+      "path": "coursework/labs/lab081/Complex.cpp",
+      "sha256": "19a74eb11605f786be3358ff83a30c031daa3250fda49306c24a4c3c85340bf9"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습81번/Complex.hpp",
+      "path": "coursework/labs/lab081/Complex.hpp",
+      "sha256": "b75b41297087d8ffdcf6d4d01ff044da670d18d6e74f03b3f5cd2e7e3d0becea"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습81번/main.cpp",
+      "path": "coursework/labs/lab081/main.cpp",
+      "sha256": "e33cdd8d5cb46e6f74f4bd46b768df9f52131e2c12052b60ce5badb69804d4d3"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습81번/실습 081 Complex Number Class 문제.txt",
+      "path": "coursework/labs/lab081/실습 081 Complex Number Class 문제.txt",
+      "sha256": "3be0d2ce2e48617784140d15dedbfa6a569d130656e2461416cf91ff12842d58"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습82번/(문제파일)실습 082 Python-like Range Iterator.zip",
+      "path": "coursework/labs/lab082/(문제파일)실습 082 Python-like Range Iterator.zip",
+      "sha256": "6e19a22e291fdf5f7efa686276c089e67fb977e56e3237fcfc705bce6044416d"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습82번/Range.cpp",
+      "path": "coursework/labs/lab082/Range.cpp",
+      "sha256": "390f45617516303733665f091dd8a08d5309db11607023a8502c850a8721d21f"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습82번/Range.hpp",
+      "path": "coursework/labs/lab082/Range.hpp",
+      "sha256": "60616a39ad13e72ce059ab0731d4bd65253169c4f6f1abc2eadfeb0e436b5ef7"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습82번/main.cpp",
+      "path": "coursework/labs/lab082/main.cpp",
+      "sha256": "8d6dfa12c3df3069e973e115c3ff7210e1f121c4dfbbec61ee95b935ad1162ce"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습82번/실습 082 Python-like Range Iterator 문제.md",
+      "path": "coursework/labs/lab082/실습 082 Python-like Range Iterator 문제.md",
+      "sha256": "be76d42ace42fe5797e58353ab4befe2b3f9ee4dc477feeace83ed2b2a8cf159"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습82번/실습 082 Python-like Range Iterator 문제.txt",
+      "path": "coursework/labs/lab082/실습 082 Python-like Range Iterator 문제.txt",
+      "sha256": "be76d42ace42fe5797e58353ab4befe2b3f9ee4dc477feeace83ed2b2a8cf159"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습91번/(문제파일)실습 091 - inheritance.zip",
+      "path": "coursework/labs/lab091/(문제파일)실습 091 - inheritance.zip",
+      "sha256": "cb8ec35dc003adcfb853228d96eb5acf61ee74ebb488033f6f5931f1e99bbd64"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습91번/main.cpp",
+      "path": "coursework/labs/lab091/main.cpp",
+      "sha256": "9598a046df0962d0faa0a69f181431a11d15e871d308ec3ed7f5ec046c45c2ff"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습91번/실습 091 - inheritance 문제.md",
+      "path": "coursework/labs/lab091/실습 091 - inheritance 문제.md",
+      "sha256": "3252bdc28f776e6c96fda85f54ba5c4ea9e1283894fdf5aa49f5a4507ecbe56b"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습91번/실습 091 - inheritance 문제.txt",
+      "path": "coursework/labs/lab091/실습 091 - inheritance 문제.txt",
+      "sha256": "3252bdc28f776e6c96fda85f54ba5c4ea9e1283894fdf5aa49f5a4507ecbe56b"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습92번/DeviceTest.cpp",
+      "path": "coursework/labs/lab092/DeviceTest.cpp",
+      "sha256": "8ff96246e8fa43b4417c0a9f57e5ba09c21d254eacd0f0ebbde3779c3d51c19a"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습92번/LCD_Monitor.h",
+      "path": "coursework/labs/lab092/LCD_Monitor.h",
+      "sha256": "99fe9cc8299bcc673b256e641ffb8b70e1b398dcd8585ed8c97dff506cd15c64"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습92번/LED_Monitor.h",
+      "path": "coursework/labs/lab092/LED_Monitor.h",
+      "sha256": "d21a25588d04958dc53c088239871dacf8f95c8e249aa0168db20a580dbcba8f"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습92번/Monitor.h",
+      "path": "coursework/labs/lab092/Monitor.h",
+      "sha256": "9950467662f2c9417f5f14bdaeba39f190b6fd55429e43274266bf9cd069e654"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습92번/OutputDevice.h",
+      "path": "coursework/labs/lab092/OutputDevice.h",
+      "sha256": "8fb0bf6606ab694dfb299d87b43a190041654856a7bef86dca435bbdfb15d97d"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습92번/Printer.h",
+      "path": "coursework/labs/lab092/Printer.h",
+      "sha256": "27f9e93b9d50dc6307e90adbb78d432808980d0207a7ef2e3faaace600166b18"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습92번/실습 092 - 생성자소멸자 호출 순서 문제.md",
+      "path": "coursework/labs/lab092/실습 092 - 생성자소멸자 호출 순서 문제.md",
+      "sha256": "45374018696546217024951ec0b9c5ea14e130749f2ef440beb76e89289c3ead"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습92번/실습 092 - 생성자소멸자 호출 순서 문제.txt",
+      "path": "coursework/labs/lab092/실습 092 - 생성자소멸자 호출 순서 문제.txt",
+      "sha256": "45374018696546217024951ec0b9c5ea14e130749f2ef440beb76e89289c3ead"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습93번/Vehicle.cpp",
+      "path": "coursework/labs/lab093/Vehicle.cpp",
+      "sha256": "28ff294304ebbd07fba86257ad5d46e85cc452039a01508b5d58003f7d3a184c"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습93번/Vehicle.hpp",
+      "path": "coursework/labs/lab093/Vehicle.hpp",
+      "sha256": "9d9e0d50fbd810a065b860678e1823d4ed761d611e2a39db69f30f4e56f29c0a"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습93번/main.cpp",
+      "path": "coursework/labs/lab093/main.cpp",
+      "sha256": "263a09d0128e783220838d777da93ecb16ec517782486a3d0f2bd214149c3a31"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습93번/실습 093 - override (virtual function).md",
+      "path": "coursework/labs/lab093/실습 093 - override (virtual function).md",
+      "sha256": "668f2c490b0b894bd88a20a75c6e3d173db75b958515fc97306ebd3743313bdf"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습93번/실습 093 - override (virtual function).txt",
+      "path": "coursework/labs/lab093/실습 093 - override (virtual function).txt",
+      "sha256": "668f2c490b0b894bd88a20a75c6e3d173db75b958515fc97306ebd3743313bdf"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습93번/실습 093 - override (virtual function).zip",
+      "path": "coursework/labs/lab093/실습 093 - override (virtual function).zip",
+      "sha256": "e22cae2abe83223ab0dcc8119548ae992324af755a8a0d1a5fd0ec1d60b2a447"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습94번/DeviceTest.cpp",
+      "path": "coursework/labs/lab094/DeviceTest.cpp",
+      "sha256": "d4236aa11e74342e0ea16fe6ac72f0fd0ff0ae801c1f9a0935e4bdcc3db22fed"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습94번/LCD_Monitor.h",
+      "path": "coursework/labs/lab094/LCD_Monitor.h",
+      "sha256": "3cbd4f2ef3dd10923eb86be7a5237e00f74e1ef04a10fc4c4d48a27e84bfb057"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습94번/LED_Monitor.h",
+      "path": "coursework/labs/lab094/LED_Monitor.h",
+      "sha256": "d21a25588d04958dc53c088239871dacf8f95c8e249aa0168db20a580dbcba8f"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습94번/Monitor.h",
+      "path": "coursework/labs/lab094/Monitor.h",
+      "sha256": "9950467662f2c9417f5f14bdaeba39f190b6fd55429e43274266bf9cd069e654"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습94번/OutputDevice.h",
+      "path": "coursework/labs/lab094/OutputDevice.h",
+      "sha256": "0cb6434c2cf36f385a9a1906962fa0f60e5ad9089baf983b48a839ddabf17f64"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습94번/실습 094 - virtual & destructor.md",
+      "path": "coursework/labs/lab094/실습 094 - virtual & destructor.md",
+      "sha256": "2b7c8d442b47138db592824d6b5f30dfffee9aa13ec161ccff95491c7dbb053f"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습94번/실습 094 - virtual & destructor.txt",
+      "path": "coursework/labs/lab094/실습 094 - virtual & destructor.txt",
+      "sha256": "2b7c8d442b47138db592824d6b5f30dfffee9aa13ec161ccff95491c7dbb053f"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습95번-1(class hierarchy)/Employee.h",
+      "path": "coursework/labs/lab095_1/Employee.h",
+      "sha256": "0e2e6c7c71a90ecb0d19162f91230763327d44e6167ace67673191d00c8e751f"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습95번-1(class hierarchy)/EmployeeTest.cpp",
+      "path": "coursework/labs/lab095_1/EmployeeTest.cpp",
+      "sha256": "b2bfa4136e5d5bb5b907968d9cf41e56e0a89bb269431bd38e2cc6cad82904ff"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습95번-1(class hierarchy)/실습 095 - class hierarchy 문제(함수 오버라이드와 가상함수 문제).md",
+      "path": "coursework/labs/lab095_1/실습 095 - class hierarchy 문제(함수 오버라이드와 가상함수 문제).md",
+      "sha256": "d3ea0e5df27178ba53e09c0e5f974a527192a54864999596c3d6e00558d1262a"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습95번-1(class hierarchy)/실습 095 - class hierarchy 문제(함수 오버라이드와 가상함수 문제).txt",
+      "path": "coursework/labs/lab095_1/실습 095 - class hierarchy 문제(함수 오버라이드와 가상함수 문제).txt",
+      "sha256": "d3ea0e5df27178ba53e09c0e5f974a527192a54864999596c3d6e00558d1262a"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습95번-2(프로그램 실행 중 동작 변화 시키기)/Champion.hpp",
+      "path": "coursework/labs/lab095_2/Champion.hpp",
+      "sha256": "316d0e1c2f91f1467dcfd7867f87a685484e1ff9e151ee8083d224bb4d77356f"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습95번-2(프로그램 실행 중 동작 변화 시키기)/EzrealSkill.hpp",
+      "path": "coursework/labs/lab095_2/EzrealSkill.hpp",
+      "sha256": "507c92d4210f507b6e874e1b11b2b88918cc8d738f3678b1c90936b2d98145be"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습95번-2(프로그램 실행 중 동작 변화 시키기)/GangplankSkill.hpp",
+      "path": "coursework/labs/lab095_2/GangplankSkill.hpp",
+      "sha256": "d519128389bf5956a4e3ce24d364032065a7299d9fd136baefad7c51a1a04a1d"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습95번-2(프로그램 실행 중 동작 변화 시키기)/Skill.hpp",
+      "path": "coursework/labs/lab095_2/Skill.hpp",
+      "sha256": "d9f306b9a2687e6fa01ee19b81f3506aad1faa1fa68519420022b13f66f7ba71"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습95번-2(프로그램 실행 중 동작 변화 시키기)/main.cpp",
+      "path": "coursework/labs/lab095_2/main.cpp",
+      "sha256": "33cfb0d386ebea2aba3f97749455f75b5b9968aa6cbdd7366fe19007b4f82fe4"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습95번-2(프로그램 실행 중 동작 변화 시키기)/실습 095 - 프로그램 실행 중 동작 변화 시키기.md",
+      "path": "coursework/labs/lab095_2/실습 095 - 프로그램 실행 중 동작 변화 시키기.md",
+      "sha256": "2f57a0e4f868810a3c93c1a8ed5fc30978a7f17f319f82b03d98040b34016e25"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습95번-2(프로그램 실행 중 동작 변화 시키기)/실습 095 - 프로그램 실행 중 동작 변화 시키기.txt",
+      "path": "coursework/labs/lab095_2/실습 095 - 프로그램 실행 중 동작 변화 시키기.txt",
+      "sha256": "2f57a0e4f868810a3c93c1a8ed5fc30978a7f17f319f82b03d98040b34016e25"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "C++_univ_vs2022/실습95번-2(프로그램 실행 중 동작 변화 시키기)/실습 095 - 프로그램 실행 중 동작 변화 시키기.zip",
+      "path": "coursework/labs/lab095_2/실습 095 - 프로그램 실행 중 동작 변화 시키기.zip",
+      "sha256": "7d76ddd6cb23f8de57f8617d765024149e58bf99a48ab1ca0472c6d38ba8a5fe"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB1_practice/011.cpp",
+      "path": "examples/basics/lab011/main.cpp",
+      "sha256": "7c9a44acdc7b288ebf7dc2fb546f6e2a9065a4b8fce1130526ce02b46d9ea176"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB1_practice/012-Grade.cpp",
+      "path": "examples/basics/lab012/main.cpp",
+      "sha256": "a74d8fc80a6347863dba2bc8d11e777e77ae29ecbe7bef602f968134b11b61a7"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB1_practice/013-Arithmetic_Operations.cpp",
+      "path": "examples/basics/lab013/main.cpp",
+      "sha256": "bfc22fae75cd13972790b504f16869c71dcfe1fca90c3145391522dd55ab1e2d"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB1_practice/014-pointer.cpp",
+      "path": "examples/basics/lab014/main.cpp",
+      "sha256": "15be1f886306dbc222a4c74067c3b97fa816c1650497519b7e0416d383298679"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB1_practice/015.cpp",
+      "path": "examples/basics/lab015/main.cpp",
+      "sha256": "adc8da6ffd748fe9f9ab443507bc5a59b6006ec33f4283fbdf706a57f0e1e3ab"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB1_practice/017.cpp",
+      "path": "examples/basics/lab017/main.cpp",
+      "sha256": "f3eadcf756fe78b07fc7299c4d4ec16d252fb9474933b300cc83f4c00a7e8664"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB1_practice/018.cpp",
+      "path": "examples/basics/lab018/main.cpp",
+      "sha256": "577abbc2403fa2354753fa0598d786d8a15410111b6751bcf1aafdf7e5b2ab3e"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB1_practice/021.cpp",
+      "path": "examples/basics/lab021/main.cpp",
+      "sha256": "ce9757f0b7e452357ad21ff76549c41415a84807f1a01b9df2a29927c9a87107"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB1_practice/022.cpp",
+      "path": "examples/basics/lab022/main.cpp",
+      "sha256": "f7985671a82309f129b20e9bcf8d01d01f44f2783126e8d6ef235cbf68197762"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB1_practice/023.cpp",
+      "path": "examples/basics/lab023/main.cpp",
+      "sha256": "ce9858d0cad52c336193951a720e6f0a37cdc220ebca3eec3a70c36fc537656a"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB1_practice/024.cpp",
+      "path": "examples/basics/lab024/main.cpp",
+      "sha256": "7d3e24ef739eb42010b2e46b6f5276649fa403d2ab3b7f0a32591661d74549b3"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB1_practice/025.cpp",
+      "path": "examples/basics/lab025/main.cpp",
+      "sha256": "58acce2a38a77f882761edbe8fd27a6450f4cf00aea73738f6a320cde876ffb5"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB1_practice/026.cpp",
+      "path": "examples/basics/lab026/main.cpp",
+      "sha256": "11c3601a11a0500c342926db301e3c03b04725fabef24cee7b9ec43747c6b795"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB1_practice/027.cpp",
+      "path": "examples/basics/lab027/main.cpp",
+      "sha256": "2a50760d4f6fa8e11584e9144869e4cfefbbd17d7e12961e303d54850b862506"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB1_practice/028.cpp",
+      "path": "examples/basics/lab028/main.cpp",
+      "sha256": "28967952add07743e5d25a5a923a7a6fe83b28f0c453e173254c7ed0af2e1be3"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB1_practice/029.cpp",
+      "path": "examples/basics/lab029/main.cpp",
+      "sha256": "0718f779310686aa7d46c6d1e52a6e133509cb27b21efce63bb0cd99e28f2881"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB1_practice/031.cpp",
+      "path": "examples/basics/lab031/main.cpp",
+      "sha256": "70d6d9497b93de1fc5bdd165f5c7369390996c99a0faa30246c96da065cbd630"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB1_practice/032.cpp",
+      "path": "examples/basics/lab032/main.cpp",
+      "sha256": "81ae85504f5203e6ea3279724b5b3d422e9a4b1cb204b80f2e0618ef6d7115f6"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB1_practice/033.cpp",
+      "path": "examples/basics/lab033/main.cpp",
+      "sha256": "30c3a33abdfba607c56affb720557a8d19ce8dea7c840878a5f3b4ff9dcc1398"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB1_practice/034.cpp",
+      "path": "examples/basics/lab034/main.cpp",
+      "sha256": "097a0bdadbc771ad14b1a066c6ebffbb6f11b8aba937cfa1e2a216a6243e25da"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB1_practice/035.cpp",
+      "path": "examples/basics/lab035/main.cpp",
+      "sha256": "8cc333c48b8212c94ea8aef5e0533b2f14576954d02fae5cec69d93eee05e18e"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB1_practice/036.cpp",
+      "path": "examples/basics/lab036/main.cpp",
+      "sha256": "5a9a8da5325349350777f55d714e8aad3aac1ee5b8b54364b3c70496b3424d12"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB1_practice/037.cpp",
+      "path": "examples/basics/lab037/main.cpp",
+      "sha256": "057b891ffbd779ec2326c4bc5326a8d8f3febe83e8337317aee80f4488c058bf"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/assignment02/tetris.cpp",
+      "path": "coursework/assignments/tetris/stage02/tetris.cpp",
+      "sha256": "ea9475fe4b30280ac64608568e5f867f46310675ce1f0034b93a7369fcb4fc2b"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/assignment03/main.cpp",
+      "path": "coursework/assignments/tetris/stage03/main.cpp",
+      "sha256": "7e1ce69b50ef67f9f79293d2bb710e9d59d17c8a32c85f15acb460031a022b23"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/assignment03/tetris.cpp",
+      "path": "coursework/assignments/tetris/stage03/tetris.cpp",
+      "sha256": "ecbb7f4497f1e64b0c731becdabc529cdfdd9dc5775fba6fda5af47107ec416b"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/assignment03/tetris.h",
+      "path": "coursework/assignments/tetris/stage03/tetris.h",
+      "sha256": "b2e44f33b5ba3c30006d6524c27b7e48abb35983f215c5975f8a69d27ef19068"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/assignment03/ui.cpp",
+      "path": "coursework/assignments/tetris/stage03/ui.cpp",
+      "sha256": "22ba3ca0b3c0558ef06c08962e5d1288beb1e40f329abd848c704a281ad91265"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/assignment03/ui.h",
+      "path": "coursework/assignments/tetris/stage03/ui.h",
+      "sha256": "8ad9ba39ae4cc7c2fc14767bd43e327a87a617619a161794d4632e6db1ca8da2"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/assignment04/main.cpp",
+      "path": "coursework/assignments/tetris/stage04/main.cpp",
+      "sha256": "7721dcb3e9259d405119a20e58f7f3238bf479c757ce6e4165d6784b13912e99"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/assignment04/tetris.cpp",
+      "path": "coursework/assignments/tetris/stage04/tetris.cpp",
+      "sha256": "5b5b37027168234b8f75c163a293bbc126eda87094b1e3fe3018f1090c03a603"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/assignment04/tetris.h",
+      "path": "coursework/assignments/tetris/stage04/tetris.h",
+      "sha256": "226e76150f048898b2d86d9d8683867b23c31b36de43a9d164248263fc877e0d"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/assignment04/ui.cpp",
+      "path": "coursework/assignments/tetris/stage04/ui.cpp",
+      "sha256": "4b9946b0bc764e2475f433375683bdd5999685291e12164b11ce277debf7db8c"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/assignment04/ui.h",
+      "path": "coursework/assignments/tetris/stage04/ui.h",
+      "sha256": "8ad9ba39ae4cc7c2fc14767bd43e327a87a617619a161794d4632e6db1ca8da2"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/assignment04/문제.txt",
+      "path": "coursework/assignments/tetris/stage04/문제.txt",
+      "sha256": "02175071ec66e557f9ccff916a8a95ac0fe19ff2338417cb5208f54a84b9ad00"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/assignment05/main.cpp",
+      "path": "coursework/assignments/tetris/stage05/main.cpp",
+      "sha256": "7721dcb3e9259d405119a20e58f7f3238bf479c757ce6e4165d6784b13912e99"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/assignment05/tetris.cpp",
+      "path": "coursework/assignments/tetris/stage05/tetris.cpp",
+      "sha256": "176e6230c7d1995e5b7483f03afea9970c4ff43ae8ad8ee359b8de5344363353"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/assignment05/tetris.h",
+      "path": "coursework/assignments/tetris/stage05/tetris.h",
+      "sha256": "226e76150f048898b2d86d9d8683867b23c31b36de43a9d164248263fc877e0d"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/assignment05/ui.cpp",
+      "path": "coursework/assignments/tetris/stage05/ui.cpp",
+      "sha256": "4b9946b0bc764e2475f433375683bdd5999685291e12164b11ce277debf7db8c"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/assignment05/ui.h",
+      "path": "coursework/assignments/tetris/stage05/ui.h",
+      "sha256": "8ad9ba39ae4cc7c2fc14767bd43e327a87a617619a161794d4632e6db1ca8da2"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/assignment07/(문제파일)과제 071 - Matrix.zip",
+      "path": "coursework/assignments/matrix/(문제파일)과제 071 - Matrix.zip",
+      "sha256": "67727a63503e0a6f864e0a65e68e301a1a3865744ab8708eea993ccb8626d17f"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/assignment07/Matrix.cpp",
+      "path": "coursework/assignments/matrix/Matrix.cpp",
+      "sha256": "142fafd25f5240c3427d939a3476dd5412c4427431b40f96cfd0ed815c4eb6a5"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/assignment07/Matrix.hpp",
+      "path": "coursework/assignments/matrix/Matrix.hpp",
+      "sha256": "99c637eb83d8d4c7939f6480e97d793b6accb18a9b765bd051e0b7b66830b099"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/assignment07/main.cpp",
+      "path": "coursework/assignments/matrix/main.cpp",
+      "sha256": "9ef23b57d8001ac866265cc6b5484104d68085b59290b0d7c68f468885d073c6"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/assignment07/과제 071 - Matrix 문제.md",
+      "path": "coursework/assignments/matrix/과제 071 - Matrix 문제.md",
+      "sha256": "12f349c76ee04c9fd6fed835dce1e4af4bc728472ab20f69f0af37a4782f63ae"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/assignment07/과제 071 - Matrix 문제.txt",
+      "path": "coursework/assignments/matrix/과제 071 - Matrix 문제.txt",
+      "sha256": "12f349c76ee04c9fd6fed835dce1e4af4bc728472ab20f69f0af37a4782f63ae"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/assignment08/Department.cpp",
+      "path": "coursework/assignments/organization/Department.cpp",
+      "sha256": "c1c767734645b88022b96b2b103ca7e21e5786328401aa3c839ee1be286a6971"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/assignment08/Department.hpp",
+      "path": "coursework/assignments/organization/Department.hpp",
+      "sha256": "100ca434ca80378aeb6fc6cc46133cb307b33440b2d4286f6bc1eb8debef9bed"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/assignment08/Employee.cpp",
+      "path": "coursework/assignments/organization/Employee.cpp",
+      "sha256": "d20fc8b148248a9ce08251b4c87e3e82f87adb0339fb4e001792faa3b797542e"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/assignment08/Employee.hpp",
+      "path": "coursework/assignments/organization/Employee.hpp",
+      "sha256": "37ca730a0ab1329f788b1b4deaa25f55d28646fc81aeab030b8249ae5a2f896f"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/assignment08/IOrganization.hpp",
+      "path": "coursework/assignments/organization/IOrganization.hpp",
+      "sha256": "7808cd1aaeca4046a2646dfb766052dd65fc94e3146a33b96aee7540485531eb"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/assignment08/Manager.cpp",
+      "path": "coursework/assignments/organization/Manager.cpp",
+      "sha256": "f9ea2217cfb773a9ab090e32606452eb9eee216d6d8397972fa4a18eab06dd28"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/assignment08/Manager.hpp",
+      "path": "coursework/assignments/organization/Manager.hpp",
+      "sha256": "86dd5b78a5bd95ae0a20631cd7a62e1a9436e6fc5d678f6c4f2392573afa200c"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/assignment08/Organization.cpp",
+      "path": "coursework/assignments/organization/Organization.cpp",
+      "sha256": "1db4130369ec5c1fbc1437c08a967c93ba21f2d7998fb6fe9fe89612661bc6e2"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/assignment08/Organization.hpp",
+      "path": "coursework/assignments/organization/Organization.hpp",
+      "sha256": "5e83baa889530f33c18c429616dfeca17e0b2ec0c401fa5b7d688df3c64be915"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/assignment08/main.cpp",
+      "path": "coursework/assignments/organization/main.cpp",
+      "sha256": "b690c844db084043fcf2596ed32447158b879e731c1747d5fe7a64d3247c3d82"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/assignment08/과제 008 - Modeling an Organization Structure - 원본.zip",
+      "path": "coursework/assignments/organization/과제 008 - Modeling an Organization Structure - 원본.zip",
+      "sha256": "40c7533dd5ded5e928ed5587122f3d4aa3f8869378ce883a803295cd1a2bed10"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/assignment08/과제 008 - Modeling an Organization Structure.md",
+      "path": "coursework/assignments/organization/과제 008 - Modeling an Organization Structure.md",
+      "sha256": "3509dbc6256e7bf4c56a66196409e5c3864340de5153d852a002e53aeda5546e"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/assignment08/과제 008 - Modeling an Organization Structure.txt",
+      "path": "coursework/assignments/organization/과제 008 - Modeling an Organization Structure.txt",
+      "sha256": "3509dbc6256e7bf4c56a66196409e5c3864340de5153d852a002e53aeda5546e"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/assignment09/MyList.hpp",
+      "path": "coursework/assignments/generic-list/MyList.hpp",
+      "sha256": "c79d718505c7a7059b49aa26c3187cb76e51d83b07f019abcb4c70020ddeef71"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/assignment09/main.cpp",
+      "path": "coursework/assignments/generic-list/main.cpp",
+      "sha256": "1e60c81725806592cf42428b5e5274b6e76fe41b59a6f02ab0b6e67914dc1e1a"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/assignment09/과제 009 - Fixed-Size Generic List (p35)-원본.zip",
+      "path": "coursework/assignments/generic-list/과제 009 - Fixed-Size Generic List (p35)-원본.zip",
+      "sha256": "3c05733c1ad7ea580eb636bda652486d154fed759aaea5c7fe24530f80afa5b5"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/assignment09/과제 009 - Fixed-Size Generic List (p35).md",
+      "path": "coursework/assignments/generic-list/과제 009 - Fixed-Size Generic List (p35).md",
+      "sha256": "bac3a709b2f55baeb20b3e8decf0d0d5240549b6bd9d4b39758cc683dadcd624"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/assignment09/과제 009 - Fixed-Size Generic List (p35).txt",
+      "path": "coursework/assignments/generic-list/과제 009 - Fixed-Size Generic List (p35).txt",
+      "sha256": "bac3a709b2f55baeb20b3e8decf0d0d5240549b6bd9d4b39758cc683dadcd624"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Cpp_nullnull/start.cpp",
+      "path": "examples/basics/swap/main.cpp",
+      "sha256": "3e6b932de1cd9c5ed24d9d363d8f540d9c126d06949e961d238e1da71e2e5778"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Cpp_nullnull/02.메모리 동적 할당 new_delete/메모리 동적할당.cpp",
+      "path": "examples/memory/new-delete/main.cpp",
+      "sha256": "9ce9c065945fc5886a2f3f4c9249afe4b65ca8f2b5f2a00997bf901e2967a2a4"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Cpp_nullnull/03.rvalue 참조(임시객체 참조)/참조.cpp",
+      "path": "examples/memory/rvalue/main.cpp",
+      "sha256": "0d3479abdf3358df52a30e6e408730d89c667be11ba161f45544e4762d4f6abc"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "1. 예외_정리!!!_cpp_exception_and_template_summary.md",
+      "path": "notes/language/1. 예외_정리!!!_cpp_exception_and_template_summary.md",
+      "sha256": "f8904f7cff38af68b7b629d78faad27455de542fa123bb3a660fe1dcbc14e513"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "2. initializer_list와 이중 중괄호 해결법.md",
+      "path": "notes/language/2. initializer_list와 이중 중괄호 해결법.md",
+      "sha256": "e4731a5dd338e68dc698adb868e56db748586340a87124ad3738a6155778c1b2"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "3. (Ellipsis, 줄임표) ... 문법과 initializer_list와 함께 실전 응용 방법.md",
+      "path": "notes/language/3. (Ellipsis, 줄임표) ... 문법과 initializer_list와 함께 실전 응용 방법.md",
+      "sha256": "b97ffd17c8ca76f22242094df109907f9bda09183375761adff56c908910316d"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "4. C++20 Concepts(컨셉).md",
+      "path": "notes/language/4. C++20 Concepts(컨셉).md",
+      "sha256": "0e9c1767c3fa4358544c33b1f4933c9f57b64804a3541632c8c360d90b132ef0"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB2_practice/LAB3_41/bmi.cpp",
+      "path": "archive/variants/clion/LAB2_practice/LAB3_41/bmi.cpp",
+      "sha256": "6cbe409f30dd8916f16d8029107cc6b942338f89778869561a20d920770bb45c"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB2_practice/LAB3_41/input.cpp",
+      "path": "archive/variants/clion/LAB2_practice/LAB3_41/input.cpp",
+      "sha256": "ccf72a4070f0c4ecd24d1f09c0b348e02b1e099412d2a0e05bf75d0cf48f88b5"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB2_practice/LAB3_41/main.cpp",
+      "path": "archive/variants/clion/LAB2_practice/LAB3_41/main.cpp",
+      "sha256": "d167308586e7bca9e107ac95f3633c90e6e126ced3ea79d864dbcb4e8847d9f7"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB2_practice/LAB3_41SEB/command_handler.cpp",
+      "path": "archive/variants/clion/LAB2_practice/LAB3_41SEB/command_handler.cpp",
+      "sha256": "389687ef4c472f509173fb3fb09ae43d07042179497dfbe2c240f56b31c2b06f"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB2_practice/LAB3_41SEB/command_handler.h",
+      "path": "archive/variants/clion/LAB2_practice/LAB3_41SEB/command_handler.h",
+      "sha256": "86f118064c4fcf9daea413c7e12f89ab5798db991a2fbbfa90910bc3eb677892"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB2_practice/LAB3_41SEB/main.cpp",
+      "path": "archive/variants/clion/LAB2_practice/LAB3_41SEB/main.cpp",
+      "sha256": "c49742dda3459c5878f5198affc82ce7b38c152d91aa007a471c3a25ebb655f1"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB2_practice/LAB3_41SEB/word_input.cpp",
+      "path": "archive/variants/clion/LAB2_practice/LAB3_41SEB/word_input.cpp",
+      "sha256": "3e68f93c101ac2fb60b247b560c4dbfa59340d8bae16e175bc7cce809df18ec2"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB2_practice/LAB3_41SEB/word_input.h",
+      "path": "archive/variants/clion/LAB2_practice/LAB3_41SEB/word_input.h",
+      "sha256": "f1c782f02e4024fcfa9a5c3c5bff4a8d09d1925c6523a27234be43f622008235"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB2_practice/LAB3_41SEB/word_manager.cpp",
+      "path": "archive/variants/clion/LAB2_practice/LAB3_41SEB/word_manager.cpp",
+      "sha256": "435aefb7d8670150e413016002d74bcf2f2852129ece0f82e6dad0fd247bc97d"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB2_practice/LAB3_41SEB/word_manager.h",
+      "path": "archive/variants/clion/LAB2_practice/LAB3_41SEB/word_manager.h",
+      "sha256": "5786094adc71a172722ebd99a97c528fbe671ff3491cbdb5d44f003baaa8fb80"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB2_practice/LAB3_42/main.cpp",
+      "path": "archive/variants/clion/LAB2_practice/LAB3_42/main.cpp",
+      "sha256": "7cb959b0a154d1b67cf9d7c366bba5b1cf0ef08ef19953db74b56f96107a6d3e"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB2_practice/LAB3_42SEB/main.cpp",
+      "path": "archive/variants/clion/LAB2_practice/LAB3_42SEB/main.cpp",
+      "sha256": "05aa57bd309483620fa329f558b4d1ceaaa1fc79336c79ab4d1b1839a38e5efa"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB2_practice/LAB3_51/board_util.cpp",
+      "path": "archive/variants/clion/LAB2_practice/LAB3_51/board_util.cpp",
+      "sha256": "8cf6faefd200c9954a4dc197c21311703d90e04a86c58f18ab1998f0373bdccc"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB2_practice/LAB3_51/main.cpp",
+      "path": "archive/variants/clion/LAB2_practice/LAB3_51/main.cpp",
+      "sha256": "498f97df5f02cfbbba3e4eee711be783c83e13665d32e1721b2a57325300253a"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB2_practice/LAB3_52/inventory.cpp",
+      "path": "archive/variants/clion/LAB2_practice/LAB3_52/inventory.cpp",
+      "sha256": "a3abfc4f1b71dceef1f98b2279ac05e9d121a5b274dbacd1f817001534781e19"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB2_practice/LAB3_52/inventory.h",
+      "path": "archive/variants/clion/LAB2_practice/LAB3_52/inventory.h",
+      "sha256": "d193cc27f268fba6375d366e3fc6bdb864e742c39d0883494dae62abcfe49380"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB2_practice/LAB3_52/main.cpp",
+      "path": "archive/variants/clion/LAB2_practice/LAB3_52/main.cpp",
+      "sha256": "5c82af1e92853b6033a36e427529bd088139e324f6f054a65940f22540cb1ca5"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB2_practice/[SEB] 실습 041 - modular programming/bmi_main.cpp",
+      "path": "archive/variants/clion/LAB2_practice/[SEB] 실습 041 - modular programming/bmi_main.cpp",
+      "sha256": "dd5ed8e3422dda3c346f7ae12ab6859d5eb7b28a39909ff1f8b19cd91e513f12"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB2_practice/[SEB] 실습 041 - modular programming/bmi_manager.cpp",
+      "path": "archive/variants/clion/LAB2_practice/[SEB] 실습 041 - modular programming/bmi_manager.cpp",
+      "sha256": "7e7fd4728c92f8b528bb0425eb058095fb8dda2a22c70c24cb9917a41a1fbe74"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB2_practice/[SEB] 실습 041 - modular programming/bmi_manager.h",
+      "path": "archive/variants/clion/LAB2_practice/[SEB] 실습 041 - modular programming/bmi_manager.h",
+      "sha256": "99b2b5b74a4e7bb294f62602054ab4f3fa1279e6f97e3a69dc3376ac778b4c8f"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB2_practice/[SEB] 실습 041 - modular programming/input.cpp",
+      "path": "archive/variants/clion/LAB2_practice/[SEB] 실습 041 - modular programming/input.cpp",
+      "sha256": "67ff3d3f65358fa7e99969b777b0a590d1acd7f3772c0abbf09b2cefdb33ff4b"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB2_practice/[SEB] 실습 041 - modular programming/input.h",
+      "path": "archive/variants/clion/LAB2_practice/[SEB] 실습 041 - modular programming/input.h",
+      "sha256": "1e6cef3d3d8dc2746e66e4dbdd1fea752dc93a1584fa43fb46cfd1f134136f1f"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB2_practice/[SEB] 실습 042 - modular programming/command_handler.cpp",
+      "path": "archive/variants/clion/LAB2_practice/[SEB] 실습 042 - modular programming/command_handler.cpp",
+      "sha256": "8a75d4850a4a9949a25c8c55e97e7006d958d67062049c347f3c098c55aab33b"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB2_practice/[SEB] 실습 042 - modular programming/command_handler.h",
+      "path": "archive/variants/clion/LAB2_practice/[SEB] 실습 042 - modular programming/command_handler.h",
+      "sha256": "7e613acec1e78d86a2b10df3aef02390e0d72df59d7736497cf638e3b5c69cf1"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB2_practice/[SEB] 실습 042 - modular programming/word_input.cpp",
+      "path": "archive/variants/clion/LAB2_practice/[SEB] 실습 042 - modular programming/word_input.cpp",
+      "sha256": "a1e59e7021ea434257b05c0bbae67a8a68fdd9684a7ee0411bfef39726dfeba6"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB2_practice/[SEB] 실습 042 - modular programming/word_input.h",
+      "path": "archive/variants/clion/LAB2_practice/[SEB] 실습 042 - modular programming/word_input.h",
+      "sha256": "40696b96c6438d9dadf7f2eda5ef96fb3ff41717bf77ad8ecec8e230aff2e47b"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB2_practice/[SEB] 실습 042 - modular programming/word_main.cpp",
+      "path": "archive/variants/clion/LAB2_practice/[SEB] 실습 042 - modular programming/word_main.cpp",
+      "sha256": "9cb86ec0104f2e10ecce0467464ea5f584d9881b23e6fe2293a2729d805ba536"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB2_practice/[SEB] 실습 042 - modular programming/word_manager.cpp",
+      "path": "archive/variants/clion/LAB2_practice/[SEB] 실습 042 - modular programming/word_manager.cpp",
+      "sha256": "67848e2104a8abb7dba6843132559871520ee36a84fd7fbb2cc736dfcdcc2dde"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB2_practice/[SEB] 실습 042 - modular programming/word_manager.h",
+      "path": "archive/variants/clion/LAB2_practice/[SEB] 실습 042 - modular programming/word_manager.h",
+      "sha256": "36c7e2be66a8a0e020bf34507241b2434524e713c69e71231723eb5f33c4ce3a"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB3_practice - 연습용 문제.zip",
+      "path": "archive/variants/clion/LAB3_practice - 연습용 문제.zip",
+      "sha256": "1cfc37ec2409e73c62f78b28f7a1477dc6c2457cedd30074df5aab3791a95802"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB3_practice - 정답.zip",
+      "path": "archive/variants/clion/LAB3_practice - 정답.zip",
+      "sha256": "486f5494a2ce32b32588947edb5db4d58774ef0c2bc6affcb64e3b2964e739c4"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB3_practice/LAB3_61/(문제파일)실습 061 Abstraction - Temperature.zip",
+      "path": "archive/variants/clion/LAB3_practice/LAB3_61/(문제파일)실습 061 Abstraction - Temperature.zip",
+      "sha256": "8767a664834624223ec6d4a5a4eb75e5507ac3c20325e58857c8be339e727a03"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB3_practice/LAB3_61/Temperature.cpp",
+      "path": "archive/variants/clion/LAB3_practice/LAB3_61/Temperature.cpp",
+      "sha256": "ba3063fd2f2252c3f523832f1822ea91d50dfe3eca6a4c623b4945ffc46f07b8"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB3_practice/LAB3_61/Temperature.h",
+      "path": "archive/variants/clion/LAB3_practice/LAB3_61/Temperature.h",
+      "sha256": "cac9e6e062c2b1d4702d6a3293d11e8cd3074a95a014737720091a61d475abec"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB3_practice/LAB3_61/TemperatureTest.cpp",
+      "path": "archive/variants/clion/LAB3_practice/LAB3_61/TemperatureTest.cpp",
+      "sha256": "aaa104fc0f1e45b01bef8b10db829e7f2e8e468d4ed90a8ce3f898b9bb404d91"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB3_practice/LAB3_61/실습 061 Abstraction - Temperature 문제.md",
+      "path": "archive/variants/clion/LAB3_practice/LAB3_61/실습 061 Abstraction - Temperature 문제.md",
+      "sha256": "4d8a1c121b532104f0f70925f82e60d37048b4aa34e08dd426aef5bcff57eaab"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB3_practice/LAB3_61/실습 061 Abstraction - Temperature 문제.txt",
+      "path": "archive/variants/clion/LAB3_practice/LAB3_61/실습 061 Abstraction - Temperature 문제.txt",
+      "sha256": "4d8a1c121b532104f0f70925f82e60d37048b4aa34e08dd426aef5bcff57eaab"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB3_practice/LAB3_62/(문제파일)실습 062 Encapsulation (public, private) - Excel & Cell.zip",
+      "path": "archive/variants/clion/LAB3_practice/LAB3_62/(문제파일)실습 062 Encapsulation (public, private) - Excel & Cell.zip",
+      "sha256": "7c9a7114ef693c3decbf2119339911c02a54e990fc56b10737e80db36897fe05"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB3_practice/LAB3_62/Cell.cpp",
+      "path": "archive/variants/clion/LAB3_practice/LAB3_62/Cell.cpp",
+      "sha256": "8b7d97743f58b174f4924c82cd6166b65a5adb220e8bd3f78238547da75ce450"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB3_practice/LAB3_62/Cell.h",
+      "path": "archive/variants/clion/LAB3_practice/LAB3_62/Cell.h",
+      "sha256": "c9f8590559e1db2bcdee4bdb3b6fd2044f1178ace2e51b086f9439dee20ba59b"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB3_practice/LAB3_62/Excel.cpp",
+      "path": "archive/variants/clion/LAB3_practice/LAB3_62/Excel.cpp",
+      "sha256": "089b9aa9ad2c4548fc96eace7368f502f56a3bdf5a84bef68e1f3ca45b9a093c"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB3_practice/LAB3_62/Excel.h",
+      "path": "archive/variants/clion/LAB3_practice/LAB3_62/Excel.h",
+      "sha256": "7f75ce61228cd5f604b29b75e1ca4e19b084932e0f8beb680fe9f0e2dcb949f1"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB3_practice/LAB3_62/test_Excel.cpp",
+      "path": "archive/variants/clion/LAB3_practice/LAB3_62/test_Excel.cpp",
+      "sha256": "52cfd4324666320205676bade547f8159e47dda62783cba5f87a6433c3486714"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB3_practice/LAB3_62/실습 062 Encapsulation (public, private) - Excel & Cell 문제.md",
+      "path": "archive/variants/clion/LAB3_practice/LAB3_62/실습 062 Encapsulation (public, private) - Excel & Cell 문제.md",
+      "sha256": "1499873b616211f15034e8481774c94bf1248ec37051b23e7190a6ef1c3da057"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB3_practice/LAB3_62/실습 062 Encapsulation (public, private) - Excel & Cell 문제.txt",
+      "path": "archive/variants/clion/LAB3_practice/LAB3_62/실습 062 Encapsulation (public, private) - Excel & Cell 문제.txt",
+      "sha256": "1499873b616211f15034e8481774c94bf1248ec37051b23e7190a6ef1c3da057"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB3_practice/LAB3_63/(문제파일)실습 063 static member variable.zip",
+      "path": "archive/variants/clion/LAB3_practice/LAB3_63/(문제파일)실습 063 static member variable.zip",
+      "sha256": "4870006bbb588241bbc87cb743eb598e7f116ee9a894a4dd784e407f8f75ecd1"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB3_practice/LAB3_63/Logger.cpp",
+      "path": "archive/variants/clion/LAB3_practice/LAB3_63/Logger.cpp",
+      "sha256": "8e3de11c1081265ae52853f8f06c3791d2046b7b6fb796ae63db8c2f68db2e6e"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB3_practice/LAB3_63/Logger.h",
+      "path": "archive/variants/clion/LAB3_practice/LAB3_63/Logger.h",
+      "sha256": "333465a75d3802842211b575eda9b1b3c229b4bbe69d52a9ae685c1e3f4573a3"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB3_practice/LAB3_63/main.cpp",
+      "path": "archive/variants/clion/LAB3_practice/LAB3_63/main.cpp",
+      "sha256": "23e6182c3deadea9b3c9d884bed3a063f2c8c1744bebae2cc696398c5dd0fcd3"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB3_practice/LAB3_63/실습 063 static member variable 문제.md",
+      "path": "archive/variants/clion/LAB3_practice/LAB3_63/실습 063 static member variable 문제.md",
+      "sha256": "e18bc404256994d74ad8b3f11622aa5bd0c8ca0e136c2ebc9388d45789beb073"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB3_practice/LAB3_63/실습 063 static member variable 문제.txt",
+      "path": "archive/variants/clion/LAB3_practice/LAB3_63/실습 063 static member variable 문제.txt",
+      "sha256": "e18bc404256994d74ad8b3f11622aa5bd0c8ca0e136c2ebc9388d45789beb073"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB3_practice/LAB3_64/StringSplitter.cpp",
+      "path": "archive/variants/clion/LAB3_practice/LAB3_64/StringSplitter.cpp",
+      "sha256": "0a56b7025666b42b7842cf175bc8b2ad22648c72ceac20f85766dccfc1f9982c"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB3_practice/LAB3_64/StringSplitter.h",
+      "path": "archive/variants/clion/LAB3_practice/LAB3_64/StringSplitter.h",
+      "sha256": "5334b100489e6020f574b64b9d6059d5bc41726d6df3755bd82e71fbd57f5c9f"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB3_practice/LAB3_64/main.cpp",
+      "path": "archive/variants/clion/LAB3_practice/LAB3_64/main.cpp",
+      "sha256": "06d88fba35a221240843c0b4f30a48e2eaee137ab38e9e8c1a6e653257516a14"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB3_practice/LAB3_64/실습 064 this 포인터 (revised) 문제.md",
+      "path": "archive/variants/clion/LAB3_practice/LAB3_64/실습 064 this 포인터 (revised) 문제.md",
+      "sha256": "d8a2cf27248294153c85fb619b4ea1421af65036b5d48f4374c471c7652e9955"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB3_practice/LAB3_64/실습 064 this 포인터 (revised) 문제.txt",
+      "path": "archive/variants/clion/LAB3_practice/LAB3_64/실습 064 this 포인터 (revised) 문제.txt",
+      "sha256": "d8a2cf27248294153c85fb619b4ea1421af65036b5d48f4374c471c7652e9955"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB3_practice/LAB3_71/(문제파일)실습 071 - 복소수 객체 생성.zip",
+      "path": "archive/variants/clion/LAB3_practice/LAB3_71/(문제파일)실습 071 - 복소수 객체 생성.zip",
+      "sha256": "e9c666b7d7169d5f951b8c75177e6b07d3b95d3ffb84b622c47cdf2be1d25c15"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB3_practice/LAB3_71/complex.hpp",
+      "path": "archive/variants/clion/LAB3_practice/LAB3_71/complex.hpp",
+      "sha256": "2ff4f435ffa58f2e7d3f92ff92ac2f185c7a3ae68707fea4553237f024931c97"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB3_practice/LAB3_71/main.cpp",
+      "path": "archive/variants/clion/LAB3_practice/LAB3_71/main.cpp",
+      "sha256": "a8e7e001c9f3621b07dc3f6f21fdade5e00d5b241d89bea3637a26ac18d2f611"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB3_practice/LAB3_71/실습 071 - 복소수 객체 생성 문제.md",
+      "path": "archive/variants/clion/LAB3_practice/LAB3_71/실습 071 - 복소수 객체 생성 문제.md",
+      "sha256": "9434c32363402c4b8f7ae92d3d608f96ee39522b799cf08632d32549165b9510"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB3_practice/LAB3_71/실습 071 - 복소수 객체 생성 문제.txt",
+      "path": "archive/variants/clion/LAB3_practice/LAB3_71/실습 071 - 복소수 객체 생성 문제.txt",
+      "sha256": "9434c32363402c4b8f7ae92d3d608f96ee39522b799cf08632d32549165b9510"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB3_practice/LAB3_72/main.cpp",
+      "path": "archive/variants/clion/LAB3_practice/LAB3_72/main.cpp",
+      "sha256": "769c74c0a7e867ba40ba5e37ff3b5c47d49faeadb1e8eee1c8b715654980b37c"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB3_practice/LAB3_72/실습 072 - 배열을 인자로 받기 (std initializer_list) 문제.md",
+      "path": "archive/variants/clion/LAB3_practice/LAB3_72/실습 072 - 배열을 인자로 받기 (std initializer_list) 문제.md",
+      "sha256": "999969f5f7bcec420867d53cfd5a5b6bead550383cb2955d241e618aaf08ff6b"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB3_practice/LAB3_72/실습 072 - 배열을 인자로 받기 (std initializer_list) 문제.txt",
+      "path": "archive/variants/clion/LAB3_practice/LAB3_72/실습 072 - 배열을 인자로 받기 (std initializer_list) 문제.txt",
+      "sha256": "999969f5f7bcec420867d53cfd5a5b6bead550383cb2955d241e618aaf08ff6b"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB3_practice/LAB3_81/(문제파일)실습 081 Complex Number Class.zip",
+      "path": "archive/variants/clion/LAB3_practice/LAB3_81/(문제파일)실습 081 Complex Number Class.zip",
+      "sha256": "b39d14caa97e285757d4de6e1a341a1d7876cbd99ec93297406ee464c4135e6b"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB3_practice/LAB3_81/Complex.cpp",
+      "path": "archive/variants/clion/LAB3_practice/LAB3_81/Complex.cpp",
+      "sha256": "8161604ce19ee3f9eff8535e8fdc563a075d3b1dfa439b757a4814b2f6020195"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB3_practice/LAB3_81/Complex.hpp",
+      "path": "archive/variants/clion/LAB3_practice/LAB3_81/Complex.hpp",
+      "sha256": "b75b41297087d8ffdcf6d4d01ff044da670d18d6e74f03b3f5cd2e7e3d0becea"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB3_practice/LAB3_81/main.cpp",
+      "path": "archive/variants/clion/LAB3_practice/LAB3_81/main.cpp",
+      "sha256": "e33cdd8d5cb46e6f74f4bd46b768df9f52131e2c12052b60ce5badb69804d4d3"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB3_practice/LAB3_81/실습 081 Complex Number Class 문제.txt",
+      "path": "archive/variants/clion/LAB3_practice/LAB3_81/실습 081 Complex Number Class 문제.txt",
+      "sha256": "3be0d2ce2e48617784140d15dedbfa6a569d130656e2461416cf91ff12842d58"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB3_practice/LAB3_82/(문제파일)실습 082 Python-like Range Iterator.zip",
+      "path": "archive/variants/clion/LAB3_practice/LAB3_82/(문제파일)실습 082 Python-like Range Iterator.zip",
+      "sha256": "6e19a22e291fdf5f7efa686276c089e67fb977e56e3237fcfc705bce6044416d"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB3_practice/LAB3_82/Range.cpp",
+      "path": "archive/variants/clion/LAB3_practice/LAB3_82/Range.cpp",
+      "sha256": "82c6a533ed2b1204feaeb9d8de725b110275be2b12cb11c4ccbdaf37695f51e1"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB3_practice/LAB3_82/Range.hpp",
+      "path": "archive/variants/clion/LAB3_practice/LAB3_82/Range.hpp",
+      "sha256": "c978cca2570493b201d3b82f3960c96835a58c997f065a2e4365222f1de9c478"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB3_practice/LAB3_82/main.cpp",
+      "path": "archive/variants/clion/LAB3_practice/LAB3_82/main.cpp",
+      "sha256": "8d6dfa12c3df3069e973e115c3ff7210e1f121c4dfbbec61ee95b935ad1162ce"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB3_practice/LAB3_82/실습 082 Python-like Range Iterator 문제.md",
+      "path": "archive/variants/clion/LAB3_practice/LAB3_82/실습 082 Python-like Range Iterator 문제.md",
+      "sha256": "be76d42ace42fe5797e58353ab4befe2b3f9ee4dc477feeace83ed2b2a8cf159"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB3_practice/LAB3_82/실습 082 Python-like Range Iterator 문제.txt",
+      "path": "archive/variants/clion/LAB3_practice/LAB3_82/실습 082 Python-like Range Iterator 문제.txt",
+      "sha256": "be76d42ace42fe5797e58353ab4befe2b3f9ee4dc477feeace83ed2b2a8cf159"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB3_practice/assignment06_LAB3_83/(문제파일)과제 006 - My String 클래스.zip",
+      "path": "archive/variants/clion/LAB3_practice/assignment06_LAB3_83/(문제파일)과제 006 - My String 클래스.zip",
+      "sha256": "2743bf17da80c5a23ef7b91225d3217eab44c19d33dc4b46c4ede056011b99df"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB3_practice/assignment06_LAB3_83/String.cpp",
+      "path": "archive/variants/clion/LAB3_practice/assignment06_LAB3_83/String.cpp",
+      "sha256": "0847dce8f0170afbcd687a5744fc232f4f7928ecd151574c4b575f2964bd8d4d"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB3_practice/assignment06_LAB3_83/String.h",
+      "path": "archive/variants/clion/LAB3_practice/assignment06_LAB3_83/String.h",
+      "sha256": "40b99a2dbc5ad8c9ac5985d9d44a7acdcae6c5053c430cb3be1f9420c60b5685"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB3_practice/assignment06_LAB3_83/main.cpp",
+      "path": "archive/variants/clion/LAB3_practice/assignment06_LAB3_83/main.cpp",
+      "sha256": "d08cd405105dd6a99fc847753cc6c8565fea316cb29ef07966c4ec74dc3ecadd"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB3_practice/assignment06_LAB3_83/과제 006 - My String 클래스 문제.md",
+      "path": "archive/variants/clion/LAB3_practice/assignment06_LAB3_83/과제 006 - My String 클래스 문제.md",
+      "sha256": "f850da80c28f5ee290f6ed3370f11ec37f8644a03c672fd036f4c41d9c95a76d"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB3_practice/assignment06_LAB3_83/과제 006 - My String 클래스 문제.txt",
+      "path": "archive/variants/clion/LAB3_practice/assignment06_LAB3_83/과제 006 - My String 클래스 문제.txt",
+      "sha256": "f850da80c28f5ee290f6ed3370f11ec37f8644a03c672fd036f4c41d9c95a76d"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB4_practice - 연습용 문제.zip",
+      "path": "archive/variants/clion/LAB4_practice - 연습용 문제.zip",
+      "sha256": "787be8b4d3c98485d1ee1697ef20f0a2c2f809ec67ddc67a99655253d7a9f907"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB4_practice_1/LAB_101/main.cpp",
+      "path": "archive/variants/clion/LAB4_practice_1/LAB_101/main.cpp",
+      "sha256": "6eb58af3cb835901353df6104d17576d8fe499d3dab7a2643627ef850cc127b7"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB4_practice_1/LAB_101/my_accumulate.hpp",
+      "path": "archive/variants/clion/LAB4_practice_1/LAB_101/my_accumulate.hpp",
+      "sha256": "b8f359a370b8d8fd78c174e63283238a7826d3d7db06cff1610219a35b179b14"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB4_practice_1/LAB_101/실습 101 - 템플릿 함수.txt",
+      "path": "archive/variants/clion/LAB4_practice_1/LAB_101/실습 101 - 템플릿 함수.txt",
+      "sha256": "88a2d5d20db117f2b99005f218996cda4ed6ce55f95a0d6cb39d01c8b594e5b2"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB4_practice_1/LAB_102/main.cpp",
+      "path": "archive/variants/clion/LAB4_practice_1/LAB_102/main.cpp",
+      "sha256": "80a6f91a644649c650ace7160b32403444d41c16e70c929bf2ef2f2200a50b4c"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB4_practice_1/LAB_102/my_vector.hpp",
+      "path": "archive/variants/clion/LAB4_practice_1/LAB_102/my_vector.hpp",
+      "sha256": "a964603acef616ad884336cb4615287da1fa4a846a79975fcbbbb713940545d2"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB4_practice_1/LAB_102/실습 102 - 템플릿 클래스.txt",
+      "path": "archive/variants/clion/LAB4_practice_1/LAB_102/실습 102 - 템플릿 클래스.txt",
+      "sha256": "de77b5698400d02e7b63a9a488125a1b0a0b8b77abe1b7d3b477070a3f23936e"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB4_practice_1/LAB_103/Student.hpp",
+      "path": "archive/variants/clion/LAB4_practice_1/LAB_103/Student.hpp",
+      "sha256": "d14b75319d75338b8a80e73ffdf0b0829ae363ffce7b8955b8121fa35815f2a7"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB4_practice_1/LAB_103/main.cpp",
+      "path": "archive/variants/clion/LAB4_practice_1/LAB_103/main.cpp",
+      "sha256": "473d1e94440c38e5667c51a36b0fefeffd49b7c88823cde2b74e35c50b59faad"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB4_practice_1/LAB_103/my_make_unique.hpp",
+      "path": "archive/variants/clion/LAB4_practice_1/LAB_103/my_make_unique.hpp",
+      "sha256": "d14b75319d75338b8a80e73ffdf0b0829ae363ffce7b8955b8121fa35815f2a7"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB4_practice_1/LAB_103/실습 103 my_make_unique - 원본.zip",
+      "path": "archive/variants/clion/LAB4_practice_1/LAB_103/실습 103 my_make_unique - 원본.zip",
+      "sha256": "040fa1809fa645a62c6b789bde0b743f1c9287652327552afdadea525e715c16"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB4_practice_1/LAB_103/실습 103 my_make_unique.txt",
+      "path": "archive/variants/clion/LAB4_practice_1/LAB_103/실습 103 my_make_unique.txt",
+      "sha256": "9e4865ebfd1a4ec8341ed2e0a1dd63392fbe0ea2ef8aea4d8994b882e97befa5"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB4_practice_1/LAB_111/Array.hpp",
+      "path": "archive/variants/clion/LAB4_practice_1/LAB_111/Array.hpp",
+      "sha256": "718cbc6dc9307464cb45deeacf222488db1b33103462e41e5f734fe1fe6e4c17"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB4_practice_1/LAB_111/main.cpp",
+      "path": "archive/variants/clion/LAB4_practice_1/LAB_111/main.cpp",
+      "sha256": "1b2d824769f85ff82a6bb318df08f834e98a9e59961d30aef8c380680223df12"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB4_practice_1/LAB_111/실습 111 - out_of_range exception.txt",
+      "path": "archive/variants/clion/LAB4_practice_1/LAB_111/실습 111 - out_of_range exception.txt",
+      "sha256": "8882bb07e58fc022c34478be77e1c77d9f580b2fe7284f9c9d3d9a9fcf390288"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB4_practice_1/LAB_112/main.cpp",
+      "path": "archive/variants/clion/LAB4_practice_1/LAB_112/main.cpp",
+      "sha256": "3bbdf0eff3a779d6275004af06ecfe3d57724b5f43169562dec1d7f194cfc35a"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB4_practice_1/LAB_112/실습 112 - File IO Exception Handling.txt",
+      "path": "archive/variants/clion/LAB4_practice_1/LAB_112/실습 112 - File IO Exception Handling.txt",
+      "sha256": "6c792ca77af61e496a840234ddb19a9cb7f77615d3255ce1df329f01fff20ca3"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB4_practice_1/LAB_91/main.cpp",
+      "path": "archive/variants/clion/LAB4_practice_1/LAB_91/main.cpp",
+      "sha256": "d445914e97134b96cfb1fa7e64940e6431b40722cacfde8f11714f1543e499cb"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB4_practice_1/LAB_91/실습 091 - inheritance 문제.txt",
+      "path": "archive/variants/clion/LAB4_practice_1/LAB_91/실습 091 - inheritance 문제.txt",
+      "sha256": "3252bdc28f776e6c96fda85f54ba5c4ea9e1283894fdf5aa49f5a4507ecbe56b"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB4_practice_1/LAB_92/DeviceTest.cpp",
+      "path": "archive/variants/clion/LAB4_practice_1/LAB_92/DeviceTest.cpp",
+      "sha256": "a88eea4c32aabab55a72064760e9ab34a3944091b6d6416c37198bf1575f7738"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB4_practice_1/LAB_92/LCD_Monitor.h",
+      "path": "archive/variants/clion/LAB4_practice_1/LAB_92/LCD_Monitor.h",
+      "sha256": "5296fd8a532f962dbf140c470803905082b750f67d687b1f9aa91ec67c94ab76"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB4_practice_1/LAB_92/LED_Monitor.h",
+      "path": "archive/variants/clion/LAB4_practice_1/LAB_92/LED_Monitor.h",
+      "sha256": "4b34ded1cf27b8c9fa4c401f45d4c1f6453a076c49d59c3b9b35092fda19ca5f"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB4_practice_1/LAB_92/Monitor.h",
+      "path": "archive/variants/clion/LAB4_practice_1/LAB_92/Monitor.h",
+      "sha256": "d3f9e1df3dd91b92ebc8b0b43755b5e9b2a3a08b348d0215f05c38df49d74954"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB4_practice_1/LAB_92/OutputDevice.h",
+      "path": "archive/variants/clion/LAB4_practice_1/LAB_92/OutputDevice.h",
+      "sha256": "6394666c7f262e14ec10716e9797aa2e6ba41329a9fec1a13185c922a705c18d"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB4_practice_1/LAB_92/Printer.h",
+      "path": "archive/variants/clion/LAB4_practice_1/LAB_92/Printer.h",
+      "sha256": "f142275592c751703c50bfc1efa701f796a1217197f3f9a5e18afe5ce315e360"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB4_practice_1/LAB_92/실습 092 - 생성자소멸자 호출 순서 문제.txt",
+      "path": "archive/variants/clion/LAB4_practice_1/LAB_92/실습 092 - 생성자소멸자 호출 순서 문제.txt",
+      "sha256": "45374018696546217024951ec0b9c5ea14e130749f2ef440beb76e89289c3ead"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB4_practice_1/LAB_93/Vehicle.cpp",
+      "path": "archive/variants/clion/LAB4_practice_1/LAB_93/Vehicle.cpp",
+      "sha256": "f2df02f45d45a996a842d69b522b739f38cc85ed3cae7faaebca23ba7960f8fb"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB4_practice_1/LAB_93/Vehicle.hpp",
+      "path": "archive/variants/clion/LAB4_practice_1/LAB_93/Vehicle.hpp",
+      "sha256": "7fec9be7cd6b99a35b99dbb19f06b5b8baf0b55f20bb70090ec9d475bff1ee1b"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB4_practice_1/LAB_93/main.cpp",
+      "path": "archive/variants/clion/LAB4_practice_1/LAB_93/main.cpp",
+      "sha256": "4e246eb3a6e7712c9fdd0768f6d37e842e56cad1b344d9178e1be429a6517896"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB4_practice_1/LAB_93/실습 093 - override (virtual function).txt",
+      "path": "archive/variants/clion/LAB4_practice_1/LAB_93/실습 093 - override (virtual function).txt",
+      "sha256": "668f2c490b0b894bd88a20a75c6e3d173db75b958515fc97306ebd3743313bdf"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB4_practice_1/LAB_93/실습 093 - override (virtual function).zip",
+      "path": "archive/variants/clion/LAB4_practice_1/LAB_93/실습 093 - override (virtual function).zip",
+      "sha256": "e22cae2abe83223ab0dcc8119548ae992324af755a8a0d1a5fd0ec1d60b2a447"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB4_practice_1/LAB_94/LCD_Monitor.h",
+      "path": "archive/variants/clion/LAB4_practice_1/LAB_94/LCD_Monitor.h",
+      "sha256": "5296fd8a532f962dbf140c470803905082b750f67d687b1f9aa91ec67c94ab76"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB4_practice_1/LAB_94/LED_Monitor.h",
+      "path": "archive/variants/clion/LAB4_practice_1/LAB_94/LED_Monitor.h",
+      "sha256": "4b34ded1cf27b8c9fa4c401f45d4c1f6453a076c49d59c3b9b35092fda19ca5f"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB4_practice_1/LAB_94/Monitor.h",
+      "path": "archive/variants/clion/LAB4_practice_1/LAB_94/Monitor.h",
+      "sha256": "d3f9e1df3dd91b92ebc8b0b43755b5e9b2a3a08b348d0215f05c38df49d74954"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB4_practice_1/LAB_94/OutputDevice.h",
+      "path": "archive/variants/clion/LAB4_practice_1/LAB_94/OutputDevice.h",
+      "sha256": "6394666c7f262e14ec10716e9797aa2e6ba41329a9fec1a13185c922a705c18d"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB4_practice_1/LAB_94/Printer.h",
+      "path": "archive/variants/clion/LAB4_practice_1/LAB_94/Printer.h",
+      "sha256": "f142275592c751703c50bfc1efa701f796a1217197f3f9a5e18afe5ce315e360"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB4_practice_1/LAB_94/main.cpp",
+      "path": "archive/variants/clion/LAB4_practice_1/LAB_94/main.cpp",
+      "sha256": "0e4890e746ecb9842b4dd688bf210a17b5478859481fe8f941953545bdcd1a4a"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB4_practice_1/LAB_94/실습 094 - virtual & destructor.txt",
+      "path": "archive/variants/clion/LAB4_practice_1/LAB_94/실습 094 - virtual & destructor.txt",
+      "sha256": "2b7c8d442b47138db592824d6b5f30dfffee9aa13ec161ccff95491c7dbb053f"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB4_practice_1/LAB_95_1/Employee.h",
+      "path": "archive/variants/clion/LAB4_practice_1/LAB_95_1/Employee.h",
+      "sha256": "2ff0319430ddff04fbeb31affb23dc1af23c636144747d62cc38fce7f3b62e7f"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB4_practice_1/LAB_95_1/EmployeeTest.cpp",
+      "path": "archive/variants/clion/LAB4_practice_1/LAB_95_1/EmployeeTest.cpp",
+      "sha256": "3806158d3d7d29619273e0dc05573bb12593286bc750beb5e1c7d9ff73e40700"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB4_practice_1/LAB_95_1/실습 095 - class hierarchy 문제(함수 오버라이드와 가상함수 문제).txt",
+      "path": "archive/variants/clion/LAB4_practice_1/LAB_95_1/실습 095 - class hierarchy 문제(함수 오버라이드와 가상함수 문제).txt",
+      "sha256": "d3ea0e5df27178ba53e09c0e5f974a527192a54864999596c3d6e00558d1262a"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB4_practice_1/LAB_95_2/Champion.hpp",
+      "path": "archive/variants/clion/LAB4_practice_1/LAB_95_2/Champion.hpp",
+      "sha256": "316d0e1c2f91f1467dcfd7867f87a685484e1ff9e151ee8083d224bb4d77356f"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB4_practice_1/LAB_95_2/EzrealSkill.hpp",
+      "path": "archive/variants/clion/LAB4_practice_1/LAB_95_2/EzrealSkill.hpp",
+      "sha256": "7e754a16bae5bcd3c6b5f41e5cc7a5a6a82a9bfee9209c1ea6760ca49c6a2f03"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB4_practice_1/LAB_95_2/GangplankSkill.hpp",
+      "path": "archive/variants/clion/LAB4_practice_1/LAB_95_2/GangplankSkill.hpp",
+      "sha256": "af972ea9c830df6b2faa69aae76296a58d020e604b1fe1e9883d087508ed3b4b"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB4_practice_1/LAB_95_2/Skill.hpp",
+      "path": "archive/variants/clion/LAB4_practice_1/LAB_95_2/Skill.hpp",
+      "sha256": "d9f306b9a2687e6fa01ee19b81f3506aad1faa1fa68519420022b13f66f7ba71"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB4_practice_1/LAB_95_2/main.cpp",
+      "path": "archive/variants/clion/LAB4_practice_1/LAB_95_2/main.cpp",
+      "sha256": "33cfb0d386ebea2aba3f97749455f75b5b9968aa6cbdd7366fe19007b4f82fe4"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB4_practice_1/LAB_95_2/실습 095 - 프로그램 실행 중 동작 변화 시키기.txt",
+      "path": "archive/variants/clion/LAB4_practice_1/LAB_95_2/실습 095 - 프로그램 실행 중 동작 변화 시키기.txt",
+      "sha256": "2f57a0e4f868810a3c93c1a8ed5fc30978a7f17f319f82b03d98040b34016e25"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB4_practice_1/assignment07/Matrix.cpp",
+      "path": "archive/variants/clion/LAB4_practice_1/assignment07/Matrix.cpp",
+      "sha256": "ce71880fc0b6cfb3bee9c41fff1f8704219d30cf23137d9e7d324b71edce9dae"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB4_practice_1/assignment07/Matrix.hpp",
+      "path": "archive/variants/clion/LAB4_practice_1/assignment07/Matrix.hpp",
+      "sha256": "db1ca04bf12c301ce6bf32228361a4692e564703d326805d3de89439255f9cc3"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB4_practice_1/assignment07/main.cpp",
+      "path": "archive/variants/clion/LAB4_practice_1/assignment07/main.cpp",
+      "sha256": "a5eeea8e923b0175e98a52e5a1717142f577e158d16d1be7d9ae26a71d03aaac"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB4_practice_1/assignment07/과제 071 - Matrix 문제.txt",
+      "path": "archive/variants/clion/LAB4_practice_1/assignment07/과제 071 - Matrix 문제.txt",
+      "sha256": "12f349c76ee04c9fd6fed835dce1e4af4bc728472ab20f69f0af37a4782f63ae"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB4_practice_1/assignment08/Department.cpp",
+      "path": "archive/variants/clion/LAB4_practice_1/assignment08/Department.cpp",
+      "sha256": "1ae03e2cbf52209d0a85070e955639014aef69aa9a8ee088041782c9e61bd85d"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB4_practice_1/assignment08/Department.hpp",
+      "path": "archive/variants/clion/LAB4_practice_1/assignment08/Department.hpp",
+      "sha256": "100ca434ca80378aeb6fc6cc46133cb307b33440b2d4286f6bc1eb8debef9bed"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB4_practice_1/assignment08/Employee.cpp",
+      "path": "archive/variants/clion/LAB4_practice_1/assignment08/Employee.cpp",
+      "sha256": "2937f331783140d540374fed16bd1ce408d8e995bae2fbbb5eb360ed929f3451"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB4_practice_1/assignment08/Employee.hpp",
+      "path": "archive/variants/clion/LAB4_practice_1/assignment08/Employee.hpp",
+      "sha256": "37ca730a0ab1329f788b1b4deaa25f55d28646fc81aeab030b8249ae5a2f896f"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB4_practice_1/assignment08/IOrganization.hpp",
+      "path": "archive/variants/clion/LAB4_practice_1/assignment08/IOrganization.hpp",
+      "sha256": "7808cd1aaeca4046a2646dfb766052dd65fc94e3146a33b96aee7540485531eb"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB4_practice_1/assignment08/Manager.cpp",
+      "path": "archive/variants/clion/LAB4_practice_1/assignment08/Manager.cpp",
+      "sha256": "81df833cb5f9974d581224f23397d3c78cb8d7867e7b1b587b7db02e7cf9a3ea"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB4_practice_1/assignment08/Manager.hpp",
+      "path": "archive/variants/clion/LAB4_practice_1/assignment08/Manager.hpp",
+      "sha256": "86dd5b78a5bd95ae0a20631cd7a62e1a9436e6fc5d678f6c4f2392573afa200c"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB4_practice_1/assignment08/Organization.cpp",
+      "path": "archive/variants/clion/LAB4_practice_1/assignment08/Organization.cpp",
+      "sha256": "e2dcfa461ff72887db0eed395d3f08e4aba67a9fadf97c517b633a5479234447"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB4_practice_1/assignment08/Organization.hpp",
+      "path": "archive/variants/clion/LAB4_practice_1/assignment08/Organization.hpp",
+      "sha256": "5e83baa889530f33c18c429616dfeca17e0b2ec0c401fa5b7d688df3c64be915"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB4_practice_1/assignment08/main.cpp",
+      "path": "archive/variants/clion/LAB4_practice_1/assignment08/main.cpp",
+      "sha256": "b690c844db084043fcf2596ed32447158b879e731c1747d5fe7a64d3247c3d82"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB4_practice_1/assignment08/과제 008 - Modeling an Organization Structure.txt",
+      "path": "archive/variants/clion/LAB4_practice_1/assignment08/과제 008 - Modeling an Organization Structure.txt",
+      "sha256": "3509dbc6256e7bf4c56a66196409e5c3864340de5153d852a002e53aeda5546e"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB4_practice_1/assignment09/MyList.hpp",
+      "path": "archive/variants/clion/LAB4_practice_1/assignment09/MyList.hpp",
+      "sha256": "1cb3c203d0ac9ca3683c8ace76b84ce82b617585e39ea538d7982feecf17690f"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB4_practice_1/assignment09/main.cpp",
+      "path": "archive/variants/clion/LAB4_practice_1/assignment09/main.cpp",
+      "sha256": "1e60c81725806592cf42428b5e5274b6e76fe41b59a6f02ab0b6e67914dc1e1a"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "Clion_C++_univ/LAB4_practice_1/assignment09/과제 009 - Fixed-Size Generic List (p35).txt",
+      "path": "archive/variants/clion/LAB4_practice_1/assignment09/과제 009 - Fixed-Size Generic List (p35).txt",
+      "sha256": "bac3a709b2f55baeb20b3e8decf0d0d5240549b6bd9d4b39758cc683dadcd624"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/01fishbun/01_sample_data/01.inp",
+      "path": "algorithms/dogorithm/01fishbun/01_sample_data/01.inp",
+      "sha256": "3398ad07341a79adc8ea7938e23962dd5f4d7b6328bec43f0f0049d593c2e7bc"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/01fishbun/01_sample_data/01.out",
+      "path": "algorithms/dogorithm/01fishbun/01_sample_data/01.out",
+      "sha256": "8c0aa7094fcc92357e1f8389dfbdc5ec9b779efa8eae750b3fac0bbbdc59f906"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/01fishbun/01_sample_data/02.inp",
+      "path": "algorithms/dogorithm/01fishbun/01_sample_data/02.inp",
+      "sha256": "29ffb280960536f11adfbc23ae23e3486f6c282309fb7866588b761775ce5ba7"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/01fishbun/01_sample_data/02.out",
+      "path": "algorithms/dogorithm/01fishbun/01_sample_data/02.out",
+      "sha256": "8e6862529cec846ef3bd102c458c55ed05ce3237e248b63d4a4e9a9c5d9e3bc1"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/01fishbun/01_sample_data/03.inp",
+      "path": "algorithms/dogorithm/01fishbun/01_sample_data/03.inp",
+      "sha256": "524bb72ac41f892c51ed321ab69f4722577518eeaeb9483f8f480f3a32e5e549"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/01fishbun/01_sample_data/03.out",
+      "path": "algorithms/dogorithm/01fishbun/01_sample_data/03.out",
+      "sha256": "fbc2bb1e690ee2eb4bf63824f121b8d0584d60a1dd109ab2a34a4d84f10df343"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/01fishbun/01_sample_data/04.inp",
+      "path": "algorithms/dogorithm/01fishbun/01_sample_data/04.inp",
+      "sha256": "aa7a058c1cc8392bc66a7c362fdcfd76167f096742c0ddc860cdfe888195670f"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/01fishbun/01_sample_data/04.out",
+      "path": "algorithms/dogorithm/01fishbun/01_sample_data/04.out",
+      "sha256": "0ea5d3ab5f0d366b241c716409a36b1bf736ee036ec52e23a7f846835a9b493a"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/01fishbun/01_sample_data/05.inp",
+      "path": "algorithms/dogorithm/01fishbun/01_sample_data/05.inp",
+      "sha256": "2cd96fd6cf567cbd6ef53885e69422ff063074a1e566541ca073a767b76217aa"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/01fishbun/01_sample_data/05.out",
+      "path": "algorithms/dogorithm/01fishbun/01_sample_data/05.out",
+      "sha256": "357745446912dd86695c31a5175094e76b432ad82e604618fc4aedda096df07d"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/01fishbun/fishbun.cpp",
+      "path": "algorithms/dogorithm/01fishbun/fishbun.cpp",
+      "sha256": "86d8247b96d0717cd9e75384f9e4f20de3fa2af47c56b8160872fabd186dccc7"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/01fishbun/fishbun문제 풀때 아이디어 및 관련 내용 설명 총합.md",
+      "path": "algorithms/dogorithm/01fishbun/fishbun문제 풀때 아이디어 및 관련 내용 설명 총합.md",
+      "sha256": "76682fd01aea8c46b5f8e3d4a6d769ec57f68161ba7047141347682a6d22a47a"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/01fishbun/fishbun문제 풀때 아이디어 및 관련 내용 설명 총합.pdf",
+      "path": "algorithms/dogorithm/01fishbun/fishbun문제 풀때 아이디어 및 관련 내용 설명 총합.pdf",
+      "sha256": "9bb1d03c20a0f5ddf4abf75cf74822830ad2804c2b372640e5354b4d637926bf"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/01fishbun/java와 cpp 아키텍쳐 일부분 비교설명.md",
+      "path": "algorithms/dogorithm/01fishbun/java와 cpp 아키텍쳐 일부분 비교설명.md",
+      "sha256": "c66cdadbbe90e34e3478c1bb92b1b99ebb3e8fe52eafb0efe28826d0bf17b117"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/01fishbun/java와 cpp 아키텍쳐 일부분 비교설명.pdf",
+      "path": "algorithms/dogorithm/01fishbun/java와 cpp 아키텍쳐 일부분 비교설명.pdf",
+      "sha256": "0fa4e494129080f6d3539913ba25ad0ae241e53a1ddd450465d0d04ff7add991"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/02Quaindrome/02_sample_data/01.inp",
+      "path": "algorithms/dogorithm/02Quaindrome/02_sample_data/01.inp",
+      "sha256": "9cd8573c2cf013729f1b57513ad69f630a8988027cf0cde82e229c4fa149aa28"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/02Quaindrome/02_sample_data/01.out",
+      "path": "algorithms/dogorithm/02Quaindrome/02_sample_data/01.out",
+      "sha256": "388da75d2a6940ba38551a282795ee4f688bf31ca7ac00997455e7dee4e33022"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/02Quaindrome/02_sample_data/02.inp",
+      "path": "algorithms/dogorithm/02Quaindrome/02_sample_data/02.inp",
+      "sha256": "10e19842b7d837cf9f7cf290cfc5811c3d2f6e8962a92e6115029ee19a5314a0"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/02Quaindrome/02_sample_data/02.out",
+      "path": "algorithms/dogorithm/02Quaindrome/02_sample_data/02.out",
+      "sha256": "e9d5e655067b074ecd1e7df045af9d6352f86d4085f7fc3fb16d38959c4e0d6b"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/02Quaindrome/02_sample_data/03.inp",
+      "path": "algorithms/dogorithm/02Quaindrome/02_sample_data/03.inp",
+      "sha256": "d8c2022e846483c392000d1c732c6f9d52c9a5b1f0f38298b3dfd1dda165c6e7"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/02Quaindrome/02_sample_data/03.out",
+      "path": "algorithms/dogorithm/02Quaindrome/02_sample_data/03.out",
+      "sha256": "185d19c94845fce58f0621cef03535e3ecdfb34e1bca5b7a8b0b620eb699f856"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/02Quaindrome/02_sample_data/04.inp",
+      "path": "algorithms/dogorithm/02Quaindrome/02_sample_data/04.inp",
+      "sha256": "761856e644836368b222b6a8400f9bcec54fa8989ca80a8dfd62bc4797a4c81a"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/02Quaindrome/02_sample_data/04.out",
+      "path": "algorithms/dogorithm/02Quaindrome/02_sample_data/04.out",
+      "sha256": "50a30ff5c50e5f1d0686f095ed0637185efb148526cd14eaccac72c271d2feea"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/02Quaindrome/02_sample_data/05.inp",
+      "path": "algorithms/dogorithm/02Quaindrome/02_sample_data/05.inp",
+      "sha256": "e29a99abb22634a8bf301509e1494f2550ebd7944c4383e6e192b9c1f2bd43cd"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/02Quaindrome/02_sample_data/05.out",
+      "path": "algorithms/dogorithm/02Quaindrome/02_sample_data/05.out",
+      "sha256": "a1efb3a51b9ec4bed3bf20a5313a46da5300fa727a77daa6d068a88a3cd2a9c6"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/02Quaindrome/Quaindrome.cpp",
+      "path": "algorithms/dogorithm/02Quaindrome/Quaindrome.cpp",
+      "sha256": "d4169b5247db45c795cfece9a886a8eb106e21b0afdb20f07e7cd030a5e7cc78"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/02Quaindrome/Quaindrome.py",
+      "path": "algorithms/dogorithm/02Quaindrome/Quaindrome.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/02Quaindrome/Quaindrome_modern.cpp",
+      "path": "algorithms/dogorithm/02Quaindrome/Quaindrome_modern.cpp",
+      "sha256": "b74216ab7b63bcd15670638c4fa216b6bcad6e18f3224e41558f13506cf49d9c"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/03Container/03_sample_data_eunznNr/01.inp",
+      "path": "algorithms/dogorithm/03Container/03_sample_data_eunznNr/01.inp",
+      "sha256": "6d717d912b7d45d3d00c2e7a86172cfab76cc89e43d3f70fd54c0ec76e3a3327"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/03Container/03_sample_data_eunznNr/01.out",
+      "path": "algorithms/dogorithm/03Container/03_sample_data_eunznNr/01.out",
+      "sha256": "123b5daddcb3a405e6c70712efc5a6b17680f37681d76d6c4e72649727a7d914"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/03Container/03_sample_data_eunznNr/02.inp",
+      "path": "algorithms/dogorithm/03Container/03_sample_data_eunznNr/02.inp",
+      "sha256": "e79b4e1b0f54850340f05fe75e67394ef767c3af6d536296eb2e772098667cd4"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/03Container/03_sample_data_eunznNr/02.out",
+      "path": "algorithms/dogorithm/03Container/03_sample_data_eunznNr/02.out",
+      "sha256": "ef1169522daf747c81dac088bbcf1efe9fe1f3e20de8b3d611dece08a2ec38b0"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/03Container/03_sample_data_eunznNr/03.inp",
+      "path": "algorithms/dogorithm/03Container/03_sample_data_eunznNr/03.inp",
+      "sha256": "5918e2619eec20881194c9602e9c1c54f51727e523b1951240632821a314e570"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/03Container/03_sample_data_eunznNr/03.out",
+      "path": "algorithms/dogorithm/03Container/03_sample_data_eunznNr/03.out",
+      "sha256": "bdc9305cde485ebadd29901c74fe7228914101301587363d3ddfd177d90d5ff5"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/03Container/03_sample_data_eunznNr/04.inp",
+      "path": "algorithms/dogorithm/03Container/03_sample_data_eunznNr/04.inp",
+      "sha256": "5a0631dcd70e44d9ad4a124f0ba1ddac5e292b7d99bb98e1fbb1a3031f370a93"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/03Container/03_sample_data_eunznNr/04.out",
+      "path": "algorithms/dogorithm/03Container/03_sample_data_eunznNr/04.out",
+      "sha256": "123b5daddcb3a405e6c70712efc5a6b17680f37681d76d6c4e72649727a7d914"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/03Container/03_sample_data_eunznNr/05.inp",
+      "path": "algorithms/dogorithm/03Container/03_sample_data_eunznNr/05.inp",
+      "sha256": "629d45c084f951a26603270c797e4766c0565315f18467efafb4b19cafa71e01"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/03Container/03_sample_data_eunznNr/05.out",
+      "path": "algorithms/dogorithm/03Container/03_sample_data_eunznNr/05.out",
+      "sha256": "7247b66d0f412d48222f457d3d412ba0876dafcd629eb475652df6f990f52b3b"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/03Container/Container.cpp",
+      "path": "algorithms/dogorithm/03Container/Container.cpp",
+      "sha256": "0b8d11081ac38649d4189e210b64e96274d8d91390652fc8f876b070566d776e"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/03Container/container.h",
+      "path": "algorithms/dogorithm/03Container/container.h",
+      "sha256": "15d0f5412829429800f38a6d4f1333ef4fe1cd18500ee9990f4459d66c508710"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/05Oil_Well/05_sample_data_2FVR2YY/01.inp",
+      "path": "algorithms/dogorithm/05Oil_Well/05_sample_data_2FVR2YY/01.inp",
+      "sha256": "26be1835b56cac2bc2fb9fcce26f5110551b2487282b649df757b4150600283b"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/05Oil_Well/05_sample_data_2FVR2YY/01.out",
+      "path": "algorithms/dogorithm/05Oil_Well/05_sample_data_2FVR2YY/01.out",
+      "sha256": "472e73d796e20aa8ff9059e6316f218e0322548f661ec4dc267507ed66317404"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/05Oil_Well/05_sample_data_2FVR2YY/02.inp",
+      "path": "algorithms/dogorithm/05Oil_Well/05_sample_data_2FVR2YY/02.inp",
+      "sha256": "57b8a937856a9be478be863676ac5dbc9fcbd09f9313ffc3deb9dc23d694c94d"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/05Oil_Well/05_sample_data_2FVR2YY/02.out",
+      "path": "algorithms/dogorithm/05Oil_Well/05_sample_data_2FVR2YY/02.out",
+      "sha256": "472e73d796e20aa8ff9059e6316f218e0322548f661ec4dc267507ed66317404"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/05Oil_Well/05_sample_data_2FVR2YY/03.inp",
+      "path": "algorithms/dogorithm/05Oil_Well/05_sample_data_2FVR2YY/03.inp",
+      "sha256": "6c530068c2144f3847e26939bf66c1a455152cffebe34dbd7e5674b74804e424"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/05Oil_Well/05_sample_data_2FVR2YY/03.out",
+      "path": "algorithms/dogorithm/05Oil_Well/05_sample_data_2FVR2YY/03.out",
+      "sha256": "472e73d796e20aa8ff9059e6316f218e0322548f661ec4dc267507ed66317404"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/05Oil_Well/oil.h",
+      "path": "algorithms/dogorithm/05Oil_Well/oil.h",
+      "sha256": "14456deff23377f5df52d6015fd0d47d8d27f175b0e79d6ecca50376545182ce"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/05Oil_Well/oilwell.cpp",
+      "path": "algorithms/dogorithm/05Oil_Well/oilwell.cpp",
+      "sha256": "37cd7c631fa73c16465c8572db4b4866590f047997cfa553b75bf46d7095d2f2"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/06Seminar/06_sample_data/01.inp",
+      "path": "algorithms/dogorithm/06Seminar/06_sample_data/01.inp",
+      "sha256": "343411c1f2da5170cd2fe89fdea2e15c18c837b6d3462b98f6b5f349de16af8b"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/06Seminar/06_sample_data/01.out",
+      "path": "algorithms/dogorithm/06Seminar/06_sample_data/01.out",
+      "sha256": "f2b8d884f78aa4cedef26b09afdd266ae71bb8f995f7cc24afb09a17c3d79ca3"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/06Seminar/06_sample_data/02.inp",
+      "path": "algorithms/dogorithm/06Seminar/06_sample_data/02.inp",
+      "sha256": "a03210b6aa7f0c29873744017230fd2ab8a4b8e09210f9a221da0e5ccd3c51ad"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/06Seminar/06_sample_data/02.out",
+      "path": "algorithms/dogorithm/06Seminar/06_sample_data/02.out",
+      "sha256": "77b4a9b3b3069007a35b97c554f263e726370d932afd63a8927272cea175793b"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/06Seminar/06_sample_data/03.inp",
+      "path": "algorithms/dogorithm/06Seminar/06_sample_data/03.inp",
+      "sha256": "fd9474182c187530d6c4b46ce8ddb7ab48c741696b93dadae51e4c5e909e8710"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/06Seminar/06_sample_data/03.out",
+      "path": "algorithms/dogorithm/06Seminar/06_sample_data/03.out",
+      "sha256": "08680581317723db336f15d21ab3aebd6af9657fe7c9a91681a775fe035283b9"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/06Seminar/Seminar.cpp",
+      "path": "algorithms/dogorithm/06Seminar/Seminar.cpp",
+      "sha256": "acfe23eec0e899246e294dabc76849efca35990dcb99b388911deb3f49f4afb1"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/07Cleaning/08_sample_data/01.inp",
+      "path": "algorithms/dogorithm/07Cleaning/08_sample_data/01.inp",
+      "sha256": "47ade853233b551fc699d95a6791189591b2cabcadfcf0488a60a590a8b7e879"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/07Cleaning/08_sample_data/01.out",
+      "path": "algorithms/dogorithm/07Cleaning/08_sample_data/01.out",
+      "sha256": "36d75507ddafddd9647bccca8ca667eda082b2eede477ccd120590cfc1d78e48"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/07Cleaning/08_sample_data/02.inp",
+      "path": "algorithms/dogorithm/07Cleaning/08_sample_data/02.inp",
+      "sha256": "6e6d9ea472c51e47c12f6bca5de1acb0caadcfcc06b2aa28f7dbda25467decb8"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/07Cleaning/08_sample_data/02.out",
+      "path": "algorithms/dogorithm/07Cleaning/08_sample_data/02.out",
+      "sha256": "d1bd43a581b815df245d3086ca28ea1973f7860860498191947679c2a29ae6dc"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/07Cleaning/Cleaning.cpp",
+      "path": "algorithms/dogorithm/07Cleaning/Cleaning.cpp",
+      "sha256": "5ffc6a3b24955a20811ff915f67b756564bae6263920fb3c7d8bd5cab9fc7df7"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/07Cleaning/Cleaning.py",
+      "path": "algorithms/dogorithm/07Cleaning/Cleaning.py",
+      "sha256": "036160d370ea461aee281c78b3116f771b3468b832eebc7a7f9bbb734d79e15f"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/07Cleaning/cpp입출력.md",
+      "path": "algorithms/dogorithm/07Cleaning/cpp입출력.md",
+      "sha256": "5141d08df491e5c0dacb3cbd2ad65433851ad3f04c4b4e58a0242c4e325c64f1"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/07Cleaning/java입출력.md",
+      "path": "algorithms/dogorithm/07Cleaning/java입출력.md",
+      "sha256": "12ab55e616f2b1bc3ce8380fe3b7efb740fb1f672ba85e71ebb52cd75927fe2f"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/07Cleaning/python입출력.md",
+      "path": "algorithms/dogorithm/07Cleaning/python입출력.md",
+      "sha256": "21455774af26b4fbe46cfc668b28f735c31fd6573c56752af2d3fc874f617aaf"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/07Cleaning/회의실배정_그리디_좋은문제로반드시다시풀기.py",
+      "path": "algorithms/dogorithm/07Cleaning/회의실배정_그리디_좋은문제로반드시다시풀기.py",
+      "sha256": "afc01a36a1ea82ceceb9c7dbcee621de066eee1113139f64ba4baadfb7487b8f"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/08Quasi_String/09_sample_data/01.inp",
+      "path": "algorithms/dogorithm/08Quasi_String/09_sample_data/01.inp",
+      "sha256": "bf555028ae91ed7e122e680b98b731e20190814922790cd77a76e00079a25e01"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/08Quasi_String/09_sample_data/01.out",
+      "path": "algorithms/dogorithm/08Quasi_String/09_sample_data/01.out",
+      "sha256": "052eab986fb289e9dfdb60f074e8330d5d48132a32f1a3399db00c3614ebd7da"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/08Quasi_String/09_sample_data/02.inp",
+      "path": "algorithms/dogorithm/08Quasi_String/09_sample_data/02.inp",
+      "sha256": "816c46457c823ad3a15b4c18eb3e89a3aaafb27309c9eb51aa7eef272afc8c07"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/08Quasi_String/09_sample_data/02.out",
+      "path": "algorithms/dogorithm/08Quasi_String/09_sample_data/02.out",
+      "sha256": "8e4621379786ef42a4fec155cd525c291dd7db3c1fde3478522f4f61c03fd1bd"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/08Quasi_String/09_sample_data/03.inp",
+      "path": "algorithms/dogorithm/08Quasi_String/09_sample_data/03.inp",
+      "sha256": "b0ba070660844075bb4031e5eb3ccc88b5a250879f945287c0c866e30ef500dd"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/08Quasi_String/09_sample_data/03.out",
+      "path": "algorithms/dogorithm/08Quasi_String/09_sample_data/03.out",
+      "sha256": "449631c0f83b2b58db7fc4db827e3cc849443d5a719b27a0677e6aa1e611f3db"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/08Quasi_String/test.cpp",
+      "path": "algorithms/dogorithm/08Quasi_String/test.cpp",
+      "sha256": "8bef13b80fcfe505f4d96616af0ec0761191f47564be26d45f6d03ffac01612a"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/08Quasi_String/test_간략화_c11_.cpp",
+      "path": "algorithms/dogorithm/08Quasi_String/test_간략화_c11_.cpp",
+      "sha256": "8a374f26c6726bb00e1d5044eb8a1ec6a4ebfc8f4c6320f01e60c5ae78e73302"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/08Quasi_String/최종.cpp",
+      "path": "algorithms/dogorithm/08Quasi_String/최종.cpp",
+      "sha256": "f3f8bad32c0eefd003c48ab2feaec1d9c608232f207903f4e958680d0e58b93e"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/11K-Diet/11_sample_data/01.inp",
+      "path": "algorithms/dogorithm/11K-Diet/11_sample_data/01.inp",
+      "sha256": "52e2a76ac36b7d1444bebe995f5b92c7fd460247c6b682c5431a774630bed301"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/11K-Diet/11_sample_data/01.out",
+      "path": "algorithms/dogorithm/11K-Diet/11_sample_data/01.out",
+      "sha256": "8af779bc752760c5b2290b56eaf422763d562c3201d8bbe9f5fa4e0ffa9c3aef"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/11K-Diet/11_sample_data/02.inp",
+      "path": "algorithms/dogorithm/11K-Diet/11_sample_data/02.inp",
+      "sha256": "84a8c166425af79502aa99763ae9871145bdc8e222b86d67b3a9a4dbf98bc696"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/11K-Diet/11_sample_data/02.out",
+      "path": "algorithms/dogorithm/11K-Diet/11_sample_data/02.out",
+      "sha256": "6a701305186e4d78ded733498918d76bec73f7de5b3b6ff2e341ef9d04d8c5d6"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/11K-Diet/K-Diet.cpp",
+      "path": "algorithms/dogorithm/11K-Diet/K-Diet.cpp",
+      "sha256": "21fc1c642d6a4b9a6272cac70f14f56f469293f1e926d341887404a6dcb1bad7"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/13Pipecleaning/16_sample_data/01.inp",
+      "path": "algorithms/dogorithm/13Pipecleaning/16_sample_data/01.inp",
+      "sha256": "0a1b73fa7c601de80e561c3357c66d09ca44ac9e74f11163924dee067ff4e898"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/13Pipecleaning/16_sample_data/01.out",
+      "path": "algorithms/dogorithm/13Pipecleaning/16_sample_data/01.out",
+      "sha256": "29e17b428089c4ebf22da6a029ca3696aefeaeddd52f2ce0322768baa73d7f66"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/13Pipecleaning/16_sample_data/02.inp",
+      "path": "algorithms/dogorithm/13Pipecleaning/16_sample_data/02.inp",
+      "sha256": "ca1022665f7703a3d182e04d640b900410932be4b99994147b7a42fe36c133a7"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/13Pipecleaning/16_sample_data/02.out",
+      "path": "algorithms/dogorithm/13Pipecleaning/16_sample_data/02.out",
+      "sha256": "e2bb232cac786f7284bb237d193407e94f32ee0fbf64d27d0ae8b1642de44923"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/13Pipecleaning/16_sample_data/03.inp",
+      "path": "algorithms/dogorithm/13Pipecleaning/16_sample_data/03.inp",
+      "sha256": "a02145bf1f7eaf6330101940737f5e2fcae5319bae1f78b575e3e0a62f9367ee"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/13Pipecleaning/16_sample_data/03.out",
+      "path": "algorithms/dogorithm/13Pipecleaning/16_sample_data/03.out",
+      "sha256": "0a6b5e02cbe592ef9285db1440db99874166326dff103608c6dfd5068ec714f5"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/13Pipecleaning/16_sample_data/04.inp",
+      "path": "algorithms/dogorithm/13Pipecleaning/16_sample_data/04.inp",
+      "sha256": "21774e309a51af33a1c4accd61bec44690687a65c065e981885839f84d264c05"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/13Pipecleaning/16_sample_data/04.out",
+      "path": "algorithms/dogorithm/13Pipecleaning/16_sample_data/04.out",
+      "sha256": "fdc18c2eb87fba3d7105e50b67c6e2657e3c3a6e998ba3fdb42c6d5c9f29a94b"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/13Pipecleaning/pipe.cpp",
+      "path": "algorithms/dogorithm/13Pipecleaning/pipe.cpp",
+      "sha256": "785cf5af99a97882cd7991489172945cc695d5b5a833d4c89a6781981c24142e"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/14Spiral_Sort/17_sample_data.zip",
+      "path": "algorithms/dogorithm/14Spiral_Sort/17_sample_data.zip",
+      "sha256": "cab78b2bbb2480d26c9593ade9632fbfde03783b70366632aa0ff8b10dd0de8c"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/14Spiral_Sort/spiral.cpp",
+      "path": "algorithms/dogorithm/14Spiral_Sort/spiral.cpp",
+      "sha256": "0269fa17ee1c2bfa95eba01d1d8613ea8f952b7d2e8d8bb32ea330a10b4ac550"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/18/01.inp",
+      "path": "algorithms/dogorithm/18/01.inp",
+      "sha256": "e0d369ea188977f1dca048b00dd5540ce0508a1eb4b6cda3ebd328312b6ba652"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/18/01.out",
+      "path": "algorithms/dogorithm/18/01.out",
+      "sha256": "14834b64e4fd4c681ee337384a5b556a5b55f84a84bb58760fb93fb9bbc551a5"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/18/02.inp",
+      "path": "algorithms/dogorithm/18/02.inp",
+      "sha256": "de816005b6d6247f3e61c8915fb276f4e4c3767a092d57e436d9773f3ec58695"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/18/02.out",
+      "path": "algorithms/dogorithm/18/02.out",
+      "sha256": "8a1362023c36d9cfc250f38e1105e38ba5ad7657729bb64c4767067822fadec8"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/18/S.txt",
+      "path": "algorithms/dogorithm/18/S.txt",
+      "sha256": "999d889fb377b3e75a3be8a7d7a5a4dbf24cb37e5254011a440f5d3ba380f8e7"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/18/invert.cpp",
+      "path": "algorithms/dogorithm/18/invert.cpp",
+      "sha256": "f784abbd47d92750309c76faafb2fd2959ac38d48255aa4aca3b8819b38c58fd"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/19/19_sample_data/01.inp",
+      "path": "algorithms/dogorithm/19/19_sample_data/01.inp",
+      "sha256": "1d23d9b378f6080d0c43e70e9439b16e2cfed69d1ad24c31ea421ea74904b50e"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/19/19_sample_data/01.out",
+      "path": "algorithms/dogorithm/19/19_sample_data/01.out",
+      "sha256": "84aa9dbab8d5fc0380b39c19a171089334cba94d4796ad207a6cce3845265943"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/19/19_sample_data/02.inp",
+      "path": "algorithms/dogorithm/19/19_sample_data/02.inp",
+      "sha256": "e1a431a3331f30002a7ca3ec676f1b0a192b1039eb6fc957b1ddc815cf4de988"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/19/19_sample_data/02.out",
+      "path": "algorithms/dogorithm/19/19_sample_data/02.out",
+      "sha256": "043b5ae7334040ef63298adca08912d5287ad37e66f9425316adc50d2c1ab652"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/19/station.cpp",
+      "path": "algorithms/dogorithm/19/station.cpp",
+      "sha256": "0b2526d916f4820df7b8b1221d20029afc484556609e5c5a29728d87c3935678"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "바킹독_정리(+Pulse_동아리_스터디_활동)/(미완성)0x04_연결리스트.txt",
+      "path": "notes/algorithms/(미완성)0x04_연결리스트.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "바킹독_정리(+Pulse_동아리_스터디_활동)/(미완성)0x0D_시뮬레이션.txt",
+      "path": "notes/algorithms/(미완성)0x0D_시뮬레이션.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "바킹독_정리(+Pulse_동아리_스터디_활동)/(미완성)0x0E_정렬 1.txt",
+      "path": "notes/algorithms/(미완성)0x0E_정렬 1.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "바킹독_정리(+Pulse_동아리_스터디_활동)/(미완성)0x0E_정렬 2.txt",
+      "path": "notes/algorithms/(미완성)0x0E_정렬 2.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "바킹독_정리(+Pulse_동아리_스터디_활동)/(미완성)0x12_수학.txt",
+      "path": "notes/algorithms/(미완성)0x12_수학.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "바킹독_정리(+Pulse_동아리_스터디_활동)/(미완성)0x13_이분탐색.txt",
+      "path": "notes/algorithms/(미완성)0x13_이분탐색.txt",
+      "sha256": "b7b47d39096b68fd02f1f48d49d991a661fbc176c92ac6434096844ab23db70c"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "바킹독_정리(+Pulse_동아리_스터디_활동)/(필수) c++ 입출력 관련 알아야 할 사항.cpp",
+      "path": "notes/algorithms/(필수) c++ 입출력 관련 알아야 할 사항.cpp",
+      "sha256": "a505f03066c779dd51ddaefb52f6040932b3d5b26077263327adb5519389a099"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "바킹독_정리(+Pulse_동아리_스터디_활동)/0x00 OT_최대값STL.cpp",
+      "path": "notes/algorithms/0x00 OT_최대값STL.cpp",
+      "sha256": "71c31d18dcb2580d23b92666304a4656b3eaa8694a3bdbf1ee560c5b9f05b97f"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "바킹독_정리(+Pulse_동아리_스터디_활동)/0x01_시간공간복잡도 250321 PULSE e조 01 스터디 박종진.txt",
+      "path": "notes/algorithms/0x01_시간공간복잡도 250321 PULSE e조 01 스터디 박종진.txt",
+      "sha256": "ea4e595f0e09858b0e3fec0f603d9c734841304120c11d1df684613a7c209dfe"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "바킹독_정리(+Pulse_동아리_스터디_활동)/0x01_시간공간복잡도_예제1.c",
+      "path": "notes/algorithms/0x01_시간공간복잡도_예제1.c",
+      "sha256": "6c220c6622a90062933f139906c36127a73501c26cd47ad3fc95e6e05d6f16bf"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "바킹독_정리(+Pulse_동아리_스터디_활동)/0x02강 기초 코드 작성 요령 II (세미콜론을 꼭 붙이자).c",
+      "path": "notes/algorithms/0x02강 기초 코드 작성 요령 II (세미콜론을 꼭 붙이자).c",
+      "sha256": "fed8b250c482a0d787fbdf4a05bbb53c42d1707d9c931116244c1a88d1d7363c"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "바킹독_정리(+Pulse_동아리_스터디_활동)/0x03 배열 개념(250328).txt",
+      "path": "notes/algorithms/0x03 배열 개념(250328).txt",
+      "sha256": "71ea55eca6ce8cc2d1059db37e461d4e0eea867d6d06e34d09de7c5587137521"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "바킹독_정리(+Pulse_동아리_스터디_활동)/0x05 스택 개념(250328).txt",
+      "path": "notes/algorithms/0x05 스택 개념(250328).txt",
+      "sha256": "867c27e7366fcb2210b80d6c17a0f4943678d1a4938be01a0fc69688668a921b"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "바킹독_정리(+Pulse_동아리_스터디_활동)/0x05 스택 다시 자세히 정리.txt",
+      "path": "notes/algorithms/0x05 스택 다시 자세히 정리.txt",
+      "sha256": "19cfec765664ae639bac82215427ac44bf466d1ec267ed0d480f4e12b83e37c1"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "바킹독_정리(+Pulse_동아리_스터디_활동)/0x06 큐.txt",
+      "path": "notes/algorithms/0x06 큐.txt",
+      "sha256": "c89ae1775fcf437ae938a2651a98eef924e27b1f0c1428359cc5af0fc522f64d"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "바킹독_정리(+Pulse_동아리_스터디_활동)/0x07 덱.txt",
+      "path": "notes/algorithms/0x07 덱.txt",
+      "sha256": "3ad1fb0796a25792d66fcc5b308edbb1178c8b1aeff609448511a0c9090a9428"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "바킹독_정리(+Pulse_동아리_스터디_활동)/0x08 수식의 괄호 쌍.txt",
+      "path": "notes/algorithms/0x08 수식의 괄호 쌍.txt",
+      "sha256": "cc9d1f01b92d05eec4904541771ce8ac317ee76bbf5e6d77623f85f0123560e9"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "바킹독_정리(+Pulse_동아리_스터디_활동)/0x09 BFS [Graph] Basic 3 - weight 없는 graph에서 최단 거리 계산 - YouTube.url",
+      "path": "notes/algorithms/0x09 BFS [Graph] Basic 3 - weight 없는 graph에서 최단 거리 계산 - YouTube.url",
+      "sha256": "2ba1119096d49d689383cf26a2fa19c929e2a9fbe2d4cd2ed991e0aa9b346a9a"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "바킹독_정리(+Pulse_동아리_스터디_활동)/0x09 BFS bfs기초코드_1926을예시로설명.cpp",
+      "path": "algorithms/baekjoon/1926/main.cpp",
+      "sha256": "426e43b427aa1893eab270041aacd6c61ee9c3cafc3e77b2c5397eca828832cf"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "바킹독_정리(+Pulse_동아리_스터디_활동)/0x09 BFS p7576 (미완).cpp",
+      "path": "algorithms/baekjoon/7576/main.cpp",
+      "sha256": "44232868413c7022833eee6cd5acadb372537656d3c74abc199d28ecb3bfb9a1"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "바킹독_정리(+Pulse_동아리_스터디_활동)/0x09 BFS.txt",
+      "path": "notes/algorithms/0x09 BFS.txt",
+      "sha256": "ebb17856033d701c3831ce8cef58c19f7fc38f0bb9b6fff9995ccd85a8b74f41"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "바킹독_정리(+Pulse_동아리_스터디_활동)/0x0A DFS.txt",
+      "path": "notes/algorithms/0x0A DFS.txt",
+      "sha256": "d8927835486d1a3fb9056bb0b5552d7b165a25d14bb22c6f111d262e50f34859"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "바킹독_정리(+Pulse_동아리_스터디_활동)/0x0B강 - 재귀.txt",
+      "path": "notes/algorithms/0x0B강 - 재귀.txt",
+      "sha256": "758571a6b8b6eb49fba0a18fa339e05fb4fc80c44f5c8b3ccd5ee14298e88117"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "바킹독_정리(+Pulse_동아리_스터디_활동)/0x0C 백트래킹.txt",
+      "path": "notes/algorithms/0x0C 백트래킹.txt",
+      "sha256": "338853455e07dccc6144eaf172523fe62513d0de0ffae64a6e1d585c6ebbe98d"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "바킹독_정리(+Pulse_동아리_스터디_활동)/0x0C강[12] - 백트래킹 p15649.cpp",
+      "path": "algorithms/baekjoon/15649/main.cpp",
+      "sha256": "74068a791fba6e1ff7b5c248234255e60e88cd931fb786233a591b675967dc46"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "바킹독_정리(+Pulse_동아리_스터디_활동)/0x10 다이나믹 프로그래밍(DP) 개인공부.txt",
+      "path": "notes/algorithms/0x10 다이나믹 프로그래밍(DP) 개인공부.txt",
+      "sha256": "99cba4d651308384b91bc9c84db363a8e862b803bf2909be78df6aca4339a121"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "바킹독_정리(+Pulse_동아리_스터디_활동)/0x10강 - DP p1463.cpp",
+      "path": "algorithms/baekjoon/1463/main.cpp",
+      "sha256": "02f3003fb22f55d9cc01055e418b7d6ce643f0b0144588c15372326e4350d571"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "바킹독_정리(+Pulse_동아리_스터디_활동)/0x10강 - DP p9095.cpp",
+      "path": "algorithms/baekjoon/9095/main.cpp",
+      "sha256": "3205f48fcbedeba3440a87c1848384a840da7e2324da7546770192a991526d94"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "바킹독_정리(+Pulse_동아리_스터디_활동)/0x11 그리디 예습 0530.txt",
+      "path": "notes/algorithms/0x11 그리디 예습 0530.txt",
+      "sha256": "9cad5916c35ff91444360a914293d4bf4db29c9fd80e42c4861b1670d6c6b870"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "바킹독_정리(+Pulse_동아리_스터디_활동)/0x11강 - 그리디 p11047.cpp",
+      "path": "algorithms/baekjoon/11047/main.cpp",
+      "sha256": "8ec30e288f446d1f2762351c6f53839d66c79954aec7f4becb1c3e7544c53329"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "바킹독_정리(+Pulse_동아리_스터디_활동)/PULSE활동/0404 PULSE deque.cpp",
+      "path": "algorithms/baekjoon/2346/main.cpp",
+      "sha256": "3cf2854dc04def24235834d002fcc03d630c2c9789ea093a7e1de69bfd7fc67f"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "바킹독_정리(+Pulse_동아리_스터디_활동)/PULSE활동/250319_p18187.cpp",
+      "path": "algorithms/baekjoon/18187/main.cpp",
+      "sha256": "fad0dc20fec5e55e7d9748d09e54e889635ebfa16f3e41c8421e60bc81ba75c0"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "바킹독_정리(+Pulse_동아리_스터디_활동)/PULSE활동/250328_p2738.cpp",
+      "path": "algorithms/baekjoon/2738/main.cpp",
+      "sha256": "7e82d8480570a5f6cc772f3ddff56f94fddc1f03357b50071f8946265082ce5d"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "바킹독_정리(+Pulse_동아리_스터디_활동)/PULSE활동/p28278.cpp",
+      "path": "algorithms/baekjoon/28278/main.cpp",
+      "sha256": "604fd03da3d0214e59709d12507123a841a1200d5c9dd0094bc41a2e02e94c17"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "바킹독_정리(+Pulse_동아리_스터디_활동)/PULSE활동/p4949.cpp",
+      "path": "algorithms/baekjoon/4949/main.cpp",
+      "sha256": "b3bd28fe58b0f79892f771351e31373103681c43fd80dd45b303ab22ce33a0b5"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "바킹독_정리(+Pulse_동아리_스터디_활동)/PULSE활동/p9935.cpp",
+      "path": "algorithms/baekjoon/9935/main.cpp",
+      "sha256": "1de39626ae663d02f177ad6f149c1d27c9b5f3bae43bec8a2c99a1674ea1f682"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "바킹독_정리(+Pulse_동아리_스터디_활동)/PULSE활동/배열,스택 PULSE 0328.txt",
+      "path": "notes/algorithms/PULSE활동/배열,스택 PULSE 0328.txt",
+      "sha256": "bd8aab9e3269d4636f861202f7d68f2e553fcc487316e63b1a3cfd64faf29049"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "바킹독_정리(+Pulse_동아리_스터디_활동)/PULSE활동/스크린샷 2025-04-04 125703.png",
+      "path": "notes/algorithms/PULSE활동/스크린샷 2025-04-04 125703.png",
+      "sha256": "d20e1328ef4c0996301aa48450a8269b127f72a4998d1c0aad095dc55e3bf2f3"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "바킹독_정리(+Pulse_동아리_스터디_활동)/PULSE활동/스크린샷 2025-04-04 125754.png",
+      "path": "notes/algorithms/PULSE활동/스크린샷 2025-04-04 125754.png",
+      "sha256": "f612ea6b50b4cc129b52737d433833993f33f96225c8c77ae4da887d3dc2112a"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "바킹독_정리(+Pulse_동아리_스터디_활동)/PULSE활동/스택 괄호쌍, BFS, DFS PULSE 0411.txt",
+      "path": "notes/algorithms/PULSE활동/스택 괄호쌍, BFS, DFS PULSE 0411.txt",
+      "sha256": "995797bf94f51855087ebeebff72347cfc9645bbf4a63494a49aacbc907f5c6f"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "바킹독_정리(+Pulse_동아리_스터디_활동)/PULSE활동/시간복잡도,코테 개념 250321 PULSE e조 01 스터디 박종진.txt",
+      "path": "notes/algorithms/PULSE활동/시간복잡도,코테 개념 250321 PULSE e조 01 스터디 박종진.txt",
+      "sha256": "ea4e595f0e09858b0e3fec0f603d9c734841304120c11d1df684613a7c209dfe"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "바킹독_정리(+Pulse_동아리_스터디_활동)/PULSE활동/큐,deque 0404 PULSE.txt",
+      "path": "notes/algorithms/PULSE활동/큐,deque 0404 PULSE.txt",
+      "sha256": "92bd7c4c9e10e376bb28e9880987bfc237767dd052cdb0ee0446f70530c0f67d"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "바킹독_정리(+Pulse_동아리_스터디_활동)/PULSE활동/화면 캡처 2025-04-11 123940.png",
+      "path": "notes/algorithms/PULSE활동/화면 캡처 2025-04-11 123940.png",
+      "sha256": "3b384b7e3c6586de1d60aa3bd3d06584ad4fda755d9477ef634286cd6538cca1"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "바킹독_정리(+Pulse_동아리_스터디_활동)/PULSE활동/화면 캡처 2025-04-11 124108.png",
+      "path": "notes/algorithms/PULSE활동/화면 캡처 2025-04-11 124108.png",
+      "sha256": "416f4406897010648fa070c9d85c21f4685adda9c4e1b6bf77f2fb2717cdff21"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "바킹독_정리(+Pulse_동아리_스터디_활동)/PULSE활동/화면 캡처 2025-04-11 124328.png",
+      "path": "notes/algorithms/PULSE활동/화면 캡처 2025-04-11 124328.png",
+      "sha256": "2c9e19687d972918ad0d836fe4b92043805569c8c4a69ea156b6c953f48c6d37"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "연습장/bfs.cpp",
+      "path": "algorithms/study/bfs/main.cpp",
+      "sha256": "baaa5889162959c0d7af81f86238d0079edadcd68cf3baa8ec1aa5f44fcfa449"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "2차원_백터의_문자열_파싱_및_1,2,3순위에_따라서_최대값,_사전순_원소_선택_문제(max랑_사전순_선택으로_선택한다는_점에서_배울점이_정말_많은_문제)/pccp_string 문제 원본.zip",
+      "path": "algorithms/programmers/pccp-string/pccp_string 문제 원본.zip",
+      "sha256": "db2b4de2054cb5d04a35d7ef2c2dad9283637bba85188b914441db05e0ee0ee0"
+    },
+    {
+      "repository": "Cpp_nullnull",
+      "original": "2차원_백터의_문자열_파싱_및_1,2,3순위에_따라서_최대값,_사전순_원소_선택_문제(max랑_사전순_선택으로_선택한다는_점에서_배울점이_정말_많은_문제)/pccp_string.cpp",
+      "path": "algorithms/programmers/pccp-string/main.cpp",
+      "sha256": "e5f879cf36518bb6f032222d1a7d78306143146f623f11885bcdc2f1b4e74072"
+    },
+    {
+      "repository": "Cpp_Project_collection",
+      "original": "CMyString/CMystring.cpp",
+      "path": "projects/my-string/CMystring.cpp",
+      "sha256": "37eddbb64bb1871b54d8bc2148c3457c70df63aec0cb6381e5af923077fbb950"
+    },
+    {
+      "repository": "Cpp_Project_collection",
+      "original": "CMyString/CMystring.h",
+      "path": "projects/my-string/CMystring.h",
+      "sha256": "6639d5266cf8c57ce660a7f72a5ab5c2bae3c09b06c30c8e7d4caf5ed96c3538"
+    },
+    {
+      "repository": "Cpp_Project_collection",
+      "original": "Cpp_Project_collection/main.cpp",
+      "path": "examples/basics/project-intro/main.cpp",
+      "sha256": "bf2df00e3892d7cab44a3069a17bd765797f2c7e6771f50f7fdfeb5144b3a984"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "260424_260428/부록E_DP심화/부록E_DP심화.md",
+      "path": "notes/algorithms/dp-advanced/부록E_DP심화.md",
+      "sha256": "10e56508c9eb698ca3fa4df6be14f2e24a004018f2269be493db9b6ce31f7166"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "260424_260428/부록E_DP심화/images/01.PNG",
+      "path": "notes/algorithms/dp-advanced/images/01.PNG",
+      "sha256": "271f7fb188217ac23b878447c7fcccbb65d5ed611e7b631c15836227f59ea83f"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "260424_260428/부록E_DP심화/images/02.PNG",
+      "path": "notes/algorithms/dp-advanced/images/02.PNG",
+      "sha256": "98b7280399a8a11fd6ff7160a814cd6d36353fbc68a96e3e667ecec5fd358e58"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "260424_260428/부록E_DP심화/images/03.PNG",
+      "path": "notes/algorithms/dp-advanced/images/03.PNG",
+      "sha256": "2a38802a5e1c10517dd6de9574d4443b8052a4759bf26838290faa27a8651e92"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "260424_260428/부록E_DP심화/images/04.PNG",
+      "path": "notes/algorithms/dp-advanced/images/04.PNG",
+      "sha256": "8600eab3f602ce14f54ede8e4347b4d3cb347c338a3483ee71a7465035eb1f81"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "260424_260428/부록E_DP심화/images/05.PNG",
+      "path": "notes/algorithms/dp-advanced/images/05.PNG",
+      "sha256": "2b65012b0493c51374bf9cfaa1391ff9211fb328763375cd5f8b37c8fe897258"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/04SpaceStations/math.ceil에서 epsilon(1e-9)를 빼야하는 이유와 1e-9를 사용하는 이유(스위트 스팟).md",
+      "path": "notes/algorithms/space-stations/math.ceil에서 epsilon(1e-9)를 빼야하는 이유와 1e-9를 사용하는 이유(스위트 스팟).md",
+      "sha256": "6503a2d7f60d1b7edf439f0519f4e1681385d4ee75c30a9a703b46db5b27d1a2"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/04SpaceStations/return mydist(l) 설명.md",
+      "path": "notes/algorithms/space-stations/return mydist(l) 설명.md",
+      "sha256": "98394bd5e543193b08b2d19678871194de377557b2f88fc36f0b1ed49de323d8"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/04SpaceStations/관련 추천문제.md",
+      "path": "notes/algorithms/space-stations/관련 추천문제.md",
+      "sha256": "2a5b0e89cf9217ddd66ac3bedf05b3b9635a5ceaf653d13ca4b61a0786f2b7d7"
+    },
+    {
+      "repository": "Algorithm",
+      "original": "Dogorithm/04SpaceStations/파이썬zip()설명(같은 인덱스끼리 묶어주는 함수) + 추가적인 cpp java 예시.md",
+      "path": "notes/algorithms/space-stations/파이썬zip()설명(같은 인덱스끼리 묶어주는 함수) + 추가적인 cpp java 예시.md",
+      "sha256": "4000a117492691f608ba6675ccb1b3c9e72e242a3fa2966f5a33521c53dd50a2"
+    }
+  ]
+}

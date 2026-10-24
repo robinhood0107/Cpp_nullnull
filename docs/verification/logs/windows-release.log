@@ -1,0 +1,1115 @@
+Start testing: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+----------------------------------------------------------
+1/74 Testing: dog_01_fishbun_01
+1/74 Test: dog_01_fishbun_01
+Command: "C:/Program Files/CMake/bin/cmake.exe" "-DPROGRAM=<workspace>/out/build/windows-release/bin/dog_01_fishbun.exe" "-DINPUT=<workspace>/tests/../algorithms/dogorithm/01fishbun/01_sample_data/01.inp" "-DEXPECTED=<workspace>/tests/../algorithms/dogorithm/01fishbun/01_sample_data/01.out" "-P" "<workspace>/tests/check-output.cmake"
+Directory: <workspace>/out/build/windows-release/tests
+"dog_01_fishbun_01" start time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"dog_01_fishbun_01" end time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+"dog_01_fishbun_01" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/74 Testing: dog_01_fishbun_02
+2/74 Test: dog_01_fishbun_02
+Command: "C:/Program Files/CMake/bin/cmake.exe" "-DPROGRAM=<workspace>/out/build/windows-release/bin/dog_01_fishbun.exe" "-DINPUT=<workspace>/tests/../algorithms/dogorithm/01fishbun/01_sample_data/02.inp" "-DEXPECTED=<workspace>/tests/../algorithms/dogorithm/01fishbun/01_sample_data/02.out" "-P" "<workspace>/tests/check-output.cmake"
+Directory: <workspace>/out/build/windows-release/tests
+"dog_01_fishbun_02" start time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"dog_01_fishbun_02" end time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+"dog_01_fishbun_02" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/74 Testing: dog_01_fishbun_03
+3/74 Test: dog_01_fishbun_03
+Command: "C:/Program Files/CMake/bin/cmake.exe" "-DPROGRAM=<workspace>/out/build/windows-release/bin/dog_01_fishbun.exe" "-DINPUT=<workspace>/tests/../algorithms/dogorithm/01fishbun/01_sample_data/03.inp" "-DEXPECTED=<workspace>/tests/../algorithms/dogorithm/01fishbun/01_sample_data/03.out" "-P" "<workspace>/tests/check-output.cmake"
+Directory: <workspace>/out/build/windows-release/tests
+"dog_01_fishbun_03" start time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"dog_01_fishbun_03" end time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+"dog_01_fishbun_03" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/74 Testing: dog_01_fishbun_04
+4/74 Test: dog_01_fishbun_04
+Command: "C:/Program Files/CMake/bin/cmake.exe" "-DPROGRAM=<workspace>/out/build/windows-release/bin/dog_01_fishbun.exe" "-DINPUT=<workspace>/tests/../algorithms/dogorithm/01fishbun/01_sample_data/04.inp" "-DEXPECTED=<workspace>/tests/../algorithms/dogorithm/01fishbun/01_sample_data/04.out" "-P" "<workspace>/tests/check-output.cmake"
+Directory: <workspace>/out/build/windows-release/tests
+"dog_01_fishbun_04" start time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"dog_01_fishbun_04" end time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+"dog_01_fishbun_04" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/74 Testing: dog_01_fishbun_05
+5/74 Test: dog_01_fishbun_05
+Command: "C:/Program Files/CMake/bin/cmake.exe" "-DPROGRAM=<workspace>/out/build/windows-release/bin/dog_01_fishbun.exe" "-DINPUT=<workspace>/tests/../algorithms/dogorithm/01fishbun/01_sample_data/05.inp" "-DEXPECTED=<workspace>/tests/../algorithms/dogorithm/01fishbun/01_sample_data/05.out" "-P" "<workspace>/tests/check-output.cmake"
+Directory: <workspace>/out/build/windows-release/tests
+"dog_01_fishbun_05" start time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"dog_01_fishbun_05" end time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+"dog_01_fishbun_05" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/74 Testing: dog_02_Quaindrome_01
+6/74 Test: dog_02_Quaindrome_01
+Command: "C:/Program Files/CMake/bin/cmake.exe" "-DPROGRAM=<workspace>/out/build/windows-release/bin/dog_02_Quaindrome.exe" "-DINPUT=<workspace>/tests/../algorithms/dogorithm/02Quaindrome/02_sample_data/01.inp" "-DEXPECTED=<workspace>/tests/../algorithms/dogorithm/02Quaindrome/02_sample_data/01.out" "-P" "<workspace>/tests/check-output.cmake"
+Directory: <workspace>/out/build/windows-release/tests
+"dog_02_Quaindrome_01" start time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"dog_02_Quaindrome_01" end time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+"dog_02_Quaindrome_01" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/74 Testing: dog_02_Quaindrome_02
+7/74 Test: dog_02_Quaindrome_02
+Command: "C:/Program Files/CMake/bin/cmake.exe" "-DPROGRAM=<workspace>/out/build/windows-release/bin/dog_02_Quaindrome.exe" "-DINPUT=<workspace>/tests/../algorithms/dogorithm/02Quaindrome/02_sample_data/02.inp" "-DEXPECTED=<workspace>/tests/../algorithms/dogorithm/02Quaindrome/02_sample_data/02.out" "-P" "<workspace>/tests/check-output.cmake"
+Directory: <workspace>/out/build/windows-release/tests
+"dog_02_Quaindrome_02" start time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"dog_02_Quaindrome_02" end time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+"dog_02_Quaindrome_02" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/74 Testing: dog_02_Quaindrome_03
+8/74 Test: dog_02_Quaindrome_03
+Command: "C:/Program Files/CMake/bin/cmake.exe" "-DPROGRAM=<workspace>/out/build/windows-release/bin/dog_02_Quaindrome.exe" "-DINPUT=<workspace>/tests/../algorithms/dogorithm/02Quaindrome/02_sample_data/03.inp" "-DEXPECTED=<workspace>/tests/../algorithms/dogorithm/02Quaindrome/02_sample_data/03.out" "-P" "<workspace>/tests/check-output.cmake"
+Directory: <workspace>/out/build/windows-release/tests
+"dog_02_Quaindrome_03" start time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"dog_02_Quaindrome_03" end time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+"dog_02_Quaindrome_03" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/74 Testing: dog_02_Quaindrome_04
+9/74 Test: dog_02_Quaindrome_04
+Command: "C:/Program Files/CMake/bin/cmake.exe" "-DPROGRAM=<workspace>/out/build/windows-release/bin/dog_02_Quaindrome.exe" "-DINPUT=<workspace>/tests/../algorithms/dogorithm/02Quaindrome/02_sample_data/04.inp" "-DEXPECTED=<workspace>/tests/../algorithms/dogorithm/02Quaindrome/02_sample_data/04.out" "-P" "<workspace>/tests/check-output.cmake"
+Directory: <workspace>/out/build/windows-release/tests
+"dog_02_Quaindrome_04" start time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"dog_02_Quaindrome_04" end time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+"dog_02_Quaindrome_04" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/74 Testing: dog_02_Quaindrome_05
+10/74 Test: dog_02_Quaindrome_05
+Command: "C:/Program Files/CMake/bin/cmake.exe" "-DPROGRAM=<workspace>/out/build/windows-release/bin/dog_02_Quaindrome.exe" "-DINPUT=<workspace>/tests/../algorithms/dogorithm/02Quaindrome/02_sample_data/05.inp" "-DEXPECTED=<workspace>/tests/../algorithms/dogorithm/02Quaindrome/02_sample_data/05.out" "-P" "<workspace>/tests/check-output.cmake"
+Directory: <workspace>/out/build/windows-release/tests
+"dog_02_Quaindrome_05" start time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"dog_02_Quaindrome_05" end time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+"dog_02_Quaindrome_05" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/74 Testing: dog_02_Quaindrome_modern_01
+11/74 Test: dog_02_Quaindrome_modern_01
+Command: "C:/Program Files/CMake/bin/cmake.exe" "-DPROGRAM=<workspace>/out/build/windows-release/bin/dog_02_Quaindrome_modern.exe" "-DINPUT=<workspace>/tests/../algorithms/dogorithm/02Quaindrome/02_sample_data/01.inp" "-DEXPECTED=<workspace>/tests/../algorithms/dogorithm/02Quaindrome/02_sample_data/01.out" "-P" "<workspace>/tests/check-output.cmake"
+Directory: <workspace>/out/build/windows-release/tests
+"dog_02_Quaindrome_modern_01" start time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"dog_02_Quaindrome_modern_01" end time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+"dog_02_Quaindrome_modern_01" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/74 Testing: dog_02_Quaindrome_modern_02
+12/74 Test: dog_02_Quaindrome_modern_02
+Command: "C:/Program Files/CMake/bin/cmake.exe" "-DPROGRAM=<workspace>/out/build/windows-release/bin/dog_02_Quaindrome_modern.exe" "-DINPUT=<workspace>/tests/../algorithms/dogorithm/02Quaindrome/02_sample_data/02.inp" "-DEXPECTED=<workspace>/tests/../algorithms/dogorithm/02Quaindrome/02_sample_data/02.out" "-P" "<workspace>/tests/check-output.cmake"
+Directory: <workspace>/out/build/windows-release/tests
+"dog_02_Quaindrome_modern_02" start time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"dog_02_Quaindrome_modern_02" end time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+"dog_02_Quaindrome_modern_02" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/74 Testing: dog_02_Quaindrome_modern_03
+13/74 Test: dog_02_Quaindrome_modern_03
+Command: "C:/Program Files/CMake/bin/cmake.exe" "-DPROGRAM=<workspace>/out/build/windows-release/bin/dog_02_Quaindrome_modern.exe" "-DINPUT=<workspace>/tests/../algorithms/dogorithm/02Quaindrome/02_sample_data/03.inp" "-DEXPECTED=<workspace>/tests/../algorithms/dogorithm/02Quaindrome/02_sample_data/03.out" "-P" "<workspace>/tests/check-output.cmake"
+Directory: <workspace>/out/build/windows-release/tests
+"dog_02_Quaindrome_modern_03" start time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"dog_02_Quaindrome_modern_03" end time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+"dog_02_Quaindrome_modern_03" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/74 Testing: dog_02_Quaindrome_modern_04
+14/74 Test: dog_02_Quaindrome_modern_04
+Command: "C:/Program Files/CMake/bin/cmake.exe" "-DPROGRAM=<workspace>/out/build/windows-release/bin/dog_02_Quaindrome_modern.exe" "-DINPUT=<workspace>/tests/../algorithms/dogorithm/02Quaindrome/02_sample_data/04.inp" "-DEXPECTED=<workspace>/tests/../algorithms/dogorithm/02Quaindrome/02_sample_data/04.out" "-P" "<workspace>/tests/check-output.cmake"
+Directory: <workspace>/out/build/windows-release/tests
+"dog_02_Quaindrome_modern_04" start time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"dog_02_Quaindrome_modern_04" end time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+"dog_02_Quaindrome_modern_04" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/74 Testing: dog_02_Quaindrome_modern_05
+15/74 Test: dog_02_Quaindrome_modern_05
+Command: "C:/Program Files/CMake/bin/cmake.exe" "-DPROGRAM=<workspace>/out/build/windows-release/bin/dog_02_Quaindrome_modern.exe" "-DINPUT=<workspace>/tests/../algorithms/dogorithm/02Quaindrome/02_sample_data/05.inp" "-DEXPECTED=<workspace>/tests/../algorithms/dogorithm/02Quaindrome/02_sample_data/05.out" "-P" "<workspace>/tests/check-output.cmake"
+Directory: <workspace>/out/build/windows-release/tests
+"dog_02_Quaindrome_modern_05" start time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"dog_02_Quaindrome_modern_05" end time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+"dog_02_Quaindrome_modern_05" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/74 Testing: dog_03_Container_01
+16/74 Test: dog_03_Container_01
+Command: "C:/Program Files/CMake/bin/cmake.exe" "-DPROGRAM=<workspace>/out/build/windows-release/bin/dog_03_Container.exe" "-DINPUT=<workspace>/tests/../algorithms/dogorithm/03Container/03_sample_data_eunznNr/01.inp" "-DEXPECTED=<workspace>/tests/../algorithms/dogorithm/03Container/03_sample_data_eunznNr/01.out" "-P" "<workspace>/tests/check-output.cmake"
+Directory: <workspace>/out/build/windows-release/tests
+"dog_03_Container_01" start time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"dog_03_Container_01" end time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+"dog_03_Container_01" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/74 Testing: dog_03_Container_02
+17/74 Test: dog_03_Container_02
+Command: "C:/Program Files/CMake/bin/cmake.exe" "-DPROGRAM=<workspace>/out/build/windows-release/bin/dog_03_Container.exe" "-DINPUT=<workspace>/tests/../algorithms/dogorithm/03Container/03_sample_data_eunznNr/02.inp" "-DEXPECTED=<workspace>/tests/../algorithms/dogorithm/03Container/03_sample_data_eunznNr/02.out" "-P" "<workspace>/tests/check-output.cmake"
+Directory: <workspace>/out/build/windows-release/tests
+"dog_03_Container_02" start time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"dog_03_Container_02" end time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+"dog_03_Container_02" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/74 Testing: dog_03_Container_03
+18/74 Test: dog_03_Container_03
+Command: "C:/Program Files/CMake/bin/cmake.exe" "-DPROGRAM=<workspace>/out/build/windows-release/bin/dog_03_Container.exe" "-DINPUT=<workspace>/tests/../algorithms/dogorithm/03Container/03_sample_data_eunznNr/03.inp" "-DEXPECTED=<workspace>/tests/../algorithms/dogorithm/03Container/03_sample_data_eunznNr/03.out" "-P" "<workspace>/tests/check-output.cmake"
+Directory: <workspace>/out/build/windows-release/tests
+"dog_03_Container_03" start time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"dog_03_Container_03" end time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+"dog_03_Container_03" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/74 Testing: dog_03_Container_04
+19/74 Test: dog_03_Container_04
+Command: "C:/Program Files/CMake/bin/cmake.exe" "-DPROGRAM=<workspace>/out/build/windows-release/bin/dog_03_Container.exe" "-DINPUT=<workspace>/tests/../algorithms/dogorithm/03Container/03_sample_data_eunznNr/04.inp" "-DEXPECTED=<workspace>/tests/../algorithms/dogorithm/03Container/03_sample_data_eunznNr/04.out" "-P" "<workspace>/tests/check-output.cmake"
+Directory: <workspace>/out/build/windows-release/tests
+"dog_03_Container_04" start time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"dog_03_Container_04" end time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+"dog_03_Container_04" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/74 Testing: dog_03_Container_05
+20/74 Test: dog_03_Container_05
+Command: "C:/Program Files/CMake/bin/cmake.exe" "-DPROGRAM=<workspace>/out/build/windows-release/bin/dog_03_Container.exe" "-DINPUT=<workspace>/tests/../algorithms/dogorithm/03Container/03_sample_data_eunznNr/05.inp" "-DEXPECTED=<workspace>/tests/../algorithms/dogorithm/03Container/03_sample_data_eunznNr/05.out" "-P" "<workspace>/tests/check-output.cmake"
+Directory: <workspace>/out/build/windows-release/tests
+"dog_03_Container_05" start time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"dog_03_Container_05" end time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+"dog_03_Container_05" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/74 Testing: dog_05_oilwell_01
+21/74 Test: dog_05_oilwell_01
+Command: "C:/Program Files/CMake/bin/cmake.exe" "-DPROGRAM=<workspace>/out/build/windows-release/bin/dog_05_oilwell.exe" "-DINPUT=<workspace>/tests/../algorithms/dogorithm/05Oil_Well/05_sample_data_2FVR2YY/01.inp" "-DEXPECTED=<workspace>/tests/../algorithms/dogorithm/05Oil_Well/05_sample_data_2FVR2YY/01.out" "-P" "<workspace>/tests/check-output.cmake"
+Directory: <workspace>/out/build/windows-release/tests
+"dog_05_oilwell_01" start time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"dog_05_oilwell_01" end time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+"dog_05_oilwell_01" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/74 Testing: dog_05_oilwell_02
+22/74 Test: dog_05_oilwell_02
+Command: "C:/Program Files/CMake/bin/cmake.exe" "-DPROGRAM=<workspace>/out/build/windows-release/bin/dog_05_oilwell.exe" "-DINPUT=<workspace>/tests/../algorithms/dogorithm/05Oil_Well/05_sample_data_2FVR2YY/02.inp" "-DEXPECTED=<workspace>/tests/../algorithms/dogorithm/05Oil_Well/05_sample_data_2FVR2YY/02.out" "-P" "<workspace>/tests/check-output.cmake"
+Directory: <workspace>/out/build/windows-release/tests
+"dog_05_oilwell_02" start time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"dog_05_oilwell_02" end time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+"dog_05_oilwell_02" time elapsed: 00:00:00
+----------------------------------------------------------
+
+23/74 Testing: dog_05_oilwell_03
+23/74 Test: dog_05_oilwell_03
+Command: "C:/Program Files/CMake/bin/cmake.exe" "-DPROGRAM=<workspace>/out/build/windows-release/bin/dog_05_oilwell.exe" "-DINPUT=<workspace>/tests/../algorithms/dogorithm/05Oil_Well/05_sample_data_2FVR2YY/03.inp" "-DEXPECTED=<workspace>/tests/../algorithms/dogorithm/05Oil_Well/05_sample_data_2FVR2YY/03.out" "-P" "<workspace>/tests/check-output.cmake"
+Directory: <workspace>/out/build/windows-release/tests
+"dog_05_oilwell_03" start time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"dog_05_oilwell_03" end time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+"dog_05_oilwell_03" time elapsed: 00:00:00
+----------------------------------------------------------
+
+24/74 Testing: dog_06_Seminar_01
+24/74 Test: dog_06_Seminar_01
+Command: "C:/Program Files/CMake/bin/cmake.exe" "-DPROGRAM=<workspace>/out/build/windows-release/bin/dog_06_Seminar.exe" "-DINPUT=<workspace>/tests/../algorithms/dogorithm/06Seminar/06_sample_data/01.inp" "-DEXPECTED=<workspace>/tests/../algorithms/dogorithm/06Seminar/06_sample_data/01.out" "-P" "<workspace>/tests/check-output.cmake"
+Directory: <workspace>/out/build/windows-release/tests
+"dog_06_Seminar_01" start time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"dog_06_Seminar_01" end time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+"dog_06_Seminar_01" time elapsed: 00:00:00
+----------------------------------------------------------
+
+25/74 Testing: dog_06_Seminar_02
+25/74 Test: dog_06_Seminar_02
+Command: "C:/Program Files/CMake/bin/cmake.exe" "-DPROGRAM=<workspace>/out/build/windows-release/bin/dog_06_Seminar.exe" "-DINPUT=<workspace>/tests/../algorithms/dogorithm/06Seminar/06_sample_data/02.inp" "-DEXPECTED=<workspace>/tests/../algorithms/dogorithm/06Seminar/06_sample_data/02.out" "-P" "<workspace>/tests/check-output.cmake"
+Directory: <workspace>/out/build/windows-release/tests
+"dog_06_Seminar_02" start time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"dog_06_Seminar_02" end time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+"dog_06_Seminar_02" time elapsed: 00:00:00
+----------------------------------------------------------
+
+26/74 Testing: dog_06_Seminar_03
+26/74 Test: dog_06_Seminar_03
+Command: "C:/Program Files/CMake/bin/cmake.exe" "-DPROGRAM=<workspace>/out/build/windows-release/bin/dog_06_Seminar.exe" "-DINPUT=<workspace>/tests/../algorithms/dogorithm/06Seminar/06_sample_data/03.inp" "-DEXPECTED=<workspace>/tests/../algorithms/dogorithm/06Seminar/06_sample_data/03.out" "-P" "<workspace>/tests/check-output.cmake"
+Directory: <workspace>/out/build/windows-release/tests
+"dog_06_Seminar_03" start time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"dog_06_Seminar_03" end time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+"dog_06_Seminar_03" time elapsed: 00:00:00
+----------------------------------------------------------
+
+27/74 Testing: dog_07_Cleaning_01
+27/74 Test: dog_07_Cleaning_01
+Command: "C:/Program Files/CMake/bin/cmake.exe" "-DPROGRAM=<workspace>/out/build/windows-release/bin/dog_07_Cleaning.exe" "-DINPUT=<workspace>/tests/../algorithms/dogorithm/07Cleaning/08_sample_data/01.inp" "-DEXPECTED=<workspace>/tests/../algorithms/dogorithm/07Cleaning/08_sample_data/01.out" "-P" "<workspace>/tests/check-output.cmake"
+Directory: <workspace>/out/build/windows-release/tests
+"dog_07_Cleaning_01" start time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"dog_07_Cleaning_01" end time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+"dog_07_Cleaning_01" time elapsed: 00:00:00
+----------------------------------------------------------
+
+28/74 Testing: dog_07_Cleaning_02
+28/74 Test: dog_07_Cleaning_02
+Command: "C:/Program Files/CMake/bin/cmake.exe" "-DPROGRAM=<workspace>/out/build/windows-release/bin/dog_07_Cleaning.exe" "-DINPUT=<workspace>/tests/../algorithms/dogorithm/07Cleaning/08_sample_data/02.inp" "-DEXPECTED=<workspace>/tests/../algorithms/dogorithm/07Cleaning/08_sample_data/02.out" "-P" "<workspace>/tests/check-output.cmake"
+Directory: <workspace>/out/build/windows-release/tests
+"dog_07_Cleaning_02" start time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"dog_07_Cleaning_02" end time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+"dog_07_Cleaning_02" time elapsed: 00:00:00
+----------------------------------------------------------
+
+29/74 Testing: dog_08_test_01
+29/74 Test: dog_08_test_01
+Command: "C:/Program Files/CMake/bin/cmake.exe" "-DPROGRAM=<workspace>/out/build/windows-release/bin/dog_08_test.exe" "-DINPUT=<workspace>/tests/../algorithms/dogorithm/08Quasi_String/09_sample_data/01.inp" "-DEXPECTED=<workspace>/tests/../algorithms/dogorithm/08Quasi_String/09_sample_data/01.out" "-P" "<workspace>/tests/check-output.cmake"
+Directory: <workspace>/out/build/windows-release/tests
+"dog_08_test_01" start time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"dog_08_test_01" end time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+"dog_08_test_01" time elapsed: 00:00:00
+----------------------------------------------------------
+
+30/74 Testing: dog_08_test_02
+30/74 Test: dog_08_test_02
+Command: "C:/Program Files/CMake/bin/cmake.exe" "-DPROGRAM=<workspace>/out/build/windows-release/bin/dog_08_test.exe" "-DINPUT=<workspace>/tests/../algorithms/dogorithm/08Quasi_String/09_sample_data/02.inp" "-DEXPECTED=<workspace>/tests/../algorithms/dogorithm/08Quasi_String/09_sample_data/02.out" "-P" "<workspace>/tests/check-output.cmake"
+Directory: <workspace>/out/build/windows-release/tests
+"dog_08_test_02" start time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"dog_08_test_02" end time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+"dog_08_test_02" time elapsed: 00:00:00
+----------------------------------------------------------
+
+31/74 Testing: dog_08_test_03
+31/74 Test: dog_08_test_03
+Command: "C:/Program Files/CMake/bin/cmake.exe" "-DPROGRAM=<workspace>/out/build/windows-release/bin/dog_08_test.exe" "-DINPUT=<workspace>/tests/../algorithms/dogorithm/08Quasi_String/09_sample_data/03.inp" "-DEXPECTED=<workspace>/tests/../algorithms/dogorithm/08Quasi_String/09_sample_data/03.out" "-P" "<workspace>/tests/check-output.cmake"
+Directory: <workspace>/out/build/windows-release/tests
+"dog_08_test_03" start time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"dog_08_test_03" end time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+"dog_08_test_03" time elapsed: 00:00:00
+----------------------------------------------------------
+
+32/74 Testing: dog_08_test_____c11__01
+32/74 Test: dog_08_test_____c11__01
+Command: "C:/Program Files/CMake/bin/cmake.exe" "-DPROGRAM=<workspace>/out/build/windows-release/bin/dog_08_test_____c11_.exe" "-DINPUT=<workspace>/tests/../algorithms/dogorithm/08Quasi_String/09_sample_data/01.inp" "-DEXPECTED=<workspace>/tests/../algorithms/dogorithm/08Quasi_String/09_sample_data/01.out" "-P" "<workspace>/tests/check-output.cmake"
+Directory: <workspace>/out/build/windows-release/tests
+"dog_08_test_____c11__01" start time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"dog_08_test_____c11__01" end time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+"dog_08_test_____c11__01" time elapsed: 00:00:00
+----------------------------------------------------------
+
+33/74 Testing: dog_08_test_____c11__02
+33/74 Test: dog_08_test_____c11__02
+Command: "C:/Program Files/CMake/bin/cmake.exe" "-DPROGRAM=<workspace>/out/build/windows-release/bin/dog_08_test_____c11_.exe" "-DINPUT=<workspace>/tests/../algorithms/dogorithm/08Quasi_String/09_sample_data/02.inp" "-DEXPECTED=<workspace>/tests/../algorithms/dogorithm/08Quasi_String/09_sample_data/02.out" "-P" "<workspace>/tests/check-output.cmake"
+Directory: <workspace>/out/build/windows-release/tests
+"dog_08_test_____c11__02" start time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"dog_08_test_____c11__02" end time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+"dog_08_test_____c11__02" time elapsed: 00:00:00
+----------------------------------------------------------
+
+34/74 Testing: dog_08_test_____c11__03
+34/74 Test: dog_08_test_____c11__03
+Command: "C:/Program Files/CMake/bin/cmake.exe" "-DPROGRAM=<workspace>/out/build/windows-release/bin/dog_08_test_____c11_.exe" "-DINPUT=<workspace>/tests/../algorithms/dogorithm/08Quasi_String/09_sample_data/03.inp" "-DEXPECTED=<workspace>/tests/../algorithms/dogorithm/08Quasi_String/09_sample_data/03.out" "-P" "<workspace>/tests/check-output.cmake"
+Directory: <workspace>/out/build/windows-release/tests
+"dog_08_test_____c11__03" start time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"dog_08_test_____c11__03" end time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+"dog_08_test_____c11__03" time elapsed: 00:00:00
+----------------------------------------------------------
+
+35/74 Testing: dog_08_final_01
+35/74 Test: dog_08_final_01
+Command: "C:/Program Files/CMake/bin/cmake.exe" "-DPROGRAM=<workspace>/out/build/windows-release/bin/dog_08_final.exe" "-DINPUT=<workspace>/tests/../algorithms/dogorithm/08Quasi_String/09_sample_data/01.inp" "-DEXPECTED=<workspace>/tests/../algorithms/dogorithm/08Quasi_String/09_sample_data/01.out" "-P" "<workspace>/tests/check-output.cmake"
+Directory: <workspace>/out/build/windows-release/tests
+"dog_08_final_01" start time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"dog_08_final_01" end time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+"dog_08_final_01" time elapsed: 00:00:00
+----------------------------------------------------------
+
+36/74 Testing: dog_08_final_02
+36/74 Test: dog_08_final_02
+Command: "C:/Program Files/CMake/bin/cmake.exe" "-DPROGRAM=<workspace>/out/build/windows-release/bin/dog_08_final.exe" "-DINPUT=<workspace>/tests/../algorithms/dogorithm/08Quasi_String/09_sample_data/02.inp" "-DEXPECTED=<workspace>/tests/../algorithms/dogorithm/08Quasi_String/09_sample_data/02.out" "-P" "<workspace>/tests/check-output.cmake"
+Directory: <workspace>/out/build/windows-release/tests
+"dog_08_final_02" start time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"dog_08_final_02" end time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+"dog_08_final_02" time elapsed: 00:00:00
+----------------------------------------------------------
+
+37/74 Testing: dog_08_final_03
+37/74 Test: dog_08_final_03
+Command: "C:/Program Files/CMake/bin/cmake.exe" "-DPROGRAM=<workspace>/out/build/windows-release/bin/dog_08_final.exe" "-DINPUT=<workspace>/tests/../algorithms/dogorithm/08Quasi_String/09_sample_data/03.inp" "-DEXPECTED=<workspace>/tests/../algorithms/dogorithm/08Quasi_String/09_sample_data/03.out" "-P" "<workspace>/tests/check-output.cmake"
+Directory: <workspace>/out/build/windows-release/tests
+"dog_08_final_03" start time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"dog_08_final_03" end time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+"dog_08_final_03" time elapsed: 00:00:00
+----------------------------------------------------------
+
+38/74 Testing: dog_11_K_Diet_01
+38/74 Test: dog_11_K_Diet_01
+Command: "C:/Program Files/CMake/bin/cmake.exe" "-DPROGRAM=<workspace>/out/build/windows-release/bin/dog_11_K_Diet.exe" "-DINPUT=<workspace>/tests/../algorithms/dogorithm/11K-Diet/11_sample_data/01.inp" "-DEXPECTED=<workspace>/tests/../algorithms/dogorithm/11K-Diet/11_sample_data/01.out" "-P" "<workspace>/tests/check-output.cmake"
+Directory: <workspace>/out/build/windows-release/tests
+"dog_11_K_Diet_01" start time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"dog_11_K_Diet_01" end time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+"dog_11_K_Diet_01" time elapsed: 00:00:00
+----------------------------------------------------------
+
+39/74 Testing: dog_11_K_Diet_02
+39/74 Test: dog_11_K_Diet_02
+Command: "C:/Program Files/CMake/bin/cmake.exe" "-DPROGRAM=<workspace>/out/build/windows-release/bin/dog_11_K_Diet.exe" "-DINPUT=<workspace>/tests/../algorithms/dogorithm/11K-Diet/11_sample_data/02.inp" "-DEXPECTED=<workspace>/tests/../algorithms/dogorithm/11K-Diet/11_sample_data/02.out" "-P" "<workspace>/tests/check-output.cmake"
+Directory: <workspace>/out/build/windows-release/tests
+"dog_11_K_Diet_02" start time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"dog_11_K_Diet_02" end time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+"dog_11_K_Diet_02" time elapsed: 00:00:00
+----------------------------------------------------------
+
+40/74 Testing: dog_13_pipe_01
+40/74 Test: dog_13_pipe_01
+Command: "C:/Program Files/CMake/bin/cmake.exe" "-DPROGRAM=<workspace>/out/build/windows-release/bin/dog_13_pipe.exe" "-DINPUT=<workspace>/tests/../algorithms/dogorithm/13Pipecleaning/16_sample_data/01.inp" "-DEXPECTED=<workspace>/tests/../algorithms/dogorithm/13Pipecleaning/16_sample_data/01.out" "-P" "<workspace>/tests/check-output.cmake"
+Directory: <workspace>/out/build/windows-release/tests
+"dog_13_pipe_01" start time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"dog_13_pipe_01" end time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+"dog_13_pipe_01" time elapsed: 00:00:00
+----------------------------------------------------------
+
+41/74 Testing: dog_13_pipe_02
+41/74 Test: dog_13_pipe_02
+Command: "C:/Program Files/CMake/bin/cmake.exe" "-DPROGRAM=<workspace>/out/build/windows-release/bin/dog_13_pipe.exe" "-DINPUT=<workspace>/tests/../algorithms/dogorithm/13Pipecleaning/16_sample_data/02.inp" "-DEXPECTED=<workspace>/tests/../algorithms/dogorithm/13Pipecleaning/16_sample_data/02.out" "-P" "<workspace>/tests/check-output.cmake"
+Directory: <workspace>/out/build/windows-release/tests
+"dog_13_pipe_02" start time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"dog_13_pipe_02" end time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+"dog_13_pipe_02" time elapsed: 00:00:00
+----------------------------------------------------------
+
+42/74 Testing: dog_13_pipe_03
+42/74 Test: dog_13_pipe_03
+Command: "C:/Program Files/CMake/bin/cmake.exe" "-DPROGRAM=<workspace>/out/build/windows-release/bin/dog_13_pipe.exe" "-DINPUT=<workspace>/tests/../algorithms/dogorithm/13Pipecleaning/16_sample_data/03.inp" "-DEXPECTED=<workspace>/tests/../algorithms/dogorithm/13Pipecleaning/16_sample_data/03.out" "-P" "<workspace>/tests/check-output.cmake"
+Directory: <workspace>/out/build/windows-release/tests
+"dog_13_pipe_03" start time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"dog_13_pipe_03" end time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+"dog_13_pipe_03" time elapsed: 00:00:00
+----------------------------------------------------------
+
+43/74 Testing: dog_13_pipe_04
+43/74 Test: dog_13_pipe_04
+Command: "C:/Program Files/CMake/bin/cmake.exe" "-DPROGRAM=<workspace>/out/build/windows-release/bin/dog_13_pipe.exe" "-DINPUT=<workspace>/tests/../algorithms/dogorithm/13Pipecleaning/16_sample_data/04.inp" "-DEXPECTED=<workspace>/tests/../algorithms/dogorithm/13Pipecleaning/16_sample_data/04.out" "-P" "<workspace>/tests/check-output.cmake"
+Directory: <workspace>/out/build/windows-release/tests
+"dog_13_pipe_04" start time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"dog_13_pipe_04" end time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+"dog_13_pipe_04" time elapsed: 00:00:00
+----------------------------------------------------------
+
+44/74 Testing: dog_18_invert_01
+44/74 Test: dog_18_invert_01
+Command: "C:/Program Files/CMake/bin/cmake.exe" "-DPROGRAM=<workspace>/out/build/windows-release/bin/dog_18_invert.exe" "-DINPUT=<workspace>/tests/../algorithms/dogorithm/18/01.inp" "-DEXPECTED=<workspace>/tests/../algorithms/dogorithm/18/01.verified.out" "-P" "<workspace>/tests/check-output.cmake"
+Directory: <workspace>/out/build/windows-release/tests
+"dog_18_invert_01" start time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.19 sec
+----------------------------------------------------------
+Test Passed.
+"dog_18_invert_01" end time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+"dog_18_invert_01" time elapsed: 00:00:00
+----------------------------------------------------------
+
+45/74 Testing: dog_18_invert_02
+45/74 Test: dog_18_invert_02
+Command: "C:/Program Files/CMake/bin/cmake.exe" "-DPROGRAM=<workspace>/out/build/windows-release/bin/dog_18_invert.exe" "-DINPUT=<workspace>/tests/../algorithms/dogorithm/18/02.inp" "-DEXPECTED=<workspace>/tests/../algorithms/dogorithm/18/02.verified.out" "-P" "<workspace>/tests/check-output.cmake"
+Directory: <workspace>/out/build/windows-release/tests
+"dog_18_invert_02" start time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.19 sec
+----------------------------------------------------------
+Test Passed.
+"dog_18_invert_02" end time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+"dog_18_invert_02" time elapsed: 00:00:00
+----------------------------------------------------------
+
+46/74 Testing: dog_19_station_01
+46/74 Test: dog_19_station_01
+Command: "C:/Program Files/CMake/bin/cmake.exe" "-DPROGRAM=<workspace>/out/build/windows-release/bin/dog_19_station.exe" "-DINPUT=<workspace>/tests/../algorithms/dogorithm/19/19_sample_data/01.inp" "-DEXPECTED=<workspace>/tests/../algorithms/dogorithm/19/19_sample_data/01.out" "-P" "<workspace>/tests/check-output.cmake"
+Directory: <workspace>/out/build/windows-release/tests
+"dog_19_station_01" start time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"dog_19_station_01" end time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+"dog_19_station_01" time elapsed: 00:00:00
+----------------------------------------------------------
+
+47/74 Testing: dog_19_station_02
+47/74 Test: dog_19_station_02
+Command: "C:/Program Files/CMake/bin/cmake.exe" "-DPROGRAM=<workspace>/out/build/windows-release/bin/dog_19_station.exe" "-DINPUT=<workspace>/tests/../algorithms/dogorithm/19/19_sample_data/02.inp" "-DEXPECTED=<workspace>/tests/../algorithms/dogorithm/19/19_sample_data/02.out" "-P" "<workspace>/tests/check-output.cmake"
+Directory: <workspace>/out/build/windows-release/tests
+"dog_19_station_02" start time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"dog_19_station_02" end time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+"dog_19_station_02" time elapsed: 00:00:00
+----------------------------------------------------------
+
+48/74 Testing: swap
+48/74 Test: swap
+Command: "C:/Program Files/CMake/bin/cmake.exe" "-DPROGRAM=<workspace>/out/build/windows-release/bin/example_swap.exe" "-DINPUT=<workspace>/tests/data/swap.in" "-DEXPECTED=<workspace>/tests/data/swap.out" "-P" "<workspace>/tests/check-output.cmake"
+Directory: <workspace>/out/build/windows-release/tests
+"swap" start time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"swap" end time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+"swap" time elapsed: 00:00:00
+----------------------------------------------------------
+
+49/74 Testing: new_delete
+49/74 Test: new_delete
+Command: "C:/Program Files/CMake/bin/cmake.exe" "-DPROGRAM=<workspace>/out/build/windows-release/bin/example_new_delete.exe" "-DINPUT=<workspace>/tests/data/new_delete.in" "-DEXPECTED=<workspace>/tests/data/new_delete.out" "-P" "<workspace>/tests/check-output.cmake"
+Directory: <workspace>/out/build/windows-release/tests
+"new_delete" start time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"new_delete" end time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+"new_delete" time elapsed: 00:00:00
+----------------------------------------------------------
+
+50/74 Testing: gold_fraction
+50/74 Test: gold_fraction
+Command: "C:/Program Files/CMake/bin/cmake.exe" "-DPROGRAM=<workspace>/out/build/windows-release/bin/basic011.exe" "-DINPUT=<workspace>/tests/data/gold_fraction.in" "-DEXPECTED=<workspace>/tests/data/gold_fraction.out" "-P" "<workspace>/tests/check-output.cmake"
+Directory: <workspace>/out/build/windows-release/tests
+"gold_fraction" start time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"gold_fraction" end time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+"gold_fraction" time elapsed: 00:00:00
+----------------------------------------------------------
+
+51/74 Testing: pointer_difference
+51/74 Test: pointer_difference
+Command: "C:/Program Files/CMake/bin/cmake.exe" "-DPROGRAM=<workspace>/out/build/windows-release/bin/basic014.exe" "-DINPUT=<workspace>/tests/data/pointer_difference.in" "-DEXPECTED=<workspace>/tests/data/pointer_difference.out" "-P" "<workspace>/tests/check-output.cmake"
+Directory: <workspace>/out/build/windows-release/tests
+"pointer_difference" start time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"pointer_difference" end time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+"pointer_difference" time elapsed: 00:00:00
+----------------------------------------------------------
+
+52/74 Testing: color_red
+52/74 Test: color_red
+Command: "C:/Program Files/CMake/bin/cmake.exe" "-DPROGRAM=<workspace>/out/build/windows-release/bin/basic032.exe" "-DINPUT=<workspace>/tests/data/color_red.in" "-DEXPECTED=<workspace>/tests/data/color_red.out" "-P" "<workspace>/tests/check-output.cmake"
+Directory: <workspace>/out/build/windows-release/tests
+"color_red" start time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"color_red" end time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+"color_red" time elapsed: 00:00:00
+----------------------------------------------------------
+
+53/74 Testing: color_unknown
+53/74 Test: color_unknown
+Command: "C:/Program Files/CMake/bin/cmake.exe" "-DPROGRAM=<workspace>/out/build/windows-release/bin/basic032.exe" "-DINPUT=<workspace>/tests/data/color_unknown.in" "-DEXPECTED=<workspace>/tests/data/color_unknown.out" "-P" "<workspace>/tests/check-output.cmake"
+Directory: <workspace>/out/build/windows-release/tests
+"color_unknown" start time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"color_unknown" end time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+"color_unknown" time elapsed: 00:00:00
+----------------------------------------------------------
+
+54/74 Testing: even_odd
+54/74 Test: even_odd
+Command: "C:/Program Files/CMake/bin/cmake.exe" "-DPROGRAM=<workspace>/out/build/windows-release/bin/basic033.exe" "-DINPUT=<workspace>/tests/data/even_odd.in" "-DEXPECTED=<workspace>/tests/data/even_odd.out" "-P" "<workspace>/tests/check-output.cmake"
+Directory: <workspace>/out/build/windows-release/tests
+"even_odd" start time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"even_odd" end time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+"even_odd" time elapsed: 00:00:00
+----------------------------------------------------------
+
+55/74 Testing: tomato_already
+55/74 Test: tomato_already
+Command: "C:/Program Files/CMake/bin/cmake.exe" "-DPROGRAM=<workspace>/out/build/windows-release/bin/boj7576.exe" "-DINPUT=<workspace>/tests/data/tomato_already.in" "-DEXPECTED=<workspace>/tests/data/tomato_already.out" "-P" "<workspace>/tests/check-output.cmake"
+Directory: <workspace>/out/build/windows-release/tests
+"tomato_already" start time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"tomato_already" end time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+"tomato_already" time elapsed: 00:00:00
+----------------------------------------------------------
+
+56/74 Testing: tomato_unreachable
+56/74 Test: tomato_unreachable
+Command: "C:/Program Files/CMake/bin/cmake.exe" "-DPROGRAM=<workspace>/out/build/windows-release/bin/boj7576.exe" "-DINPUT=<workspace>/tests/data/tomato_unreachable.in" "-DEXPECTED=<workspace>/tests/data/tomato_unreachable.out" "-P" "<workspace>/tests/check-output.cmake"
+Directory: <workspace>/out/build/windows-release/tests
+"tomato_unreachable" start time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"tomato_unreachable" end time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+"tomato_unreachable" time elapsed: 00:00:00
+----------------------------------------------------------
+
+57/74 Testing: tomato_multiple
+57/74 Test: tomato_multiple
+Command: "C:/Program Files/CMake/bin/cmake.exe" "-DPROGRAM=<workspace>/out/build/windows-release/bin/boj7576.exe" "-DINPUT=<workspace>/tests/data/tomato_multiple.in" "-DEXPECTED=<workspace>/tests/data/tomato_multiple.out" "-P" "<workspace>/tests/check-output.cmake"
+Directory: <workspace>/out/build/windows-release/tests
+"tomato_multiple" start time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"tomato_multiple" end time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+"tomato_multiple" time elapsed: 00:00:00
+----------------------------------------------------------
+
+58/74 Testing: tomato_no_start
+58/74 Test: tomato_no_start
+Command: "C:/Program Files/CMake/bin/cmake.exe" "-DPROGRAM=<workspace>/out/build/windows-release/bin/boj7576.exe" "-DINPUT=<workspace>/tests/data/tomato_no_start.in" "-DEXPECTED=<workspace>/tests/data/tomato_no_start.out" "-P" "<workspace>/tests/check-output.cmake"
+Directory: <workspace>/out/build/windows-release/tests
+"tomato_no_start" start time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"tomato_no_start" end time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+"tomato_no_start" time elapsed: 00:00:00
+----------------------------------------------------------
+
+59/74 Testing: tomato_corner
+59/74 Test: tomato_corner
+Command: "C:/Program Files/CMake/bin/cmake.exe" "-DPROGRAM=<workspace>/out/build/windows-release/bin/boj7576.exe" "-DINPUT=<workspace>/tests/data/tomato_corner.in" "-DEXPECTED=<workspace>/tests/data/tomato_corner.out" "-P" "<workspace>/tests/check-output.cmake"
+Directory: <workspace>/out/build/windows-release/tests
+"tomato_corner" start time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"tomato_corner" end time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+"tomato_corner" time elapsed: 00:00:00
+----------------------------------------------------------
+
+60/74 Testing: clean_single
+60/74 Test: clean_single
+Command: "C:/Program Files/CMake/bin/cmake.exe" "-DPROGRAM=<workspace>/out/build/windows-release/bin/dog_07_Cleaning.exe" "-DINPUT=<workspace>/tests/data/clean_single.in" "-DEXPECTED=<workspace>/tests/data/clean_single.out" "-P" "<workspace>/tests/check-output.cmake"
+Directory: <workspace>/out/build/windows-release/tests
+"clean_single" start time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"clean_single" end time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+"clean_single" time elapsed: 00:00:00
+----------------------------------------------------------
+
+61/74 Testing: clean_overlap
+61/74 Test: clean_overlap
+Command: "C:/Program Files/CMake/bin/cmake.exe" "-DPROGRAM=<workspace>/out/build/windows-release/bin/dog_07_Cleaning.exe" "-DINPUT=<workspace>/tests/data/clean_overlap.in" "-DEXPECTED=<workspace>/tests/data/clean_overlap.out" "-P" "<workspace>/tests/check-output.cmake"
+Directory: <workspace>/out/build/windows-release/tests
+"clean_overlap" start time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"clean_overlap" end time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+"clean_overlap" time elapsed: 00:00:00
+----------------------------------------------------------
+
+62/74 Testing: clean_adjacent
+62/74 Test: clean_adjacent
+Command: "C:/Program Files/CMake/bin/cmake.exe" "-DPROGRAM=<workspace>/out/build/windows-release/bin/dog_07_Cleaning.exe" "-DINPUT=<workspace>/tests/data/clean_adjacent.in" "-DEXPECTED=<workspace>/tests/data/clean_adjacent.out" "-P" "<workspace>/tests/check-output.cmake"
+Directory: <workspace>/out/build/windows-release/tests
+"clean_adjacent" start time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"clean_adjacent" end time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+"clean_adjacent" time elapsed: 00:00:00
+----------------------------------------------------------
+
+63/74 Testing: clean_tie
+63/74 Test: clean_tie
+Command: "C:/Program Files/CMake/bin/cmake.exe" "-DPROGRAM=<workspace>/out/build/windows-release/bin/dog_07_Cleaning.exe" "-DINPUT=<workspace>/tests/data/clean_tie.in" "-DEXPECTED=<workspace>/tests/data/clean_tie.out" "-P" "<workspace>/tests/check-output.cmake"
+Directory: <workspace>/out/build/windows-release/tests
+"clean_tie" start time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"clean_tie" end time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+"clean_tie" time elapsed: 00:00:00
+----------------------------------------------------------
+
+64/74 Testing: clean_large
+64/74 Test: clean_large
+Command: "C:/Program Files/CMake/bin/cmake.exe" "-DPROGRAM=<workspace>/out/build/windows-release/bin/dog_07_Cleaning.exe" "-DINPUT=<workspace>/tests/data/clean_large.in" "-DEXPECTED=<workspace>/tests/data/clean_large.out" "-P" "<workspace>/tests/check-output.cmake"
+Directory: <workspace>/out/build/windows-release/tests
+"clean_large" start time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"clean_large" end time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+"clean_large" time elapsed: 00:00:00
+----------------------------------------------------------
+
+65/74 Testing: clean_unprofitable_link
+65/74 Test: clean_unprofitable_link
+Command: "C:/Program Files/CMake/bin/cmake.exe" "-DPROGRAM=<workspace>/out/build/windows-release/bin/dog_07_Cleaning.exe" "-DINPUT=<workspace>/tests/data/clean_unprofitable_link.in" "-DEXPECTED=<workspace>/tests/data/clean_unprofitable_link.out" "-P" "<workspace>/tests/check-output.cmake"
+Directory: <workspace>/out/build/windows-release/tests
+"clean_unprofitable_link" start time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"clean_unprofitable_link" end time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+"clean_unprofitable_link" time elapsed: 00:00:00
+----------------------------------------------------------
+
+66/74 Testing: dp1463
+66/74 Test: dp1463
+Command: "C:/Program Files/CMake/bin/cmake.exe" "-DPROGRAM=<workspace>/out/build/windows-release/bin/boj1463.exe" "-DINPUT=<workspace>/tests/data/dp1463.in" "-DEXPECTED=<workspace>/tests/data/dp1463.out" "-P" "<workspace>/tests/check-output.cmake"
+Directory: <workspace>/out/build/windows-release/tests
+"dp1463" start time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"dp1463" end time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+"dp1463" time elapsed: 00:00:00
+----------------------------------------------------------
+
+67/74 Testing: dp9095
+67/74 Test: dp9095
+Command: "C:/Program Files/CMake/bin/cmake.exe" "-DPROGRAM=<workspace>/out/build/windows-release/bin/boj9095.exe" "-DINPUT=<workspace>/tests/data/dp9095.in" "-DEXPECTED=<workspace>/tests/data/dp9095.out" "-P" "<workspace>/tests/check-output.cmake"
+Directory: <workspace>/out/build/windows-release/tests
+"dp9095" start time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"dp9095" end time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+"dp9095" time elapsed: 00:00:00
+----------------------------------------------------------
+
+68/74 Testing: matrix_add
+68/74 Test: matrix_add
+Command: "C:/Program Files/CMake/bin/cmake.exe" "-DPROGRAM=<workspace>/out/build/windows-release/bin/boj2738.exe" "-DINPUT=<workspace>/tests/data/matrix_add.in" "-DEXPECTED=<workspace>/tests/data/matrix_add.out" "-P" "<workspace>/tests/check-output.cmake"
+Directory: <workspace>/out/build/windows-release/tests
+"matrix_add" start time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"matrix_add" end time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+"matrix_add" time elapsed: 00:00:00
+----------------------------------------------------------
+
+69/74 Testing: string_explosion
+69/74 Test: string_explosion
+Command: "C:/Program Files/CMake/bin/cmake.exe" "-DPROGRAM=<workspace>/out/build/windows-release/bin/boj9935.exe" "-DINPUT=<workspace>/tests/data/string_explosion.in" "-DEXPECTED=<workspace>/tests/data/string_explosion.out" "-P" "<workspace>/tests/check-output.cmake"
+Directory: <workspace>/out/build/windows-release/tests
+"string_explosion" start time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"string_explosion" end time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+"string_explosion" time elapsed: 00:00:00
+----------------------------------------------------------
+
+70/74 Testing: bracket_pairs
+70/74 Test: bracket_pairs
+Command: "C:/Program Files/CMake/bin/cmake.exe" "-DPROGRAM=<workspace>/out/build/windows-release/bin/boj4949.exe" "-DINPUT=<workspace>/tests/data/bracket_pairs.in" "-DEXPECTED=<workspace>/tests/data/bracket_pairs.out" "-P" "<workspace>/tests/check-output.cmake"
+Directory: <workspace>/out/build/windows-release/tests
+"bracket_pairs" start time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"bracket_pairs" end time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+"bracket_pairs" time elapsed: 00:00:00
+----------------------------------------------------------
+
+71/74 Testing: backtracking
+71/74 Test: backtracking
+Command: "C:/Program Files/CMake/bin/cmake.exe" "-DPROGRAM=<workspace>/out/build/windows-release/bin/boj15649.exe" "-DINPUT=<workspace>/tests/data/backtracking.in" "-DEXPECTED=<workspace>/tests/data/backtracking.out" "-P" "<workspace>/tests/check-output.cmake"
+Directory: <workspace>/out/build/windows-release/tests
+"backtracking" start time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"backtracking" end time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+"backtracking" time elapsed: 00:00:00
+----------------------------------------------------------
+
+72/74 Testing: my_string_value_semantics
+72/74 Test: my_string_value_semantics
+Command: "<workspace>/out/build/windows-release/bin/my_string_test.exe"
+Directory: <workspace>/out/build/windows-release/tests
+"my_string_value_semantics" start time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"my_string_value_semantics" end time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+"my_string_value_semantics" time elapsed: 00:00:00
+----------------------------------------------------------
+
+73/74 Testing: tetris_game_actions
+73/74 Test: tetris_game_actions
+Command: "<workspace>/out/build/windows-release/bin/tetris_test.exe"
+Directory: <workspace>/out/build/windows-release/tests
+"tetris_game_actions" start time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+Output:
+----------------------------------------------------------
+테트리스 이동·충돌·착지·줄 제거·종료 검증 통과
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"tetris_game_actions" end time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+"tetris_game_actions" time elapsed: 00:00:00
+----------------------------------------------------------
+
+74/74 Testing: invert_reference_comparison
+74/74 Test: invert_reference_comparison
+Command: "<workspace>/out/build/windows-release/bin/invert_test.exe" "<workspace>/algorithms/dogorithm/18"
+Directory: <workspace>/out/build/windows-release/tests
+"invert_reference_comparison" start time: Oct 24 14:13 ���ѹα� ǥ�ؽ�
+Output:
+----------------------------------------------------------
+10520개의 작은 입력과 원본 문자열 2개 범위의 독립 비교 통과
+<end of output>
+Test time =   1.08 sec
+----------------------------------------------------------
+Test Passed.
+"invert_reference_comparison" end time: Oct 24 14:14 ���ѹα� ǥ�ؽ�
+"invert_reference_comparison" time elapsed: 00:00:01
+----------------------------------------------------------
+
+End testing: Oct 24 14:14 ���ѹα� ǥ�ؽ�

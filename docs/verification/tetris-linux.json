@@ -1,0 +1,26 @@
+[
+  {
+    "target": "assignment02",
+    "exit": 0,
+    "screen_bytes": 402,
+    "board_visible": true
+  },
+  {
+    "target": "assignment03",
+    "exit": 0,
+    "screen_bytes": 528,
+    "board_visible": true
+  },
+  {
+    "target": "assignment04",
+    "exit": 0,
+    "screen_bytes": 575,
+    "board_visible": true
+  },
+  {
+    "target": "assignment05",
+    "exit": 0,
+    "screen_bytes": 575,
+    "board_visible": true
+  }
+]

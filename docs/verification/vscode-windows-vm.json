@@ -1,0 +1,13 @@
+{
+  "ide": "VS Code",
+  "status": "passed",
+  "configure": 0,
+  "build": 0,
+  "debugStarted": true,
+  "breakpoint": 7,
+  "length": "10",
+  "afterStep": 8,
+  "os": "Windows 10 Pro 22H2 fresh manual VM",
+  "vscode_version": "1.143.1",
+  "debugger": "MSVC cppvsdbg"
+}

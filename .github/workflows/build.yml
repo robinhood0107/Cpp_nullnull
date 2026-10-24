@@ -1,0 +1,56 @@
+name: Build and test
+on:
+  push:
+    branches: [master, 'refactor/**']
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  linux:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    strategy:
+      fail-fast: false
+      matrix:
+        configuration: [Debug, Release]
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - name: Ubuntu Debug and Release
+        run: bash scripts/setup.sh ${{ matrix.configuration }}
+      - uses: actions/upload-artifact@v7.0.2
+        if: always()
+        with:
+          name: linux-${{ matrix.configuration }}-test-logs
+          path: out/build/linux-*/Testing/Temporary/
+  windows:
+    runs-on: windows-2022
+    timeout-minutes: 45
+    strategy:
+      fail-fast: false
+      matrix:
+        configuration: [Debug, Release]
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - name: MSVC Debug and Release
+        shell: powershell
+        run: .\scripts\setup.ps1 -Configuration ${{ matrix.configuration }}
+      - uses: actions/upload-artifact@v7.0.2
+        if: always()
+        with:
+          name: windows-${{ matrix.configuration }}-test-logs
+          path: out/build/windows-*/Testing/Temporary/
+  ubuntu-install:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - name: Install from the base Ubuntu container
+        run: docker run --rm -v "$GITHUB_WORKSPACE:/workspace" -w /workspace ubuntu:24.04 bash scripts/setup.sh
+      - uses: actions/upload-artifact@v7.0.2
+        if: always()
+        with:
+          name: ubuntu-initial-install-logs
+          path: out/build/linux-*/Testing/Temporary/

@@ -1,0 +1,29 @@
+큐
+인덱스
+
+연결리스트 꼭 
+
+큐 쓰임세
+
+OS에서 배우면 ready-queue라고 프로세스 대기열에서 큐로 대기열을 처리한다.
+BFS/DFS(이게 거의 다임)
+
+
+
+파이썬에서 from collection import deque
+stack, queue는 없음(덱으로 전부 구현 가능하니까
+
+
+vector 
+
+원래 크게 잡는데 부족할경우 복제해서 거기에 추가함(이 과정에서 o(N) 죄다 복사하니까)
+https://choi-dan-di.github.io/cpp/vector/
+
+이래서 deque쓰는 거임
+
+
+
+
+
+
+이거 꼭 읽어라
