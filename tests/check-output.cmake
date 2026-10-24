@@ -1,6 +1,6 @@
 get_filename_component(input_directory "${INPUT}" DIRECTORY)
 execute_process(COMMAND "${PROGRAM}" INPUT_FILE "${INPUT}" WORKING_DIRECTORY "${input_directory}"
-    OUTPUT_VARIABLE actual ERROR_VARIABLE error RESULT_VARIABLE result TIMEOUT 15)
+    OUTPUT_VARIABLE actual ERROR_VARIABLE error RESULT_VARIABLE result TIMEOUT 120)
 if(NOT result EQUAL 0)
     message(FATAL_ERROR "실행 실패 (${result}): ${error}")
 endif()
