@@ -535,3 +535,14 @@
 | Algorithm | `Dogorithm/04SpaceStations/return mydist(l) 설명.md` | [notes/algorithms/space-stations/return mydist(l) 설명.md](../notes/algorithms/space-stations/return%20mydist%28l%29%20%EC%84%A4%EB%AA%85.md) |
 | Algorithm | `Dogorithm/04SpaceStations/관련 추천문제.md` | [notes/algorithms/space-stations/관련 추천문제.md](../notes/algorithms/space-stations/%EA%B4%80%EB%A0%A8%20%EC%B6%94%EC%B2%9C%EB%AC%B8%EC%A0%9C.md) |
 | Algorithm | `Dogorithm/04SpaceStations/파이썬zip()설명(같은 인덱스끼리 묶어주는 함수) + 추가적인 cpp java 예시.md` | [notes/algorithms/space-stations/파이썬zip()설명(같은 인덱스끼리 묶어주는 함수) + 추가적인 cpp java 예시.md](../notes/algorithms/space-stations/%ED%8C%8C%EC%9D%B4%EC%8D%ACzip%28%29%EC%84%A4%EB%AA%85%28%EA%B0%99%EC%9D%80%20%EC%9D%B8%EB%8D%B1%EC%8A%A4%EB%81%BC%EB%A6%AC%20%EB%AC%B6%EC%96%B4%EC%A3%BC%EB%8A%94%20%ED%95%A8%EC%88%98%29%20%2B%20%EC%B6%94%EA%B0%80%EC%A0%81%EC%9D%B8%20cpp%20java%20%EC%98%88%EC%8B%9C.md) |
+
+## 병합 방식
+
+이 통합 PR은 GitHub의 **Create a merge commit**으로 병합합니다. 원본 커밋 객체와 저자·날짜를 최종 브랜치에서도 유지하기 위한 방식입니다. Squash나 rebase 병합은 사용하지 않습니다.
+
+다음 명령은 현재 HEAD가 원본 두 저장소의 이력을 포함하는지 확인합니다. 정상이라면 출력 없이 종료 코드 0을 반환합니다.
+
+```sh
+git merge-base --is-ancestor d7e6839295f4bb44cff123fbfab5a27249016132 HEAD
+git merge-base --is-ancestor 229d507acb27d201834693c20e7b981692dc61a3 HEAD
+```

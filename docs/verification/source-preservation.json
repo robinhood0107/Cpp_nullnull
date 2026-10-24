@@ -1,0 +1,22 @@
+{
+  "Algorithm": {
+    "original_head": "d7e6839295f4bb44cff123fbfab5a27249016132",
+    "head_unchanged": true,
+    "status_unchanged": true,
+    "files_checked": 193,
+    "file_mismatches": [],
+    "history_is_ancestor": true
+  },
+  "Cpp_Project_collection": {
+    "original_head": "229d507acb27d201834693c20e7b981692dc61a3",
+    "head_unchanged": true,
+    "status_unchanged": true,
+    "files_checked": 11,
+    "file_mismatches": [],
+    "history_is_ancestor": true
+  },
+  "Cpp_nullnull": {
+    "original_head": "1bb15e2f1e5d0df3e26a2637ee1be189840744a9",
+    "history_is_ancestor": true
+  }
+}
