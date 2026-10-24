@@ -6,7 +6,7 @@ Windows 10 Pro 22H2 x64와 VS2022를 기준으로 합니다. 프로그램 설치
 
 | 프로그램 | 설치할 구성 | 공식 안내 |
 |---|---|---|
-| Visual Studio 2022 | **C++를 사용한 데스크톱 개발**, **MSVC v143 x64/x86**, **Windows 10/11 SDK**, **Windows용 C++ CMake 도구** | [VS2022 설치](https://learn.microsoft.com/visualstudio/install/install-visual-studio?view=vs-2022) |
+| Visual Studio 2022 | **C++를 사용한 데스크톱 개발**, **MSVC v143 x64/x86**, **Windows 10/11 SDK**, **Windows용 C++ CMake 도구** | [VS2022 Community 설치 파일](https://aka.ms/vs/17/release/vs_Community.exe) · [설치 안내](https://learn.microsoft.com/visualstudio/install/install-visual-studio?view=vs-2022) |
 | Git for Windows | 기본 설치 옵션 | [Git](https://git-scm.com/downloads/win) |
 | CMake 3.28 이상 | 설치 시 **Add CMake to PATH** 선택 | [CMake](https://cmake.org/download/) |
 | Ninja | ninja.exe가 PATH에 있어야 함 | [Ninja 릴리스](https://github.com/ninja-build/ninja/releases) |
