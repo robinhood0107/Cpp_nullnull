@@ -371,3 +371,7 @@ CMakeUserPresets.json
 /.idea/
 /.vs/
 !**/*.out
+
+# 검증 증거로 보존하는 실행 로그만 예외로 둔다.
+!/docs/verification/logs/
+!/docs/verification/logs/*.log

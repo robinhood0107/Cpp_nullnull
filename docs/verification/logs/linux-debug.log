@@ -1,0 +1,49 @@
+Start testing: Oct 24 14:15 KST
+----------------------------------------------------------
+44/74 Testing: dog_18_invert_01
+44/74 Test: dog_18_invert_01
+Command: "/usr/bin/cmake" "-DPROGRAM=<workspace>/out/build/linux-debug/bin/dog_18_invert" "-DINPUT=<workspace>/tests/../algorithms/dogorithm/18/01.inp" "-DEXPECTED=<workspace>/tests/../algorithms/dogorithm/18/01.verified.out" "-P" "<workspace>/tests/check-output.cmake"
+Directory: <workspace>/out/build/linux-debug/tests
+"dog_18_invert_01" start time: Oct 24 14:15 KST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   1.33 sec
+----------------------------------------------------------
+Test Passed.
+"dog_18_invert_01" end time: Oct 24 14:15 KST
+"dog_18_invert_01" time elapsed: 00:00:01
+----------------------------------------------------------
+
+45/74 Testing: dog_18_invert_02
+45/74 Test: dog_18_invert_02
+Command: "/usr/bin/cmake" "-DPROGRAM=<workspace>/out/build/linux-debug/bin/dog_18_invert" "-DINPUT=<workspace>/tests/../algorithms/dogorithm/18/02.inp" "-DEXPECTED=<workspace>/tests/../algorithms/dogorithm/18/02.verified.out" "-P" "<workspace>/tests/check-output.cmake"
+Directory: <workspace>/out/build/linux-debug/tests
+"dog_18_invert_02" start time: Oct 24 14:15 KST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   1.37 sec
+----------------------------------------------------------
+Test Passed.
+"dog_18_invert_02" end time: Oct 24 14:15 KST
+"dog_18_invert_02" time elapsed: 00:00:01
+----------------------------------------------------------
+
+74/74 Testing: invert_reference_comparison
+74/74 Test: invert_reference_comparison
+Command: "<workspace>/out/build/linux-debug/bin/invert_test" "<workspace>/algorithms/dogorithm/18"
+Directory: <workspace>/out/build/linux-debug/tests
+"invert_reference_comparison" start time: Oct 24 14:15 KST
+Output:
+----------------------------------------------------------
+10520개의 작은 입력과 원본 문자열 2개 범위의 독립 비교 통과
+<end of output>
+Test time =   4.79 sec
+----------------------------------------------------------
+Test Passed.
+"invert_reference_comparison" end time: Oct 24 14:15 KST
+"invert_reference_comparison" time elapsed: 00:00:04
+----------------------------------------------------------
+
+End testing: Oct 24 14:15 KST

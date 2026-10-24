@@ -1,0 +1,33 @@
+{
+  "conclusion": "success",
+  "databaseId": 40065546494,
+  "headSha": "fac29f348b3fe30443505c9ea25273910633c65b",
+  "jobs": [
+    {
+      "name": "ubuntu-install",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "name": "windows (Debug)",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "name": "linux (Debug)",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "name": "linux (Release)",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "name": "windows (Release)",
+      "status": "completed",
+      "conclusion": "success"
+    }
+  ],
+  "url": "https://github.com/robinhood0107/Cpp_nullnull/actions/runs/40065546494"
+}

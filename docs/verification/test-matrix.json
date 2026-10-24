@@ -1,38 +1,50 @@
 {
   "linux-debug": {
-    "total": 73,
-    "passed": 71,
-    "failed": 2,
-    "status": "unresolved-original-fixture"
+    "total": 74,
+    "passed": 74,
+    "failed": 0,
+    "status": "passed-reconstructed-invert-contract"
   },
   "linux-release": {
-    "total": 73,
-    "passed": 71,
-    "failed": 2,
-    "status": "unresolved-original-fixture"
+    "total": 74,
+    "passed": 74,
+    "failed": 0,
+    "status": "passed-reconstructed-invert-contract"
   },
   "windows-debug": {
-    "total": 73,
-    "passed": 71,
-    "failed": 2,
-    "status": "unresolved-original-fixture"
+    "total": 74,
+    "passed": 74,
+    "failed": 0,
+    "status": "passed-reconstructed-invert-contract"
   },
   "windows-release": {
-    "total": 73,
-    "passed": 71,
-    "failed": 2,
-    "status": "unresolved-original-fixture"
+    "total": 74,
+    "passed": 74,
+    "failed": 0,
+    "status": "passed-reconstructed-invert-contract"
   },
   "ubuntu-vm-manual-debug": {
-    "total": 72,
-    "passed": 70,
-    "failed": 2,
-    "status": "unresolved-original-fixture"
+    "total": 74,
+    "passed": 74,
+    "failed": 0,
+    "status": "passed-reconstructed-invert-contract"
+  },
+  "ubuntu-vm-manual-release": {
+    "total": 74,
+    "passed": 74,
+    "failed": 0,
+    "status": "passed-reconstructed-invert-contract"
   },
   "ubuntu-vm-script-debug": {
-    "total": 73,
-    "passed": 71,
-    "failed": 2,
-    "status": "unresolved-original-fixture"
+    "total": 74,
+    "passed": 74,
+    "failed": 0,
+    "status": "passed-reconstructed-invert-contract"
+  },
+  "ubuntu-vm-script-release": {
+    "total": 74,
+    "passed": 74,
+    "failed": 0,
+    "status": "passed-reconstructed-invert-contract"
   }
 }

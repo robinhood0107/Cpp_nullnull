@@ -1,21 +1,23 @@
 # 검증 기록
 
-검증은 진행 중입니다. 실제 완료하지 않은 항목을 통과로 표시하지 않습니다.
+실제로 실행한 범위와 자료의 한계를 구분합니다. 새 VM 최종 검증과 임시 환경 정리는 진행 중입니다.
 
 | 구분 | 현재 상태 |
 |---|---|
-| Linux GCC 13 Debug 전체 빌드 | 통과 |
-| Linux Debug·Release CTest | 각각 73개 중 71개 통과, invert 원본 샘플 2개 불일치 |
-| Windows MSVC Debug/Release | 전체 빌드 통과, 원본 invert 샘플 2개 실패 재현 |
-| Ubuntu 24.04 새 VM의 수동 설치·빌드 | Debug 전체 빌드 통과, 동일 샘플 2개 실패 |
-| Ubuntu 24.04 새 VM의 스크립트 설치·빌드 | 패키지 설치·Debug 전체 빌드 통과, 동일 샘플 2개에서 실패 종료 |
-| Windows 10 22H2 새 VM | 공식 ISO 해시 확인, OS 설치 진행 중 |
-| VS2022·VS Code 중단점·실행 | VS Code는 구성·빌드·중단점·변수 확인·단계 실행 통과. VS2022는 확인 중 |
+| Linux GCC 13 Debug/Release 전체 빌드·CTest | 각각 74개 모두 통과 |
+| Windows MSVC Debug/Release 전체 빌드·CTest | 각각 74개 모두 통과 |
+| Ubuntu 24.04 새 VM의 수동 설치·빌드 | 패키지 설치·전체 빌드·두 구성 각각 74개 통과 |
+| Ubuntu 24.04 새 VM의 스크립트 설치·빌드 | 다른 초기 VM에서 패키지 설치·전체 빌드·두 구성 각각 74개 통과 |
+| Windows 10 22H2 새 VM | 1차 VM의 수동·스크립트 경로는 두 구성 각각 74개 통과. 독립 수동 VM 추가 검증 중 |
+| 일반 CI 및 Ubuntu 기본 이미지 설치 CI | 5개 작업 모두 통과 |
+| VS2022·VS Code 중단점·실행 | 양쪽에서 빌드·7행 중단점·길이 10 확인·8행 단계 실행 통과 |
 | 테트리스 실제 터미널 조작 | Linux PTY·Windows 콘솔에서 02~05 화면·키 입력·종료 확인 |
 
 ## 원본 샘플 확인이 필요한 항목
 
-`algorithms/dogorithm/18/S.txt`는 177264개의 a/c/g/t로 구성돼 있습니다. 01.out의 좌표를 1부터 시작하는 구간으로 해석하면 첫 구간은 `ccagagcgca`, 두 번째 구간은 `taacagacac`로 역순 일치하지 않습니다. 현재 알고리즘의 출력도 원본 정답과 다릅니다. 문제 정의와 샘플의 대응 확인 전에는 해당 풀이를 정답 검증 완료로 표시하지 않습니다. 원본 정답은 변경하지 않았습니다.
+`algorithms/dogorithm/18/S.txt`는 177264개의 a/c/g/t로 구성돼 있습니다. 원본 `01.out`·`02.out`의 좌표 구간은 현재 문자열에서 역순으로 같지 않습니다. 원본 파일은 그대로 보존했습니다.
+
+문제 원문을 확보하지 못해 기존 코드에서 복원한 실행 계약을 [별도 설명](../algorithms/dogorithm/18/README.md)에 명시했습니다. CTest 입출력 비교는 원본 정답과 구분한 `.verified.out`을 사용합니다. `invert_reference_comparison`은 작은 입력 전수와 긴 원본 문자열 두 범위에서 접미사 배열과 독립적인 부분 문자열 비교로 최대 길이·동점 순서를 검산합니다. 현재 74개 통과에는 이 계약 검증이 포함되며, 원래 문제의 공식 정답 확인을 의미하지 않습니다.
 
 Seminar는 CRLF 입력에서 `cin.ignore()`가 한 문자만 소비해 빈 줄을 읽고 빈 vector에 접근했습니다. 문제에서 지정한 개수만큼 정수를 직접 읽도록 수정했으며 원본 입력은 변경하지 않았습니다. Container의 로컬 채점 헤더는 제공된 정답의 `READY CALLED`·`REPORTED` 출력을 재현하도록 연결했습니다.
 
@@ -28,7 +30,9 @@ Seminar는 CRLF 입력에서 `cin.ignore()`가 한 문자만 소비해 빈 줄�
 
 ## 실행 증거
 
-- [VS Code CMake·디버거 결과](verification/vscode.json): configure/build 종료 코드 0, 7행 중단점에서 길이 10 확인 후 8행으로 단계 실행.
+- [CI 결과](verification/ci.json), [테스트 집계](verification/test-matrix.json), [Ubuntu 초기 VM 기록](verification/ubuntu-vm.json), [Windows 초기 VM 기록](verification/windows-vm.json), [실행 로그](verification/logs).
+- [VS2022 빌드·디버거 결과](verification/vs2022.json): 공통 CMake에서 생성한 VS2022 솔루션을 IDE에서 빌드하고 중단점·변수·단계 실행·정상 종료를 확인했습니다.
+- VS Code [Windows MSVC 결과](verification/vscode.json) · [Ubuntu GDB 결과](verification/vscode-linux.json): 각각 configure/build 종료 코드 0, 7행 중단점에서 길이 10 확인 후 8행으로 단계 실행. Linux는 Ubuntu 24.04 WSL2의 별도 VS Code·확장 프로필과 Xvfb 화면으로 실행했습니다.
 - [Linux 테트리스 PTY 결과](verification/tetris-linux.json), [Windows 테트리스 콘솔 결과](verification/tetris-windows.json).
 - Ubuntu VM 이미지 SHA-256: `04e8f2461a16a44e78a370284471f29616cdd9baf1893df25807b71f985b6c94`.
 - Windows 10 22H2 English x64 ISO SHA-256: `a6f470ca6d331eb353b815c043e327a347f594f37ff525f17764738fe812852e`. Microsoft 다운로드 페이지의 값과 대조했습니다.

@@ -1,0 +1,21 @@
+{
+  "image": "Ubuntu noble-server-cloudimg-amd64.img",
+  "sha256": "04e8f2461a16a44e78a370284471f29616cdd9baf1893df25807b71f985b6c94",
+  "accelerator": "QEMU TCG",
+  "independent_overlays": 2,
+  "initial_tools": {
+    "cmake": "absent",
+    "ninja": "absent",
+    "g++": "absent",
+    "git": "OS default"
+  },
+  "manual": {
+    "debug": "74/74",
+    "release": "74/74"
+  },
+  "script": {
+    "debug": "74/74",
+    "release": "74/74"
+  },
+  "note": "Initial installation reproduced separately; final source fixes rebuilt on the same independent guest installations."
+}
