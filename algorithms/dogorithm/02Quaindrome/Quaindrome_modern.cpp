@@ -1,8 +1,11 @@
-//참고로 이 mman은 wsl같이 posix계열 유닉스에서 컴파일해야 함
+// POSIX에서는 mmap을 사용하고 Windows에서는 표준 입출력으로 읽는다.
 
+#ifndef _WIN32
 #include <sys/mman.h>
 #include <sys/stat.h>
 #include <unistd.h>
+#endif
+#include <cstdio>
 
 #include <cerrno>
 #include <cstddef>
@@ -17,9 +20,11 @@ public:
     FastInput() { init(); }
 
     ~FastInput() {
+        #ifndef _WIN32
         if (mapped_ && mapped_ptr_ != nullptr && mapped_size_ > 0) {
             munmap(mapped_ptr_, mapped_size_);
         }
+        #endif
     }
 
     bool read_int(int& out) {
@@ -56,6 +61,7 @@ public:
 
 private:
     void init() {
+        #ifndef _WIN32
         struct stat st {};
         if (fstat(STDIN_FILENO, &st) == 0 && S_ISREG(st.st_mode) && st.st_size > 0) {
             void* mapped = mmap(nullptr, static_cast<std::size_t>(st.st_size), PROT_READ, MAP_PRIVATE, STDIN_FILENO, 0);
@@ -69,10 +75,11 @@ private:
             }
         }
 
-        // Fallback for pipe/tty stdin: read into one contiguous buffer.
+        #endif
+        // 파이프와 Windows 입력은 연속 버퍼에 저장한다.
         char chunk[1 << 16];
         while (true) {
-            ssize_t n = read(STDIN_FILENO, chunk, sizeof(chunk));
+            const std::size_t n = std::fread(chunk, 1, sizeof(chunk), stdin);
             if (n <= 0) break;
             storage_.insert(storage_.end(), chunk, chunk + n);
         }
@@ -111,7 +118,7 @@ public:
 
     void flush() const {
         if (buffer_.empty()) return;
-        (void)write(STDOUT_FILENO, buffer_.data(), buffer_.size());
+        (void)std::fwrite(buffer_.data(), 1, buffer_.size(), stdout);
     }
 
 private:

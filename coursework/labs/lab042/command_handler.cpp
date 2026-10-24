@@ -16,13 +16,14 @@ CommandType parseCommand(const string& cmd) {
         return CommandType::PRINT;
     else if (cmd == "QUIT")
         return CommandType::QUIT;
+    return CommandType::UNKNOWN;
 
 }
 
 bool processCommand(map<string, size_t>& words, const string& line) {
     istringstream iss(line);
     string command, wd;
-    size_t cnt; //size_t
+    size_t cnt = 0; //size_t
     iss >> command >> wd >> cnt;
     switch (parseCommand(command)) {
     case CommandType::FIND:
@@ -40,5 +41,9 @@ bool processCommand(map<string, size_t>& words, const string& line) {
     case CommandType::QUIT:
         cout << "Bye!";
         return false;
+    case CommandType::UNKNOWN:
+        cout << "Unknown command\n";
+        return true;
     }
+    return true;
 }

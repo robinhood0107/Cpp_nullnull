@@ -32,14 +32,8 @@ int main() {
 //pair 선언법 무조건 외우고 있어라 pair<int, int> p(a,b); (이렇게 하거나)
 //pair<int, int> p = {a,b}; 이렇게 해도 됨
 vector<int> read_input(int n){
-    string line;
-    getline(cin,line);
-    string i;
-    stringstream ss(line);
-    vector<int> vec;
-    while(ss >> i){
-        vec.push_back(stoi(i));
-    }
+    vector<int> vec(n);
+    for (int& number : vec) cin >> number;
     return vec;
 }
 

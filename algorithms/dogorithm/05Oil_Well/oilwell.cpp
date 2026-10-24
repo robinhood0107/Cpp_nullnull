@@ -1,4 +1,4 @@
-#include <bits/stdc++.h>
+#include <algorithm>
 #include "oil.h"
 int main(){
     initial( );

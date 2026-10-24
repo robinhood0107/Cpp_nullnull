@@ -21,6 +21,7 @@
 #include <string>
 #include <vector>
 #include <iostream>
+#include <limits>
 
 using namespace std;
 
@@ -44,12 +45,13 @@ int main(){
     int n;
     cin >> n;
 
-    cin.ignore();
+    cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
     vector<string> vec;
 
     string line;
     for (int i = 0; i < n; i++) {
         getline(cin, line);
+        if (!line.empty() && line.back() == '\r') line.pop_back();
         vec.push_back(line);
     }
 

@@ -18,7 +18,7 @@ delete
 #include <iostream>
 using namespace std;
 
-int p015(){
+int main(){
     int size=0;
     cin >> size;
     int* arr = new int[size];

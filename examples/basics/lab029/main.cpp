@@ -6,6 +6,7 @@
 #include <string>
 #include <vector>
 #include <map>
+#include <stdexcept>
 #include <cmath>
 //cmath에 반올림 함수 round 있음
 
@@ -61,6 +62,7 @@ Genre toGenre(const std::string& str) {
     if (str == "Drama") return Genre::Drama;
     if (str == "Romance") return Genre::Romance;
     if (str == "SciFi") return Genre::SciFi;
+    throw std::invalid_argument("알 수 없는 영화 장르");
 }
 
 Rating toRating(const std::string& str) {

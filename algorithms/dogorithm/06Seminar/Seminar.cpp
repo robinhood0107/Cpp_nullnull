@@ -1,4 +1,9 @@
-#include <bits/stdc++.h>
+#include <algorithm>
+#include <iostream>
+#include <numeric>
+#include <sstream>
+#include <string>
+#include <vector>
 using namespace std;
 int main(){
     //각 챕터는 인덱스로 구분된다고 보면 된다
@@ -7,12 +12,8 @@ int main(){
     //즉 모든 경우의 수에서 가장 많이 부담하는 사람의 분량이 최소가 되는 경우의 수를 찾아서 확인하면 된다는 것
     int N,k,mid,result; //챕터 수랑 회원 수, 이분탐색용 중간값
     cin >> N >> k;
-    vector<int> vec;
-    cin.ignore();
-    string s; int token;
-    getline(cin,s);
-    stringstream ss(s);
-    while(ss>>token){vec.push_back(token);}
+    vector<int> vec(N);
+    for (int& pages : vec) cin >> pages;
     int mymin = *max_element(vec.begin(),vec.end()); //가장 페이지 수 많은 페이지로 누군가는 이걸 맡아야 함.
     int mymax = accumulate(vec.begin(),vec.end(),0); //1명이 전부 부담하면 이 값이 stdout으로 나올것임 //stl 최대한 활용
     while(mymin <= mymax){

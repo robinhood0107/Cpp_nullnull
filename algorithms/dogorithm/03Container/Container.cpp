@@ -1,12 +1,14 @@
 #include "container.h"
-#include <bits/stdc++.h>
+#include <list>
+#include <numeric>
+#include <vector>
 
 using namespace std;
 
 int main(){
     box_ready( ) ;
     int N = box_num( ) ;
-    list<int> mysecond[N+2];
+    vector<list<int>> mysecond(N + 2);
     list<int> myfirst(N);
     iota(myfirst.begin(), myfirst.end(), 1);
     int f, s;

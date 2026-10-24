@@ -18,11 +18,16 @@ int main(){
     Color color = static_cast<Color> (n);
     switch(color){
     case RED:
+      cout << "RED\n";
       break;
     case GREEN:
+      cout << "GREEN\n";
       break;
     case BLUE:
+      cout << "BLUE\n";
       break;
     default:
+      cout << "UNKNOWN\n";
+      break;
     }
 }

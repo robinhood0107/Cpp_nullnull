@@ -2,6 +2,8 @@
 #include <string>
 #include <vector>
 #include <algorithm>
+#include <cctype>
+#include <string_view>
 
 
 int countCharacter(const std::string& str, char ch) {
@@ -16,7 +18,9 @@ int countCharacter(const std::string& str, char ch) {
 
 
 void toUpperCase(std::string& str) {
-    transform(str.begin(), str.end(), str.begin(), ::toupper);
+    std::transform(str.begin(), str.end(), str.begin(), [](unsigned char ch) {
+        return static_cast<char>(std::toupper(ch));
+    });
     // implement your code
 
     /*Output transform(
@@ -39,7 +43,6 @@ bool startsWith(const std::string_view str, const std::string_view prefix) {
 }
 
 
-/*
 int main() {
 
     std::vector<std::string> words = { "hello", "world", "example" };
@@ -87,4 +90,3 @@ int main() {
     return 0;
 
 }
-*/

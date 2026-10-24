@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <queue>
+#include <functional>
 #include <algorithm>
 
 #define INF 4000000000000000000LL

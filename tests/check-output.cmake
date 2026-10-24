@@ -1,0 +1,17 @@
+get_filename_component(input_directory "${INPUT}" DIRECTORY)
+execute_process(COMMAND "${PROGRAM}" INPUT_FILE "${INPUT}" WORKING_DIRECTORY "${input_directory}"
+    OUTPUT_VARIABLE actual ERROR_VARIABLE error RESULT_VARIABLE result TIMEOUT 15)
+if(NOT result EQUAL 0)
+    message(FATAL_ERROR "실행 실패 (${result}): ${error}")
+endif()
+file(READ "${EXPECTED}" expected)
+string(REPLACE "\r\n" "\n" actual "${actual}")
+string(REPLACE "\r\n" "\n" expected "${expected}")
+# 줄 끝 공백과 마지막 개행 차이만 허용한다.
+string(REGEX REPLACE "[ \t]+\n" "\n" actual "${actual}")
+string(REGEX REPLACE "[ \t]+\n" "\n" expected "${expected}")
+string(REGEX REPLACE "[ \t\n]+$" "" actual "${actual}")
+string(REGEX REPLACE "[ \t\n]+$" "" expected "${expected}")
+if(NOT actual STREQUAL expected)
+    message(FATAL_ERROR "출력 불일치\n예상:\n${expected}\n실제:\n${actual}")
+endif()

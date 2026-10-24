@@ -81,19 +81,18 @@ const Student& get_last(const std::array<Student, STUDENT_COUNT>& students){
     return students[6];
 }
 string compare_points(const Student& s1, const Student& s2){
-
-
+    if (s1.points == s2.points) return s1.name + " and " + s2.name + " have equal points";
+    return s1.points > s2.points ? s1.name + " has more points than " + s2.name
+                                 : s2.name + " has more points than " + s1.name;
 }
 const Student& get_lowest_points(const array<Student, STUDENT_COUNT>& students){
-
-
+    return *min_element(students.begin(), students.end(), comparemy);
 }
 const Student& get_highest_points(const array<Student, STUDENT_COUNT>& students){
-
-
+    return *max_element(students.begin(), students.end(), comparemy);
 }
 void print(const Student& s){
-
+    cout << "ID: " << s.id << ", Name: " << s.name << ", Points: " << s.points << "\n";
 }
 
 

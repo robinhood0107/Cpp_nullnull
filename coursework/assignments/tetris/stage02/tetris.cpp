@@ -1,5 +1,5 @@
 #include <vector>
-#include <ncursesw/ncurses.h>
+#include <curses.h>
 
 const int BOARD_WIDTH = 10;
 const int BOARD_HEIGHT = 20;

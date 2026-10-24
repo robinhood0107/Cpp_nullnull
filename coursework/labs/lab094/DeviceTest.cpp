@@ -1,8 +1,9 @@
-// #include <iostream>
-// #include "LCD_Monitor.h"
-// #include "LED_Monitor.h"
-// #include "OutputDevice.h"
-// #include "Monitor.h"
+#include <memory>
+#include <iostream>
+#include "LCD_Monitor.h"
+#include "LED_Monitor.h"
+#include "OutputDevice.h"
+#include "Monitor.h"
 
 int main() {
     {

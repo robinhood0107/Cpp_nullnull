@@ -1,4 +1,6 @@
-#include <bits/stdc++.h>
+#include <algorithm>
+#include <cmath>
+#include <iostream>
 using namespace std;
 
 const int N = 100005, INF = 1000000000;

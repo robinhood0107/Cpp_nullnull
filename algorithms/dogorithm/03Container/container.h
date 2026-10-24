@@ -13,6 +13,7 @@ int log_2(int x){
     return ans;
 }
 void box_ready(){
+    printf("READY CALLED\n");
     scanf("%d",&number);
     limit = number + log_2(number);
     for(int i = 0;i<number;i++)scanf("%d",B+i);
@@ -35,6 +36,6 @@ int box_comp(int i, int j){
 }
 
 void box_report(int w){
-    printf("%d\n",w);
+    printf("%d\nREPORTED\n",w);
     exit(0);
 }

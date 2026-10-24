@@ -5,6 +5,8 @@
 #include <string>
 #include <vector>
 #include <algorithm>
+#include <cctype>
+#include <string_view>
 
 int countCharacter(const std::string& str, char ch) {
 
@@ -23,7 +25,9 @@ int countCharacter(const std::string& str, char ch) {
 
 void toUpperCase(std::string& str) {
     //이거 그냥 암기
-    transform(str.begin(),str.end(),str.begin,toupper);
+    std::transform(str.begin(), str.end(), str.begin(), [](unsigned char ch) {
+        return static_cast<char>(std::toupper(ch));
+    });
     //시작,끝,저장장소(보통 begin) toupper 함수
     // implement your code
 

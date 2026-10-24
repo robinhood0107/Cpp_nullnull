@@ -1,4 +1,5 @@
 #include "movie.h"
+#include <stdexcept>
 #include <cmath>// std::round를 사용하기 위해 추가
 
 Genre toGenre(const std::string& str) {
@@ -7,6 +8,7 @@ Genre toGenre(const std::string& str) {
     if (str == "Drama") return Genre::Drama;
     if (str == "Romance") return Genre::Romance;
     if (str == "SciFi") return Genre::SciFi;
+    throw std::invalid_argument("알 수 없는 영화 장르");
     //switch같은 객기 부리지 말고 반드시 if로 깔끔하게 끝내라(이게 제일 보기 편함)
 }
 

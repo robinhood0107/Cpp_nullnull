@@ -12,7 +12,7 @@
 #include <vector>
 using namespace std;
 
-int p012() {
+int main() {
     int N=0;
     cout << "# of students:\n";
     cin >> N;

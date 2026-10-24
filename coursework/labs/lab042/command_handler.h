@@ -9,7 +9,8 @@ enum class CommandType {
     UPDATE,
     DELETE,
     PRINT,
-    QUIT
+    QUIT,
+    UNKNOWN
 };
 
 bool processCommand(std::map<std::string, size_t>& words, const std::string& line);

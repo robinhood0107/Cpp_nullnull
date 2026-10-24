@@ -9,7 +9,7 @@
 #include <iomanip>
 using namespace std;
 
-int p013() {
+int main() {
     float a1;
     float a2;
 

@@ -1,5 +1,5 @@
 #include <iostream>
-#include <bits/stdc++.h>
+
 using namespace std;
 
 //마치 중복 없이 n개를 고른 수열을 쭉 나열한다고 생각하면 된다 (조합)

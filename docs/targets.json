@@ -1,0 +1,785 @@
+[
+  {
+    "name": "assignment_string",
+    "path": "coursework/assignments/string",
+    "topic": "문자열 클래스와 연산자",
+    "sources": [
+      "String.cpp",
+      "main.cpp"
+    ]
+  },
+  {
+    "name": "example_format",
+    "path": "examples/modern-cpp/format",
+    "topic": "std::format 출력 형식",
+    "sources": [
+      "main.cpp"
+    ]
+  },
+  {
+    "name": "lab101",
+    "path": "coursework/labs/lab101",
+    "topic": "함수 템플릿",
+    "sources": [
+      "main.cpp"
+    ]
+  },
+  {
+    "name": "lab102",
+    "path": "coursework/labs/lab102",
+    "topic": "클래스 템플릿",
+    "sources": [
+      "main.cpp"
+    ]
+  },
+  {
+    "name": "lab103",
+    "path": "coursework/labs/lab103",
+    "topic": "가변 인자와 unique_ptr",
+    "sources": [
+      "main.cpp"
+    ]
+  },
+  {
+    "name": "lab111",
+    "path": "coursework/labs/lab111",
+    "topic": "범위 검사와 예외",
+    "sources": [
+      "main.cpp"
+    ]
+  },
+  {
+    "name": "lab112",
+    "path": "coursework/labs/lab112",
+    "topic": "파일 입출력 오류",
+    "sources": [
+      "main.cpp"
+    ]
+  },
+  {
+    "name": "lab024",
+    "path": "coursework/labs/lab024",
+    "topic": "학생 목록과 파일 분리",
+    "sources": [
+      "main.cpp",
+      "student.cpp"
+    ]
+  },
+  {
+    "name": "lab027",
+    "path": "coursework/labs/lab027",
+    "topic": "문자열 입력과 vector 삭제",
+    "sources": [
+      "main.cpp"
+    ]
+  },
+  {
+    "name": "lab028",
+    "path": "coursework/labs/lab028",
+    "topic": "문자열과 컨테이너",
+    "sources": [
+      "main.cpp"
+    ]
+  },
+  {
+    "name": "lab029",
+    "path": "coursework/labs/lab029",
+    "topic": "영화 데이터와 구조체",
+    "sources": [
+      "main.cpp",
+      "movie.cpp"
+    ]
+  },
+  {
+    "name": "lab034",
+    "path": "coursework/labs/lab034",
+    "topic": "게임 데이터와 함수 분리",
+    "sources": [
+      "game.cpp",
+      "main.cpp"
+    ]
+  },
+  {
+    "name": "lab038",
+    "path": "coursework/labs/lab038",
+    "topic": "함수와 헤더 분리",
+    "sources": [
+      "main.cpp",
+      "tools.cpp"
+    ]
+  },
+  {
+    "name": "lab041",
+    "path": "coursework/labs/lab041",
+    "topic": "BMI 계산과 모듈화",
+    "sources": [
+      "bmi.cpp",
+      "input.cpp",
+      "main.cpp"
+    ]
+  },
+  {
+    "name": "lab042",
+    "path": "coursework/labs/lab042",
+    "topic": "단어 빈도와 명령 처리",
+    "sources": [
+      "command_handler.cpp",
+      "main.cpp",
+      "word_input.cpp",
+      "word_manager.cpp"
+    ]
+  },
+  {
+    "name": "lab051",
+    "path": "coursework/labs/lab051",
+    "topic": "보드 배열과 함수 분리",
+    "sources": [
+      "board_util.cpp",
+      "main.cpp"
+    ]
+  },
+  {
+    "name": "lab052",
+    "path": "coursework/labs/lab052",
+    "topic": "인벤토리와 컨테이너",
+    "sources": [
+      "inventory.cpp",
+      "main.cpp"
+    ]
+  },
+  {
+    "name": "lab061",
+    "path": "coursework/labs/lab061",
+    "topic": "온도 클래스와 추상화",
+    "sources": [
+      "Temperature.cpp",
+      "TemperatureTest.cpp"
+    ]
+  },
+  {
+    "name": "lab062",
+    "path": "coursework/labs/lab062",
+    "topic": "Cell·Excel 캡슐화",
+    "sources": [
+      "Cell.cpp",
+      "Excel.cpp",
+      "test_Excel.cpp"
+    ]
+  },
+  {
+    "name": "lab063",
+    "path": "coursework/labs/lab063",
+    "topic": "static 멤버와 로깅",
+    "sources": [
+      "Logger.cpp",
+      "main.cpp"
+    ]
+  },
+  {
+    "name": "lab064",
+    "path": "coursework/labs/lab064",
+    "topic": "this 포인터와 문자열 분리",
+    "sources": [
+      "StringSplitter.cpp",
+      "main.cpp"
+    ]
+  },
+  {
+    "name": "lab071",
+    "path": "coursework/labs/lab071",
+    "topic": "복소수 생성자",
+    "sources": [
+      "main.cpp"
+    ]
+  },
+  {
+    "name": "lab072",
+    "path": "coursework/labs/lab072",
+    "topic": "initializer_list와 전화번호부",
+    "sources": [
+      "main.cpp"
+    ]
+  },
+  {
+    "name": "lab081",
+    "path": "coursework/labs/lab081",
+    "topic": "복소수 연산자 오버로딩",
+    "sources": [
+      "Complex.cpp",
+      "main.cpp"
+    ]
+  },
+  {
+    "name": "lab082",
+    "path": "coursework/labs/lab082",
+    "topic": "사용자 정의 반복자",
+    "sources": [
+      "Range.cpp",
+      "main.cpp"
+    ]
+  },
+  {
+    "name": "lab091",
+    "path": "coursework/labs/lab091",
+    "topic": "상속과 접근 제어",
+    "sources": [
+      "main.cpp"
+    ]
+  },
+  {
+    "name": "lab092",
+    "path": "coursework/labs/lab092",
+    "topic": "생성자·소멸자 순서",
+    "sources": [
+      "DeviceTest.cpp"
+    ]
+  },
+  {
+    "name": "lab093",
+    "path": "coursework/labs/lab093",
+    "topic": "가상 함수와 override",
+    "sources": [
+      "Vehicle.cpp",
+      "main.cpp"
+    ]
+  },
+  {
+    "name": "lab094",
+    "path": "coursework/labs/lab094",
+    "topic": "가상 소멸자",
+    "sources": [
+      "DeviceTest.cpp"
+    ]
+  },
+  {
+    "name": "lab095_1",
+    "path": "coursework/labs/lab095_1",
+    "topic": "직원 클래스 계층",
+    "sources": [
+      "EmployeeTest.cpp"
+    ]
+  },
+  {
+    "name": "lab095_2",
+    "path": "coursework/labs/lab095_2",
+    "topic": "실행 중 스킬 교체",
+    "sources": [
+      "main.cpp"
+    ]
+  },
+  {
+    "name": "basic011",
+    "path": "examples/basics/lab011",
+    "topic": "형 변환·실수 평균·출력 정밀도",
+    "sources": [
+      "main.cpp"
+    ]
+  },
+  {
+    "name": "basic012",
+    "path": "examples/basics/lab012",
+    "topic": "학생 점수 입력·평균·정렬",
+    "sources": [
+      "main.cpp"
+    ]
+  },
+  {
+    "name": "basic013",
+    "path": "examples/basics/lab013",
+    "topic": "실수 사칙연산과 iomanip",
+    "sources": [
+      "main.cpp"
+    ]
+  },
+  {
+    "name": "basic014",
+    "path": "examples/basics/lab014",
+    "topic": "포인터 매개변수와 값 변경",
+    "sources": [
+      "main.cpp"
+    ]
+  },
+  {
+    "name": "basic015",
+    "path": "examples/basics/lab015",
+    "topic": "동적 배열과 간접 인덱싱",
+    "sources": [
+      "main.cpp"
+    ]
+  },
+  {
+    "name": "basic017",
+    "path": "examples/basics/lab017",
+    "topic": "unique_ptr 소유권과 get",
+    "sources": [
+      "main.cpp"
+    ]
+  },
+  {
+    "name": "basic018",
+    "path": "examples/basics/lab018",
+    "topic": "참조 매개변수와 swap",
+    "sources": [
+      "main.cpp"
+    ]
+  },
+  {
+    "name": "basic021",
+    "path": "examples/basics/lab021",
+    "topic": "동적 배열 역순 출력",
+    "sources": [
+      "main.cpp"
+    ]
+  },
+  {
+    "name": "basic022",
+    "path": "examples/basics/lab022",
+    "topic": "2차원 vector 초기화",
+    "sources": [
+      "main.cpp"
+    ]
+  },
+  {
+    "name": "basic023",
+    "path": "examples/basics/lab023",
+    "topic": "std::array 정렬과 최솟값·최댓값",
+    "sources": [
+      "main.cpp"
+    ]
+  },
+  {
+    "name": "basic024",
+    "path": "examples/basics/lab024",
+    "topic": "구조체 배열·비교 함수·정렬",
+    "sources": [
+      "main.cpp"
+    ]
+  },
+  {
+    "name": "basic025",
+    "path": "examples/basics/lab025",
+    "topic": "가변 길이 2차원 vector와 조회",
+    "sources": [
+      "main.cpp"
+    ]
+  },
+  {
+    "name": "basic026",
+    "path": "examples/basics/lab026",
+    "topic": "문자열 파싱과 erase-remove",
+    "sources": [
+      "main.cpp"
+    ]
+  },
+  {
+    "name": "basic027",
+    "path": "examples/basics/lab027",
+    "topic": "vector 원소 삭제와 값 제거",
+    "sources": [
+      "main.cpp"
+    ]
+  },
+  {
+    "name": "basic028",
+    "path": "examples/basics/lab028",
+    "topic": "문자 수 세기·대문자 변환·접두사",
+    "sources": [
+      "main.cpp"
+    ]
+  },
+  {
+    "name": "basic029",
+    "path": "examples/basics/lab029",
+    "topic": "enum class·map·별점 집계",
+    "sources": [
+      "main.cpp"
+    ]
+  },
+  {
+    "name": "basic031",
+    "path": "examples/basics/lab031",
+    "topic": "조건문과 성적 분류",
+    "sources": [
+      "main.cpp"
+    ]
+  },
+  {
+    "name": "basic032",
+    "path": "examples/basics/lab032",
+    "topic": "열거형과 switch 분기",
+    "sources": [
+      "main.cpp"
+    ]
+  },
+  {
+    "name": "basic033",
+    "path": "examples/basics/lab033",
+    "topic": "vector 입력·짝수/홀수 합·pair",
+    "sources": [
+      "main.cpp"
+    ]
+  },
+  {
+    "name": "basic034",
+    "path": "examples/basics/lab034",
+    "topic": "enum class와 가위바위보",
+    "sources": [
+      "main.cpp"
+    ]
+  },
+  {
+    "name": "basic035",
+    "path": "examples/basics/lab035",
+    "topic": "줄 단위 정수 파싱·최솟값·최댓값",
+    "sources": [
+      "main.cpp"
+    ]
+  },
+  {
+    "name": "basic036",
+    "path": "examples/basics/lab036",
+    "topic": "map 전화번호부 조회",
+    "sources": [
+      "main.cpp"
+    ]
+  },
+  {
+    "name": "basic037",
+    "path": "examples/basics/lab037",
+    "topic": "입출력 반복자·copy·sort",
+    "sources": [
+      "main.cpp"
+    ]
+  },
+  {
+    "name": "assignment02",
+    "path": "coursework/assignments/tetris/stage02",
+    "topic": "테트리스 보드와 화면",
+    "sources": [
+      "tetris.cpp"
+    ]
+  },
+  {
+    "name": "assignment03",
+    "path": "coursework/assignments/tetris/stage03",
+    "topic": "테트리스 이동·회전·점수",
+    "sources": [
+      "main.cpp",
+      "tetris.cpp",
+      "ui.cpp"
+    ]
+  },
+  {
+    "name": "assignment04",
+    "path": "coursework/assignments/tetris/stage04",
+    "topic": "테트리스 충돌·라인 제거",
+    "sources": [
+      "main.cpp",
+      "tetris.cpp",
+      "ui.cpp"
+    ]
+  },
+  {
+    "name": "assignment05",
+    "path": "coursework/assignments/tetris/stage05",
+    "topic": "테트리스 다음 블록과 게임 상태",
+    "sources": [
+      "main.cpp",
+      "tetris.cpp",
+      "ui.cpp"
+    ]
+  },
+  {
+    "name": "assignment07",
+    "path": "coursework/assignments/matrix",
+    "topic": "행렬 클래스와 연산자",
+    "sources": [
+      "Matrix.cpp",
+      "main.cpp"
+    ]
+  },
+  {
+    "name": "assignment08",
+    "path": "coursework/assignments/organization",
+    "topic": "조직 구조와 unique_ptr",
+    "sources": [
+      "Department.cpp",
+      "Employee.cpp",
+      "Manager.cpp",
+      "Organization.cpp",
+      "main.cpp"
+    ]
+  },
+  {
+    "name": "assignment09",
+    "path": "coursework/assignments/generic-list",
+    "topic": "고정 크기 제네릭 리스트",
+    "sources": [
+      "main.cpp"
+    ]
+  },
+  {
+    "name": "example_swap",
+    "path": "examples/basics/swap",
+    "topic": "참조 매개변수와 swap",
+    "sources": [
+      "main.cpp"
+    ]
+  },
+  {
+    "name": "example_new_delete",
+    "path": "examples/memory/new-delete",
+    "topic": "new·delete와 동적 배열",
+    "sources": [
+      "main.cpp"
+    ]
+  },
+  {
+    "name": "example_rvalue",
+    "path": "examples/memory/rvalue",
+    "topic": "rvalue 참조와 임시 객체",
+    "sources": [
+      "main.cpp"
+    ]
+  },
+  {
+    "name": "dog_01_fishbun",
+    "path": "algorithms/dogorithm/01fishbun",
+    "topic": "부호 있는 구간 반전",
+    "sources": [
+      "fishbun.cpp"
+    ]
+  },
+  {
+    "name": "dog_02_Quaindrome",
+    "path": "algorithms/dogorithm/02Quaindrome",
+    "topic": "투 포인터 회문·유사회문 판별",
+    "sources": [
+      "Quaindrome.cpp"
+    ]
+  },
+  {
+    "name": "dog_02_Quaindrome_modern",
+    "path": "algorithms/dogorithm/02Quaindrome",
+    "topic": "투 포인터 회문·유사회문 판별",
+    "sources": [
+      "Quaindrome_modern.cpp"
+    ]
+  },
+  {
+    "name": "dog_03_Container",
+    "path": "algorithms/dogorithm/03Container",
+    "topic": "토너먼트와 두 번째 최댓값",
+    "sources": [
+      "Container.cpp"
+    ]
+  },
+  {
+    "name": "dog_05_oilwell",
+    "path": "algorithms/dogorithm/05Oil_Well",
+    "topic": "대화형 유정 범위 이분 탐색",
+    "sources": [
+      "oilwell.cpp"
+    ]
+  },
+  {
+    "name": "dog_06_Seminar",
+    "path": "algorithms/dogorithm/06Seminar",
+    "topic": "분량 분배와 매개 변수 탐색",
+    "sources": [
+      "Seminar.cpp"
+    ]
+  },
+  {
+    "name": "dog_07_Cleaning",
+    "path": "algorithms/dogorithm/07Cleaning",
+    "topic": "가중 구간 선택 DP와 동점 처리",
+    "sources": [
+      "Cleaning.cpp"
+    ]
+  },
+  {
+    "name": "dog_08_test",
+    "path": "algorithms/dogorithm/08Quasi_String",
+    "topic": "역방향 DP·준문자열·사전순 비교",
+    "sources": [
+      "test.cpp"
+    ]
+  },
+  {
+    "name": "dog_08_test_____c11_",
+    "path": "algorithms/dogorithm/08Quasi_String",
+    "topic": "역방향 DP·준문자열·사전순 비교",
+    "sources": [
+      "test_간략화_c11_.cpp"
+    ]
+  },
+  {
+    "name": "dog_08_final",
+    "path": "algorithms/dogorithm/08Quasi_String",
+    "topic": "역방향 DP·준문자열·사전순 비교",
+    "sources": [
+      "최종.cpp"
+    ]
+  },
+  {
+    "name": "dog_11_K_Diet",
+    "path": "algorithms/dogorithm/11K-Diet",
+    "topic": "정렬과 식단 선택",
+    "sources": [
+      "K-Diet.cpp"
+    ]
+  },
+  {
+    "name": "dog_13_pipe",
+    "path": "algorithms/dogorithm/13Pipecleaning",
+    "topic": "다중 시작점 다익스트라",
+    "sources": [
+      "pipe.cpp"
+    ]
+  },
+  {
+    "name": "dog_14_spiral",
+    "path": "algorithms/dogorithm/14Spiral_Sort",
+    "topic": "각도·외적을 이용한 나선 정렬",
+    "sources": [
+      "spiral.cpp"
+    ]
+  },
+  {
+    "name": "dog_18_invert",
+    "path": "algorithms/dogorithm/18",
+    "topic": "접미사 배열과 역순 반복 구간",
+    "sources": [
+      "invert.cpp"
+    ]
+  },
+  {
+    "name": "dog_19_station",
+    "path": "algorithms/dogorithm/19",
+    "topic": "원 교집합과 탐색 범위 제한",
+    "sources": [
+      "station.cpp"
+    ]
+  },
+  {
+    "name": "boj1926",
+    "path": "algorithms/baekjoon/1926",
+    "topic": "BFS 연결 요소와 넓이",
+    "sources": [
+      "main.cpp"
+    ]
+  },
+  {
+    "name": "boj7576",
+    "path": "algorithms/baekjoon/7576",
+    "topic": "다중 시작점 BFS와 거리",
+    "sources": [
+      "main.cpp"
+    ]
+  },
+  {
+    "name": "boj15649",
+    "path": "algorithms/baekjoon/15649",
+    "topic": "재귀와 백트래킹",
+    "sources": [
+      "main.cpp"
+    ]
+  },
+  {
+    "name": "boj1463",
+    "path": "algorithms/baekjoon/1463",
+    "topic": "동적 계획법: 1로 만들기",
+    "sources": [
+      "main.cpp"
+    ]
+  },
+  {
+    "name": "boj9095",
+    "path": "algorithms/baekjoon/9095",
+    "topic": "동적 계획법: 1·2·3 더하기",
+    "sources": [
+      "main.cpp"
+    ]
+  },
+  {
+    "name": "boj11047",
+    "path": "algorithms/baekjoon/11047",
+    "topic": "그리디 동전 선택",
+    "sources": [
+      "main.cpp"
+    ]
+  },
+  {
+    "name": "boj2346",
+    "path": "algorithms/baekjoon/2346",
+    "topic": "deque 회전과 풍선 순서",
+    "sources": [
+      "main.cpp"
+    ]
+  },
+  {
+    "name": "boj18187",
+    "path": "algorithms/baekjoon/18187",
+    "topic": "직선 분할과 조합 계산",
+    "sources": [
+      "main.cpp"
+    ]
+  },
+  {
+    "name": "boj2738",
+    "path": "algorithms/baekjoon/2738",
+    "topic": "2차원 배열 덧셈",
+    "sources": [
+      "main.cpp"
+    ]
+  },
+  {
+    "name": "boj28278",
+    "path": "algorithms/baekjoon/28278",
+    "topic": "stack 명령 처리",
+    "sources": [
+      "main.cpp"
+    ]
+  },
+  {
+    "name": "boj4949",
+    "path": "algorithms/baekjoon/4949",
+    "topic": "stack으로 괄호 쌍 검사",
+    "sources": [
+      "main.cpp"
+    ]
+  },
+  {
+    "name": "boj9935",
+    "path": "algorithms/baekjoon/9935",
+    "topic": "문자열을 스택으로 사용",
+    "sources": [
+      "main.cpp"
+    ]
+  },
+  {
+    "name": "study_bfs",
+    "path": "algorithms/study/bfs",
+    "topic": "격자 BFS 탐색",
+    "sources": [
+      "main.cpp"
+    ]
+  },
+  {
+    "name": "pccp_string",
+    "path": "algorithms/programmers/pccp-string",
+    "topic": "문자열 파싱과 다중 정렬 기준",
+    "sources": [
+      "main.cpp"
+    ]
+  },
+  {
+    "name": "example_project_intro",
+    "path": "examples/basics/project-intro",
+    "topic": "문자열과 콘솔 출력",
+    "sources": [
+      "main.cpp"
+    ]
+  }
+]

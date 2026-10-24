@@ -46,13 +46,13 @@ Input	Output
 #include <iomanip>
 using namespace std;
 
-int p011() {
+int main() {
     int gold;
     float avg;
     const int basegold = 1000;
 
     cin >> gold;
-    avg = static_cast<float> ((basegold+gold)/2);
+    avg = static_cast<float>(basegold + gold) / 2;
     cout << "Total Gold: " << basegold+gold << endl;
     cout << "Average Gold: " << fixed << setprecision(2) << avg <<endl;
     if (avg >= 2000)
