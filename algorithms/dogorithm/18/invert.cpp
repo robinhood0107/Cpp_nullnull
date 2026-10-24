@@ -1,3 +1,4 @@
+#include "invert.h"
 #include <algorithm>
 #include <fstream>
 #include <iostream>
@@ -63,11 +64,11 @@ bool chk(int k, int &bi, int &bj) {
     return f;
 }
 
-int main() {
-    cin >> L >> H;
-    ifstream fi("S.txt");
-    string part;
-    while(fi >> part) S += part;
+InvertedRepeat find_inverted_repeat(const string& sequence, int minimum_gap, int maximum_gap) {
+    S = sequence;
+    L = minimum_gap;
+    H = maximum_gap;
+    if (L < 0 || H < L) return {};
     N = S.length();
     
     string Sr = S;
@@ -83,6 +84,27 @@ int main() {
         else r = m-1;
     }
 
-    if(!ans) cout << "0\r\n";
-    else cout << fbi << " " << fbi+ans-1 << " " << N-fbj-ans+2 << " " << N-fbj+1 << "\r\n";
+    if (!ans) return {};
+    return {fbi, fbi+ans-1, N-fbj-ans+2, N-fbj+1};
 }
+
+#ifndef INVERT_NO_MAIN
+int main() {
+    int minimum_gap, maximum_gap;
+    if (!(cin >> minimum_gap >> maximum_gap) || minimum_gap < 0 || maximum_gap < minimum_gap) {
+        cerr << "0 <= L <= H 조건의 두 정수를 입력하세요.\n";
+        return 1;
+    }
+    ifstream input("S.txt");
+    if (!input) {
+        cerr << "현재 작업 폴더에 S.txt가 필요합니다.\n";
+        return 1;
+    }
+    string sequence, part;
+    while (input >> part) sequence += part;
+    const auto result = find_inverted_repeat(sequence, minimum_gap, maximum_gap);
+    if (!result.left_begin) cout << "0\n";
+    else cout << result.left_begin << ' ' << result.left_end << ' '
+              << result.right_begin << ' ' << result.right_end << '\n';
+}
+#endif

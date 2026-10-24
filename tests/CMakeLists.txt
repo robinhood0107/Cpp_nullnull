@@ -12,3 +12,8 @@ target_link_libraries(my_string_test PRIVATE my_string)
 add_test(NAME my_string_value_semantics COMMAND my_string_test)
 add_executable(tetris_test tetris.cpp ../coursework/assignments/tetris/stage05/tetris.cpp)
 add_test(NAME tetris_game_actions COMMAND tetris_test)
+
+add_executable(invert_test invert.cpp ../algorithms/dogorithm/18/invert.cpp)
+target_compile_definitions(invert_test PRIVATE INVERT_NO_MAIN)
+add_test(NAME invert_reference_comparison COMMAND invert_test "${CMAKE_SOURCE_DIR}/algorithms/dogorithm/18")
+set_tests_properties(invert_reference_comparison PROPERTIES TIMEOUT 300)
