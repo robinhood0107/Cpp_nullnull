@@ -1,0 +1,6 @@
+{
+  "backend": "ConPTY",
+  "alive": false,
+  "output": "\u001b[1t\u001b[c\u001b[?1004h\u001b[?9001h\u001b[1;1H묵\u001b[1;3H\r\nYou chose ROCK (묵)\r\nComputer chose ROCK (묵)\r\nIt's a tie!\r\n",
+  "exit": 0
+}

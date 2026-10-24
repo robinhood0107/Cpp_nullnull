@@ -5,6 +5,7 @@
 $ErrorActionPreference = 'Stop'
 Set-StrictMode -Version Latest
 $root = Split-Path -Parent $PSScriptRoot
+$OutputEncoding = [Console]::OutputEncoding = [System.Text.UTF8Encoding]::new($false)
 # 필수 실행 확장자는 현재 프로세스에만 보충한다.
 $env:PATHEXT = '.COM;.EXE;.BAT;.CMD;' + $env:PATHEXT
 
